@@ -40,6 +40,18 @@
   Independent equipment explainer, not tied to one manufacturer. Use for: how plural-component proportioning pumps work.
 - [Underground Construction: Close-Fit Liner Technical Guide](https://undergroundinfrastructure.com/magazine/2022/november-2022-vol-77-no-11/features/close-fit-liner-technical-guide-to-variations-of-close-fit-liners-for-mainline-pipe)
   Trade publication. Use for: cross-checking fold-and-form material and sizing claims from vendor sources below.
+- [ScienceDirect: IKT quality assessment of CIPP lining in sewers](https://www.sciencedirect.com/science/article/pii/S0886779823004455)
+  Peer-reviewed research (IKT, a German pipe-testing institute). Use for: real-world ovality/deformation data from removed CIPP samples — the 23% vs. 3% design-assumption gap.
+- [MDPI: Environmental Evaluation of VOC Emissions in CIPP Rehabilitation](https://www.mdpi.com/2673-4672/6/1/14)
+  Peer-reviewed study. Use for: quantified styrene/VOC emissions data, comparing styrene and non-styrene resin systems.
+- [NASSCO: Guideline for the Safe Use and Handling of Styrene-Based Resins](https://www.nassco.org/wp-content/uploads/2021/02/Safe-Handling-and-Use-of-Styrene_Specification-Guideline-_-2020-2.pdf)
+  Use for: the regulatory framing of styrene emissions (Clean Air Act VOC/HAP status).
+- [City of Greenville / Aberdeen MD: CIPP technical specifications](https://www.cityofgreenville.org/DocumentCenter/View/1805/CIPP-Liner-Tech-Spec-2020)
+  Municipal procurement specs. Use for: the ASTM F1216 flexural strength/modulus minimums as actually written into a buying document, not just summarized.
+- [Masterliner: Comparing CIPP Materials — What to Look for in Quality](https://www.masterliner.com/blog/comparing-cured-in-place-pipe-lining-cipp-materials-what-to-look-for-in-quality/)
+  Manufacturer blog, used cautiously — but useful for what buyers say they actually prioritize (field-proven track record, compliance testing) rather than raw material claims.
+- [Municipal Sewer and Water: "EnviroCure by Applied Felts"](https://www.mswmag.com/g/municipal-innovations/2022/10/envirocure-by-applied-felts-your-answer-to-cipp-styrene-emissions)
+  Trade publication covering a specific product. Use for: a real example of how a mid-tier (not fully styrene-free) product gets positioned in the market.
 
 ### Use with caution (vendor content)
 - [iLine: UV CIPP Lining v Hot Water Cured CIPP Lining](https://www.iline.uk.com/blog/uv-cipp-lining-v-hot-water-cured-cipp-lining/)
