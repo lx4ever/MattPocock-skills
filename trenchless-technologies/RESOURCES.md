@@ -54,6 +54,8 @@
   Trade publication covering a specific product. Use for: a real example of how a mid-tier (not fully styrene-free) product gets positioned in the market.
 
 ### Use with caution (vendor content)
+- Sino Polymer / MFE: "Resin Selection Guide for CIPP" (user-uploaded PDF, 2025-07-16, not a public URL)
+  The actual manufacturer brochure behind Lessons 10–11's worked resin pitches. Contains real mechanical-property data (ASTM D638/D790/D648, neat-resin basis) for their full CIPP resin line. Use for: this specific vendor's product line only. Two flagged issues on record: MERICAN 9516N-01's listed flexural modulus (8.3 GPa) is inconsistent with every neighboring figure and is very likely a transcription error — don't cite until confirmed with the supplier; and the brochure's NSF 61/51 claim doesn't specify which SKUs it applies to — confirm per-product before repeating it. Also note the properties given are neat-resin data, not finished composite-liner ASTM F1216 test data — don't equate the two in a pitch.
 - [iLine: UV CIPP Lining v Hot Water Cured CIPP Lining](https://www.iline.uk.com/blog/uv-cipp-lining-v-hot-water-cured-cipp-lining/)
 - [NuFlow: UV Cured Pipe Lining Advantages Over Steam Curing](https://nuflow.com/blog/uv-cured-pipe-lining-advantages-over-steam-curing/)
   Both are contractor/vendor blogs — useful for accessible process explanations and side-by-side comparisons, but treat comparative performance claims as marketing until corroborated against NASSCO material.
