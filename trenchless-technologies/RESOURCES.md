@@ -62,8 +62,8 @@
   Use for: US federal water infrastructure funding scale and timeline (FY2022–FY2026).
 - [AGC: Build America, Buy America Act (BABAA) Resource Hub](https://www.agc.org/babaa-resource-hub); [Wisconsin DNR: BABA](https://dnr.wisconsin.gov/topic/aid/baba.html)
   Use for: BABA domestic-sourcing requirements on federally-funded water infrastructure materials, including resin — directly relevant to any foreign-manufactured resin (e.g. Sino Polymer) pitched into US federally-funded projects.
-- [RoadAuthority.com: OPSS 410 / OPSS 460 listings](https://www.roadauthority.com/Standards/?id=47684db9-b1c5-4dfc-9049-56e988009653); [Ontario MTO: OPSS.PROV technical documents](https://tcp.mto.gov.on.ca/)
-  Use for: confirming OPSS 460 as Ontario's CIPP-specific spec, distinct from OPSS 410 (open-cut sewer installation) and the OPSS.PROV 465–468 family (other trenchless methods).
+- [MTO Technical Consultation Portal: notice titles for OPSS.PROV 463–469](https://tcp.mto.gov.on.ca/); [RoadAuthority.com: OPSS 410 / OPSS 460 listings](https://www.roadauthority.com/Standards/?id=47684db9-b1c5-4dfc-9049-56e988009653)
+  Use for: the officially-titled OPSS.PROV 463–469 trenchless suite (pipe bursting, concrete canvas, fold-and-form, pipe insert liner ×2, geopolymer spray-on, polyurethane liner) — treat these notice titles as more reliable than AI-generated search summaries of the PDFs, which were inconsistent across queries. CIPP itself appears to live under OPSS.MUNI 460 (municipal track), not OPSS.PROV — see Lesson 18 for the full correction and detail.
 - [Housing, Infrastructure and Communities Canada: funding program pages](https://housing-infrastructure.canada.ca/prog/index-eng.html); [FCM: Green Municipal Fund](https://fcm.ca/en/news-media/news-release/gmf/greener-wastewater-treatment-to-meet-growing-community-needs)
   Use for: Canadian federal water infrastructure funding programs (ICIP, GMF).
 - [ANSI/BSI: EN ISO 11296-4:2018+A1:2021 listing](https://webstore.ansi.org/preview-pages/BSI/preview_30425047.pdf); [Water UK Standards Board: WIS 4-34-04](https://standards-board.water.org.uk/document/wis-4-34-04-issue-2-specification-for-renovation-of-gravity-sewers-by-lining-with-cured-in-place-pipes/)
@@ -80,6 +80,12 @@
   Use for: the flash-point-as-hazmat-classification and pre-cure transport/storage styrene exposure points in Lesson 17.
 - [Restorepipe / My Bison Plumbing: CIPP liner service life articles](https://restorepipe.com/blog/how_long_cipp_lining_last/)
   Use for: the 40–60 year real-world / 50-year ASTM F1216 design-life figures, and the "relining over relining" practice extending functional life past 100 years — treat the specific longevity claims as industry-typical, not a guarantee, since these are contractor-facing articles.
+- MTO Technical Consultation Portal notice titles for OPSS.PROV 463–469 (individually: 000-0131 through 000-0137), confirming Pipe Bursting (463), Concrete Canvas Liner (464), Fold and Form Liner (465), Pipe Insert Liner (466), GRP Pipe Insert Liner (467), Geopolymer Spray-On Liner (468), Polyurethane Liner (469)
+  Use for: Lesson 18's corrected OPSS.PROV suite breakdown — these official notice titles were treated as more reliable than AI-generated PDF summaries, which gave inconsistent/contradictory attributions across repeated searches.
+- Search-derived detail on OPSS.PROV 468's ASTM C39 compressive strength QA requirements (55 MPa at 28 days, six cylinders per lot)
+  Use for: Lesson 18's geopolymer SIPP QA figures — primary PDF access was blocked at the network level, so this detail could not be independently re-verified against the source document directly.
+- [CSA Group: CSA Standards and NASSCO Announce Canadian Pipeline Assessment Certification Program](https://www.csagroup.org/news/csa-standards-and-nassco-announce-canadian-pipeline-assessment-c-2/); [Trenchless Technology: CSA Standards & NASSCO Announce Canadian PACP Program](https://trenchlesstechnology.com/csa-standards-nassco-announce-canadian-pacp-program-2/)
+  Use for: CSA PLUS 4012's role as the CSA/NASSCO-co-developed PACP-Canada condition-assessment protocol, its four-level defect-coding hierarchy, and Section 7's QA/Acceptance Protocol — used in Lesson 18.
 
 ### Use with caution (vendor content)
 - Sino Polymer / MFE: "Resin Selection Guide for CIPP" (user-uploaded PDF, 2025-07-16, not a public URL)
