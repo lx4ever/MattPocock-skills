@@ -16,11 +16,16 @@
   Glossary-style industry reference. Use for: a quick-check definition of fold-and-form terminology.
 - [Trenchless Technology magazine: "Light Bright" — UV curing in the CIPP market](https://trenchlesstechnology.com/light-bright-ultraviolet-curing-continues-to-make-inroads-in-the-cipp-market/)
   Trade journal, not vendor-authored. Use for: why contractors are adopting UV cure, market context. Cross-check specific performance claims against the NASSCO spec guideline.
+- [Trenchless Technology magazine: "How to Complete a Proper CIPP Install"](https://trenchlesstechnology.com/how-to-complete-a-proper-cipp-install/)
+  Trade journal field walkthrough with photos. Use for: the six-step install sequence — clean/inspect, insert, calibrate, cure, reinstate laterals, trim/final inspection.
 
 ### Use with caution (vendor content)
 - [iLine: UV CIPP Lining v Hot Water Cured CIPP Lining](https://www.iline.uk.com/blog/uv-cipp-lining-v-hot-water-cured-cipp-lining/)
 - [NuFlow: UV Cured Pipe Lining Advantages Over Steam Curing](https://nuflow.com/blog/uv-cured-pipe-lining-advantages-over-steam-curing/)
   Both are contractor/vendor blogs — useful for accessible process explanations and side-by-side comparisons, but treat comparative performance claims as marketing until corroborated against NASSCO material.
+- [NuFlow: Pipe Liner Inversion Method — Detailed Guide to CIPP Installation](https://nuflow.com/blog/pipe-liner-inversion-method-details/)
+- [NuFlow: CIPP Sewer Repair and Lateral Reinstatement](https://nuflow.com/blog/cipp-sewer-repair-reinstatement-laterals/)
+  Vendor blogs, used only to confirm process sequencing (inversion mechanics, lateral reinstatement step) — not for comparative or performance claims.
 
 ## Wisdom (Communities)
 
