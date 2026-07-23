@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 15 — What Drives CIPP Resin Cure Time</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 15: What Drives CIPP Resin Cure Time</h1>
+<p class="kicker">Not viscosity. Not even HDT. The real drivers are in the formulation chemistry a marketing brochure usually doesn't disclose.</p>
+
+<p class="lede">Two properties on the Sino Polymer spec sheet look like they should predict cure time — viscosity and HDT. Neither does. This lesson is about what actually controls cure speed, and an honest look at how far Sino Polymer's own brochure lets you go in comparing their resins on it.</p>
+
+<h2>First, two myths to clear</h2>
+<div class="callout">
+<strong>Viscosity doesn't drive cure time.</strong> Viscosity governs how easily the resin flows into and saturates the tube during wet-out — a manufacturing-stage property. It says nothing about how fast the crosslinking reaction runs once triggered.
+<br><br>
+<strong>HDT and Tg describe the destination, not the trip.</strong> Heat deflection temperature and glass transition temperature measure how much crosslink density was achieved once cure is complete. A resin can cure <em>fast</em> to a modest HDT, or cure <em>slowly</em> to a very high one — rate and extent are separate axes. A high-HDT resin isn't necessarily a fast-curing one.</div>
+
+<h2>What actually controls cure speed</h2>
+<ol class="steps">
+<li><strong>Promoter-to-peroxide ratio.</strong> For hot water/steam and ambient systems, cure is triggered by a peroxide initiator paired with a promoter (accelerator). More promoter relative to peroxide shortens both cure time and pot life — it's a dial, and it's set as a formulation choice.</li>
+<li><strong>Inhibitor concentration.</strong> Inhibitors are added specifically to prevent premature radical formation, protecting shelf life and pot life. More inhibitor means a longer time to cure — this is the direct trade-off against promoter loading, and it's also why resin has a shelf life at all.</li>
+<li><strong>Initiator type and its temperature class.</strong> Different peroxide initiators decompose (and start the reaction) at different temperatures — some are formulated as low-temperature initiators, others require higher heat to activate. This is part of why a resin is formulated for ambient cure, hot water/steam cure, or UV cure in the first place — the initiator system has to match the energy source actually available on site.</li>
+<li><strong>Applied temperature (or UV intensity).</strong> Heat accelerates the reaction directly — this is the entire logic behind hot water and steam cure existing as separate, faster options than ambient cure. UV cure sidesteps thermal initiation entirely, using a photoinitiator triggered by light instead of heat.</li>
+<li><strong>Resin chemistry family.</strong> Polyester, vinyl ester, and epoxy don't just differ in cost and chemical resistance — they cure through different mechanisms. Polyester and vinyl ester both cure via free-radical addition (fast, exothermic). Epoxy typically cures via an amine or anhydride hardener — generally slower and less prone to runaway exotherm, which is part of why epoxy shows up more often in thicker or more temperature-sensitive applications.</li>
+</ol>
+
+<h2>Comparing Sino Polymer's resins against a benchmark — honestly</h2>
+<p>The benchmark: NASSCO's typical guidance puts a standard hot water/steam cure at roughly 1–4 hours depending on diameter and thickness, ambient point-repair cures at "a few hours," and UV cure light trains moving at roughly 1 ft/minute — figures already established in Lessons 6 and 9.</p>
+
+<p>Here's what Sino Polymer's brochure actually lets you compare against that benchmark, and what it doesn't:</p>
+<ul>
+<li><strong>What it discloses:</strong> MFE 701-01T is explicitly marketed as "fast curing for increased productivity" — the only resin in their lineup singled out on cure speed specifically, rather than strength or chemical resistance. The UV-cure resins (9515, 9515N-01, 9516N-01) are marketed generically as having "fast UV curing speed," consistent with UV cure's category-wide advantage over hot water/steam.</li>
+<li><strong>What it doesn't disclose:</strong> no gel time, no minute-level cure time, no exotherm curve, and no promoter/inhibitor/initiator formulation detail for any product — the exact formulation-level factors from the list above. That's normal for a marketing brochure; it's not normal to assume from that document what the actual cure time is.</li>
+</ul>
+<div class="callout">
+<strong>The honest conclusion:</strong> you can say Sino Polymer differentiates 701-01T on cure speed within their own lineup, and that their UV line inherits UV cure's category-wide speed advantage. You cannot say how their cure times compare in minutes to a competitor's resin — that requires the actual technical data sheet (TDS) or gel-time test data, not the selection-guide brochure. If cure speed becomes a real point of comparison in a deal, that TDS request is the next concrete step, not a number to estimate from what's already on hand.
+</div>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Cure time drivers</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. Two resins have identical viscosity but very different cure times. What does that tell you?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — viscosity governs flow/wet-out, not reaction rate. Identical viscosity says nothing about cure speed.">Nothing unusual — viscosity and cure time aren't linked</button>
+    <button data-correct="false" data-feedback="Viscosity doesn't drive cure time — this would be a false conclusion from unrelated properties.">One resin's data must be wrong</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. A resin has a very high HDT. What can you conclude about how fast it cured?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="HDT measures the crosslink density achieved, not the rate at which it got there — a slow cure can still reach a high HDT.">It must have cured quickly</button>
+    <button data-correct="true" data-feedback="Right — HDT describes the destination (extent of cure), not the trip (rate of cure). They're independent.">Nothing — HDT and cure speed are independent</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. A prospect asks exactly how many minutes faster MFE 701-01T cures versus a competitor's resin. What's the honest answer?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — the brochure only makes a qualitative 'fast curing' claim. An exact number needs the technical data sheet or gel-time test data.">The brochure doesn't give that figure — request the TDS/gel-time data</button>
+    <button data-correct="false" data-feedback="No cure-time figure was disclosed in the brochure — estimating one from unrelated data (like viscosity or HDT) would be fabricating a number.">Estimate it from the viscosity figures</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Sources for this lesson: research on promoter/inhibitor/peroxide ratios and cure kinetics in unsaturated polyester and vinyl ester systems (Pergan technical guide, academic gel-time/exotherm studies), and the Sino Polymer brochure and NASSCO cure-time benchmarks already cited in Lessons 6 and 9. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Next: what "easy to thicken" actually means chemically — it's a real, separate step from curing, with its own cost/performance trade-off.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 14: Europe Standards, Regulations &amp; Incentives</span>
+  <span>Next: "easy to thicken," explained</span>
+</nav>
+
+</body>
+</html>

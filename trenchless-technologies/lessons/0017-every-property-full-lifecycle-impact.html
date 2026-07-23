@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 17 — Every Spec-Sheet Property, Full Lifecycle Impact</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 17: Every Spec-Sheet Property, Full Lifecycle Impact</h1>
+<p class="kicker">Every property on Sino Polymer's resin selection guide, and what it actually controls — from the drum leaving the factory to the pipe eventually being replaced.</p>
+
+<p class="lede">Eleven properties show up across that spec sheet. Most pitches only ever talk about three (strength, modulus, HDT) because those are the ones that sound impressive. This lesson covers all eleven, mapped to where in the resin's life each one actually bites — because several of the most consequential ones (flash point, non-volatile content) never come up in a sales conversation at all, and probably should.</p>
+
+<h2>1. Chemical nature (PU / VE / UPR / EP)</h2>
+<p>The resin family determines the cure mechanism itself, which cure methods it's even compatible with, and its chemical resistance ceiling.</p>
+<ul>
+<li><strong>Manufacturing:</strong> sets which cure method (ambient, hot water/steam, UV) and which tube material (felt vs. fiberglass, from Lesson 6) the resin can pair with.</li>
+<li><strong>Onsite:</strong> determines what equipment a job needs — a boiler, a UV light train, or just hand-mixing for a two-component ambient system.</li>
+<li><strong>Lifetime:</strong> sets the chemical/corrosion resistance envelope — vinyl ester and epoxy generally outperform polyester in aggressive environments.</li>
+<li><strong>Cost:</strong> epoxy typically costs more than vinyl ester, which costs more than polyester, as raw material — but see property 3 below for why that's not the whole cost story.</li>
+</ul>
+
+<h2>2. Viscosity</h2>
+<p>Governs flow, not cure speed (Lesson 15) — but it's still a real cost and quality lever.</p>
+<ul>
+<li><strong>Manufacturing:</strong> too low risks under-saturation or resin draining from the tube before packing; too high risks incomplete penetration — both are direct paths to the resin-void defect from Lesson 9.</li>
+<li><strong>Transport/storage:</strong> interacts directly with thickening behavior (Lesson 16) — determines whether the tube holds its shape without dripping in transit.</li>
+<li><strong>Onsite:</strong> affects calibration and trapped-air behavior during insertion.</li>
+</ul>
+
+<h2>3. Tensile &amp; flexural strength, modulus, elongation</h2>
+<p>The properties everyone leads with — genuinely important, but their real cost impact is indirect.</p>
+<ul>
+<li><strong>Lifetime:</strong> the primary structural-performance determinant, and the margin above ASTM F1216's minimums (Lesson 9) that a design engineer actually checks.</li>
+<li><strong>Cost — the non-obvious part:</strong> a higher-modulus resin can sometimes let a design use a <em>thinner</em> liner for the same structural load rating. That means less total resin and tube consumed per job — a real material-cost saving that can offset a higher price-per-kilogram. This is the same "total installed cost" logic from Lesson 10, applied at the design-thickness level instead of the labor level.</li>
+<li><strong>Elongation, specifically:</strong> affects installation forgiveness (resistance to cracking during handling and insertion stress) and long-term fatigue tolerance under ground movement — a stiffer but more brittle liner has less margin for either.</li>
+</ul>
+
+<h2>4. HDT and Tg</h2>
+<p>Both describe the thermal ceiling of the <em>fully cured</em> resin — with a real manufacturing catch.</p>
+<ul>
+<li><strong>Lifetime:</strong> sets the practical high-temperature service ceiling — this is the entire basis of MFE 770T's pitch in Lesson 11.</li>
+<li><strong>Manufacturing/cure — the catch:</strong> reaching the rated HDT/Tg requires the liner to actually reach full cure. An under-cured liner — from uneven temperature during hot water/steam cure (Lesson 9) — won't hit its spec'd HDT even if the resin is chemically capable of it. HDT on a datasheet is a best-case figure, not a guarantee independent of installation quality.</li>
+</ul>
+
+<h2>5. Maximum operating temperature — not the same thing as HDT</h2>
+<p>A genuinely useful distinction, visible directly in Sino Polymer's own numbers: MFE 770T lists an HDT of 145–150°C, but a maximum <em>operating</em> temperature of just 80°C.</p>
+<div class="callout">
+HDT is typically a short-duration lab test under a specified load. Maximum operating temperature is the rated figure for sustained, real-world service — set conservatively below HDT on purpose, as a safety margin. A liner "rated for 150°C" by HDT alone is not the same claim as "safe to run continuously at 150°C." Quoting HDT where a client is really asking about service temperature is a real, easy-to-make mistake.
+</div>
+
+<h2>6. Hardness</h2>
+<ul>
+<li><strong>Onsite:</strong> affects how easily robotic cutters trim ends and reinstate laterals (Lesson 2) — harder liners mean more tool wear and cutting time.</li>
+<li><strong>Lifetime:</strong> abrasion resistance against sediment-laden or high-velocity flow, and against maintenance activities like high-pressure jetting — a softer liner wears faster under routine maintenance, independent of its structural strength.</li>
+</ul>
+
+<h2>7. Flash point — a transportation and storage cost driver, not a lab curiosity</h2>
+<p>Most styrene-containing polyester and vinyl ester resins have flash points close to 32°C — low enough to trigger flammable-liquid hazmat classification: special DOT/TDG placarding, restricted carrier options, flammable-liquid-rated warehouse storage, and the freight/insurance premiums that come with all of it.</p>
+<div class="callout">
+<strong>This reframes MFE 701-01T's ">100°C flash point" claim.</strong> That's not a minor footnote — it's a difference of roughly 70°C from the typical styrenated baseline, plausibly moving the product out of the standard flammable-liquid shipping/storage bracket entirely. That's a real, quantifiable transportation-and-storage cost reduction, not just a marketing line — and it's a stronger, more specific pitch than "styrene-free" alone.
+</div>
+
+<h2>8. Styrene content / styrene-free</h2>
+<ul>
+<li><strong>Transport/storage — earlier than most people assume:</strong> styrene is volatile even before cure. Dangerous concentrations have been measured building up inside a resin-loaded storage or transport vehicle <em>before installation even starts</em> — this is a worker-safety issue at the transport/storage stage, not only during cure.</li>
+<li><strong>Onsite:</strong> the OSHA/NIOSH/ACGIH exposure framework from Lesson 12, and the odor/community-complaint driver from Lesson 9.</li>
+<li><strong>Regulatory:</strong> ties directly to the REACH and Clean Air Act frameworks from Lessons 12 and 14.</li>
+</ul>
+
+<h2>9. Non-volatile content (certified)</h2>
+<p>A quality-control property most pitches never mention at all.</p>
+<ul>
+<li><strong>Manufacturing/QC:</strong> confirms a consistent ratio of reactive solids to volatile content batch-to-batch. Inconsistent non-volatile content risks inconsistent shrinkage during cure — more shrinkage means more risk of the resin-void defect from Lesson 9.</li>
+<li><strong>Cost:</strong> a certified figure protects the buyer from effectively paying for volatile content that flashes off and never becomes part of the cured liner.</li>
+</ul>
+
+<h2>10. End of life — the one place the spec sheet doesn't differentiate at all</h2>
+<p>Every resin on Sino Polymer's chart — PU, VE, UPR, EP — is a thermoset: once cured, none of them can be re-melted or mechanically recycled. In practice, a CIPP liner isn't removed and disposed of on its own; the system either gets re-lined again (documented cases extend service life past 100 years by adding further layers) or the whole host-plus-liner segment is eventually excavated and replaced. None of the eleven properties above change that picture — recyclability only becomes a real differentiator if you step outside this resin family entirely, into a thermoplastic system like fold-and-form's PVC/PE (Lesson 8), which can at least theoretically be reprocessed, or emerging thermoplastic-polyurethane CIPP alternatives now appearing in industry coverage.</p>
+
+<h2>Quick-reference summary</h2>
+<table>
+<tr><th>Property</th><th>Primary lever</th><th>Stage it bites hardest</th></tr>
+<tr><td>Chemical nature</td><td>Both</td><td>Manufacturing / lifetime</td></tr>
+<tr><td>Viscosity</td><td>Performance (defect risk)</td><td>Manufacturing</td></tr>
+<tr><td>Tensile/flexural strength &amp; modulus</td><td>Both (via design thickness)</td><td>Lifetime</td></tr>
+<tr><td>Elongation</td><td>Performance</td><td>Onsite / lifetime</td></tr>
+<tr><td>HDT / Tg</td><td>Performance</td><td>Lifetime (if fully cured)</td></tr>
+<tr><td>Max operating temperature</td><td>Performance</td><td>Lifetime</td></tr>
+<tr><td>Hardness</td><td>Performance</td><td>Onsite / lifetime</td></tr>
+<tr><td>Flash point</td><td>Cost</td><td>Transport / storage</td></tr>
+<tr><td>Styrene content</td><td>Cost + performance (safety)</td><td>Transport / storage / onsite</td></tr>
+<tr><td>Non-volatile content</td><td>Cost (QC)</td><td>Manufacturing</td></tr>
+<tr><td>Resin family (recyclability)</td><td>Neither — shared limitation</td><td>End of life</td></tr>
+</table>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Property to stage</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A client asks why one resin costs less to ship and store than a chemically similar competitor. Which spec-sheet property is most likely the reason?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — flash point directly determines hazmat shipping/storage classification, a real freight and warehousing cost driver.">Flash point</button>
+    <button data-correct="false" data-feedback="Hardness affects onsite cutting and in-service abrasion resistance, not shipping classification.">Hardness</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. A resin datasheet lists HDT of 150°C but a maximum operating temperature of 80°C. Which is the safe number to quote for continuous service?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="HDT is a short-duration lab test figure, not a sustained-service rating — quoting it for continuous use overstates the resin's real capability.">150°C, since that's the higher number</button>
+    <button data-correct="true" data-feedback="Right — maximum operating temperature is the conservative, sustained-service figure. HDT and service temperature answer different questions.">80°C, the maximum operating temperature</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. Why doesn't switching between the PU, VE, UPR, and EP resins on Sino Polymer's chart change the liner's end-of-life disposal picture?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — all four are thermosets. Recyclability only changes by stepping outside this resin family into a different material class entirely, like fold-and-form's thermoplastic pipe.">All four are thermosets — none are recyclable once cured</button>
+    <button data-correct="false" data-feedback="Non-volatile content is a manufacturing QC property, unrelated to end-of-life recyclability.">They all have identical non-volatile content</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Sources for this lesson: the Sino Polymer brochure (Lessons 10–11) as the property source, plus the cure kinetics, thickening, flash point/hazmat, and end-of-life research underlying Lessons 15–16 and cited there. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>That's every property on the sheet. Want to turn any one of these — the flash point angle especially — into a fourth resin pitch alongside the three from Lesson 11?</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 16: "Easy to Thicken," Explained</span>
+  <span>Cheat sheet: <a href="../reference/trenchless-methods-cheatsheet.html">Quick Reference</a></span>
+</nav>
+
+</body>
+</html>

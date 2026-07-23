@@ -70,6 +70,16 @@
   Use for: the current harmonized European CIPP standard and its superseded UK predecessor, still sometimes cited by habit.
 - [ECHA: European positive lists](https://www.echa.europa.eu/european-positive-lists); [UL Solutions: EU Establishes Positive Substances Lists for Drinking Water](https://www.ul.com/news/eu-establishes-positive-substances-lists-drinking-water)
   Use for: the 2024 EU-wide drinking-water materials positive lists (Drinking Water Directive Art. 11), which replaced separate national schemes (WRAS, KTW, ACS) — the current bar for any resin marketed into EU potable-water CIPP work.
+- [Pergan: Curing unsaturated polyester, vinylester and acrylate resins (technical guide)](https://www.pergan.com/files/downloads/Curing_unsaturated_polyester_vinylester_and_acrylate_resins.pdf)
+  Use for: promoter/inhibitor/peroxide-initiator chemistry and how each controls cure time and pot life.
+  Academic gel-time and exotherm studies (ResearchGate, Academia.edu) corroborate the promoter:peroxide and inhibitor relationships cited in Lesson 15.
+- [ScienceDirect: Curing of unsaturated polyester resins — effects of thickening agent](https://www.sciencedirect.com/science/article/abs/pii/0032386194904782)
+  Use for: the MgO/Mg(OH)2 thickening mechanism, and documented evidence that thickening can extend induction time and reduce final cure conversion — the trade-off in Lesson 16.
+  US patent literature on polyester thickening agents and maturation (accessed via USPTO image search) corroborates the same mechanism from an industrial-formulation angle.
+- Research on styrene flash point (~32°C typical for styrenated systems), storage/transport styrene volatilization risk, and CIPP resin handling guidance (Trenchless Technology's "What to Keep in Mind when Handling CIPP Resins," NIOSH HHE report on CIPP styrene exposure)
+  Use for: the flash-point-as-hazmat-classification and pre-cure transport/storage styrene exposure points in Lesson 17.
+- [Restorepipe / My Bison Plumbing: CIPP liner service life articles](https://restorepipe.com/blog/how_long_cipp_lining_last/)
+  Use for: the 40–60 year real-world / 50-year ASTM F1216 design-life figures, and the "relining over relining" practice extending functional life past 100 years — treat the specific longevity claims as industry-typical, not a guarantee, since these are contractor-facing articles.
 
 ### Use with caution (vendor content)
 - Sino Polymer / MFE: "Resin Selection Guide for CIPP" (user-uploaded PDF, 2025-07-16, not a public URL)
