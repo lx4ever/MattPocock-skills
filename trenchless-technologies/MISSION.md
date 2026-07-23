@@ -9,6 +9,7 @@ You work in sales / estimating and need to talk confidently about trenchless pip
 - You can use accurate terminology fluently, without needing to check notes mid-conversation.
 - (Added after Lesson 5) You know the actual materials, equipment, and process parameters used for CIPP, SIPP, and fold-and-form — enough to read a contractor's spec sheet or proposal and recognize whether it's using the right ones, not just narrate the process at a high level.
 - (Added after Lesson 8) For CIPP specifically, you know what drives quality/performance/cost at the process level (prep, wet-out, calibration, cure, testing, emissions) and can build a credible value proposition for a resin product aimed at contractors/engineers — a second audience beyond the original end-client sales conversation, worth tracking as a distinct (related) thread rather than folding silently into the original one.
+- (Added after Lesson 11) You know the standards, regulations, and incentive/funding landscape for CIPP across the US, Canada, and Europe — enough to know which standard edition or certification actually applies where, and what regulatory factors (e.g. BABA domestic-sourcing rules, the EU's 2024 drinking-water positive lists) constrain a specific pitch, for both the end-client and resin-marketing threads above.
 
 ## Constraints
 - No civil/construction background — lessons build from zero, no assumed jargon.

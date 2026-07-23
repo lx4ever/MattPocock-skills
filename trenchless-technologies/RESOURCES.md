@@ -52,6 +52,24 @@
   Manufacturer blog, used cautiously — but useful for what buyers say they actually prioritize (field-proven track record, compliance testing) rather than raw material claims.
 - [Municipal Sewer and Water: "EnviroCure by Applied Felts"](https://www.mswmag.com/g/municipal-innovations/2022/10/envirocure-by-applied-felts-your-answer-to-cipp-styrene-emissions)
   Trade publication covering a specific product. Use for: a real example of how a mid-tier (not fully styrene-free) product gets positioned in the market.
+- [ASTM: F1216, F1743, D5813 standard listings](https://webstore.ansi.org/standards/astm/astmf174317)
+  Use for: the core US CIPP installation and material standards — confirm current edition before citing (e.g. F1216-22, not an older edition some specs still reference).
+- [NASSCO: CIPP Specification Guideline](https://nassco.org/wp-content/uploads/2023/04/NASSCO-CIPP-Specification-Guideline_2023.pdf)
+  Use for: the industry-standard RFP template most US municipal CIPP specs are built on.
+- [OSHA: Annotated PEL Table Z-1](https://www.osha.gov/annotated-pels/table-z-1); [NIOSH: Evaluation of Exposures to Styrene during CIPP](https://www.cdc.gov/niosh/hhe/reports/pdfs/2019-0080-3379.pdf)
+  Use for: the OSHA legal PEL (100 ppm) vs. NIOSH-recommended (50 ppm) and ACGIH threshold (20 ppm) gap for styrene exposure.
+- [EPA: Bipartisan Infrastructure Law / CWSRF program pages](https://www.epa.gov/infrastructure/fact-sheet-epa-bipartisan-infrastructure-law)
+  Use for: US federal water infrastructure funding scale and timeline (FY2022–FY2026).
+- [AGC: Build America, Buy America Act (BABAA) Resource Hub](https://www.agc.org/babaa-resource-hub); [Wisconsin DNR: BABA](https://dnr.wisconsin.gov/topic/aid/baba.html)
+  Use for: BABA domestic-sourcing requirements on federally-funded water infrastructure materials, including resin — directly relevant to any foreign-manufactured resin (e.g. Sino Polymer) pitched into US federally-funded projects.
+- [RoadAuthority.com: OPSS 410 / OPSS 460 listings](https://www.roadauthority.com/Standards/?id=47684db9-b1c5-4dfc-9049-56e988009653); [Ontario MTO: OPSS.PROV technical documents](https://tcp.mto.gov.on.ca/)
+  Use for: confirming OPSS 460 as Ontario's CIPP-specific spec, distinct from OPSS 410 (open-cut sewer installation) and the OPSS.PROV 465–468 family (other trenchless methods).
+- [Housing, Infrastructure and Communities Canada: funding program pages](https://housing-infrastructure.canada.ca/prog/index-eng.html); [FCM: Green Municipal Fund](https://fcm.ca/en/news-media/news-release/gmf/greener-wastewater-treatment-to-meet-growing-community-needs)
+  Use for: Canadian federal water infrastructure funding programs (ICIP, GMF).
+- [ANSI/BSI: EN ISO 11296-4:2018+A1:2021 listing](https://webstore.ansi.org/preview-pages/BSI/preview_30425047.pdf); [Water UK Standards Board: WIS 4-34-04](https://standards-board.water.org.uk/document/wis-4-34-04-issue-2-specification-for-renovation-of-gravity-sewers-by-lining-with-cured-in-place-pipes/)
+  Use for: the current harmonized European CIPP standard and its superseded UK predecessor, still sometimes cited by habit.
+- [ECHA: European positive lists](https://www.echa.europa.eu/european-positive-lists); [UL Solutions: EU Establishes Positive Substances Lists for Drinking Water](https://www.ul.com/news/eu-establishes-positive-substances-lists-drinking-water)
+  Use for: the 2024 EU-wide drinking-water materials positive lists (Drinking Water Directive Art. 11), which replaced separate national schemes (WRAS, KTW, ACS) — the current bar for any resin marketed into EU potable-water CIPP work.
 
 ### Use with caution (vendor content)
 - Sino Polymer / MFE: "Resin Selection Guide for CIPP" (user-uploaded PDF, 2025-07-16, not a public URL)
