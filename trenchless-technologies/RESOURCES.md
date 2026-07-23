@@ -24,6 +24,10 @@
   Glossary-style industry reference. Use for: SIPP surface-prep detail and why adhesion quality is the whole ballgame for this method.
 - [Trenchlesspedia: What is Lateral Reinstatement?](https://trenchlesspedia.com/definition/2896/lateral-reinstatement)
   Use for: confirming lateral reinstatement (robotic cutter reopening covered branch connections) applies across lining methods generally, not just CIPP.
+- [NASTT: Fold and Form Lining glossary entry](https://nastt.org/glossary/fold-form-lining/)
+  NASTT (North American Society for Trenchless Technology) is the field's other major professional body alongside NASSCO. Use for: authoritative fold-and-form definition.
+- [PE100+: Close-Fit Lining — Fold and Form Lining](https://www.pe100plus.com/PE-Pipes/Technical-guidance/Trenchless/Methods/Pipe-Rehabilitation/Close-Fit-Lining-Fold-and-Form-Lining-i1314.html)
+  Technical guidance from the polyethylene pipe industry association. Use for: the softening/winching/reversion sequence and the 2-2.5% undersizing detail.
 
 ### Use with caution (vendor content)
 - [iLine: UV CIPP Lining v Hot Water Cured CIPP Lining](https://www.iline.uk.com/blog/uv-cipp-lining-v-hot-water-cured-cipp-lining/)
@@ -34,6 +38,10 @@
   Vendor blogs, used only to confirm process sequencing (inversion mechanics, lateral reinstatement step) — not for comparative or performance claims.
 - [SIPP Americas LLC: Lining Process & Equipment](https://www.sippamericas.com/sipp-lining-equipment/)
   Manufacturer page — used only for the equipment-level detail (spray head pull-back rate, monitored variables, thickness spec), not for claims about their product's superiority.
+- [Lanzo Lining Services: Lining Guide (PDF)](https://www.lanzo.net/pdf/lanzo-lining-guide-2410.pdf)
+  Contractor-authored process/spec guide. Use for: fold-and-form trim overhang and lateral-opening tolerance figures, cross-checked against the IPEX spec doc below.
+- [IPEX Novaform: General Specification for Fold-and-Form PVC Liner](https://ipexna.com/wp-content/uploads/2022/08/specification-data-caen-ipex-novaform-pvc-liner-fold-and-method.pdf)
+  Manufacturer spec sheet for a specific fold-and-form product. Use for: install tolerance figures only, not brand claims.
 
 ## Wisdom (Communities)
 
