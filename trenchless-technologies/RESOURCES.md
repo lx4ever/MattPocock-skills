@@ -18,6 +18,12 @@
   Trade journal, not vendor-authored. Use for: why contractors are adopting UV cure, market context. Cross-check specific performance claims against the NASSCO spec guideline.
 - [Trenchless Technology magazine: "How to Complete a Proper CIPP Install"](https://trenchlesstechnology.com/how-to-complete-a-proper-cipp-install/)
   Trade journal field walkthrough with photos. Use for: the six-step install sequence — clean/inspect, insert, calibrate, cure, reinstate laterals, trim/final inspection.
+- [WaterWorld: Spray-in-Place Pipe Rehabilitation](https://www.waterworld.com/drinking-water-treatment/distribution/article/14071209/spray-in-place-pipe-rehabilitation)
+  Water-industry trade publication. Use for: the SIPP install sequence — inspect, clean/prep, spray application, cure, final QC.
+- [Trenchlesspedia: The Basics of Spray-in-Place Pipe](https://trenchlesspedia.com/the-basics-of-spray-in-place-pipe/2/3517)
+  Glossary-style industry reference. Use for: SIPP surface-prep detail and why adhesion quality is the whole ballgame for this method.
+- [Trenchlesspedia: What is Lateral Reinstatement?](https://trenchlesspedia.com/definition/2896/lateral-reinstatement)
+  Use for: confirming lateral reinstatement (robotic cutter reopening covered branch connections) applies across lining methods generally, not just CIPP.
 
 ### Use with caution (vendor content)
 - [iLine: UV CIPP Lining v Hot Water Cured CIPP Lining](https://www.iline.uk.com/blog/uv-cipp-lining-v-hot-water-cured-cipp-lining/)
@@ -26,6 +32,8 @@
 - [NuFlow: Pipe Liner Inversion Method — Detailed Guide to CIPP Installation](https://nuflow.com/blog/pipe-liner-inversion-method-details/)
 - [NuFlow: CIPP Sewer Repair and Lateral Reinstatement](https://nuflow.com/blog/cipp-sewer-repair-reinstatement-laterals/)
   Vendor blogs, used only to confirm process sequencing (inversion mechanics, lateral reinstatement step) — not for comparative or performance claims.
+- [SIPP Americas LLC: Lining Process & Equipment](https://www.sippamericas.com/sipp-lining-equipment/)
+  Manufacturer page — used only for the equipment-level detail (spray head pull-back rate, monitored variables, thickness spec), not for claims about their product's superiority.
 
 ## Wisdom (Communities)
 
