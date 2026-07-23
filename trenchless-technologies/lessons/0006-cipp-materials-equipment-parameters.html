@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 6 — CIPP: Materials, Equipment, Parameters</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 6: CIPP — Materials, Equipment, Parameters</h1>
+<p class="kicker">What's actually in the tube, what runs the job site, and the numbers that make a proposal credible or suspect.</p>
+
+<p class="lede">You know the six install steps. This lesson is one level down: the specific materials and equipment behind those steps, and the parameters that let you tell whether a contractor's spec sheet actually hangs together — or contradicts itself.</p>
+
+<h2>Materials</h2>
+
+<h3>The tube</h3>
+<ul>
+<li><strong>Felt</strong> — needle-punched polyester felt. The traditional choice; works with any cure method except UV (it's opaque and absorbent, so UV light can't cure through it evenly).</li>
+<li><strong>Fiberglass</strong> — required for UV cure, since light needs to pass through the tube wall to reach the resin. Also tends to be stiffer once cured than a felt-and-resin composite.</li>
+</ul>
+
+<h3>The resin</h3>
+<ul>
+<li><strong>Polyester</strong> — the default for standard sanitary or storm mains: usually the most economical option that still clears ASTM requirements.</li>
+<li><strong>Vinyl ester</strong> — chemically closer to epoxy, but cures like polyester (free-radical, with styrene or another reactive diluent). Better chemical resistance than polyester, at a higher price.</li>
+<li><strong>Epoxy</strong> — properties vary widely by specific system, from stiff and brittle to very flexible. Often styrene-free, which matters for odor and emissions control — relevant for potable water lines or sensitive sites.</li>
+<li><strong>UV-cure systems</strong> — a light-sensitive resin (typically vinyl ester or acrylate-based, with a photoinitiator) paired with a fiberglass tube. Felt + UV is not a real combination.</li>
+</ul>
+
+<div class="callout">
+<strong>Sales-relevant point:</strong> tube and resin aren't independent choices — they're paired with the cure method. A proposal specifying a felt tube with UV curing is internally inconsistent; UV needs the fiberglass tube to work at all. That's exactly the kind of thing worth catching before a bid goes to a client.
+</div>
+
+<h2>Equipment</h2>
+
+<ol class="steps">
+<li><strong>Wet-out / impregnation station.</strong> A mobile unit that meters and mixes the resin, vacuum-impregnates it into the tube, then runs it through nip/calibration rollers to spread it evenly and squeeze out trapped air.</li>
+<li><strong>Refrigerated truck or trailer.</strong> Once wet-out, the tube is a perishable product — kept chilled in transit so the resin doesn't start curing before it's in the pipe.</li>
+<li><strong>Insertion equipment.</strong> An inversion drum or tower (inversion) or a winch and cable (pull-in-place) — matches the method from Lesson 2.</li>
+<li><strong>Cure equipment.</strong> A boiler (hot water), steam generator (steam), or a towed UV light train — whichever cure method was chosen.</li>
+</ol>
+
+<h2>Parameters worth knowing</h2>
+<table>
+<tr><th>Parameter</th><th>Typical figure</th></tr>
+<tr><td>Inversion / calibration pressure</td><td>Up to roughly 30 psi, depending on diameter and tube thickness</td></tr>
+<tr><td>Steam cure temperature &amp; time</td><td>~225–240°F, held 1–4 hours depending on length, thickness, and conditions</td></tr>
+<tr><td>Cool-down before cutting</td><td>At least 15 minutes, or until the far-end temperature reaches ~130°F, whichever is longer</td></tr>
+<tr><td>UV light train speed</td><td>Roughly 1 ft/minute</td></tr>
+<tr><td>Tube thickness</td><td>Engineered per job to the pipe's structural requirements — not a fixed default</td></tr>
+</table>
+
+<p>One more thing worth knowing exists, even without doing the math yourself: every CIPP job should have a <strong>wet-out report</strong> — documentation that the resin fully saturated the tube, with no dry spots. A dry spot is a weak point in the finished liner. You don't need to calculate saturation ratios to know to ask "do you have the wet-out report?"</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Spot the mismatch</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A proposal specifies: felt tube, cured with a UV light train. What's wrong?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — felt is opaque and absorbent; UV needs a fiberglass tube to cure through evenly.">Felt can't UV-cure properly</button>
+    <button data-correct="false" data-feedback="Nothing about steam is mentioned here — the actual problem is the felt/UV pairing itself.">Steam cure was skipped</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. A proposal for a potable water line specifies a resin system, and the client is sensitive to on-site odor and emissions. Which resin is the strongest fit to flag as worth asking about?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="Polyester is usually the cheapest default, but it's not the one specifically noted for being styrene-free.">Polyester</button>
+    <button data-correct="true" data-feedback="Right — epoxy systems are often styrene-free, which is exactly the odor/emissions concern here.">Epoxy</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. A field report says the liner was inverted, held at 30 psi, then hot water was circulated at 230°F for two hours before a 20-minute cool-down. What's missing that you'd want to confirm exists somewhere in the paperwork?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — the report describes insertion and cure, but not whether the tube was fully, evenly saturated before any of that happened.">A wet-out report confirming full saturation</button>
+    <button data-correct="false" data-feedback="A UV light train is irrelevant here — this job used hot water cure, not UV.">Confirmation the UV light train reached full length</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<h2>Primary sources</h2>
+<p>For resin chemistry specifics: <a href="https://trenchlesstechnology.com/tech-forum-resin-considerations-for-your-cipp-project/" target="_blank" rel="noopener">"Tech Forum: Resin Considerations for Your CIPP Project," Trenchless Technology</a>. For install parameters, NASSCO's CIPP Specification Guideline remains the authority.</p>
+
+<footer class="source-note">
+Sources for this lesson: Trenchless Technology's resin considerations article, an ASTM STP paper on CIPP resin properties, NASSCO's CIPP Specification Guideline, and equipment vendor pages (CIPP Global, HammerHead, T3 Lining Supply) used only to confirm what wet-out and inversion equipment does, not for brand claims. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>The felt/UV mismatch is exactly the kind of red flag worth being able to spot fast — want a few more scenarios like it before we move to SIPP?</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 5: Putting It Together</span>
+  <span>Next: SIPP materials, equipment, and parameters</span>
+</nav>
+
+</body>
+</html>

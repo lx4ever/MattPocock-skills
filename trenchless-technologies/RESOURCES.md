@@ -28,6 +28,18 @@
   NASTT (North American Society for Trenchless Technology) is the field's other major professional body alongside NASSCO. Use for: authoritative fold-and-form definition.
 - [PE100+: Close-Fit Lining — Fold and Form Lining](https://www.pe100plus.com/PE-Pipes/Technical-guidance/Trenchless/Methods/Pipe-Rehabilitation/Close-Fit-Lining-Fold-and-Form-Lining-i1314.html)
   Technical guidance from the polyethylene pipe industry association. Use for: the softening/winching/reversion sequence and the 2-2.5% undersizing detail.
+- [Trenchless Technology magazine: "Tech Forum: Resin Considerations for Your CIPP Project"](https://trenchlesstechnology.com/tech-forum-resin-considerations-for-your-cipp-project/)
+  Trade journal. Use for: polyester/vinyl ester/epoxy resin trade-offs and why the choice matters.
+- [ASTM STP: Physical Properties and Chemical Resistance of Selected Resins for CIPP Rehabilitation](https://store.astm.org/stp12667s.html)
+  Peer-reviewed technical paper. Use for: corroborating the resin-property claims above with tested data rather than marketing copy.
+- [Stratview Research: Sprayed-In-Place Pipe (SIPP) Market Analysis](https://www.stratviewresearch.com/533/sprayed-in-place-pipe-SIPP-market.html)
+  Market research report. Use for: the four-material segmentation (epoxy, polyurethane, polyurea, geopolymer mortar) — treat market-size figures, not just material claims, with appropriate skepticism.
+- [Pipeline Rehabilitation: "Advances in Polyurea Spray Applications"](https://www.pipelinerehabilitation.com/2020/09/pipeline-rehabilitation-advances-in.html)
+  Trade publication. Use for: polyurea's fast-set characteristics and why it's chosen for downtime-limited jobs.
+- [National Painting Equipment Authority: Plural Component Spray Equipment for Construction Coatings](https://nationalpaintingequipmentauthority.com/plural-component-spray-equipment/)
+  Independent equipment explainer, not tied to one manufacturer. Use for: how plural-component proportioning pumps work.
+- [Underground Construction: Close-Fit Liner Technical Guide](https://undergroundinfrastructure.com/magazine/2022/november-2022-vol-77-no-11/features/close-fit-liner-technical-guide-to-variations-of-close-fit-liners-for-mainline-pipe)
+  Trade publication. Use for: cross-checking fold-and-form material and sizing claims from vendor sources below.
 
 ### Use with caution (vendor content)
 - [iLine: UV CIPP Lining v Hot Water Cured CIPP Lining](https://www.iline.uk.com/blog/uv-cipp-lining-v-hot-water-cured-cipp-lining/)
@@ -42,6 +54,10 @@
   Contractor-authored process/spec guide. Use for: fold-and-form trim overhang and lateral-opening tolerance figures, cross-checked against the IPEX spec doc below.
 - [IPEX Novaform: General Specification for Fold-and-Form PVC Liner](https://ipexna.com/wp-content/uploads/2022/08/specification-data-caen-ipex-novaform-pvc-liner-fold-and-method.pdf)
   Manufacturer spec sheet for a specific fold-and-form product. Use for: install tolerance figures only, not brand claims.
+- [CIPP Global: Inversion Drums, Impregnation Equipment & Accessories](https://cippglobal.com.au/collections/equipment-accessories); [HammerHead: Mobile Wet Out](https://www.hammerheadtrenchless.com/products/main-line-cipp/mobile-wet-out/); [T3 Lining Supply: Essential Equipment for CIPP Lining](https://www.t3liningsupply.com/blog/equipment-for-cipp-lining-the-9-most-important-tools-you-need)
+  Equipment vendor pages. Used only to confirm what wet-out and inversion equipment physically does (mixing, vacuum impregnation, calibration rollers, refrigerated transport), not for brand or performance claims.
+- [Guyer Brothers: Thermoform PVC Liners](https://guyerbrothers.com/thermoform-pvc-liners/)
+  Contractor page. Use for: concrete PVC-alloy material and diameter/wall-thickness figures — cross-checked against PE100+ and NASTT.
 
 ## Wisdom (Communities)
 
