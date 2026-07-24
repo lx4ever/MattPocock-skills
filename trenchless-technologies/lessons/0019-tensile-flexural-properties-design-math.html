@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 19 — Tensile & Flexural Properties: The Real Design Math</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 19: Tensile &amp; Flexural Properties — The Real Design Math</h1>
+<p class="kicker">Why flexural modulus (not tensile) actually sizes a liner's wall thickness — and a real finding that "stiffer is better" isn't always true.</p>
+
+<p class="lede">Lesson 17 flagged that strength/modulus can trade off against wall thickness, and thickness against material cost. This lesson is the actual mechanism: the ASTM F1216 design equation these properties feed into, and a genuinely counterintuitive finding about how much stiffness is too much.</p>
+
+<h2>Tensile vs. flexural — why flexural is the one that matters here</h2>
+<p>Tensile testing (ASTM D638) pulls a sample along its axis. Flexural testing (ASTM D790) bends it — a three-point bend test. A buried pipe wall doesn't get pulled lengthwise; it gets bent, by soil pressure and groundwater pushing in from outside. Flexural properties model that loading mode directly, which is exactly why ASTM F1216's structural design equations are built on flexural modulus and flexural stress, tested per D790 — not the tensile figures that tend to get quoted more often.</p>
+
+<h2>The actual design equation, in plain terms</h2>
+<p>F1216 works from two design conditions:</p>
+<ul>
+<li><strong>Partially deteriorated:</strong> the liner and the old host pipe share the structural load together.</li>
+<li><strong>Fully deteriorated:</strong> the liner has to resist the full external buckling pressure — groundwater and soil load — entirely on its own, with zero assumed help from the host pipe.</li>
+</ul>
+<p>Fully deteriorated is the more conservative case, and often the realistic one — the host pipe frequently needs CIPP <em>because</em> it can no longer be trusted to carry load. The design equation for this case is adapted from Timoshenko's classical buckling formula for a thin tube submerged in water, with an empirical correction factor, <strong>K</strong>, added to account for how much confinement the surrounding host pipe still provides even in a degraded state.</p>
+<div class="callout">
+<strong>K isn't a clean constant.</strong> Research testing this on a 10-inch pipe found K ranging from 3.6 to 21.4 across 49 tests — a mean of 12.4, but real scatter. F1216 recommends a conservative minimum of K = 7 where full host-pipe support is confirmed. This is exactly why "the design meets F1216" is a real engineering judgment call involving field-verified assumptions, not a single number pulled off a datasheet.</div>
+
+<h2>Where modulus and thickness trade off — the cost lever</h2>
+<p>In this buckling formula, resistance to collapse scales with both flexural modulus (E) and wall thickness (t) together. A resin with a higher flexural modulus can hit the same buckling-resistance target with a thinner design wall. Less thickness means less total resin and tube consumed for the same job — a real material-cost saving that can offset a higher-modulus resin's higher price per kilogram. This is the mechanism behind the cost claim in Lesson 17 — not a vague gesture at "efficiency," but a specific term in a specific equation.</p>
+
+<h2>The counterintuitive finding: more stiffness isn't free</h2>
+<div class="callout">
+<strong>Documented research finding:</strong> excessively high elastic modulus (above roughly 60 GPa) <em>combined with</em> excessive thickness (above roughly 6.5 mm) can create severe stress concentration at the liner-host-pipe interface — and that can lead to liner cracking under cyclic loading over time. Stiffness and thickness aren't a "more is always better" pair. Past a point, pushing both up together creates a new failure mode at exactly the interface a design is trying to protect.
+</div>
+<p>This is where elongation earns its place in the conversation. A liner needs enough flexibility to absorb cyclic stress — traffic loading, ground movement, thermal cycling — without brittle cracking at that interface. Elongation is what gives a stiff, high-modulus system the give it needs to survive real cyclic loading over decades, not just a single design-load calculation on day one.</p>
+
+<h2>Elongation's other job: the "locking effect"</h2>
+<p>Resin doesn't just coat the inside of the old pipe — it flows into existing cracks, gaps, and surface defects in the host pipe wall and cures there too, creating a mechanical "locking effect" that improves adhesion and overall system reliability. A resin with adequate elongation tolerates this interlocked, irregular geometry without cracking at those exact interface points during cure shrinkage or later service stress — tying directly back to the interface-stress finding above.</p>
+
+<h2>Putting it together: lifetime and total installed cost</h2>
+<table>
+<tr><th>Property</th><th>Lifetime impact</th><th>Total installed cost impact</th></tr>
+<tr><td>Flexural modulus</td><td>Determines buckling/collapse resistance under the fully-deteriorated design case — the actual safety margin over decades</td><td>Higher modulus can enable a thinner design wall — less material per job, potentially offsetting a higher resin price</td></tr>
+<tr><td>Flexural strength</td><td>The stress level the liner can sustain before failure — the numerator in the safety-factor calculation against real service loads</td><td>Feeds the same thickness-optimization logic as modulus</td></tr>
+<tr><td>Elongation</td><td>Tolerance for cyclic loading and ground movement without brittle cracking at the liner-host interface — directly protects against the modulus/thickness failure mode above</td><td>Indirect — a liner that cracks in service becomes a warranty/re-repair cost, the real cost elongation protects against</td></tr>
+</table>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Design math</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. Why does ASTM F1216 build its structural design equations on flexural modulus rather than tensile modulus?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — a buried pipe experiences bending from external pressure, not axial pulling. Flexural testing models the actual loading mode.">A buried pipe is loaded in bending, not axial tension</button>
+    <button data-correct="false" data-feedback="Tensile testing is cheaper and more common, but that's not why F1216 chose flexural properties — the real reason is the loading mode match.">Flexural testing is simply cheaper to run</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. A design engineer chooses a higher-flexural-modulus resin for a job. What's the most direct cost consequence?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — this is the actual mechanism: higher E lets the buckling-resistance target be met with less wall thickness, reducing total material consumed.">The design wall thickness can potentially be reduced</button>
+    <button data-correct="false" data-feedback="Modulus doesn't determine cure method compatibility — that's a resin-chemistry/tube-material question from Lesson 6.">The resin now requires UV cure instead of hot water</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. A proposal specifies an extremely high-modulus resin at an unusually thick design wall, with no mention of elongation. What's the real risk being overlooked?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — high modulus plus high thickness together is the documented combination that risks interface stress concentration and cracking under cyclic loading.">Interface stress concentration and cracking under cyclic loading</button>
+    <button data-correct="false" data-feedback="Non-volatile content is a separate manufacturing/QC property, unrelated to the modulus-thickness-elongation interaction here.">Non-volatile content certification</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Sources for this lesson: ASTM F1216-09's Appendix X1 design methodology (via pipemedic.com's posted text), research on K-factor variability in buckling design (Aggarwal and Cooper, 1984, cited via Underground Construction's ASCE MOP 145 coverage), and ScienceDirect research on plastic pipe-CIPP liner composite interface stress under cyclic loading. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Next: non-volatile content — a quality-control property that turns out to be mechanically linked to shrinkage, styrene emissions, and what you're actually paying for per job.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 18: Ontario's OPSS Suite &amp; CSA PLUS 4012</span>
+  <span>Next: non-volatile content, in detail</span>
+</nav>
+
+</body>
+</html>

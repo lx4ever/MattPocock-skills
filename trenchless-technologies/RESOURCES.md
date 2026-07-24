@@ -86,6 +86,17 @@
   Use for: Lesson 18's geopolymer SIPP QA figures — primary PDF access was blocked at the network level, so this detail could not be independently re-verified against the source document directly.
 - [CSA Group: CSA Standards and NASSCO Announce Canadian Pipeline Assessment Certification Program](https://www.csagroup.org/news/csa-standards-and-nassco-announce-canadian-pipeline-assessment-c-2/); [Trenchless Technology: CSA Standards & NASSCO Announce Canadian PACP Program](https://trenchlesstechnology.com/csa-standards-nassco-announce-canadian-pacp-program-2/)
   Use for: CSA PLUS 4012's role as the CSA/NASSCO-co-developed PACP-Canada condition-assessment protocol, its four-level defect-coding hierarchy, and Section 7's QA/Acceptance Protocol — used in Lesson 18.
+- [ASTM F1216-09 text (via pipemedic.com)](https://pipemedic.com/pdfs/ASTM%20F1216-09%20Rehab%20of%20Pipelines%20with%20Resin%20Impregnated%20Tubes.pdf)
+  Use for: Appendix X1's partially-/fully-deteriorated design conditions and the Timoshenko-derived buckling equation with the empirical K factor — the actual design math behind Lesson 19.
+  Underground Construction's coverage of ASCE MOP 145 (citing Aggarwal and Cooper, 1984) corroborates the K-factor range (3.6–21.4, mean 12.4) from independent test data.
+- ScienceDirect research on plastic pipe–CIPP liner composite interface stress under cyclic loading
+  Use for: the documented high-modulus + high-thickness interface stress concentration / cracking risk in Lesson 19 — the finding that more stiffness isn't unconditionally better.
+- [ASTM D2369 listing (ANSI/GlobalSpec)](https://webstore.ansi.org/standards/astm/ASTMD236920)
+  Use for: the non-volatile content test method (110±5°C for 60 min, mass-loss by difference) in Lesson 20.
+- [Interplastic Corporation: CIPP resin page](https://interplastic.com/cipp-2/); [NuFlow: CIPP Lining Resin Shrinkage Calculation](https://nuflow.com/blog/cipp-lining-resin-shrinkage-calc/)
+  Use for: the epoxy/vinyl-ester/polyester shrinkage ranking and its link to volatile (styrene) content, used in Lesson 20.
+- [Masterliner: A Step-by-Step Breakdown of the Wet Out Process for CIPP](https://www.masterliner.com/blog/step-by-step-breakdown-wet-out-process-cured-in-place-pipe-lining-cipp/)
+  Use for: confirming non-volatile content's role in predictable wet-out behavior, referenced in Lesson 20.
 
 ### Use with caution (vendor content)
 - Sino Polymer / MFE: "Resin Selection Guide for CIPP" (user-uploaded PDF, 2025-07-16, not a public URL)

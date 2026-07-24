@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 20 — Non-Volatile Content, In Detail</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 20: Non-Volatile Content, In Detail</h1>
+<p class="kicker">A quality-control number that turns out to be mechanically linked to shrinkage, styrene emissions, and what you're actually paying for.</p>
+
+<p class="lede">Lesson 17 flagged non-volatile content as the property most pitches skip entirely. Here's why that's a mistake — it connects directly to three things that already showed up as major themes: cure defects (Lesson 9), styrene emissions (Lessons 9 and 12), and total installed cost (Lesson 10).</p>
+
+<h2>What it actually measures</h2>
+<p>The standard method is ASTM D2369 — heat a resin sample at 110±5°C for 60 minutes, and measure the mass lost. Whatever evaporates is the volatile fraction. Non-volatile content (percent solids) is what's left, calculated by difference. It's a direct, physical measurement of how much of what's in the can actually stays behind and becomes part of the cured liner.</p>
+
+<h2>The shrinkage connection</h2>
+<p>Volatile content that evaporates during cure doesn't just disappear cleanly — its departure is a major driver of cure shrinkage. This maps directly onto the resin-family comparison from Lesson 6:</p>
+<ul>
+<li><strong>Epoxy</strong> systems generally show the lowest shrinkage.</li>
+<li><strong>Vinyl ester</strong> sits in the middle.</li>
+<li><strong>Unsaturated polyester</strong> typically shows the highest polymerization shrinkage of the three.</li>
+</ul>
+<div class="callout">
+<strong>Why this ranking exists:</strong> it tracks almost exactly with how much reactive volatile content (largely styrene monomer in conventional systems) each chemistry carries and loses during cure. Styrene-free or low-styrene systems are frequently described as "virtually shrink-free" compared to standard styrenated resin — non-volatile content and the styrene-content story from Lesson 17 aren't two separate facts. They're mechanically the same underlying behavior, described from two different angles.
+</div>
+
+<h2>Manufacturing and quality impact</h2>
+<ol class="steps">
+<li><strong>Batch-to-batch predictability.</strong> A certified, consistent non-volatile content means the resin behaves the same way at wet-out every time — predictable viscosity, predictable thickening behavior (Lesson 16), predictable cured wall thickness for a given applied volume.</li>
+<li><strong>Shrinkage and void risk.</strong> More volatile content lost during cure means more shrinkage, which directly feeds the resin-void and delamination defect modes from Lesson 9. A resin with unpredictable non-volatile content is a resin with unpredictable defect risk, independent of how good its cured mechanical properties look on a datasheet.</li>
+<li><strong>Dimensional accuracy.</strong> Shrinkage doesn't just create voids — it can pull the cured wall thickness below the design figure calculated in Lesson 19. A liner that shrinks more than expected may not actually deliver the wall thickness the buckling-resistance design assumed.</li>
+</ol>
+
+<h2>The cost angle: paying for what actually becomes product</h2>
+<p>This is the part a price-per-kilogram comparison misses entirely. If a resin's non-volatile content is lower, more of what's purchased and applied evaporates during cure and never becomes part of the finished liner. Two resins priced identically per kilogram are <em>not</em> the same value if one delivers meaningfully less solid content into the cured wall — the lower-non-volatile-content resin effectively costs more per unit of actual liner material delivered, even though the invoice looks the same.</p>
+<div class="callout">
+<strong>Sales-relevant point:</strong> a certified non-volatile content figure is a real, checkable number — not a soft claim. It protects a buyer against exactly this kind of hidden cost, and it's a legitimate, specific thing to ask a competitor to produce if their resin is priced lower per kilogram. "Cheaper per kilogram" and "cheaper per liner" are different claims, and non-volatile content is the number that tells them apart.
+</div>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Non-volatile content</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. Two resins are priced identically per kilogram, but Resin A has certified non-volatile content of 60% and Resin B has 75%. Which one likely delivers a cheaper cured liner per job?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — more of Resin B's purchased mass actually becomes cured product, so it delivers more liner per kilogram purchased, even at the same sticker price.">Resin B — more of it becomes actual liner material</button>
+    <button data-correct="false" data-feedback="Identical price per kilogram doesn't mean identical value — non-volatile content determines how much of that kilogram actually ends up in the finished liner.">Neither — identical price per kg means identical cost</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. A batch of cured liner shows more resin-void defects than usual, and post-cure measurements show the wall came in thinner than designed. What property, checked at intake, might have flagged this risk in advance?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — unusually low or inconsistent non-volatile content predicts higher shrinkage, which drives both the void risk and the thickness shortfall described here.">Non-volatile content</button>
+    <button data-correct="false" data-feedback="Flexural modulus governs structural design, not shrinkage/void behavior during cure — a different failure mode entirely.">Flexural modulus</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. Why do styrene-free resin systems tend to be described as "virtually shrink-free" compared to standard styrenated resin?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — the volatile content that evaporates and drives shrinkage is largely styrene monomer in conventional systems. Removing it removes most of that shrinkage mechanism too.">Less volatile content (styrene) evaporating during cure means less shrinkage</button>
+    <button data-correct="false" data-feedback="Non-volatile content and shrinkage are mechanically linked — this isn't an unrelated coincidence, it's the same underlying chemistry.">It's an unrelated marketing coincidence</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Sources for this lesson: ASTM D2369's test method (via ANSI/GlobalSpec listings), resin shrinkage comparisons by chemistry family (Interplastic Corporation's CIPP resin page, NuFlow's resin shrinkage calculation article), and the wet-out process description from Masterliner's step-by-step CIPP wet-out breakdown. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>That closes the loop on the two properties you asked about. Want to fold this back into one of the Sino Polymer pitches from Lesson 11 — 701-01T's non-volatile content certification is exactly the kind of detail that could sharpen that pitch further?</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 19: Tensile &amp; Flexural Properties — The Real Design Math</span>
+  <span>Cheat sheet: <a href="../reference/trenchless-methods-cheatsheet.html">Quick Reference</a></span>
+</nav>
+
+</body>
+</html>
