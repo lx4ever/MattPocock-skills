@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 21 — From Inspection to Installation: Method Selection & Deliverables</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 21: From Inspection to Installation</h1>
+<p class="kicker">CSA PLUS 4012 informs the method decision — it doesn't make it. And every stage of the process leaves a real, specific deliverable behind.</p>
+
+<p class="lede">Worth correcting gently before anything else: CSA PLUS 4012 doesn't decide which rehab method to use. It grades <em>how bad the problem is</em>. A separate step — drawing on NASSCO's Pipeline Rehabilitation Matrix and real engineering judgment — decides <em>what to do about it</em>. Conflating the two is an easy mistake, and worth being precise about.</p>
+
+<h2>What CSA PLUS 4012 actually produces</h2>
+<p>Every defect observed in a CCTV inspection gets a Condition Grade from 1 (minor) to 5 (most significant) — Grade 5 meaning the pipe has already failed or failure is imminent. Critically, the overall Condition <em>Rating</em> for a segment isn't just the worst grade found — it's a product of the grades observed <em>and</em> how many times each grade occurs. A pipe with one Grade 5 crack rates differently than a pipe riddled with a dozen Grade 3 defects, even though a single number might suggest otherwise.</p>
+
+<h2>The rough mapping — and why it's rough</h2>
+<table>
+<tr><th>Grade range</th><th>Typical routing</th></tr>
+<tr><td>1–2 (minor)</td><td>Monitoring, routine cleaning schedule — no rehab yet</td></tr>
+<tr><td>3</td><td>Planned trenchless rehabilitation — typically CIPP or a point repair</td></tr>
+<tr><td>4–5</td><td>Expedited action — trenchless rehab, pipe bursting, or open-cut replacement</td></tr>
+</table>
+<div class="callout">
+<strong>The grade is not the whole decision.</strong> A Grade 5 defect might warrant spot repair, full lining, bursting, replacement, or a dedicated engineering review — the actual call depends on defect type, frequency, location, the pipe's material, physical access, the consequence of failure at that specific location, CCTV footage quality, whether the pipe was properly cleaned before inspection, and whether repair is even physically feasible. Two Grade 5 segments can get two completely different treatments, correctly.
+</div>
+
+<h2>Where the method choice actually comes from</h2>
+<p>This is where NASSCO's Pipeline Rehabilitation Matrix — the same document cited as the primary source back in Lesson 1 — does its real work. It's the technology catalog: what methods exist, and what they're generally suited for. CSA PLUS 4012 supplies the severity data; the Matrix (plus engineering judgment) supplies the menu. The actual pairing draws on everything already covered in this workspace:</p>
+<ul>
+<li>Tight bends or complex geometry push toward SIPP (no insertion-shape constraint, Lesson 3) or pull-in-place CIPP over inversion (Lesson 2)</li>
+<li>A run with two clean access points and no resin/chemical concerns fits fold-and-form (Lesson 4)</li>
+<li>A need for a smaller, fully independent new pipe — rather than a liner bonded to or conforming against the old one — points toward sliplining (OPSS.PROV 466/467, Lesson 18)</li>
+<li>Large-diameter structural loss in storm/sanitary infrastructure points toward geopolymer SIPP specifically (Lesson 7)</li>
+</ul>
+
+<h2>The four-stage process, and what each stage actually delivers</h2>
+<ol class="steps">
+<li><strong>Condition assessment.</strong> CCTV inspection (per OPSS 409, referenced across every method spec in Lesson 18), scored using CSA PLUS 4012/PACP defect coding. <strong>Deliverable:</strong> a condition assessment report — the defect log with PACP grades and ratings per pipe segment, often GIS-linked for asset management.</li>
+<li><strong>Design.</strong> Method selection against the Rehabilitation Matrix, structural design (the F1216 buckling math from Lesson 19 determining wall thickness), and hydraulic/cost analysis of which segments actually get rehabbed this cycle. <strong>Deliverable:</strong> a design submission package — method and material spec, design thickness calculation, and a repair plan for any pre-lining work (e.g. invert reconstruction, per OPSS.PROV 468's submission requirements from Lesson 18).</li>
+<li><strong>Construction.</strong> The method-specific install sequence itself (Lessons 2–4, 18), with QA sampling built into the process — wet-out reports confirming full resin saturation (Lesson 6), and material test samples like the ASTM C39 compressive-strength cylinders required for geopolymer SIPP (Lesson 18) or the flat-plate ASTM F1216 samples cured alongside a CIPP liner (Lesson 9). <strong>Deliverable:</strong> wet-out/cure logs, QA test reports, and material certifications tied to that specific job.</li>
+<li><strong>QA &amp; close-out.</strong> Final CCTV inspection (again per OPSS 409 — the same reference point closing out every method), lateral reinstatement verification, and as-built documentation. <strong>Deliverable:</strong> the final acceptance package — post-install CCTV report, QA test certificates, as-built records, and warranty documentation.</li>
+</ol>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Assessment vs. decision vs. deliverable</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. Two pipe segments both receive a PACP Condition Grade of 5. Should they automatically get the same rehab treatment?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="The grade alone doesn't determine treatment — defect type, access, pipe material, and consequence of failure all factor in too.">Yes, matching grades mean matching treatment</button>
+    <button data-correct="true" data-feedback="Right — the grade only measures severity. Type, access, material, and consequence can point two Grade 5 segments toward completely different, equally correct treatments.">No, other factors can lead to different treatments</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. Which document actually catalogs which rehab technologies exist and what they're generally suited for?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="CSA PLUS 4012 grades defect severity — it doesn't catalog or recommend rehab technologies.">CSA PLUS 4012</button>
+    <button data-correct="true" data-feedback="Right — the Matrix is the technology catalog; CSA PLUS 4012 supplies the severity data that feeds into using it.">NASSCO's Pipeline Rehabilitation Matrix</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. A contractor hands over wet-out reports and ASTM C39 cylinder test results. Which stage of the process are these deliverables from?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="Condition assessment produces a defect log and PACP ratings, not wet-out or cylinder test data — those come later, during actual construction.">Condition assessment</button>
+    <button data-correct="true" data-feedback="Right — QA sampling like wet-out reports and cylinder tests happens during the construction stage, as the liner is actually being installed.">Construction</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Sources for this lesson: NASSCO's PACP Condition Grading System resource pages, GPRS's explainer on NASSCO certifications/assessments/defect reporting, Underground Construction's "PACP Condition Grades and Their Proper Application," and NASSCO's Pipeline Rehabilitation Matrix (already cited in Lesson 1). Process-stage detail cross-referenced against the method-specific deliverables already established in Lessons 2, 6, 9, 18, and 19. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>This closes the loop from "how do I explain a method" all the way to "how does a real project actually move from a camera inspection to a signed-off, warrantied pipe." Anywhere you want to go deeper — the design submission package specifically, or how QA test failures actually get handled?</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 20: Non-Volatile Content, In Detail</span>
+  <span>Cheat sheet: <a href="../reference/trenchless-methods-cheatsheet.html">Quick Reference</a></span>
+</nav>
+
+</body>
+</html>

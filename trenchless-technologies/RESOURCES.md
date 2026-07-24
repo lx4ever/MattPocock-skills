@@ -97,6 +97,10 @@
   Use for: the epoxy/vinyl-ester/polyester shrinkage ranking and its link to volatile (styrene) content, used in Lesson 20.
 - [Masterliner: A Step-by-Step Breakdown of the Wet Out Process for CIPP](https://www.masterliner.com/blog/step-by-step-breakdown-wet-out-process-cured-in-place-pipe-lining-cipp/)
   Use for: confirming non-volatile content's role in predictable wet-out behavior, referenced in Lesson 20.
+- [NASSCO: PACP Condition Grading System](https://www.nassco.org/2023/07/12/pacp-condition-grading-system/); [NASSCO: PACP Condition Grades and Their Proper Application](https://www.nassco.org/resource/pacp-condition-grades-and-their-proper-application/)
+  Use for: Lesson 21's correction that CSA PLUS 4012/PACP grades severity but doesn't itself select a rehab method — the "grade is not the whole decision" point, and the rough grade-to-routing mapping (1-2 monitor, 3 planned trenchless rehab, 4-5 expedited replacement).
+- [GPRS: Explaining NASSCO Certifications, Assessments and Defect Reporting](https://www.gp-radar.com/article/explaining-nassco-certifications-assessments-defect-reporting); [Underground Construction: Tech Tips — PACP Condition Grades and Their Proper Application](https://undergroundinfrastructure.com/magazine/2016/june-2016-vol-71-no-6/rehabilitation/tech-tips-pacp-condition-grades-and-their-proper-application)
+  Use for: corroborating the Condition Rating = grade × frequency-of-occurrence point, and the list of non-grade factors (defect type, access, pipe material, consequence, etc.) that also drive method selection in Lesson 21.
 
 ### Use with caution (vendor content)
 - Sino Polymer / MFE: "Resin Selection Guide for CIPP" (user-uploaded PDF, 2025-07-16, not a public URL)
