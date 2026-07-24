@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 24 — OPSS.MUNI 444: Forcemain Rehabilitation</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 24: OPSS.MUNI 444 — Forcemain Rehabilitation</h1>
+<p class="kicker">"Construction Specification for Sewage Forcemain Rehabilitation by CIPP Liner" — 443, plus everything pressure adds.</p>
+
+<p class="lede">444 shares its structure and most of its text directly with 443 (Lesson 22) — the definitions even say "as defined in OPSS 443." The interesting part is entirely in the delta: a forcemain is sewage under <em>pressure</em>, not gravity flow, and every difference between these two documents traces back to that one fact.</p>
+
+<div class="callout">
+<strong>Scope:</strong> sewage forcemains specifically — pressure pipe, not the gravity sanitary/storm sewers 443 covers. Same CIPP method, genuinely different engineering problem.
+</div>
+
+<h2>What pressure adds to the design (444.04.01)</h2>
+<p>Every design parameter from 443 carries over unchanged — 50-year life, safety factor 2, groundwater at surface, 6.9 MPa soil modulus, the same live-load trucks, 2% default ovality, 3 m minimum depth. Pressure adds two more:</p>
+<ul>
+<li><strong>Design operating pressure</strong>, as specified in the Contract Documents.</li>
+<li><strong>Vacuum of minus 101 kPa</strong> — full vacuum, treated as an external pressure in the design per F1216, alongside groundwater, soil, and live load.</li>
+</ul>
+<p>Engineering design now has to follow "current ASTM <em>and AWWA</em> design standards for pressure pipe rehabilitation" — AWWA enters the picture specifically because this is pressure pipe, matching the AWWA reference already seen for SIPP potable-water work in Lesson 7.</p>
+
+<h2>A third materials minimum: tensile strength</h2>
+<p>443 required two minimums: flexural modulus (1,724 MPa) and flexural strength (31 MPa). 444 adds a third:</p>
+<div class="callout">
+<strong>Minimum tensile strength: 21 MPa</strong>, tested per ASTM D638 or ASTM D2290 (Apparent Hoop Tensile Strength of Plastic or Reinforced Plastic Pipe). This makes sense once you see the loading difference: 443's gravity pipe is a bending problem (flexural properties dominate); 444's pressurized forcemain also has to resist hoop stress trying to burst it outward — a tensile problem flexural numbers don't capture.
+</div>
+
+<h2>New submission requirements</h2>
+<ul>
+<li>A <strong>temporary forcemain bypass plan</strong> — not needed for 443's gravity sewers, but a pressurized forcemain generally can't just run at reduced capacity during work the way a gravity line sometimes can.</li>
+<li>For water- or steam-cured systems: a <strong>detailed discharge plan</strong> for releasing the curing medium to a receiver, including sampling, testing, and treatment where specified.</li>
+</ul>
+
+<h2>Stricter surface preparation</h2>
+<p>444.07.09 requires <strong>complete removal of any previous coating or lining</strong> unless it's tightly bonded <em>and</em> the manufacturer and Engineer both agree it can be safely lined over without compromising performance — a more conservative default than 443's general cleaning language.</p>
+
+<h2>A construction step 443 doesn't have: pressure testing</h2>
+<div class="callout">
+<strong>444.07.17, Hydrostatic Pressure and Leakage Testing:</strong> the lined forcemain has to be pressure tested for leakage at <strong>120% of maximum operating pressure</strong>, with test duration and allowed makeup water per ASTM F1216 Section 8.3. Results are reported immediately to the Contract Administrator. There's no equivalent step in 443 at all — a gravity sewer doesn't get pressure-tested, because it was never designed to hold pressure in the first place.
+</div>
+<p>Termination is stricter too: 444.07.16 requires the CIPP to be <strong>fully bonded and fully conforming</strong> to the host pipe, forming a leak-tight seal — not just "neat and free of obstructions" as in 443. A pressurized line can't tolerate the loose termination tolerance a gravity line can.</p>
+
+<h2>QA: 100% sampling, not 30%</h2>
+<div class="callout">
+<strong>444.08.03.01:</strong> samples are taken and tested from <em>every</em> CIPP installation — not the 30% sampling rate specified in 443. The consequence of an undetected defect in a pressurized sewage line — a burst, an uncontrolled discharge — is different in kind from a gravity sewer's failure mode, and the QA regime scales with it.
+</div>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>What pressure changes</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. Why does 444 add a minimum tensile strength requirement that 443 doesn't have?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — a pressurized forcemain has to resist hoop stress (a tensile loading mode), which flexural (bending) properties don't capture.">A pressurized pipe must resist hoop stress, not just bending</button>
+    <button data-correct="false" data-feedback="Both use the same core resin families (F1216/F1743/F2019) — the extra requirement is about loading mode, not chemistry.">Forcemains use a fundamentally different resin chemistry</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. A contractor argues 443's sampling frequency (30%) should apply to their forcemain job too, to save cost. Are they right?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="444 explicitly requires sampling from every installation — the 30% figure is 443's gravity-sewer rate, not applicable here.">Yes, 30% is the general CIPP standard</button>
+    <button data-correct="true" data-feedback="Right — 444.08.03.01 requires 100% sampling for forcemains, a direct consequence of the higher-consequence failure mode under pressure.">No — 444 requires sampling every installation, not 30%</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. Why does 444 require a hydrostatic pressure and leakage test that 443 never mentions?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — a gravity sewer was never designed to hold pressure, so there's nothing equivalent to test. A forcemain has to prove it holds 120% of its operating pressure.">Forcemains operate under pressure; gravity sewers never do</button>
+    <button data-correct="false" data-feedback="Both documents require the same ASTM F1216/F1743/F2019 curing standards — pressure testing is about the pipe's service condition, not the cure chemistry.">444 uses a different, untested resin chemistry</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Source: OPSS.MUNI 444, "Construction Specification for Sewage Forcemain Rehabilitation by Cured-In-Place Pipe (CIPP) Liner," November 2023 (user-uploaded PDF, primary source). Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Next: OPSS.MUNI 445 — the same pressure-pipe foundation, plus everything drinking water adds on top.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 23: OPSS.MUNI 443 Construction &amp; QA</span>
+  <span>Next: OPSS.MUNI 445 — watermain rehabilitation</span>
+</nav>
+
+</body>
+</html>
