@@ -1,0 +1,5 @@
+# AI-generated search summaries are unreliable for exact regulatory document numbers
+
+Lessons 13 and 18 cited "OPSS.MUNI 460" as Ontario's CIPP spec, built from a recurring but never-primary-sourced search claim. When the user supplied the actual document (Lessons 22–23), it turned out to be **OPSS.MUNI 443**. The error propagated across two lessons before being caught, because the network block on tcp.mto.gov.on.ca prevented direct primary-source verification and the fallback was repeated secondary paraphrasing rather than a hard stop.
+
+**Implication for future sessions in this workspace:** when a primary source is blocked and only AI-summarized search results are available, flag the specific document number as unconfirmed *every time it's cited*, not just once in a footnote — and treat a user-supplied primary document as grounds to actively re-check (not just append to) anything built on the earlier unconfirmed claim. This already changed behavior once (Lesson 18's citation was corrected in place rather than left standing), which is the pattern to keep.

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 22 — OPSS.MUNI 443: Design & Materials Requirements</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 22: OPSS.MUNI 443 — Design &amp; Materials</h1>
+<p class="kicker">The real document, finally — and it's OPSS.MUNI 443, not the 460 this workspace had been citing.</p>
+
+<p class="lede">"Construction Specification for Rehabilitation of Non-Pressure Pipe by Cured-In-Place Pipe (CIPP) Liner," OPSS.MUNI 443, November 2023. Every figure below comes directly from the primary document — the first time this workspace has had it in hand rather than working from search summaries.</p>
+
+<div class="callout">
+<strong>Scope (443.01):</strong> covers sanitary and storm sewers, and explicitly all three CIPP application types together — full-length lining, spot repairs, and lateral lining. Not just mainline work.
+</div>
+
+<h2>References worth noting</h2>
+<p>Mostly the ASTM standards already established (F1216, F1743, D5813, D790), plus two worth flagging specifically:</p>
+<ul>
+<li><strong>ASTM F2019</strong> — confirmed here as specifically the UV-cured <em>glass-reinforced plastic</em> CIPP standard, distinct from F1216/F1743.</li>
+<li><strong>ASTM D2990</strong> — Standard Test Methods for Tensile, Compressive, and Flexural <em>Creep and Creep-Rupture</em> of Plastics. This is the long-term testing standard behind the creep-retention-factor concept from Lesson 19 — and OPSS.MUNI 443 requires <em>third-party</em> D2990 testing as part of the manufacturer's submitted technical data (443.04.02), not just a datasheet claim.</li>
+<li><strong>CSA S6:19</strong> (Canadian Highway Bridge Design Code) — supplies the live-load design truck used in the structural design parameters below.</li>
+</ul>
+
+<h2>A new resin family: silica</h2>
+<p>443.03's definition of "resin" lists <strong>polyester, vinyl ester, epoxy, and silica</strong> as the thermoset families covered. Silica (silicate) resin hasn't come up anywhere else in this workspace — worth treating as a fourth family to research if it becomes relevant to a real job.</p>
+
+<h2>Design requirements (443.04.01) — real numbers</h2>
+<p>For circular host pipe, design follows ASTM F1216 — and OPSS.MUNI 443 makes an explicit choice Lesson 19 only described as an option:</p>
+<div class="callout">
+<strong>Fully deteriorated condition is mandatory</strong> — not a design choice, a requirement. Ontario doesn't let a designer assume the host pipe shares any of the structural load.
+</div>
+<table>
+<tr><th>Design parameter</th><th>Required value</th></tr>
+<tr><td>Design life</td><td>50 years</td></tr>
+<tr><td>Safety factor</td><td>2</td></tr>
+<tr><td>Groundwater table</td><td>Assumed at ground surface (worst case)</td></tr>
+<tr><td>Soil modulus</td><td>6.9 MPa</td></tr>
+<tr><td>Soil density</td><td>2124 kg/m³</td></tr>
+<tr><td>Live load</td><td>CSA S6 CL-625-ONT Truck, or AASHTO HL-93 Truck</td></tr>
+<tr><td>Host pipe ovality</td><td>2%, unless site data shows worse</td></tr>
+<tr><td>Minimum depth</td><td>3 m to top of pipe</td></tr>
+</table>
+<div class="callout">
+<strong>Worth cross-checking against Lesson 9:</strong> the default ovality assumption here is 2% — but the IKT field research cited in Lesson 9 found real removed CIPP samples deforming up to 23% against a 3% design figure used elsewhere in the industry. OPSS.MUNI 443's 2% default is explicitly a fallback ("unless otherwise known to be greater") — meaning actual field-verified ovality data should override it, and given Lesson 9's findings, it often should be checked rather than assumed.
+</div>
+<p>Non-circular host pipe (egg, oval, other non-round shapes) can't use the standard F1216 X1 method at all — a different design method has to be specified in the Contract Documents or approved by the Contract Administrator.</p>
+
+<h2>Submission requirements (443.04.02)</h2>
+<ol class="steps">
+<li><strong>Design package, 14 days before installation.</strong> Must show technical assumptions, the design method and formulas used, short-term test values and long-term design properties, and the resulting liner wall thickness. Installation conditions (pipeline dimensions, depth, water table, host pipe ovality) must be documented in full. <strong>The design work must bear the seal and signature of a licensed Engineer</strong> — not optional.</li>
+<li><strong>Resident notification letter, also 14 days out.</strong> Must include the contract number, an emergency contact, the nature and expected duration of service interruption, start date, working hours, and the procedure residents should follow during install and cure.</li>
+<li><strong>Work plan package, 7 days before starting work.</strong> A wetout plan, a CIPP cure plan, a liner sampling plan, a QA/QC plan, a lateral reinstatement plan, and the resident procedure — plus a personnel list (with backup personnel and their qualifications) and a traffic control plan.</li>
+<li><strong>Manufacturer's technical data</strong> — the applicable ASTM standard, material composition and physical properties, transport/handling/storage recommendations, installation procedures, curing parameters (temperature, duration, cool-down), UV lamp specifics where relevant, and <strong>third-party ASTM D2990 creep testing</strong> — plus repair procedures for product damaged during installation.</li>
+<li><strong>Contingency plans</strong> for five specific failure scenarios: damage to existing service connections, improper CIPP placement, damage to the host pipe, the CIPP failing to achieve structural integrity, and product damaged during installation.</li>
+</ol>
+
+<h2>Materials (443.05) — the numbers behind "meets F1216"</h2>
+<table>
+<tr><th>Requirement</th><th>Value</th></tr>
+<tr><td>Minimum flexural modulus</td><td>1,724 MPa (tested per ASTM D790 or ISO 11296-4)</td></tr>
+<tr><td>Minimum flexural strength</td><td>31 MPa (same test methods)</td></tr>
+</table>
+<div class="callout">
+<strong>These match the US figures exactly.</strong> 1,724 MPa ≈ 250,000 psi, and 31 MPa ≈ 4,500 psi — the same ASTM F1216 minimums cited from US sources back in Lesson 9. Ontario didn't set its own bar; it adopted the same one, just expressed in metric.
+</div>
+<p>Where the actual design calls for values higher than these minimums — which is common — installed liner samples have to meet or exceed the <em>design</em> values, not just the code floor (more on this in Lesson 23's QA section). Preliners need Engineer approval and must have no detrimental effect on liner performance. The tube itself has to be marked with the manufacturer's name or ID symbol at intervals no more than 1.5 m apart — a direct traceability requirement.</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Design and materials</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A designer wants to assume the host pipe shares some structural load with the new liner, to justify a thinner design. Does OPSS.MUNI 443 allow this?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="443.04.01 mandates the fully deteriorated design condition — the host pipe is assumed to contribute nothing structurally, by requirement, not designer discretion.">Yes, if justified with site data</button>
+    <button data-correct="true" data-feedback="Right — fully deteriorated design is mandatory under this spec, not an option to weigh against partially deteriorated.">No — fully deteriorated design is mandatory</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. A contractor's design submission for an Ontario municipal CIPP job isn't sealed by a professional engineer. What's the status of that submission?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — 443.04.02 explicitly requires the design work to bear the seal and signature of an Engineer. This isn't optional.">Non-compliant — the seal is explicitly required</button>
+    <button data-correct="false" data-feedback="The spec requires it explicitly, regardless of designer experience — there's no informal-submission allowance.">Fine, as long as the designer is experienced</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. A CIPP liner's design called for a flexural modulus well above the 1,724 MPa code minimum. What's the actual bar the installed liner sample has to clear?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — where design values exceed the code minimum, the installed liner has to meet the design value, not just the ASTM F1216 floor.">The higher design value, not just the 1,724 MPa minimum</button>
+    <button data-correct="false" data-feedback="The code minimum is a floor, not the target — if design called for higher, that's the real bar.">The 1,724 MPa code minimum only</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Source: OPSS.MUNI 443, "Construction Specification for Rehabilitation of Non-Pressure Pipe by Cured-In-Place Pipe (CIPP) Liner," November 2023 (user-uploaded PDF, primary source) — sections 443.01–443.05. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Next: what actually happens on site — the two mandatory CCTV inspections, a banned tool, and the QA regime, including a resin-verification method that hasn't come up anywhere else in this workspace.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 21: From Inspection to Installation</span>
+  <span>Next: OPSS.MUNI 443 construction &amp; QA in detail</span>
+</nav>
+
+</body>
+</html>
