@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 28 — Performing a Quote: Cost-Relevant Clauses & Worked Reconciliation</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 28: Performing a Quote</h1>
+<p class="kicker">Every clause in this package that actually moves a bid price — plus a real reconciliation calculation, worked step by step with Peel Region's own numbers.</p>
+
+<p class="lede">A technical spec and a quote are different documents, but a good quote is built by reading the technical spec for exactly this: what's baked into the unit price by default, what gets billed separately, and what fixed rules govern anything that deviates from the base design.</p>
+
+<h2>Pay-item mechanics that shape how a bid should be structured</h2>
+<ol class="steps">
+<li><strong>Thickness increments are fixed, not exact.</strong> If a Field-Verified Design ends up needing a thicker liner than the Base-Bid Design assumed, extra thickness is only paid in three fixed increments: 1.5 mm, 3.0 mm, or 4.5 mm. A bid can't recover cost for "the exact extra 0.8mm actually needed" — it gets rounded into these bands. This means getting the Base-Bid Design thickness as close to right as possible up front matters more than in a pass-through-cost model.</li>
+<li><strong>One day of cleaning is already "free."</strong> Where pre-tender CCTV wasn't available or complete, the Contractor is required to include the cost of one full 10-hour working day of reaming, cutting, and flushing in the base bid — only time beyond that day is separately billable. This is a real contingency cost every bid on a section without complete pre-tender CCTV needs to have already absorbed.</li>
+<li><strong>Sampling and testing are their own line item.</strong> Not bundled into the lining unit price — priced and paid separately, per the Schedule of Quantities and Prices. Combined with the 100% sampling rate (below), this is a real, non-trivial cost line to price accurately, not an afterthought.</li>
+<li><strong>Sampling rate is 100%, not 30%.</strong> Both the hot water/steam and UV specs require samples and testing for every liner run installation — stricter than OPSS.MUNI 443's generic 30% gravity-sewer rate (Lesson 23). The named testing agency is Paragon Systems, Concord, Ontario, "or equivalent" — a real, budgetable line item, not a rough allowance.</li>
+<li><strong>CIPPSR has a hard thickness floor, independent of design.</strong> Every spot repair liner must reach at least 4.5 mm (felt) or 4.0 mm (UV-cured) — even if the structural design calculation would allow less. No design reconciliation can reduce this floor. This sets a real, non-negotiable minimum material cost per spot repair, regardless of how favorable the resin's properties are.</li>
+</ol>
+
+<h2>Time and equipment constraints that drive labor cost</h2>
+<ul>
+<li><strong>CIPPSR's 4-hour rule:</strong> the sewer line and connection can be disrupted no more than 4 hours total across the entire process — inspection, cleaning, prep, and installation combined. This is a real crew-productivity constraint: a spot repair crew has to be fast, which affects crew size and equipment planning more than a mainline job with a longer disruption window.</li>
+<li><strong>Odour control equipment is specified, not optional:</strong> a minimum of two manhole exhaust fans at 2,100 cfm each, plus (for hot water/steam CIPPSR) a calibrated styrene monitor capable of reading parts-per-billion on site at all times. Both are real, priceable equipment line items — not a vague "provide adequate ventilation" allowance.</li>
+<li><strong>Public notification is scope-specific, not one blanket requirement.</strong> The supplemental spec's Table 9.1 sets separate notice protocols (14-day pre-construction, 24-hour service disruption, 24-hour odour notice) across four different scopes — mainline cleaning, mainline lining, open-cut replacement, and manhole work — each triggering its own notification cycle. A job touching multiple scope types has to plan for multiple, overlapping notification cycles, not one.</li>
+</ul>
+
+<h2>Risk-management clauses that affect bid pricing</h2>
+<ul>
+<li><strong>Two-year warranty, with a formal exclusion path.</strong> If the Contractor believes existing pipe condition means a proper warranty can't be given, they must say so <em>before installation</em>, via a written Warranty Exclusion Letter the Contract Administrator has to approve — submitted after the liner is installed, it's automatically rejected. This is a real pre-bid risk decision: flag a questionable segment upfront, or accept full warranty exposure on it.</li>
+<li><strong>Excavated repairs are a quote-within-the-quote.</strong> When an excavated repair becomes necessary, the Contractor has to submit location, sewer size and depth, repair length, crew and equipment needs, subcontractors, time required, and an estimated cost — <em>before</em> getting approval to proceed. Worth having a template ready for this rather than building one from scratch mid-project.</li>
+</ul>
+
+<h2>Worked example: how design reconciliation actually changes a bid</h2>
+<p>These are Peel Region's own worked examples, reproduced in full because the mechanics genuinely matter for pricing risk.</p>
+
+<h3>Example 1 — restrained sample, no deficiency</h3>
+<table>
+<tr><th>Parameter</th><th>As designed</th><th>Reconciliation (using test results)</th></tr>
+<tr><td>Flexural modulus, short-term</td><td>2,413 MPa</td><td>2,995 MPa (tested)</td></tr>
+<tr><td>Flexural strength, short-term</td><td>31 MPa</td><td>38.9 MPa (tested)</td></tr>
+<tr><td>Required liner thickness</td><td>7.6 mm</td><td>7.1 mm</td></tr>
+<tr><td>Tested thickness</td><td colspan="2">7.2 mm</td></tr>
+<tr><td>Conclusion</td><td>Thickness appears deficient (7.2mm &lt; 7.6mm designed)</td><td><strong>Not deficient</strong> — the tested material properties were better than designed, lowering the actual required thickness to 7.1mm, which 7.2mm clears</td></tr>
+</table>
+<p>The liner tested stronger than the design assumed, so the required thickness recalculates downward — and the as-built 7.2mm now clears the bar. Good news for the contractor, but only because the actual test came back favorable.</p>
+
+<h3>Example 2 — plate sample, deficient</h3>
+<table>
+<tr><th>Parameter</th><th>As designed</th><th>Reconciliation (using derated test results)</th></tr>
+<tr><td>Flexural modulus, short-term</td><td>2,758 MPa</td><td>2,465 MPa tested → <strong>2,095 MPa after 15% plate de-rating</strong></td></tr>
+<tr><td>Flexural strength, short-term</td><td>31 MPa</td><td>36.6 MPa tested → <strong>29.2 MPa after 18% plate de-rating</strong></td></tr>
+<tr><td>Required liner thickness</td><td>9.6 mm</td><td>10.6 mm</td></tr>
+<tr><td>Tested (field) thickness</td><td colspan="2">10 mm</td></tr>
+<tr><td>Conclusion</td><td>Appears deficient</td><td><strong>Still deficient</strong> — even after reconciliation, the required thickness (10.6mm) exceeds the actual installed thickness (10mm)</td></tr>
+</table>
+<div class="callout">
+<strong>Two things worth noting for pricing risk.</strong> First, flat-plate samples get two <em>different</em> de-rating percentages here — 15% for modulus, 18% for strength — not one flat figure across both, a refinement worth knowing beyond the single "15%" figure from Lesson 23's OPSS.MUNI context. Second, this example shows reconciliation doesn't always save a borderline result — a plate sample that tests weaker than a restrained sample would (because it cures under different conditions) can turn an apparently-fine liner into a genuinely deficient one. Where possible, that's a real argument for pushing toward restrained cylindrical samples over plate samples when the choice is available.
+</div>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Pricing the real risk</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A Field-Verified Design ends up needing 2.2mm more liner thickness than the Base-Bid Design assumed. How does that get paid?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — extra thickness is only paid in 1.5/3.0/4.5mm increments. 2.2mm rounds up to the 3.0mm increment, not billed as an exact 2.2mm pass-through.">Rounded up to the nearest fixed increment (3.0 mm here)</button>
+    <button data-correct="false" data-feedback="Extra thickness is billed in the three fixed increments specified, not as an exact pass-through cost.">The exact 2.2mm difference, billed precisely</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. In the plate-sample worked example, why did a resin that tested stronger than the design's short-term values still end up deficient?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — the 15%/18% de-rating applied to plate samples reduced the effective test values enough that the resulting required thickness (10.6mm) still exceeded the actual installed thickness (10mm).">The plate-sample de-rating reduced the effective test values enough to still fall short</button>
+    <button data-correct="false" data-feedback="It's not because of resample requirements — it's the arithmetic outcome of applying the de-rating factors to already-tested values.">The sample had to be retested and failed a second time</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. Why does the 100% sampling requirement (versus OPSS.MUNI 443's 30%) matter specifically for pricing a Peel Region bid?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — sampling and testing are billed as a separate line item, and at 100% of installations rather than 30%, that line item is a meaningfully larger real cost to price accurately.">It's a real, separately-billed cost that scales with every installation, not a subset</button>
+    <button data-correct="false" data-feedback="Sampling frequency is a cost and QA matter, not a design-method selector — it doesn't change which ASTM/ASCE method applies.">It changes which design method (F1216 vs. MOP 145) applies</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Sources: Appendix 5.9 Sections 40.0–40.6 (sampling, testing, and the worked reconciliation examples), Appendix 5.11 Sections 22–29 (CIPPSR-specific requirements), and Appendix 5.16 (thickness increment pay items, notification protocol, cleaning allowance) — all user-uploaded PDFs, primary sources. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>That's the full package — type, resin, and quote. Want the Sino Polymer certification checklist updated to reflect Peel Region's real (higher) minimums, since it was originally built against the generic OPSS.MUNI floor?</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 27: Picking the Resin</span>
+  <span>Cheat sheet: <a href="../reference/opss-muni-cipp-family.html">OPSS.MUNI Family Comparison</a></span>
+</nav>
+
+</body>
+</html>

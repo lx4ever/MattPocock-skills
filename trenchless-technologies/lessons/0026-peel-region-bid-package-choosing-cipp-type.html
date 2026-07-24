@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 26 — Dissecting a Real Bid Package: Choosing the CIPP Type</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 26: Dissecting a Real Bid Package</h1>
+<p class="kicker">Regional Municipality of Peel's CIPP specs — four documents, and the first job is figuring out which one actually governs a given piece of pipe.</p>
+
+<p class="lede">This is a real, complete bid document package: three parallel technical specifications for three different CIPP applications, plus a supplemental document that quietly rewrites parts of the other two. Reading a package like this starts with mapping the documents to the job, not reading page one to the end.</p>
+
+<h2>The four documents</h2>
+<table>
+<tr><th>Document</th><th>Covers</th><th>Status</th></tr>
+<tr><td>Appendix 5.9</td><td>Mainline CIPP, hot water or steam cure</td><td>Final, November 2021</td></tr>
+<tr><td>Appendix 5.10</td><td>Mainline CIPP, UV light cure</td><td>Draft, April 2021</td></tr>
+<tr><td>Appendix 5.11</td><td>CIPPSR — spot repair, not full-length lining</td><td>Draft, May 2021</td></tr>
+<tr><td>Appendix 5.16</td><td>Supplemental amendments — overrides specific clauses in <em>both</em> 5.9 and 5.10</td><td>Applies on top of the above</td></tr>
+</table>
+<div class="callout">
+<strong>Read order matters.</strong> 5.16 isn't optional background reading — it explicitly rewrites named clauses in 5.9 and 5.10 (adds grouting to scope, replaces the public notification clause with a detailed protocol table, adds a storm-sewer resin restriction, and more). A bid built from 5.9 and 5.10 alone, without checking 5.16, would miss real requirements.
+</div>
+
+<h2>Choosing between the three CIPP types</h2>
+<ul>
+<li><strong>Full-length mainline, hot water/steam cure (5.9):</strong> the default choice for a full section rehab where cure-time economics (Lesson 9) aren't the deciding factor.</li>
+<li><strong>Full-length mainline, UV cure (5.10):</strong> the fast-turnaround option from Lesson 9 — same underlying method, chosen when downtime matters more, and it always pairs with a fiberglass-reinforced liner (Lesson 6).</li>
+<li><strong>CIPPSR — spot repair (5.11):</strong> a completely different scope. Not a full pipe segment — a localized liner sized to a specific defect. Its own design rules, its own minimum thickness floor, and a much tighter service-disruption window (more in Lesson 28).</li>
+</ul>
+
+<h2>A direct payoff of Lesson 12's "watch the edition" point</h2>
+<div class="callout">
+<strong>All three specs lock design to one specific edition: ASTM F1216-07a, Appendix X1.</strong> Each document says outright: "Design by later versions of ASTM F1216 is not acceptable." Not the current edition (F1216-22, per Lesson 12) — a specific 2007 edition. This isn't an oversight; it's because Peel Region's own design parameters (enhancement factor, load assumptions) were validated against that edition's specific buckling formula. A design submitted using a newer edition's method would be non-compliant here, even though it's the more current standard.
+</div>
+
+<h2>When the design method changes entirely: non-circular pipe</h2>
+<p>The supplemental spec (5.16) adds a completely different design pathway for non-circular host pipe (egg-shaped, oval, deformed), using <strong>ASCE MOP 145</strong> instead of ASTM F1216 X1 — and which sub-method applies depends directly on ovality:</p>
+<table>
+<tr><th>Measured ovality</th><th>Design approach</th></tr>
+<tr><td>Less than 10%</td><td>MOP 145 "State II" design</td></tr>
+<tr><td>10% to 20%</td><td>MOP 145 "State III" design</td></tr>
+<tr><td>Greater than 20%</td><td>Not suitable for MOP at all — full finite element analysis (FEA) required</td></tr>
+</table>
+<div class="callout">
+<strong>This is where Lesson 9's field data becomes directly actionable.</strong> The IKT research cited there found real removed CIPP samples deforming up to 23% ovality — above this spec's 20% threshold for standard design methods entirely. A pipe genuinely that deformed doesn't just need a more conservative design input; it needs a fundamentally different, more expensive engineering exercise (custom FEA) to design for at all. "Check the actual ovality" isn't a minor caution — it can change which design process even applies.
+</div>
+
+<h2>Real numbers that diverge from the generic Ontario baseline</h2>
+<p>Compare Peel Region's actual design defaults against OPSS.MUNI 443's generic figures (Lesson 22) — worth doing every time, not assuming they match:</p>
+<table>
+<tr><th>Parameter</th><th>OPSS.MUNI 443 default</th><th>Peel Region default</th></tr>
+<tr><td>Water table</td><td>Assumed at ground surface</td><td>1.0 m below ground surface (or RFP value, whichever greater)</td></tr>
+<tr><td>Soil density</td><td>2,124 kg/m³</td><td>1,920 kg/m³ (18.83 kN/m³)</td></tr>
+<tr><td>Live load</td><td>CSA S6 CL-625-ONT or AASHTO HL-93</td><td>AASHTO HS-20 (plus Cooper E-80 where a railway crossing exists)</td></tr>
+</table>
+<p>None of these differences are dramatic on their own, but they're real — and they're exactly why "meets Ontario standards" (Lesson 13's original point) always needs the follow-up question: <em>whose</em> standard, in this specific document, right now.</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Choosing the right document and method</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A design submission uses the current ASTM F1216-22 edition for a Peel Region job. Compliant?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="All three specs explicitly require F1216-07a specifically and reject later editions — the newer edition, despite being current, is non-compliant here.">Yes, the current edition is always the right one to use</button>
+    <button data-correct="true" data-feedback="Right — F1216-07a Appendix X1 is locked as the required edition; later versions are explicitly rejected.">No — this spec requires the 2007a edition specifically</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. Field verification finds a host pipe at 22% ovality. What does that trigger?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — above 20% ovality, MOP 145's standard states don't apply at all; full FEA is required instead.">Standard MOP 145 design no longer applies — FEA is required</button>
+    <button data-correct="false" data-feedback="22% exceeds the 20% threshold for State III design — a different, more involved design process is triggered, not just a parameter change.">Design proceeds normally under MOP 145 State III</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. A bidder builds their proposal from Appendix 5.9 and 5.10 only, treating Appendix 5.16 as optional background. What's the risk?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — 5.16 rewrites named clauses in both other documents. Skipping it means missing real, binding requirements.">Real requirements get missed — 5.16 overrides specific clauses in both</button>
+    <button data-correct="false" data-feedback="5.16 isn't a courtesy summary — it makes binding amendments to the technical requirements in 5.9 and 5.10.">None — 5.16 just repeats what's already in 5.9 and 5.10</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Sources: Regional Municipality of Peel, Appendix 5.9 (Standard Specification for Sewer Rehabilitation using Hot Water or Steam Cured-in-Place Pipe, Final, November 2021), Appendix 5.10 (Standard Specification for Sewer Rehabilitation by Cured-in-Place Pipe using Ultraviolet Light Cure, Draft, April 2021), Appendix 5.11 (Standard Specification for CIPP Spot Repair, Draft, May 2021), and Appendix 5.16 (Supplemental CIPP Standard Specifications) — all user-uploaded PDFs, primary sources. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Next: what these documents actually require of the resin — and it's noticeably higher than the generic Ontario floor from Lesson 22.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 25: OPSS.MUNI 445 Watermain Rehabilitation</span>
+  <span>Next: picking the resin against Peel Region's real minimums</span>
+</nav>
+
+</body>
+</html>

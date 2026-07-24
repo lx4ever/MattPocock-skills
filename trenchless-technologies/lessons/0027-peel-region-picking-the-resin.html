@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 27 — Picking the Resin: Peel Region's Real Minimums</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 27: Picking the Resin</h1>
+<p class="kicker">The generic Ontario floor from Lesson 22 is a floor. Peel Region's actual bar is meaningfully higher — and it's different for reinforced versus non-reinforced liners.</p>
+
+<p class="lede">This is the single most important correction this workspace has made to date. The Sino Polymer certification checklist (an earlier reference) compared their resin data against OPSS.MUNI 443's generic 1,724 MPa / 31 MPa floor. Peel Region's actual bid specification sets its own, higher numbers — and explicitly says the generic figure doesn't apply here.</p>
+
+<h2>The headline finding</h2>
+<table>
+<tr><th>Property</th><th>Non-reinforced (felt)</th><th>Reinforced (fiberglass)</th><th>Test method</th></tr>
+<tr><td>Flexural modulus, initial</td><td>2,400 MPa</td><td>8,000 MPa</td><td>ASTM D790 or ISO 11296, with ASTM D2990/ISO equivalent long-term testing</td></tr>
+<tr><td>Flexural strength, initial</td><td>31 MPa</td><td>150 MPa</td><td>Same</td></tr>
+<tr><td>50-year retention (hot water/steam)</td><td colspan="2">At least 50%</td><td>—</td></tr>
+<tr><td>50-year retention (UV cure)</td><td colspan="2">At least 65%</td><td>—</td></tr>
+</table>
+<div class="callout">
+<strong>The document says this explicitly:</strong> "ASTM F1216 minimum of 1724 MPa is not applicable." Peel Region isn't citing the generic ASTM/OPSS floor and adding to it — they're replacing it outright with their own, higher non-reinforced minimum (2,400 MPa, about 39% above the generic figure), and a reinforced minimum (8,000 MPa) more than 4.6 times the generic floor.
+</div>
+
+<h2>What this actually means for a real resin</h2>
+<p>Recall from Lesson 19: flexural modulus is a <em>composite liner</em> property, not purely a resin property — fiberglass reinforcement can carry a composite's stiffness well beyond what the neat resin alone would suggest. Sino Polymer's VE resins, on their own datasheets, run roughly 2,900–4,100 MPa (Lesson 11). Checked against Peel Region's actual numbers:</p>
+<ul>
+<li><strong>Against the 2,400 MPa non-reinforced bar:</strong> comfortably clears, with real margin.</li>
+<li><strong>Against the 8,000 MPa reinforced bar:</strong> the neat resin numbers alone don't get close — and that's expected, not a problem. An 8,000 MPa composite is a fiberglass-tube-plus-resin system result, not a neat-resin number. This is exactly the "neat resin vs. composite liner" gap flagged in Lessons 17 and 22–23, now with concrete figures showing how large that gap actually is: a ~3,000–4,000 MPa resin and an 8,000 MPa required composite aren't in conflict — they're different measurements of different things.</li>
+</ul>
+<p>The real, actionable consequence: composite-liner test data (the actual cured fiberglass-tube-plus-Sino-Polymer-resin result) is what a Peel Region bid needs — not the resin datasheet, and not even the generic OPSS.MUNI comparison from the earlier checklist.</p>
+
+<h2>The enhancement factor: a direct payoff of Lesson 19</h2>
+<div class="callout">
+<strong>Peel Region's design tables specify an Enhancement Factor of 7.0.</strong> This is the same concept as the empirical K-factor from Lesson 19 — the correction term in the buckling design equation accounting for how much confinement the host pipe still provides. Lesson 19 cited a real research range of 3.6 to 21.4 (mean 12.4), with ASTM F1216 itself recommending a conservative minimum of 7 where full host-pipe support is confirmed. Peel Region's actual bid specification uses exactly that conservative floor. This isn't a coincidence — it's what "conservative, defensible engineering" looks like in a real procurement document.
+</div>
+
+<h2>A resistance-factor finding that favors fold-and-form</h2>
+<p>The non-circular design method (ASCE MOP 145, from Lesson 26) assigns different <strong>flexural strength resistance factors</strong> depending on how the liner is manufactured and cured:</p>
+<table>
+<tr><th>Liner type</th><th>Resistance factor (Φ)</th></tr>
+<tr><td>CIPP resin impregnated and cured on-site</td><td>0.8</td></tr>
+<tr><td>CIPP resin impregnated off-site, cured on-site</td><td>0.85</td></tr>
+<tr><td>Factory-manufactured thermoplastic (PVC/PE), installed fold-and-form</td><td>1.0 — no reduction</td></tr>
+</table>
+<div class="callout">
+<strong>Why this matters:</strong> a resistance factor below 1.0 is a built-in design penalty — the design has to assume the material won't fully deliver its rated strength, to account for field-condition variability. Fold-and-form (Lesson 4) gets no such penalty here, specifically because it's factory-manufactured with tighter process control than field-cured CIPP. This is a genuine, quantified engineering reason a design might favor fold-and-form over CIPP for a non-circular pipe — not a marketing claim, a resistance factor written into the actual design methodology.
+</div>
+
+<h2>A resin choice the spec makes for you: storm sewers</h2>
+<div class="callout">
+<strong>Appendix 5.16:</strong> "Under no circumstances shall any liner installation process water... be discharged into a storm sewer or any other direct connection to surficial drainage courses or facilities. Where this cannot be feasibly achieved, the Contractor shall include the cost of non-styrene, VOC-free resin for lining of storm sewers." If discharge control isn't achievable on a given storm sewer job, styrene-free resin isn't a value-add pitch (Lesson 10's environmental lever) — it's the only compliant choice. This is precisely the scenario MFE 701-01T or MERICAN 9515N-01 (Lesson 11) were built for.
+</div>
+
+<h2>A test-method nuance worth knowing</h2>
+<p>For reinforced/UV-cured liners specifically, the spec states: "ISO 11296 is the preferred test method for flexural properties of reinforced UV-CIPP as it better captures the effect of the reinforcing than the ASTM D790 method," and explicitly notes ASTM D790 <strong>tends to produce lower results</strong> than ISO 11296 for the same reinforced material — because ISO 11296 tests a curved coupon that reflects the liner's actual geometry, while D790 tests a flat coupon that doesn't capture the reinforcement's real contribution as well. For a reinforced liner near the passing threshold, which test method gets used can be the difference between passing and failing.</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Real minimums and their implications</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A resin's neat datasheet shows a flexural modulus of 3,500 MPa. Does that alone confirm it can meet Peel Region's reinforced-liner requirement of 8,000 MPa?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="8,000 MPa is a composite-liner (resin + fiberglass) requirement — a neat resin number alone can't confirm this, whether it looks close or far from the target.">Yes, since it's in the same order of magnitude</button>
+    <button data-correct="true" data-feedback="Right — the 8,000 MPa bar applies to the cured composite, not the neat resin. Only actual composite-liner test data can confirm compliance.">No — 8,000 MPa is a composite-liner figure, not a neat-resin one</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. Why does Peel Region's Enhancement Factor of 7.0 matter as more than just a number to plug into a formula?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — it's the same real-world variable Lesson 19 flagged as ranging widely in practice, and Peel Region locked in F1216's own recommended conservative floor rather than a more optimistic field-observed average.">It's the same K-factor concept from Lesson 19, set to the conservative minimum ASTM F1216 itself recommends</button>
+    <button data-correct="false" data-feedback="It's a design input specific to the buckling equation, not a resin cure-time parameter.">It controls how fast the resin cures</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. A storm sewer job can't guarantee curing water discharge control. What does this force?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — 5.16 makes non-styrene, VOC-free resin mandatory in exactly this situation, not just a nice-to-have.">Non-styrene, VOC-free resin becomes a required choice, not optional</button>
+    <button data-correct="false" data-feedback="Cure method (UV vs. hot water/steam) isn't what this clause addresses — it's specifically about resin chemistry and discharge.">The job must switch to UV cure regardless of other factors</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Sources: Appendix 5.9 Section 28.0 (minimum physical properties table), Appendix 5.10 Section 28.0, and Appendix 5.16 (ASCE MOP 145 design parameters and storm sewer resin clause) — all user-uploaded PDFs, primary sources. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Next: turning all of this into an actual quote — the pay-item mechanics, the sampling costs, and a worked reconciliation example using Peel Region's own real numbers.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 26: Dissecting the Peel Region Bid Package</span>
+  <span>Next: how to perform a quote</span>
+</nav>
+
+</body>
+</html>
