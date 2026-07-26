@@ -186,6 +186,21 @@
       "n": 37,
       "file": "0037-what-the-approved-product-list-doesnt-cover.html",
       "title": "What the Approved Product List Doesn't Cover"
+    },
+    {
+      "n": 38,
+      "file": "0038-astm-f1216-what-it-actually-covers.html",
+      "title": "ASTM F1216, What It Actually Covers"
+    },
+    {
+      "n": 39,
+      "file": "0039-the-fully-deteriorated-design-calculation.html",
+      "title": "The Fully-Deteriorated Design Calculation"
+    },
+    {
+      "n": 40,
+      "file": "0040-from-design-thickness-to-a-resin-order.html",
+      "title": "From Design Thickness to a Resin Order"
     }
   ],
   "reference": [

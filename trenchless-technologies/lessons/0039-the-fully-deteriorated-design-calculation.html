@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 39 — The Fully-Deteriorated Design Calculation</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 39: The Fully-Deteriorated Design Calculation</h1>
+<p class="kicker">Not the literal ASTM equation text — that needs a purchased copy of the standard to cite precisely. This is the actual sequence of inputs and decisions an engineering firm works through to get from "here's a pipe" to "here's a required thickness."</p>
+
+<div class="callout">
+<strong>What this lesson is, and isn't.</strong> The inputs, their typical values, and the order-of-operations below are well-corroborated across multiple independent secondary sources. The literal buckling formula (exact exponents, exact algebraic form) is not reproduced here, because it wasn't independently verifiable against a primary source this session — WebFetch access to every candidate source was blocked. Where Lessons 26–28 already established a real number from a primary Peel Region document, that's flagged explicitly and should be trusted over anything in this lesson that isn't.
+</div>
+
+<h2>The inputs an engineer actually has to gather, before any calculation starts</h2>
+<ol class="steps">
+<li><strong>Host pipe geometry.</strong> Diameter, and depth to the pipe's crown (top) from ground surface — depth drives the groundwater and soil load terms directly.</li>
+<li><strong>Groundwater height above the pipe.</strong> Not the same as burial depth — this is specifically how much standing groundwater the design has to assume sits above the pipe, since a fully deteriorated liner has to resist external hydrostatic pressure from that water column with zero help from the host pipe.</li>
+<li><strong>Soil parameters.</strong> A typical soil density figure cited across sources is around 120 pounds per cubic foot, with a soil modulus (a measure of how much lateral support the surrounding soil provides) around 1,000 psi as a common design value — though real values should come from an actual geotechnical assessment of the specific site, not a generic assumption.</li>
+<li><strong>Live load.</strong> Traffic loading over the pipe, typically expressed as HS-20 or H-20 highway loading — the standard design truck-load assumption used across North American pipe design generally, not something specific to CIPP.</li>
+<li><strong>Ovality.</strong> The host pipe's actual measured out-of-roundness, expressed as a percentage — this comes from the CCTV/inspection data (Lesson 32), not an assumption. A commonly cited example design value is around 2%, but this should reflect what was actually measured on the specific segment.</li>
+<li><strong>The liner's long-term material properties.</strong> Not the resin's initial (short-term) flexural modulus from a datasheet — the <em>time-corrected</em> value, found by applying a <strong>Creep Retention Factor</strong> to the initial modulus. A commonly cited example uses a 50% creep retention factor, meaning the design assumes the liner retains only half its initial stiffness over the design life. This is exactly the ASTM D2990 long-term creep testing flagged as an open item for Sino Polymer in the certification checklist (Lesson 22, reference doc) — without that test, there's no defensible number to put in this specific input.</li>
+<li><strong>Poisson's ratio.</strong> A material property describing how a material deforms under load; commonly assumed at 0.3 for CIPP resin systems generically, absent product-specific test data.</li>
+<li><strong>Enhancement factor K and safety factor N.</strong> Already covered in Lesson 19 and Lesson 38 — K in the empirical 3.6–21.4 range (7.0 as Peel's own conservative choice), N typically 2.0.</li>
+</ol>
+
+<h2>How these combine, conceptually</h2>
+<p>The governing external pressure the liner has to resist is built up from groundwater height, soil weight and lateral support, and live load — combined per the standard's own load-combination rules. That pressure gets compared against the liner's calculated buckling resistance, which is a function of its long-term modulus, its thickness, the enhancement factor, the ovality reduction factor, and the pipe's diameter. Because thickness appears inside that buckling-resistance calculation, the process is really: <strong>propose a thickness, calculate the resulting buckling resistance, check it against the required external pressure times the safety factor, and adjust the thickness until it clears with the desired margin</strong> — conceptually similar to how Lesson 28's worked reconciliation examples ran the same comparison in reverse, checking whether an <em>as-tested</em> thickness still satisfied the required design values after de-rating.</p>
+
+<div class="callout">
+<strong>The direction every single input variable pushes in:</strong> deeper groundwater, denser soil, heavier live load, more ovality, a lower creep retention factor, or a lower K value — every one of these <em>increases</em> the required thickness. There's no input in this list where a worse real-world condition produces a thinner design requirement. That's worth having as an intuition check on a proposed design: if a segment has known bad conditions (high groundwater, poor soil, significant measured ovality) and the resulting design thickness looks thin, something in the inputs is worth double-checking before trusting it.
+</div>
+
+<h2>Real, primary-sourced numbers to anchor this against</h2>
+<p>Rather than fabricate a worked numeric example without a verified formula, here's what Peel Region's own actual design values look like, from Lesson 28's real worked reconciliation (primary source, Appendix 5.9):</p>
+<table>
+<tr><th>Example</th><th>Design flexural modulus</th><th>Design flexural strength</th><th>Required thickness</th></tr>
+<tr><td>Restrained sample, Example 1</td><td>2,413 MPa</td><td>31 MPa</td><td>7.6 mm</td></tr>
+<tr><td>Plate sample, Example 2</td><td>2,758 MPa</td><td>31 MPa</td><td>9.6 mm</td></tr>
+</table>
+<p>These two examples used different design flexural modulus inputs (2,413 vs. 2,758 MPa) and produced different required thicknesses (7.6mm vs. 9.6mm) for what the source material describes as comparable segments — a concrete, real illustration that the design flexural modulus assumption (itself downstream of the creep retention factor and the specific resin/liner system being designed around) is a real lever on the final thickness number, not just a paperwork input.</p>
+
+<h2>What actually gets ordered isn't the raw calculated number</h2>
+<p>Lesson 28 already established the practical endpoint: Peel bills extra thickness in fixed 1.5mm increments (Item D-7). A calculated minimum requirement of, say, 7.6mm doesn't get manufactured to exactly 7.6mm — the Base-Bid Design sets a baseline, and any Field-Verified Design increase gets rounded up to the next full 1.5mm unit. The structural calculation in this lesson produces the <em>minimum defensible number</em>; the actual liner thickness ordered and installed is that number rounded up to whatever increment the specific contract's pay-item structure uses.</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>The design calculation</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A design uses the resin's initial (short-term) flexural modulus from its datasheet directly, without applying a creep retention factor. What's wrong with that?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — the design has to use the time-corrected long-term modulus, not the initial value, since the liner's stiffness degrades over its design life.">It overstates the liner's real long-term capacity — the design should use the time-corrected (creep-retained) modulus instead</button>
+    <button data-correct="false" data-feedback="This isn't a paperwork-only issue — using the wrong modulus produces a genuinely under-designed (too-thin) liner.">Nothing — the initial modulus is what matters for a short design life</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. A segment has unusually high measured ovality and high groundwater. A quick draft calculation produces a thinner-than-expected required thickness. What should that prompt?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — every one of these conditions should push thickness up, not down. A thin result under bad conditions is a signal to check the inputs, not accept the number.">Double-checking the inputs — worse conditions should never produce a thinner design requirement</button>
+    <button data-correct="false" data-feedback="Ovality and groundwater both increase required thickness in this design method — a thin result under those conditions is a red flag, not a coincidence to accept.">Accepting it — sometimes the numbers just work out that way</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. A structural calculation produces a minimum required thickness of 7.9mm on a Peel Region contract. What thickness is actually ordered and paid for?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="Peel doesn't bill or manufacture to the exact calculated minimum — thickness increases are billed in fixed 1.5mm increments.">Exactly 7.9mm, manufactured to that precise figure</button>
+    <button data-correct="true" data-feedback="Right — per Lesson 28's Item D-7, extra thickness rounds up to the next full 1.5mm increment, so 7.9mm above a Base-Bid Design would round up to the next available unit.">The calculated minimum rounded up to the next full 1.5mm billing increment</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Sources: web-search-derived summaries of published secondary engineering literature on ASTM F1216 Appendix X1 (input parameters and typical design values only — not the literal equation text, which could not be independently verified this session). Real thickness/modulus figures drawn from Lesson 28, sourced directly from Regional Municipality of Peel, Appendix 5.9 (primary document). Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Next: what that final thickness number actually means for a resin order — how a contractor or supplier turns a thickness and a pipe length into an actual quantity of resin to buy.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 38: ASTM F1216, What It Actually Covers</span>
+  <span>Next: From Design Thickness to a Resin Order</span>
+</nav>
+
+</body>
+</html>

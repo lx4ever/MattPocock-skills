@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 38 — ASTM F1216: What It Actually Covers</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 38: ASTM F1216, What It Actually Covers</h1>
+<p class="kicker">Lesson 19 introduced the buckling equation and the K-factor. This is the standard those pieces live inside — its actual structure, and the design-condition fork every real CIPP design starts from.</p>
+
+<div class="callout">
+<strong>An honesty flag before anything else.</strong> This lesson (and the two after it) is built from public secondary engineering sources — published trenchless-design conference papers, state DOT design manuals, and municipal spec documents that summarize or reproduce parts of F1216 — not a purchased copy of the standard itself. That's the same limitation already logged in <a href="../RESOURCES.md">RESOURCES.md</a> for Lesson 19. The methodology and structure below is well-corroborated across multiple independent sources; treat any specific numeric formula as something to verify against the actual purchased standard before using it on a real design, not as a substitute for one.
+</div>
+
+<h2>F1216 is a "Standard Practice," not just a materials spec</h2>
+<p>Its full title is "Standard Practice for Rehabilitation of Existing Pipelines and Conduits by the Inversion and Curing of a Resin-Impregnated Tube." That's broader than the material-property minimums covered in Lessons 22 and 26–27 — it governs the installation methods themselves (inversion, and by extension the related pull-in-place practice under F1743), material and workmanship requirements, and — critically for this lesson arc — <strong>Appendix X1: Design</strong>, the section that turns a pipe's condition and site parameters into an actual required liner thickness.</p>
+
+<h2>The fork every design starts from: two design conditions</h2>
+<div class="callout">
+<strong>Fully Deteriorated:</strong> the design assumes the liner alone carries 100% of the external load — soil, groundwater, and live traffic load — with zero structural contribution from the host pipe. This is the conservative assumption: even if the old pipe looks intact today, the design doesn't rely on it lasting.
+</div>
+<div class="callout">
+<strong>Partially Deteriorated:</strong> the design assumes the host pipe still provides real structural support, except at specific known defects (a crack, a missing section, a gap) — the liner is checked as if it only has to bridge that local defect, not resist the full external load on its own.
+</div>
+<p>Which condition applies is an engineering judgment call based on the pipe's actual documented condition (the CCTV/PACP defect coding from Lessons 21 and 23 is exactly the input that judgment is based on) — but real municipal practice increasingly just mandates the conservative one outright. Lesson 26 already established this concretely: <strong>Peel Region's own bid specification requires the Fully Deteriorated design condition specifically, using F1216-07a Appendix X1</strong>, regardless of what a contractor might otherwise judge the host pipe's real condition to be. That's not an oversight — it's a deliberate choice to remove engineering-judgment variability from a competitive bid process, consistent with the conservative-engineering pattern flagged repeatedly since Lesson 27 (the Enhancement Factor locked at F1216's minimum recommended value, not the field-observed average).</p>
+
+<h2>Appendix X1's equations, at the structural level</h2>
+<p>Multiple sources describe Appendix X1 as containing a family of related equations — commonly referenced as X1.1 through X1.4 for the core buckling/bending checks, with X1.5 through X1.7 covering additional load cases. The pattern that comes through consistently across sources:</p>
+<ul>
+<li>The equations are derived from <strong>Timoshenko's classical buckling formula</strong> for a thin, free-standing tube under uniform external pressure — the same starting point flagged in Lesson 19.</li>
+<li>An <strong>enhancement factor K</strong> is multiplied in to account for the restraining effect the host pipe still provides, even in a "fully deteriorated" design — this is the same K-factor from Lesson 19 (empirical range 3.6–21.4, F1216's own recommended conservative minimum of 7, which is exactly what Peel Region uses per Lesson 27).</li>
+<li>An <strong>ovality reduction factor C</strong> accounts for the host pipe not being perfectly round. Ovality reduces a liner's effective buckling resistance — more out-of-roundness means more thickness is needed to compensate. One secondary source gives a concrete illustration: at 5% ovality, the reduction factor works out to roughly C ≈ 0.64, corresponding to about a 10–11% drop in critical buckling pressure compared to a perfectly round pipe.</li>
+<li>A <strong>design safety factor (N)</strong> is applied on top of all of this — most sources converge on <strong>N = 2.0</strong> as the typical municipal design value, though some specs allow 1.5.</li>
+<li>The Fully Deteriorated condition isn't a single check — multiple equations get evaluated (different load combinations/limit states), and <strong>the governing required thickness is the largest value produced by any of them</strong>, not an average or a single formula's output.</li>
+</ul>
+<div class="callout">
+<strong>A recent, dateable change worth knowing:</strong> the 2024 and 2024a revisions to F1216 modified equations X1.5–X1.7, shifting from a Dimension Ratio (DR)-based approach to a <strong>mean-diameter-based</strong> approach specifically because DR doesn't handle anisotropic composites (like fiberglass-reinforced UV liners) well. This is the same underlying issue Lesson 27 flagged from a different angle — ISO 11296's curved-coupon test method being preferred over ASTM D790's flat-coupon method specifically because it better captures a reinforced liner's real geometry. Both point at the same underlying fact: reinforced/composite liners don't behave like the simple thin-isotropic-tube model the original equations were built around, and the standards are still being actively revised to catch up with that.
+</div>
+
+<h2>Why the design condition choice matters more than any single number in the equation</h2>
+<p>The single biggest lever in this whole process isn't a coefficient inside the buckling equation — it's which design condition gets selected in the first place. A Partially Deteriorated design can produce a meaningfully thinner (and cheaper) liner than a Fully Deteriorated one, because it's allowed to assume the host pipe is still doing real structural work. That's exactly why a municipality that wants predictable, defensible bids removes that choice from the equation entirely by mandating Fully Deteriorated across the board, the way Peel does — it trades some potential cost savings for consistency and reduced dispute risk.</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>ASTM F1216's structure</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A contractor's engineer believes a specific host pipe is still structurally sound except for one cracked section, and wants to design accordingly. Does Peel Region's bid specification allow that judgment call?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="Peel's spec mandates the Fully Deteriorated condition specifically, regardless of the engineer's field judgment about the host pipe's actual condition.">Yes — the engineer's judgment about actual field condition governs</button>
+    <button data-correct="true" data-feedback="Right — Peel requires the conservative Fully Deteriorated design condition specifically, removing that judgment call from the bid process entirely.">No — Peel's specification requires the Fully Deteriorated condition regardless of the engineer's own assessment</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. A host pipe has 5% ovality instead of a perfectly round cross-section. What does that do to the required liner thickness, all else equal?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — ovality reduces the liner's effective buckling resistance (the reduction factor C works against it), so more thickness is needed to compensate.">It increases the required thickness — ovality reduces the liner's buckling resistance</button>
+    <button data-correct="false" data-feedback="Ovality is a real, negative factor in the buckling equation — it doesn't cancel out, it works against the liner's capacity.">It has no effect — ovality only matters for installation, not design</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. The Fully Deteriorated condition requires evaluating multiple equations (X1.1 through X1.4). How is the final required thickness determined?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="Using only the first equation would ignore load cases the other equations are specifically checking for.">Use whichever equation is listed first</button>
+    <button data-correct="true" data-feedback="Right — each equation checks a different load case/limit state, and the design has to be thick enough to satisfy all of them, so the largest required thickness governs.">Take the largest required thickness produced by any of the equations</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Sources: web-search-derived summaries of published trenchless-design conference papers, state DOT design manuals, and municipal CIPP specifications discussing ASTM F1216 Appendix X1 (secondary sources — WebFetch access to the underlying PDFs was blocked at the network level during this session, consistent with the pattern already logged in RESOURCES.md). Cross-referenced against Lessons 19 and 26–28, which draw on Peel Region's own primary bid documents. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Next: walking through the Fully Deteriorated calculation step by step — what inputs an engineer actually gathers, and how they turn into a thickness.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 37: What the Approved Product List Doesn't Cover</span>
+  <span>Next: The Fully-Deteriorated Design Calculation</span>
+</nav>
+
+</body>
+</html>

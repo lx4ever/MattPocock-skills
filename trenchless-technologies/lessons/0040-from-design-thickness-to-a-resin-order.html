@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 40 — From Design Thickness to a Resin Order</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 40: From Design Thickness to a Resin Order</h1>
+<p class="kicker">Lesson 39 ends with a thickness. This is what a contractor — or a resin supplier watching a purchase order come in — actually does with that number: turn it into litres or kilograms of resin.</p>
+
+<h2>The geometry: what volume actually needs filling</h2>
+<p>The liner itself is a thin annular cylinder — a tube wall wrapped around the inside of the host pipe. Its volume is well-approximated as:</p>
+<div class="callout">
+<strong>Liner (composite) volume ≈ π × D<sub>mean</sub> × t × L</strong><br>
+where D<sub>mean</sub> is the pipe's approximate diameter, t is the design thickness, and L is the segment length. (This is a simplification treating the wall as a thin flat strip wrapped into a circle — accurate enough for a real-world estimate at the thicknesses CIPP liners actually use, though a precise takeoff would use the true inner/outer diameter difference.)
+</div>
+<p>This is the volume of the <em>finished composite</em> — felt (or fiberglass) plus cured resin together, not resin alone. Getting from this number to an actual resin order requires knowing how much of that volume the tube material itself displaces, versus how much is void space the resin has to fill.</p>
+
+<h2>The felt tube starts out mostly empty space</h2>
+<div class="callout">
+<strong>A felt fiber tube is roughly 90% void space by volume before wet-out.</strong> The dry felt fibers themselves only occupy a small fraction of the tube's apparent volume — the rest is air, waiting to be displaced by resin during the vacuum-impregnation wet-out process (Lesson 6). This is the starting point for any resin quantity estimate: the tube's finished composite volume, times roughly 90%, is a first approximation of how much resin the tube needs to absorb just to be saturated.
+</div>
+<p>Two things push the real order size higher than that first approximation:</p>
+<ul>
+<li><strong>Polymerization shrinkage.</strong> Resin shrinks slightly as it cures (Lesson 20's non-volatile content discussion is directly relevant here — a lower non-volatile content generally means more shrinkage). The wet-out quantity has to account for this, or the cured liner ends up under-resined relative to what the saturated (pre-cure) tube actually needed.</li>
+<li><strong>Installation losses.</strong> Some resin is lost during installation — squeezed out through cracks and irregularities in the host pipe wall as the liner is inverted or pulled into place and pressed against the old pipe surface. A rougher, more deteriorated host pipe loses more resin this way than a smooth one.</li>
+</ul>
+
+<h2>A worked illustrative example</h2>
+<p>Using a real segment from Lesson 35's repair list — Birch Cres, 250mm diameter, 33m length — and an illustrative 9mm design thickness (in the range of Lesson 39's real Peel examples):</p>
+<div class="callout">
+<strong>Step 1 — composite volume:</strong> π × 0.25m × 0.009m × 33m ≈ 0.233 m³ (≈ 233 litres) of finished liner wall.<br>
+<strong>Step 2 — resin needed to saturate the void space:</strong> 233 L × ~90% ≈ 210 L.<br>
+<strong>Step 3 — add an installation/shrinkage allowance:</strong> a commonly used contractor rule-of-thumb margin is in the 10–15% range; at 15%, 210 L × 1.15 ≈ 241 L.<br>
+<strong>Step 4 — convert to mass:</strong> unsaturated polyester/vinyl ester resins typically run close to 1.1 kg per litre; 241 L × 1.1 kg/L ≈ <strong>265 kg</strong> of resin for this one 33-metre segment.
+</div>
+<div class="callout">
+<strong>Flag on the numbers used here:</strong> the ~90% void-space figure is corroborated from public secondary sources on felt tube construction. The 10–15% loss/shrinkage margin and the ~1.1 kg/L resin density are typical illustrative figures, not pulled from a specific verified Sino Polymer datasheet or a specific contractor's actual practice — confirm both against the real product and the real contractor's standard allowance before using this for an actual purchase order.
+</div>
+
+<h2>Why this matters for a resin supplier's side of the conversation</h2>
+<p>This is the calculation on the other end of every pitch built in Lessons 10–11 and the value-proposition reference doc. A contractor asking "how much resin do I need to order for this job" isn't just multiplying a datasheet number by a length — they're running something like the four steps above, and every one of those steps is sensitive to information the resin supplier is positioned to provide directly: actual resin density, actual shrinkage/non-volatile content data, and field guidance on typical installation loss for a given resin system. Supplying accurate numbers for these inputs — not just flexural modulus and styrene content — is itself part of a credible technical relationship with a contractor, and a place where a supplier with better data than "typical" industry figures has a real, concrete edge.</p>
+
+<h2>The thickness that actually gets ordered isn't the raw design minimum</h2>
+<p>Carrying forward Lesson 39's last point: whatever thickness comes out of the structural design gets rounded up to the pay-item increment the specific contract uses — 1.5mm units on a Peel Region job. A resin order built against the raw calculated minimum, rather than the rounded-up actual installed thickness, would under-order. The resin quantity takeoff should always use the thickness that's actually going to be manufactured and installed, not the bare structural minimum from the design calculation.</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Resin quantity takeoff</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A felt tube's finished composite volume is calculated at 500 litres. Roughly how much of that volume is void space the resin needs to fill, before accounting for shrinkage or installation loss?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — dry felt tubes are roughly 90% void space by volume before wet-out, so about 450 litres of resin would be needed just to saturate the tube.">About 450 litres (≈90% of the composite volume)</button>
+    <button data-correct="false" data-feedback="The felt fibers themselves only occupy a small fraction of the tube's apparent volume — the void space (which the resin fills) is much larger, around 90%.">About 50 litres (≈10% of the composite volume)</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. Why does a resin quantity takeoff need an installation-loss allowance on top of the void-space calculation?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — a rougher, more deteriorated host pipe surface causes more resin loss during inversion/pull-in and pressing against the old pipe wall.">Some resin gets squeezed out through cracks and irregularities in the host pipe wall during installation, and a rougher host pipe loses more</button>
+    <button data-correct="false" data-feedback="The installation-loss allowance is about resin lost during the physical installation process, not testing.">To cover the resin used for the independent lab test samples</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. A resin order is built using the raw structural-minimum thickness from a design calculation, rather than the actual thickness that will be manufactured and installed. What's the risk?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — if the actual installed thickness is rounded up from the design minimum (e.g., to the next 1.5mm pay-item increment), an order sized to the raw minimum would fall short.">Under-ordering, if the actual installed thickness ends up rounded up from the raw design minimum</button>
+    <button data-correct="false" data-feedback="The risk runs the other way — using the smaller raw minimum instead of the actual (often larger, rounded-up) installed thickness would under-order resin, not over-order it.">Over-ordering, since the design minimum is always larger than what actually gets installed</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Sources: web-search-derived summaries of public secondary sources on CIPP wet-out and resin quantity practice (felt tube void-space figure). Segment geometry (diameter, length) drawn from Lesson 35, sourced from Regional Municipality of Peel, Appendix 5.21a (primary document). Shrinkage/loss margin and resin density figures are illustrative, not verified against a specific product datasheet — confirm before real use. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>This closes out the ASTM F1216 design arc (Lessons 38–40): what the standard covers, how a thickness actually gets calculated, and what that thickness means in real resin volume.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 39: The Fully-Deteriorated Design Calculation</span>
+  <span>Cheat sheet: <a href="../reference/sinopolymer-value-proposition.html">Sino Polymer Value Proposition</a></span>
+</nav>
+
+</body>
+</html>
