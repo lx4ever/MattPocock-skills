@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 35 — Reading a Real Repair List</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 35: Reading a Real Repair List</h1>
+<p class="kicker">Every lesson from 26 onward has talked about "the CIPP scope" in the abstract. This is what it actually looks like: 47 individual pipe segments, each with its own maintenance holes, material, defects, and constructability notes.</p>
+
+<p class="lede">Appendix 5.21a is a spreadsheet-style repair list — the actual line-by-line inventory of sanitary sewer segments a bidder prices against, for the same 2026-142T contract (Project 23-2300K) covered in Lessons 26–33. It reads nothing like a technical spec. It reads like a punch list, because that's exactly what it is.</p>
+
+<h2>First, a genuinely useful finding: appendix numbers aren't reliable on their own</h2>
+<div class="callout">
+<strong>This document's own header says "Appendix 5.16."</strong> The file it was delivered as is named "Appendix 5.21a." And Lesson 27 already covers a completely different document also called Appendix 5.16 (the Supplemental CIPP Standard Specification with the storm-sewer resin clause). Two different documents in this same bid package carry the same internal "Appendix 5.16" header — evidently a drafting artifact from however this package was assembled or renumbered before tender. Worth remembering as a general lesson, not just about this one contract: <strong>match a document by its title and content, not by a number printed on the page</strong> — numbering in a large compiled bid package isn't always internally consistent, even within the same tender.
+</div>
+
+<h2>What's actually in the columns</h2>
+<p>Each of the 47 rows is one pipe segment between two maintenance holes, with: upstream/downstream MH depth, diameter, material, recorded length, a location map reference, links to raw inspection video and a CCTV PDF report, and a free-text "Constructionability Remark" column. A few real material codes worth having on hand, since they show up directly in inspection data: <strong>VCP</strong> (vitrified clay pipe), <strong>CONP</strong> (concrete pipe), <strong>AC</strong> (asbestos cement) — three completely different host-pipe materials appearing across different streets in the same single contract, each with different age and failure characteristics.</p>
+
+<h2>Real defect language, not a generic "fully deteriorated" label</h2>
+<p>Every row is coded "Full-Length CIPP Lining (Fully Deteriorated)" — but the free-text remarks show what actually drove that call:</p>
+<ul>
+<li><strong>Dundas St W segment:</strong> "remove encrustation from first 11m of pipe and at 31m around 250 mainline tap connection mouth. then seal all infiltration in first 11m and around mouth of 250 mainline connection at 31m. then put full liner" — a real, sequenced prep instruction, not just "line it."</li>
+<li><strong>Falconer Dr segment:</strong> "Multiple cracks and fractures throughout pipe. Suggested full length CIPP, please note no laterals are attached to this line" — the no-laterals detail matters because it removes an entire cost category (lateral reinstatement) other segments carry.</li>
+<li><strong>Jumna Ave segment:</strong> "9 instances of roots at joint within a 92m stretch. Full length lining recommended" — a concrete, countable defect driving the recommendation, echoing Lesson 21's point that a grade/recommendation should trace back to specific coded observations, not a vague impression.</li>
+</ul>
+
+<h2>"Blind Shot" — a real field-condition wrinkle</h2>
+<div class="callout">
+<strong>One segment (Birch Cres, MH1785804 to MH1785803) is marked "88% Survey completed (No reversal)" and flagged "Blind Shot."</strong> The CCTV crawler couldn't complete a full traverse and reverse back out — meaning part of that segment's condition is inferred from partial data, not fully observed. A bidder pricing this segment is pricing some real uncertainty the inspection data itself couldn't fully resolve.
+</div>
+
+<h2>Not every segment is guaranteed work: "Provisional" and the Permit to Enter gate</h2>
+<p>Three Birch Cres segments (items 11–13) carry a materially different note than the rest: <strong>"Full-Length CIPP Lining (Fully Deteriorated, Provisional)"</strong> plus a constructionability remark: <em>"Difficult Access: Refer to Appendix 5.25 Property Impact Plan on Birch Cres. Work shall not proceed until Permit to Enter (PTE) is secured by the Region."</em></p>
+<div class="callout">
+<strong>This is a real scheduling dependency outside the contractor's control.</strong> These segments run through a rear-yard easement, not a public right-of-way — the Region has to secure written permission from the affected property owners before work can start there, regardless of when the rest of the contract is ready to proceed. "Provisional" here doesn't mean optional or unlikely — it means contingent on a legal step the contractor doesn't control the timing of.
+</div>
+
+<h2>A direct generalization of Lesson 34's finding</h2>
+<p>Several segments on this same 2026-142T contract — Main St, Shardawn Mews, Techumseh Park Dr — carry the remark <strong>"Refer to the CVC Permit No. 24/183."</strong> CVC is Credit Valley Conservation, a different conservation authority from TRCA (Lesson 34's Toronto and Region Conservation Authority) — they cover different, adjacent Peel-area watersheds. This confirms Lesson 34's core point generalizes beyond the separate 2024 culvert program: <strong>the 2026-142T tender itself has multiple segments individually gated behind conservation-authority permits</strong>, issued by whichever authority actually covers that specific watershed. A resin supplier or contractor reading this repair list needs to check the remarks column segment by segment, not assume the whole contract sits outside regulated watercourse limits just because most of it does.</p>
+
+<h2>Buried maintenance holes as their own line of scope</h2>
+<p>Item 13's remark lists two rehab-scope lines, not one: <strong>"1. Expose Buried MH 1785804 & 1785803" then "2. Full-Length CIPP Lining (Fully Deteriorated, Provisional)."</strong> Some existing maintenance holes have been paved over, landscaped over, or otherwise buried since original installation — before a liner crew can even access them, they have to be physically excavated and exposed. That's a real, separate cost line a quote built only from linear-metre liner pricing would miss entirely.</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>The real repair list</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. This document's own internal header says "Appendix 5.16" — the same number as a completely different document covered in Lesson 27. What's the right way to handle that?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="These are two genuinely different documents with different content, despite sharing an internal header number — assuming they're the same would be a real mistake.">Assume it's the same document, just referenced twice</button>
+    <button data-correct="true" data-feedback="Right — appendix numbering in a large compiled bid package isn't always internally consistent. Content and title are the reliable identifiers, not a printed number.">Match documents by title and content, not by the number printed on the page</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. A repair list item is marked "Provisional" with a note about needing a Permit to Enter. What does that actually mean for a contractor's schedule?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — \"Provisional\" here flags a real legal dependency (property owner permission secured by the Region) outside the contractor's control, not an optional or unlikely scope item.">The work is likely real, but can't start until the Region secures written property-owner permission — a timing dependency the contractor doesn't control</button>
+    <button data-correct="false" data-feedback="\"Provisional\" here specifically flags an access/permission dependency, not general uncertainty about whether the scope is needed at all.">The work is optional and probably won't be needed</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. Several segments on this same 2026-142T contract reference "CVC Permit No. 24/183" instead of TRCA. What does this confirm?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — different segments on the same contract can fall under different conservation authorities depending on which watershed they're in, generalizing Lesson 34's finding beyond the separate 2024 program.">The conservation-authority permitting layer from Lesson 34 applies within the 2026-142T tender itself, not just the separate 2024 program — and which authority applies depends on the specific segment's watershed</button>
+    <button data-correct="false" data-feedback="CVC (Credit Valley Conservation) is a different, real conservation authority from TRCA — this isn't a typo, it's a different authority covering a different watershed.">This is a data-entry error — it should say TRCA, the same authority as Lesson 34</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Source: Regional Municipality of Peel, "Appendix 5.16 [filed as 5.21a]: List of Repair for Full-Length Sanitary Sewer Lining," Contract No. 1 Project 23-2300K (user-uploaded PDF, primary source, read in full). Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Next: the Birch Cres easement segments from this lesson, in physical detail — what "Permit to Enter" and "buried maintenance hole" actually look like on the ground.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 34: The Watercourse Layer</span>
+  <span>Next: Getting to the Manhole</span>
+</nav>
+
+</body>
+</html>
