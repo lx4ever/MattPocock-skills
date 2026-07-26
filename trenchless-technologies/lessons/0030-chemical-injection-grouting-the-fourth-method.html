@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 30 — Chemical Injection Grouting: The Fourth Method</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 30: Chemical Injection Grouting</h1>
+<p class="kicker">Flagged back in Lesson 29 as a method this contract references but the workspace hadn't covered. It turns out to answer a real, specific question: what do you do about a joint that's leaking, but doesn't need a whole new pipe wall?</p>
+
+<p class="lede">Every method so far — CIPP, SIPP, fold-and-form — builds a new structural pipe wall inside the old one. Chemical injection grouting doesn't. It's a targeted, non-structural repair: seal a specific leaking joint or crack, stabilize the soil right around it, and leave the rest of the pipe alone. Different tool, different job, different bid item.</p>
+
+<h2>The one distinction that matters most</h2>
+<div class="callout">
+<strong>Chemical grouting is explicitly not structural rehabilitation.</strong> The spec's own language: packer injection grouting "eliminate[s] the infiltration points within the pipeline by sealing the pipe joints/defects... provide[s] external pipe support, <em>but not a structural rehabilitation</em>, by stabilizing soils outside the pipe and prevent[ing] further loss of pipe bedding into the pipe." A pipe with structural defects — cracks or fractures between joints — is explicitly excluded from this scope; those get referred elsewhere (typically CIPP or replacement), not grouted.
+</div>
+<p>This is the direct payoff of Lesson 21's CSA PLUS 4012 finding: defect coding decides the fork. An infiltration-only defect (a leaking joint, a small hole, no structural loss) can be routed to grouting — cheaper, faster, less disruptive than a full liner. A structural defect (cracks, fractures, wall loss) gets routed to CIPP or replacement instead. Grouting and CIPP aren't competing for the same defects; they're solving different problems that happen to live in the same pipe.</p>
+
+<h2>What "chemical grout" actually means here</h2>
+<p>Three families, all injected via packer, none of them the polyester/vinyl-ester/epoxy resin families this workspace has spent Lessons 10–20 on:</p>
+<table>
+<tr><th>Grout type</th><th>Minimum concentration</th><th>Viscosity</th><th>Reaction time</th></tr>
+<tr><td>Water-based (acrylamide)</td><td>≥12% by weight</td><td>~2 cP</td><td>10 sec – 1 hr, controllable</td></tr>
+<tr><td>Acrylate-based</td><td>≥12% by weight</td><td>1–3 cP</td><td>10 sec – 1 hr, controllable</td></tr>
+<tr><td>Urethane pre-polymer gel</td><td>~11% pre-polymer (1:8 water ratio recommended)</td><td>100–1,500 cP</td><td>Rapid viscosity increase within the first minute</td></tr>
+</table>
+<div class="callout">
+<strong>Worth flagging directly for the resin-marketing thread:</strong> these are a different chemistry family entirely from CIPP resin. A vinyl ester or polyester CIPP resin isn't a substitute product here, and Sino Polymer's CIPP line (Lesson 11) doesn't automatically extend into this market — that would require a separate acrylamide/acrylate/urethane grout product, which is an open question, not something to assume either way.
+</div>
+
+<h2>The four-stage CCTV sequence</h2>
+<ol class="steps">
+<li><strong>V1 — Preliminary CCTV.</strong> Before any cleaning or grouting. Records the initial condition and flags any "significant changed condition" versus the CCTV the Agency already provided. No defect coding required at this stage — just enough to confirm the section matches expectations and count service connections.</li>
+<li><strong>V2 — Post-cleaning CCTV.</strong> After the sewer and maintenance holes are cleaned and prepped (roots cut, calcite removed, lift holes patched). One consolidated V2 per line, submitted at least 10 days before grouting for approval. Defect coding still not required.</li>
+<li><strong>Joint testing and grouting.</strong> Every joint gets pressure-tested; only joints that fail get grouted (see below).</li>
+<li><strong>V3 — Post-rehabilitation CCTV.</strong> After grouting is complete. <strong>Defect coding is required here</strong> — the first stage in the sequence that demands it. If a deficiency turns up, V3 gets repeated after the fix, at no extra cost to the Agency.</li>
+</ol>
+<p>A fifth check — a 2-year maintenance CCTV inspection (V4) — verifies the seal held over time, feeding directly into the warranty mechanics below.</p>
+
+<h2>How a joint actually gets tested and sealed</h2>
+<p>The packer straddles the joint and inflates to isolate a void area around it. Air or water is pumped in until the pressure stabilizes at or above the required test pressure — 3.5 kPa per vertical foot of pipe depth plus 14 kPa, capped at 70 kPa without the Agency's specific approval. If the void pressure holds for 15 seconds without dropping more than 2 psi, the joint passes and needs no grout. If it fails, it gets sealed.</p>
+<div class="callout">
+<strong>The gel time formula, worked with real numbers:</strong> Gel Time = (Packer Void Space in gallons ÷ Pumping Rate in gpm) × 60 sec + 20 sec (±5 sec). For a 200mm (8") pipe with a 0.3-gallon packer void and a 3 gpm pump: (0.3/3) × 60 + 20 = <strong>26 seconds (±5 sec)</strong>. This is a real, calculable field number — not a vague "let it set" instruction — and it changes with pipe size and pump rate on every job.
+</div>
+<p>Grout is pumped to <strong>refusal</strong> — the point where the void or surrounding soil is filled or solidified, evidenced by a pressure spike of 25–35 kPa or grout blowing back past the packer's sealing ends. Target volume is 1–2 liters per inch-diameter of pipe per joint; if a joint needs more than 2 liters, the spec requires switching to staged grouting (up to 15-liter increments, max two stages of 30–40 liters each) rather than one large continuous push.</p>
+
+<h2>Maintenance holes and laterals get their own procedures</h2>
+<p>MH grouting follows ASTM F2414: injection holes are drilled in a staggered spiral pattern through the MH wall, and grout is injected starting from the lowest holes upward until the structure is externally sealed. A separate technique — the <strong>Expanded Gasket Procedure (EGP)</strong> — handles lift holes, corbel-to-grade-ring joints, and intruding connections by soaking dry oakum in chemical grout and forcing it into the opening until it sets.</p>
+<p>Lateral connections follow ASTM F2454: a lateral packer seals inside the mainline while an inflatable bladder seats in the lateral itself, and grout is injected into the soil around the joint to form a permanent "grout/soil ring." Laterals protruding more than 12mm into the mainline must be cut back first, paid at the unit price for that item — a small but real bid-item detail if you're pricing a job with a lot of unreinstated laterals.</p>
+
+<h2>The warranty mechanics — and why they matter more here than in CIPP</h2>
+<div class="callout">
+<strong>Two full years, with a real retest protocol behind it, not just a promise.</strong> Before the warranty period expires, the Agency randomly selects an initial retest area covering 5–10% of the project's linear footage. Every previously sealed joint in that area gets retested. If the failure rate is under 5%, the work is accepted as satisfactory. If it's 5% or higher, the retest area doubles (up to 25% of the original project) and every found failure gets resealed, continuing until the failure rate on the expanded sample drops below 5% — at the Contractor's cost, with no extra compensation, and with a requirement to run the <em>same crew size</em> used originally so the retesting doesn't drag on.
+</div>
+<p>This is a genuinely quantified, escalating QA mechanism — worth knowing it exists even outside a grouting-specific quote, because it's a template for how a municipality can structure a warranty that isn't just "we'll fix it if it fails": it's "we'll statistically sample your work, and if the sample fails, we'll sample more of it, at your cost, until it passes."</p>
+
+<h2>The alternative when grouting isn't viable: mechanical joint seals</h2>
+<p>Where a joint can't be grouted, the spec allows a mechanical seal instead — a stainless-steel-and-rubber band product (named brands: Amex-10 MONO, HydraTite, Cretex Seals, or approved equivalent) rated to withstand groundwater pressure from a 100-year flood event, with a 50+ year design life. This is a physical clamp-and-seal solution rather than a chemical one — worth knowing as a category, even though it's outside the resin/liner conversation this workspace has otherwise focused on.</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Chemical injection grouting</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A CCTV inspection finds a pipe segment with active cracks and fractures between joints, with visible wall loss. Is this a good candidate for chemical injection grouting under this spec?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="The spec explicitly excludes structural defects like cracks and fractures from this scope — grouting stabilizes soil and seals infiltration, it doesn't restore structural capacity.">Yes — grouting can seal cracks the same way it seals joints</button>
+    <button data-correct="true" data-feedback="Right — grouting is explicitly non-structural. Structural defects like cracks, fractures, and wall loss get routed to CIPP or replacement, not grouting.">No — structural defects like cracks and fractures are explicitly outside grouting's scope</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. Sino Polymer's vinyl ester CIPP resin line — could it be pitched directly as a chemical grouting product on a job like this?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="Chemical grouts here are acrylamide, acrylate, or urethane pre-polymer systems — a different chemistry family from CIPP's polyester/vinyl-ester/epoxy resins. It would need to be a genuinely different, separate product line.">Yes — resin is resin, the same product line applies to both markets</button>
+    <button data-correct="true" data-feedback="Right — these are chemically distinct product categories. A CIPP resin line doesn't automatically translate into a grouting product without a separate formulation.">No — grouting uses a different chemistry family entirely (acrylamide/acrylate/urethane, not polyester/vinyl-ester/epoxy)</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. At the two-year warranty retest, 6% of the sampled joints in the initial 8% retest area fail. What happens next?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — a failure rate at or above 5% triggers doubling the retest area and reworking failures, continuing until the failure rate on the expanded sample drops below 5%, at the Contractor's cost.">The retest area doubles, failures get resealed, and the cycle repeats until the failure rate on the expanded sample is under 5% — at the Contractor's cost</button>
+    <button data-correct="false" data-feedback="A 6% failure rate is above the 5% threshold, which triggers expanded retesting and rework, not automatic acceptance.">Nothing — a 6% failure rate is close enough to be accepted</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Source: Regional Municipality of Peel, Appendix 5.12, "Standard Specification for Chemical Injection Grouting in Sewers and Maintenance Holes" (Final, September 2021, user-uploaded PDF, primary source, read in full). Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Next: the general-conditions layer underneath all of this — how Peel actually pays a contractor month to month, what a warranty holdback really costs in cash flow, and the real markup schedule for anything billed as a change order.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 29: The Commercial Layer</span>
+  <span>Next: How Peel Actually Pays a Contractor</span>
+</nav>
+
+</body>
+</html>
