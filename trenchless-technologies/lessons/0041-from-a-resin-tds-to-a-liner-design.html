@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 41 — From a Resin TDS to a Liner Design</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 41: From a Resin TDS to a Liner Design</h1>
+<p class="kicker">Lessons 10–11 gave you a real resin TDS. Lesson 39 gave you the design process. This is the missing link between them — which TDS numbers actually plug in, and which parts of the design a TDS can never answer on its own.</p>
+
+<div class="callout">
+<strong>The one-sentence version:</strong> a resin TDS gets you exactly one input, out of roughly six the design actually needs — and the gap between "what's on the TDS" and "what the design requires" is precisely where most of the qualification work in Lessons 26–27's certification checklist lives.
+</div>
+
+<h2>What's actually on a typical resin TDS</h2>
+<p>Using the Sino Polymer brochure from Lessons 10–11 as the concrete reference point, a real CIPP resin TDS typically gives you:</p>
+<ul>
+<li><strong>Initial flexural modulus</strong> (ASTM D790) — ~2,900–4,100 MPa across Sino Polymer's line</li>
+<li><strong>Initial flexural strength</strong> (ASTM D790) — ~100–170 MPa</li>
+<li><strong>Tensile strength</strong> (ASTM D638) — ~60–160 MPa</li>
+<li><strong>Heat deflection temperature</strong> (ASTM D648)</li>
+<li><strong>Non-volatile content</strong> (Lesson 20) — cure-completeness and shrinkage indicator</li>
+<li>Sometimes: viscosity, gel time range, qualitative resistance claims ("excellent corrosion resistance")</li>
+</ul>
+<p>That's a real, useful data set — but notice what's already missing before you even get to the design math: no density figure in most brochures, no long-term (creep) data, and every number on the sheet is <strong>neat resin</strong>, not the cured composite that actually goes in the ground.</p>
+
+<h2>Mapping each TDS field to where it plugs in — or doesn't</h2>
+<table>
+<tr><th>TDS field</th><th>Where it plugs into the design</th></tr>
+<tr><td>Initial flexural modulus/strength</td><td>Not usable directly. Has to be converted to a <strong>long-term</strong> value via a creep retention factor (Lesson 39) before it can go into the buckling equation. The TDS gives you the starting number for that conversion, not the finished input.</td></tr>
+<tr><td>Non-volatile content</td><td>Feeds Lesson 40's shrinkage/loss allowance in the resin quantity takeoff, and is a proxy for cure quality generally (Lesson 20).</td></tr>
+<tr><td>Density</td><td>Directly used in Lesson 40's final volume-to-mass conversion. If it's not on the TDS — and it often isn't — this is a real, simple gap to close by just asking the supplier, before any quantity takeoff can be trusted.</td></tr>
+<tr><td>Tensile strength</td><td>Not used in the gravity-pipe buckling check at all. It matters for forcemain/watermain (pressure pipe) design instead — Lessons 24–25's pressure-pipe additions to OPSS.MUNI 444/445.</td></tr>
+<tr><td>Poisson's ratio</td><td>Almost never printed on a TDS. Design work defaults to a generic assumption (≈0.3) for CIPP resin systems generically, absent product-specific test data — worth asking for directly if precision matters.</td></tr>
+<tr><td>Everything else on the sheet</td><td>Useful sales/qualification context (Lessons 10–11), but doesn't feed the thickness calculation directly.</td></tr>
+</table>
+
+<h2>The gap that breaks a TDS-only design attempt: neat resin vs. composite</h2>
+<div class="callout">
+<strong>This is the single point where a TDS-based design goes wrong if it's treated as sufficient on its own.</strong> Every number above is measured on cast, cured resin alone — no felt, no fiberglass. The F1216 buckling equation needs the properties of the actual <em>composite</em> (resin plus reinforcement, at the specific fiber-to-resin ratio a real liner uses), which behaves differently — usually stiffer, because the reinforcement carries load the neat resin alone doesn't. The certification checklist reference doc already flagged this precisely: Sino Polymer's neat-resin numbers clear Peel's 2,400 MPa non-reinforced bar comfortably, but say essentially nothing about whether a composite using that resin clears the 8,000 MPa reinforced bar — that's a composite-system number a TDS cannot supply, no matter how good the resin is.
+</div>
+
+<h2>The practical six-step workflow</h2>
+<ol class="steps">
+<li><strong>Pull the initial modulus/strength from the TDS.</strong> This is your starting point, not your design input.</li>
+<li><strong>Get or estimate the long-term (creep-corrected) value.</strong> The real path is ASTM D2990 testing of the actual composite (10,000+ hours, per the certification checklist) — the TDS alone never has this. Where that testing doesn't exist yet, a conservative assumed creep retention factor can be used for early estimating, but it has to be labeled as an assumption, not treated as a substitute for real data in an actual bid.</li>
+<li><strong>Get composite-level data at the real fiber/resin ratio.</strong> This is usually the contractor's or liner manufacturer's responsibility, not the resin supplier's alone (Lesson 26) — the resin TDS is an input to that composite testing, not a replacement for it.</li>
+<li><strong>Plug the long-term composite values into the site-specific F1216 calculation</strong> alongside the groundwater, soil, live load, ovality, K-factor, and safety factor inputs from Lesson 39.</li>
+<li><strong>Round the resulting thickness up</strong> to whatever billing increment the actual contract uses (1.5mm units on a Peel job, per Lesson 28).</li>
+<li><strong>Run the resin quantity takeoff (Lesson 40)</strong> using that final, rounded thickness — plus the TDS's non-volatile content and a confirmed density figure, not an assumed one.</li>
+</ol>
+
+<h2>A worked illustration of exactly where the TDS stops being enough</h2>
+<p>Take Sino Polymer's ~2,900–4,100 MPa initial flexural modulus range. That number alone gets you through Step 1. Everything after it — the creep retention factor, the composite (not neat-resin) modulus, the site-specific loads, the final thickness, the resin volume — depends on data the TDS doesn't contain. A pitch or an estimate built by stopping at Step 1 and treating the initial neat-resin number as if it were the design input is exactly the mistake the certification checklist was written to catch.</p>
+
+<h2>What to actually request from a supplier when the TDS falls short</h2>
+<p>This mirrors the certification checklist's open-items list directly, reframed around the design workflow specifically:</p>
+<ul>
+<li>Resin density, if not already on the TDS — needed for Step 6, and often simply missing rather than hard to get.</li>
+<li>ASTM D2990 long-term creep data, ideally on the composite, not just the neat resin — needed for Step 2.</li>
+<li>Composite (not neat-resin) flexural test data at a realistic job fiber ratio — needed for Step 3, and the single highest-value document a supplier can produce to actually move a design forward.</li>
+<li>Confirmation of Poisson's ratio if the design is sensitive enough to need better than the generic 0.3 assumption.</li>
+</ul>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>TDS to design</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A contractor plugs a resin's initial (short-term) flexural modulus from its TDS directly into the F1216 buckling equation. What's the problem?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — the design needs the time-corrected, creep-retained value, not the as-published initial number, which overstates the liner's real long-term capacity.">The design needs the long-term, creep-corrected modulus, not the initial value — using the initial number overstates the liner's real capacity</button>
+    <button data-correct="false" data-feedback="The problem isn't units — it's that the initial value hasn't been corrected for long-term creep, which the design equation requires.">Nothing — TDS modulus values are always already in the right units for the design equation</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. A resin clears Peel Region's 2,400 MPa non-reinforced minimum comfortably on its neat-resin TDS. Does that confirm it clears the 8,000 MPa reinforced/UV minimum too?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="8,000 MPa is a composite (resin+reinforcement) requirement — a neat-resin TDS number can't confirm or deny it either way.">Yes, since the resin already shows strong margin on the lower bar</button>
+    <button data-correct="true" data-feedback="Right — the 8,000 MPa bar applies to the cured composite (resin + fiberglass), a different measurement a neat-resin TDS simply doesn't provide.">No — the reinforced bar applies to the composite, and a neat-resin TDS number doesn't speak to composite performance at all</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. A resin TDS doesn't list a density figure. Why does that actually matter for the design workflow, not just as missing paperwork?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — Lesson 40's final volume-to-mass conversion step needs an actual confirmed density, not an assumed one, to produce a trustworthy resin order quantity.">Density is a direct input to the final resin quantity takeoff (Lesson 40) — without it, the ordered quantity is built on an assumption, not a confirmed number</button>
+    <button data-correct="false" data-feedback="Density is a real, load-bearing input to the quantity calculation, not just an administrative field.">It doesn't matter — density is only used for shipping/logistics paperwork</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Synthesized from Lessons 10–11 (Sino Polymer's real TDS data), 19–20 (property-to-design mapping and non-volatile content), 26–28 and the <a href="../reference/sinopolymer-ontario-certification-checklist.html">certification checklist</a> (the neat-resin-vs-composite gap, sourced from Peel Region's primary bid documents), and 38–40 (the F1216 design methodology and resin quantity takeoff, built from secondary sources — see those lessons' own sourcing caveats). Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>This closes the loop between the resin-marketing thread (Lessons 10–11) and the structural-design thread (Lessons 38–40) — the same connection the certification checklist and value-proposition doc have been pointing at from the sales side, now walked through from the design side.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 40: From Design Thickness to a Resin Order</span>
+  <span>Cheat sheet: <a href="../reference/sinopolymer-ontario-certification-checklist.html">Sino Polymer Certification Checklist</a></span>
+</nav>
+
+</body>
+</html>

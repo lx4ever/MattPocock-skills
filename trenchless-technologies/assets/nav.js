@@ -201,6 +201,11 @@
       "n": 40,
       "file": "0040-from-design-thickness-to-a-resin-order.html",
       "title": "From Design Thickness to a Resin Order"
+    },
+    {
+      "n": 41,
+      "file": "0041-from-a-resin-tds-to-a-liner-design.html",
+      "title": "From a Resin TDS to a Liner Design"
     }
   ],
   "reference": [
