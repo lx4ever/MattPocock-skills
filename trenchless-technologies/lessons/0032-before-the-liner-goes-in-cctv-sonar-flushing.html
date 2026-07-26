@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 32 — Before the Liner Goes In: CCTV, Sonar, and Flushing Standards</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 32: Before the Liner Goes In</h1>
+<p class="kicker">Lesson 28 mentioned V1/V2/V3 CCTV staging as part of the payment milestones. This is the actual standard behind those inspections — a separate, standalone vendor spec from the liner work itself.</p>
+
+<p class="lede">Every lesson so far has assumed a CCTV survey already exists and just described what it's used for (defect coding, V1/V2/V3 sign-off). This document is the spec for producing that survey in the first place — camera equipment, data format, accuracy standards, and the cleaning/flushing work that has to happen before a liner can go in at all.</p>
+
+<h2>Two inspection technologies, not one</h2>
+<p>Standard CCTV — a self-propelled camera crawler — is the default. But for a pipe segment that's partially or fully submerged (a low spot holding standing water, or a section that can't be safely dewatered), a camera can't see through the water. The spec calls for a <strong>combined CCTV/Sonar</strong> inspection in that case: sonar maps the submerged portion of the pipe wall and invert while the camera handles everything above the waterline. A sonar-only inspection is used where the pipe is fully flooded. <strong>LiDAR is listed as a provisional (optional) technology</strong> — a higher-precision 3D scanning method the Agency can call for on specific segments, priced separately from the standard CCTV rate.</p>
+
+<h2>Camera and positioning requirements</h2>
+<ul>
+<li>360° pan and 275° lateral rotation, minimum 400-line resolution, self-contained adjustable lighting.</li>
+<li>Camera lens centered on the pipe's central axis by default — equidistant between invert and obvert (top).</li>
+<li>If flow depth exceeds 10% of the pipe diameter, the camera is repositioned equidistant between the water surface and the obvert instead — so it isn't looking straight down into standing water.</li>
+<li>For non-circular pipe (the ASCE MOP 145 shapes from Lesson 26), the camera is positioned at two-thirds of the vertical height above the invert.</li>
+</ul>
+
+<h2>Coding standard and a specific software platform</h2>
+<p>Defect coding follows NASSCO PACP 7.02 combined with CSA PLUS 4012-10 — the same protocol from Lesson 21, now with the actual field-camera equipment spec behind it. Video is delivered as MPEG-4 (H.264 codec), NTSC 720×480 at 29.97 fps, minimum 4 Mbps bitrate, with a defined file-naming convention tied to each pipe segment's ID. Inspection data is submitted through <strong>GraniteNet</strong>, a specific CCTV inspection data-management platform (Microsoft SQL Server Express backend) — a detail worth knowing exists: municipalities increasingly standardize on a named software platform for inspection data, not just a PDF report format.</p>
+
+<h2>A concrete QA formula for inspection accuracy itself</h2>
+<div class="callout">
+<strong>Two accuracy formulas, both expressed the same way:</strong> Accuracy = (Total Entries − Errors) ÷ Total Entries × 100%. <strong>Header field accuracy must be ≥90%</strong> (pipe ID, date, direction, diameter, material — the administrative metadata). <strong>Detail field accuracy must be ≥85%</strong> (the actual defect codes, distances, clock-position observations). A random 5% sample of each operator's completed inspections gets audited against these thresholds.
+</div>
+<p>If an operator's audited sample fails either threshold, every inspection that operator completed <em>upstream and downstream</em> of the failed segment gets re-inspected at the Vendor's cost — not just the one failed segment. This is a real incentive structure: a single sloppy inspection can trigger a much larger, unpaid rework scope, which is exactly the kind of QA mechanism that should make a vendor invest in training and calibration up front rather than treat inspection as a low-stakes formality.</p>
+
+<h2>Cleaning and flushing, before any camera runs</h2>
+<p>A pipe has to be cleaned before a meaningful CCTV survey — and before CIPP — can happen. The spec requires a <strong>minimum of three passes</strong> per line. Payment is structured two ways: primarily by the metre of pipe successfully cleaned (confirmed by the post-cleaning CCTV), with an hourly rate as a fallback method for unusually difficult sections. Equipment minimums for the combination flush/vacuum truck: 3,700-litre water tank, 150-metre hose reach, 3.5 L/s flow at 103 bar working pressure, and a minimum 9 m³ debris storage tank.</p>
+<div class="callout">
+<strong>Debris disposal is the Vendor's responsibility, not the Agency's.</strong> The Vendor must transport and dispose of all removed debris at an Agency-approved facility, hold a valid Certificate of Approval from that receiving facility, and provide disposal tickets to the Contract Administrator as proof. This is a real, billable logistics obligation that doesn't show up if you only think about the cleaning work itself.
+</div>
+
+<h2>Water sourcing and a seasonal cost most people wouldn't think to price</h2>
+<p>Flush water is drawn from a municipal hydrant under a permit, requiring 48 hours' advance notice before use. Between November 1 and April 30, the Vendor is responsible — at its own cost — for freeze protection on all water-handling equipment and lines. A winter flushing job carries a real equipment-protection cost a summer job doesn't.</p>
+
+<h2>Duty to report — beyond the scope of the actual job</h2>
+<p>Field crews are required to immediately report certain conditions regardless of whether they're in scope for the current contract: missing or broken maintenance hole covers, major structural defects, and blockages at or above 40% of the pipe's cross-section — by phone and email, with photos, the same day they're found. This is a public-safety reporting obligation layered on top of the technical inspection work itself.</p>
+
+<h2>Two access/coordination details worth knowing exist</h2>
+<ul>
+<li><strong>Flow-monitoring equipment protection:</strong> the Agency sometimes has its own separate flow-monitoring devices installed inside maintenance holes for unrelated data collection. Crews must not disturb them, and are required to give two weeks' notice before any work that would require removing one.</li>
+<li><strong>Private property and easement access:</strong> maintenance holes located on easements or private property require three weeks' advance notice to affected property owners. If the Agency has to step in to resolve an access dispute the Vendor caused, the Vendor is liable for resulting damages plus a 10% administrative fee on top.</li>
+</ul>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>CCTV, sonar, and flushing</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A pipe segment is fully flooded and can't be dewatered before inspection. What inspection method does the spec call for?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="A standard CCTV camera can't see through standing water — a fully flooded segment needs sonar, not just standard CCTV.">Standard CCTV, run at a slower pace</button>
+    <button data-correct="true" data-feedback="Right — sonar maps the submerged pipe wall and invert where a camera physically can't see.">Sonar-only inspection</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. An operator's random 5% QA sample fails the detail-field accuracy threshold. What's the consequence?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — a failed audit triggers re-inspection of everything that operator did upstream and downstream of the failed segment, at the Vendor's cost.">Every inspection that operator completed upstream and downstream of the failed segment gets re-inspected, at the Vendor's cost</button>
+    <button data-correct="false" data-feedback="The consequence extends well beyond the single failed segment — it's a cascading re-inspection requirement.">Only the single failed inspection needs to be redone</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. A field crew finds a broken maintenance hole cover on a street that isn't part of their current contract scope. What's the required response?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — the duty to report certain safety conditions (missing/broken covers, major structural defects, ≥40% blockages) applies regardless of whether the location is in the current contract's scope.">Report it immediately by phone and email with photos, regardless of contract scope</button>
+    <button data-correct="false" data-feedback="The duty-to-report obligation for safety conditions like this isn't limited to in-scope work — it applies to what the crew encounters in the field.">Note it for a future contract and continue with today's scheduled work</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Source: Regional Municipality of Peel, Appendix 5.13, "CCTV and Maintenance Hole Flushing Specifications" (Final, May 20, 2025, user-uploaded PDF, primary source, read in full). Retrieved from a public bid-document portal (bidsandtenders.com preview watermark); content is complete and legible. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Next: the fine print in the CIPPSR supplemental spec — what changed between the original Appendix 5.11 (Lesson 26) and this tender's actual amendments to it.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 31: How Peel Actually Pays a Contractor</span>
+  <span>Next: CIPPSR — The Supplemental Fine Print</span>
+</nav>
+
+</body>
+</html>
