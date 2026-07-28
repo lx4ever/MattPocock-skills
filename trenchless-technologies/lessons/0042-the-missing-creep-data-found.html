@@ -22,10 +22,21 @@
 <strong>A striking number to notice: 1,723 MPa is almost exactly the 1,724 MPa generic ASTM F1216/OPSS.MUNI flexural modulus floor</strong> cited throughout Lessons 22–27 and the certification checklist. That's very unlikely to be a coincidence — the generic code minimum was almost certainly benchmarked against exactly this kind of 50-year creep-projected value in the first place. Seeing a real product's actual 50-year number land right at that historic floor is a genuinely illuminating data point, not just a passing curiosity.
 </div>
 
-<h2>An honest caveat: this is ISO 10468, not literally ASTM D2990</h2>
-<p>The test methodology referenced alongside these results is <strong>ISO 10468</strong>, "Glass-reinforced thermosetting plastics (GRP) pipes — Determination of the long-term specific ring creep stiffness under wet conditions and calculation of the wet creep factor" (2003 edition; a 2018 revision retitled it to cover both wet and dry conditions). This is the international/European standard for exactly the same underlying property — long-term creep-retained stiffness — but it is not literally the same document as ASTM D2990, the specific standard OPSS.MUNI and Peel Region's specs name (Lessons 22–23, 39, 41).</p>
+<h2>An honest caveat: this is ISO 10468, not literally ASTM D2990 — and the two procedures aren't the same test</h2>
+<p>The test methodology referenced alongside these results is <strong>ISO 10468</strong>, "Glass-reinforced thermosetting plastics (GRP) pipes — Determination of the long-term specific ring creep stiffness under wet conditions and calculation of the wet creep factor" (2003 edition; the 2018 and 2023 revisions retitled it to cover both wet and dry conditions). This is the international standard for exactly the same underlying property — long-term creep-retained stiffness — but it is not literally the same document as ASTM D2990, the specific standard OPSS.MUNI and Peel Region's specs name (Lessons 22–23, 39, 41). The two procedures differ in real, specific ways, not just in name:</p>
+<table>
+<tr><th></th><th>ASTM D2990</th><th>ISO 10468</th></tr>
+<tr><td><strong>Scope</strong></td><td>General-purpose: any plastic material, three loading modes (tensile, compressive, flexural)</td><td>GRP pipe-specific only — not a general plastics standard</td></tr>
+<tr><td><strong>Specimen (flexural mode)</strong></td><td>A flat rectangular bar, the same shape ASTM D790 uses, loaded in three-point (or optionally four-point, per D6272) bending</td><td>Traditionally a curved ring or pipe segment, cut from an actual pipe and loaded diametrally (the same family of specimen ISO/TS 12512 uses for initial ring stiffness) — a fundamentally different geometry from a flat bar</td></tr>
+<tr><td><strong>Environment</strong></td><td>Not inherently wet — run dry unless the test plan specifies otherwise</td><td>Explicitly wet-conditioned (full water immersion) in the 2003 edition; later editions allow wet <em>or</em> dry, since dry testing suits raw-material QC while wet testing simulates real buried service conditions</td></tr>
+<tr><td><strong>Measurement schedule</strong></td><td>Deflection logged at fixed intervals from 1 minute out to 1,000 hours, then extrapolated</td><td>Deflection logged over a comparably long real-time hold, then extrapolated to the 50-year design mark using the standard's own wet creep factor calculation</td></tr>
+<tr><td><strong>Output</strong></td><td>A general creep modulus/strain-vs-time dataset, usable for design comparison across any plastic part</td><td>A pipe-specific "ring stiffness" and "wet creep factor" figure, built to plug directly into pipe buckling/ring-deflection design equations like F1216's</td></tr>
+</table>
 <div class="callout">
-<strong>What this means practically:</strong> this is real, credible, independently-verified long-term performance data — not a fabricated or assumed number. But if a specific bid document requires "ASTM D2990 testing" by name (as OPSS.MUNI 443 and Peel's Appendix 5.9 do), an ISO 10468 report may need to be submitted alongside a note on methodological equivalence, or a fresh ASTM D2990 test may still be requested by a specific reviewing engineer. Don't treat this as an automatic substitute for a named-standard requirement — treat it as strong evidence the underlying long-term performance is real and good, worth leading with while confirming the exact document a given spec wants.
+<strong>A specific observation worth flagging about the MERICAN 9405T test itself:</strong> the reported specimen — 7.264mm thick, 15.30mm wide, spanning 116mm — describes a flat bar geometry (thickness/width/span), the shape a flexural three-point bend test uses. That's the specimen shape ASTM D2990's flexural-creep method is built around, not the curved ring/pipe-segment specimen ISO 10468's own ring-stiffness methodology is generally associated with. This isn't a confirmed contradiction — test houses sometimes adapt methodology, and the source document may simply be using "ISO 10468" as a label for its underlying wet-creep-factor calculation approach rather than its full ring-specimen procedure — but it's a real, specific reason for caution beyond the "different named standard" point alone. Confirm the actual specimen geometry directly with AL Technologies or Sino Polymer before treating this as a literal ISO 10468 ring test.
+</div>
+<div class="callout">
+<strong>What this means practically:</strong> this is real, credible, independently-verified long-term performance data — not a fabricated or assumed number. But if a specific bid document requires "ASTM D2990 testing" by name (as OPSS.MUNI 443 and Peel's Appendix 5.9 do), a report using a different specimen geometry and environment may need to be submitted alongside a note on methodological equivalence, or a fresh ASTM D2990 test may still be requested by a specific reviewing engineer. Don't treat this as an automatic substitute for a named-standard requirement — treat it as strong evidence the underlying long-term performance is real and good, worth leading with while confirming the exact document and procedure a given spec wants.
 </div>
 
 <h2>A second, independent regulatory driver for the same 50-year requirement</h2>
@@ -80,10 +91,19 @@
   <p class="quiz-feedback"></p>
 </div>
 
+<div class="quiz-item">
+  <p class="quiz-prompt">4. The MERICAN 9405T test specimen is described by a thickness, width, and span — the shape of a flat flexural bar. What does this suggest about the test procedure actually used?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — a flat bar with a thickness/width/span is the specimen shape ASTM D2990's flexural-creep method uses, not the curved ring/pipe-segment specimen ISO 10468's own ring-stiffness methodology is generally associated with. Worth confirming directly rather than assuming either way.">It may be closer in specimen geometry to ASTM D2990's flexural-creep method than to ISO 10468's typical ring/pipe-segment specimen — worth confirming directly, not assuming</button>
+    <button data-correct="false" data-feedback="A curved ring or pipe-segment specimen would be described by pipe diameter and arc dimensions, not by a flat thickness/width/span — this reported geometry doesn't match that shape.">It confirms a full pipe-ring specimen was used, consistent with ISO 10468's standard methodology</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
 </div>
 
 <footer class="source-note">
-Source: Sino Polymer / Huachang Polymers, "CIPP Resin Material Solutions and Standardization Recommendations for Pipeline Rehabilitation" (Hua Liu, Ph.D., user-uploaded PDF, primary source, read in full — 57 pages). Cross-referenced against the certification checklist reference doc and Lessons 22, 39, and 41, where this gap was originally flagged as open. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+Source: Sino Polymer / Huachang Polymers, "CIPP Resin Material Solutions and Standardization Recommendations for Pipeline Rehabilitation" (Hua Liu, Ph.D., user-uploaded PDF, primary source, read in full — 57 pages). Cross-referenced against the certification checklist reference doc and Lessons 22, 39, and 41, where this gap was originally flagged as open. The ASTM D2990/ISO 10468 procedural comparison draws on public secondary sources (ADMET, TestResources, and ZwickRoell test-house technical pages, plus ISO's own standard-summary pages) — WebFetch access to the full purchased standards was not available this session. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
 </footer>
 
 <p><em>Next: the composite (not neat-resin) side of the same story — real cured UV-CIPP hose test data, checked directly against Peel Region's 8,000 MPa reinforced-liner bar.</em></p>
