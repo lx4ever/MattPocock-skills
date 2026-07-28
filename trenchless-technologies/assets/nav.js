@@ -246,6 +246,11 @@
       "n": 49,
       "file": "0049-astm-f1216-07a-vs-22-the-real-standard.html",
       "title": "ASTM F1216: 07a vs. 22, From the Actual Standard"
+    },
+    {
+      "n": 50,
+      "file": "0050-astm-d5813-the-cipp-materials-spec.html",
+      "title": "ASTM D5813: The CIPP Materials Spec"
     }
   ],
   "reference": [

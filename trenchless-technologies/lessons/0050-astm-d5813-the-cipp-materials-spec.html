@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 50 — ASTM D5813: The CIPP Materials Spec</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 50: ASTM D5813 — The CIPP Materials Spec</h1>
+<p class="kicker">F1216-07a's own footnote said this document was "under preparation." It's real, current, and read in full — the standard that defines what the finished pipe itself has to be, as distinct from F1216's how-to-install-it practice.</p>
+
+<p class="lede">D5813 (full title: "Standard Specification for Cured-In-Place Thermosetting Resin Sewer Piping Systems") is a genuinely different document from F1216, not a duplicate. F1216 is a <em>practice</em> — installation procedure, workmanship, inversion, curing. D5813 is a <em>specification</em> — what the finished CIPP product itself is required to be, classified by type and grade, with its own physical property minimums, chemical-resistance testing, and dimensional tolerances. The two are meant to work together (D5813 even points back to F1216's own sampling sections rather than duplicating them) — but D5813 adds real requirements F1216 doesn't cover at all.</p>
+
+<h2>Scope — wider than F1216's, and not just about pipe</h2>
+<p>D5813 covers CIPP from 4 through 132 in. equivalent diameter — a wider upper range than F1216-22's 108 in. And its scope explicitly extends beyond pipe: "manholes, pump stations, wetwells, vaults, storage tanks, and other similar structures where a cured in place liner using thermosetting resin is applicable" (§1.2). A genuinely useful fact on its own: <strong>there are no ISO standards covering this specification's subject matter</strong> (its own Note 1) — unlike F1216, which has a recognized international counterpart in ISO 11296, D5813 has none. A manhole or wetwell CIPP liner spec'd to an "ISO equivalent of D5813" isn't referencing a real document.</p>
+
+<h2>Classification: three Types, and a new one this workspace hasn't covered</h2>
+<table>
+<tr><th>Type</th><th>Definition</th><th>Matches which F1216 design condition?</th></tr>
+<tr><td><strong>Type I</strong></td><td>Designed to provide chemical resistance and prevent exfiltration — no structural load-bearing requirement stated at all</td><td>None — this category doesn't exist in F1216, which only recognizes Partially and Fully Deteriorated</td></tr>
+<tr><td><strong>Type II</strong></td><td>Installed in a partially deteriorated pipe; provides chemical resistance, prevents ex-/infiltration, and supports external hydrostatic (groundwater) loads only, since soil and live loads are still carried by the host pipe</td><td>Partially Deteriorated (Lesson 38)</td></tr>
+<tr><td><strong>Type III</strong></td><td>Installed in a fully deteriorated pipe; supports all external hydraulic, soil, and live loads acting on the original conduit</td><td>Fully Deteriorated (Lesson 38) — the condition Peel Region mandates</td></tr>
+</table>
+<div class="callout">
+<strong>Type I is a real, new finding.</strong> Every structural-design lesson in this workspace (38–41, 49) has been built around the Partially/Fully Deteriorated fork — because that's the only fork F1216 recognizes. D5813's Type I sits outside that fork entirely: a liner rated purely for corrosion resistance and leak prevention, with no structural claim at all. This matters for a real conversation — a Type I liner is a fundamentally different (and presumably cheaper, thinner) product than a Type II or III, appropriate specifically where the host pipe is structurally sound and the only problem is infiltration/exfiltration or chemical attack. Worth checking whether Sino Polymer's own catalog maps any specific product to a Type I use case, or whether every product in that catalog is implicitly positioned as Type II/III-capable.
+</div>
+
+<h2>Grades: three, by resin chemistry — with a real distinguishing test, not just a label</h2>
+<table>
+<tr><th>Grade</th><th>Resin family</th><th>What actually distinguishes it (Table 1)</th></tr>
+<tr><td>Grade 1</td><td>Thermosetting polyester (D5813's Note 2: "polyester includes vinyl ester resins" for this spec's purposes)</td><td>Sodium hydroxide (0.5%) resistance: <strong>"Not Recommended"</strong> — Grade 1 is not expected to pass caustic/alkali exposure</td></tr>
+<tr><td>Grade 2</td><td>Thermosetting polyester (same note — includes vinyl ester)</td><td>Sodium hydroxide (0.5%) resistance: <strong>required</strong> — otherwise identical chemical-resistance list to Grade 1 and 3 (nitric acid 1%, sulfuric acid 5%, ASTM Fuel C 100%, vegetable oil 100%, detergent/soap 0.1%)</td></tr>
+<tr><td>Grade 3</td><td>Thermosetting epoxy</td><td>Same full chemical list as Grade 2, including sodium hydroxide</td></tr>
+</table>
+<div class="callout">
+<strong>The real, checkable distinction between Grade 1 and Grade 2 isn't "different resin" — it's alkali resistance specifically.</strong> Both grades are polyester/vinyl ester by D5813's own definition. What separates them in the standard's own chemical-resistance table is whether the product is expected to hold up to a 0.5% sodium hydroxide solution. A resin marketed generically as "vinyl ester" doesn't automatically tell you which grade it qualifies for — that's a specific, testable question with a specific answer in Table 1, not an assumption to make from the resin family name alone.
+</div>
+
+<h2>A genuinely new failure mode for this workspace: strain corrosion</h2>
+<p>Every creep discussion in this workspace so far (Lessons 39, 42) has been about long-term modulus retention under sustained <em>mechanical</em> load. D5813 §6.4.2 and §8.2.2 test something different: <strong>sustained mechanical strain combined with continuous chemical exposure</strong> — deflecting a CIPP specimen to a fixed strain and holding it there while immersed in 1.0N sulfuric acid, checking for failure at four separate time horizons.</p>
+<table>
+<tr><th>Time</th><th>Minimum strain the specimen must survive without failure</th></tr>
+<tr><td>10 hours</td><td>0.72%</td></tr>
+<tr><td>100 hours</td><td>0.69%</td></tr>
+<tr><td>1,000 hours</td><td>0.67%</td></tr>
+<tr><td>10,000 hours</td><td>0.64%</td></tr>
+</table>
+<div class="callout">
+<strong>Why the strain requirement decreases with time — this isn't the test getting easier.</strong> The standard's own footnote is explicit about the intent: these strain levels are "selected to provide reasonable assurance that the minimum strength of CIPP materials will be 1.5 times a service strain level of 0.40%." In other words, the test is checking whether the liner keeps a real safety margin over expected in-service strain (0.40%) even after acid exposure over increasingly long durations — 18 specimens total (four each at 10h/10,000h, five each at 100h/1,000h) all have to survive without failure for the product to qualify. This is a distinct test from both ordinary chemical-resistance immersion (§6.4.1, ≥80% flexural modulus retention after one year, no applied strain) and long-term creep testing (D2990/ISO 10468, Lessons 39/42, no chemical exposure) — three genuinely different long-term-performance questions, not one test wearing three names.
+</div>
+
+<h2>Physical property minimums — mostly matching F1216, with one real discrepancy</h2>
+<table>
+<tr><th>Property</th><th>D5813 minimum</th><th>F1216 minimum (Table 1)</th><th>Match?</th></tr>
+<tr><td>Flexural modulus</td><td>250,000 psi (1,724 MPa)</td><td>250,000 psi (1,724 MPa)</td><td>Identical</td></tr>
+<tr><td>Flexural strength</td><td>4,500 psi (31 MPa)</td><td>4,500 psi (31 MPa)</td><td>Identical</td></tr>
+<tr><td>Tensile strength</td><td>2,500 psi (17 MPa) — applies to Types I, II, and III generally</td><td>3,000 psi (21 MPa) — stated "for pressure pipes only"</td><td><strong>Different.</strong> D5813 sets a lower tensile floor that applies more broadly (not scoped to pressure pipe specifically); F1216 sets a higher floor scoped only to pressure applications</td></tr>
+</table>
+<div class="callout">
+<strong>Worth confirming which number governs on a real job.</strong> The flexural numbers are identical and consistent between the two standards — no ambiguity there. The tensile figures are genuinely different (2,500 psi vs. 3,000 psi) and scoped differently (general vs. pressure-pipe-only). Since Lesson 39 already established that tensile strength doesn't feed the gravity-pipe buckling calculation at all, this discrepancy mainly matters for pressure-pipe/forcemain work (Lessons 24–25) — where it's worth checking explicitly which standard a given spec is actually citing before assuming "meets ASTM's tensile minimum" means one specific number.
+</div>
+
+<h2>Two dimensional tolerances — one of them already covered, one genuinely new</h2>
+<ul>
+<li><strong>Wall thickness (§6.3.3):</strong> average wall thickness must not be less than the specified thickness; minimum at any single point must be at least 87.5% of specified thickness. This is the same figure Lesson 49 found newly added to F1216-22 §8.6 — D5813 has stated it since at least this specification's original 1995 adoption. F1216-22 appears to be aligning with a tolerance D5813 already had, not introducing a new one independently.</li>
+<li><strong>Outside diameter (§6.3.1) — new to this workspace:</strong> because CIPP shrinks diametrically during cure, the minimum allowable outside diameter should be <strong>98% of the host or mold pipe's inside diameter</strong>. This is a real, separate dimensional check from wall thickness — a liner can pass its thickness tolerance and still fail this diameter check if cure shrinkage pulled it in too far, which matters directly for how tightly the finished liner actually fits the host pipe.</li>
+</ul>
+
+<h2>How D5813 handles reinforced/composite liners — directly relevant to Lesson 43</h2>
+<p>D5813 §7.2.3 and §8.3.4 single out a specific case: CIPP reinforced with oriented continuous or discontinuous fibers with a modulus greater than 3×10⁶ psi (20 GPa) — the fiberglass-reinforced UV-cured liners this workspace's Lesson 43 data (16,000–19,800 MPa flexural modulus) describes. These liners get tested differently from standard felt/polyester CIPP:</p>
+<ul>
+<li>Sampling must use F1216's mold-cured method (§8.1.2), not the cut-from-cured-pipe method, regardless of diameter.</li>
+<li>Tensile properties are measured per <strong>D3039/D3039M</strong> (a polymer-matrix-composite-specific tensile test), not the general-plastics D638 used for standard CIPP — and tested along <em>both</em> the longitudinal and transverse axes, not just one direction.</li>
+<li>Flexural properties are likewise measured along both axes, not just one — appropriate for a material whose reinforcement makes it directionally anisotropic, unlike neat resin.</li>
+</ul>
+<div class="callout">
+<strong>Why this matters for the Lesson 43 composite data specifically.</strong> That 16,000–19,800 MPa flexural modulus figure was tested per GB/T 1447-2005, not ASTM D790 or D3039 — a gap Lesson 43 already flagged. Knowing that D5813 itself requires a <em>different</em> test method (D3039, both axes) for exactly this category of reinforced liner sharpens that gap: it's not just "a different standard was used," it's specifically that the standard actually applicable to this material class tests two directions with a composite-specific method, and the real reported data doesn't confirm either.
+</div>
+
+<h2>One honest flag about the standard itself</h2>
+<p>D5813 §8.4 requires fabric-tube tensile testing per <strong>ASTM D1682</strong> — a test method that is itself listed in D5813's own referenced-documents section as "Withdrawn 1992." D5813 was reapproved as recently as 2025 and still points to a method ASTM withdrew over three decades ago, with no substitute named in its place. That's a real, citable gap in the current edition of the standard itself, not a modeling assumption on this workspace's part — worth knowing if a fabric-tube tensile test ever needs to be run to the letter of D5813 today.</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>ASTM D5813</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. What's the core difference between what F1216 and D5813 each govern?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — F1216 is a practice (how to install and cure the liner); D5813 is a specification (what the finished product itself has to be, by type, grade, and physical property).">F1216 governs installation practice; D5813 specifies what the finished CIPP product itself must be</button>
+    <button data-correct="false" data-feedback="They're deliberately complementary, not duplicates — D5813 even points back to F1216's own sampling sections rather than re-specifying them.">They're two competing standards covering the same scope, and only one should ever be cited</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. A liner is rated purely for chemical resistance and leak prevention, with no structural load-bearing claim. Which D5813 Type is this, and does it correspond to anything in F1216's own design-condition fork?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — Type I has no equivalent in F1216, which only recognizes Partially and Fully Deteriorated (Types II and III). Type I sits entirely outside that fork.">Type I — and no, F1216 only recognizes the Partially/Fully Deteriorated fork (Types II/III), not this non-structural category</button>
+    <button data-correct="false" data-feedback="Type III is the fully structural category (all external hydraulic, soil, and live loads) — the opposite of a non-structural, chemical-resistance-only liner.">Type III — matching F1216's Fully Deteriorated condition</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. D5813's tensile strength minimum (2,500 psi, applying generally) differs from F1216's (3,000 psi, "for pressure pipes only"). Does this discrepancy affect a standard gravity-sewer Fully Deteriorated design calculation?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — Lesson 39 already established that tensile strength doesn't feed the gravity-pipe buckling equation at all, so this discrepancy mainly matters for pressure-pipe/forcemain work instead.">No — tensile strength doesn't feed the gravity-pipe buckling calculation at all (Lesson 39); this discrepancy matters more for pressure-pipe work</button>
+    <button data-correct="false" data-feedback="The gravity-pipe buckling calculation is built on flexural properties, not tensile — and the flexural minimums are identical between the two standards, so this specific discrepancy doesn't touch that calculation.">Yes — it directly changes the required wall thickness on every gravity sewer job</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Source: ASTM D5813-04 (Reapproved 2025), "Standard Specification for Cured-In-Place Thermosetting Resin Sewer Piping Systems" (user-uploaded official ASTM PDF, primary source, read in full). Cross-referenced against Lessons 38–41 and 49 (ASTM F1216, primary source) and Lessons 42–43 (the ISO 10468/D2990 specimen-geometry question and the real composite flexural-modulus data). Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Worth a follow-up if useful: checking which Type/Grade combination Sino Polymer's own product line would actually be classified under, product by product — the certification checklist and value-proposition docs don't currently map to D5813's own classification system.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 49: ASTM F1216: 07a vs. 22, From the Actual Standard</span>
+  <span>Cheat sheet: <a href="../reference/sinopolymer-value-proposition.html">Sino Polymer Value Proposition</a></span>
+</nav>
+
+</body>
+</html>

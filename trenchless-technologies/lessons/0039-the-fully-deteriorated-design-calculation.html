@@ -13,7 +13,7 @@
 <p class="kicker">Not the literal ASTM equation text — that needs a purchased copy of the standard to cite precisely. This is the actual sequence of inputs and decisions an engineering firm works through to get from "here's a pipe" to "here's a required thickness."</p>
 
 <div class="callout">
-<strong>What this lesson is, and isn't.</strong> The inputs, their typical values, and the order-of-operations below are well-corroborated across multiple independent secondary sources. The literal buckling formula (exact exponents, exact algebraic form) is not reproduced here, because it wasn't independently verifiable against a primary source this session — WebFetch access to every candidate source was blocked. Where Lessons 26–28 already established a real number from a primary Peel Region document, that's flagged explicitly and should be trusted over anything in this lesson that isn't.
+<strong>Update — Lesson 49: the literal equations are now in hand.</strong> When first written, this lesson deliberately stopped short of reproducing the exact buckling formula, because it wasn't independently verifiable against a primary source at the time. That's changed — the actual ASTM F1216 standard text (both the 07a and 22 editions) has since been reviewed directly. The section below now reproduces the real equations verbatim, with a worked example checked directly against the standard's own published table.
 </div>
 
 <h2>The inputs an engineer actually has to gather, before any calculation starts</h2>
@@ -34,6 +34,38 @@
 <div class="callout">
 <strong>The direction every single input variable pushes in:</strong> deeper groundwater, denser soil, heavier live load, more ovality, a lower creep retention factor, or a lower K value — every one of these <em>increases</em> the required thickness. There's no input in this list where a worse real-world condition produces a thinner design requirement. That's worth having as an intuition check on a proposed design: if a segment has known bad conditions (high groundwater, poor soil, significant measured ovality) and the resulting design thickness looks thin, something in the inputs is worth double-checking before trusting it.
 </div>
+
+<h2>The literal equations, verbatim from ASTM F1216 Appendix X1</h2>
+<p>These are the actual equations, not a paraphrase. Both apply to gravity pipe; which one governs depends on whether the design condition is Partially or Fully Deteriorated (Lesson 38).</p>
+<div class="callout">
+<strong>Equation X1.1 — Partially Deteriorated (groundwater load only):</strong><br>
+P = [2·K·E<sub>L</sub> / (1 − ν²)] · [1 / (DR − 1)³] · (C / N)<br><br>
+where P = groundwater load (psi), K = enhancement factor (minimum 7.0 recommended with full host-pipe support), E<sub>L</sub> = long-term modulus of elasticity for CIPP (psi), ν = Poisson's ratio (0.3 average), DR = dimension ratio of CIPP (D/t), C = ovality reduction factor, N = factor of safety.
+</div>
+<div class="callout">
+<strong>Equation X1.3 — Fully Deteriorated (total external pressure the liner alone must resist):</strong><br>
+q<sub>t</sub> = (C / N) · [32 · R<sub>w</sub> · B′ · E′<sub>s</sub> · (E<sub>L</sub>·I / D³)]<sup>1/2</sup><br><br>
+where q<sub>t</sub> = total external pressure (psi) = 0.433H<sub>w</sub> + wHR<sub>w</sub>/144 + W<sub>s</sub> (English units); R<sub>w</sub> = water buoyancy factor (0.67 min) = 1 − 0.33(H<sub>w</sub>/H); w = soil density (lb/ft³); W<sub>s</sub> = live load (psi); H<sub>w</sub> = height of water above pipe crown (ft); H = height of soil above pipe crown (ft); B′ = coefficient of elastic support = 1/(1 + 4e<sup>−0.065H</sup>); I = moment of inertia of CIPP = t³/12 (in.⁴/in.); E′<sub>s</sub> = modulus of soil reaction (psi); D = mean inside diameter of original pipe (in.).
+</div>
+<div class="callout">
+<strong>Equation X1.4 — Fully Deteriorated minimum thickness check:</strong><br>
+EI / D³ = E / [12·(DR)³] ≥ 0.093 (inch-pound units)<br><br>
+where E = initial modulus of elasticity (psi). This is a floor the Fully Deteriorated design also has to clear, independent of whatever Eq X1.3 produces — the governing thickness is whichever of the two requires more material.
+</div>
+
+<h2>A worked, verified example — reproducing the standard's own published check</h2>
+<p>Rather than invent numbers, this walks Eq X1.1 with the exact assumptions ASTM's own Table X1.1 states it used, for the 8-inch (nominal) pipe row — and checks whether the arithmetic actually reproduces the standard's own published answer.</p>
+<div class="callout">
+<strong>Given (from Table X1.1's own footnote):</strong> K = 7.0, E<sub>L</sub> = 125,000 psi, ν = 0.30, C = 0.64 (5% ovality), N = 2.0, D = 8 in., t = 0.236 in.<br><br>
+<strong>Step 1 — dimension ratio:</strong> DR = D/t = 8 / 0.236 ≈ 33.9<br>
+<strong>Step 2 — (DR − 1)³:</strong> (32.9)³ ≈ 35,611<br>
+<strong>Step 3 — plug into Eq X1.1:</strong> P = [2 × 7.0 × 125,000 / (1 − 0.09)] × [1 / 35,611] × [0.64 / 2.0]<br>
+= [1,750,000 / 0.91] × [1 / 35,611] × 0.32<br>
+= 1,923,077 × 0.0000281 × 0.32<br>
+≈ <strong>17.3 psi</strong><br>
+<strong>Step 4 — convert to feet of water head:</strong> 17.3 psi ÷ 0.433 psi/ft ≈ <strong>39.9 ft</strong>
+</div>
+<p>Table X1.1 itself lists the maximum allowable groundwater load for this exact row (8 in. diameter, 6mm nominal / 0.236in actual CIPP thickness) as <strong>40.0 ft</strong> — the hand calculation above reproduces it to within rounding. This is a genuine confidence check: the equation as reproduced above is correct, not a mistranscribed paraphrase, and it behaves exactly as the standard's own worked table says it should.</p>
 
 <h2>Real, primary-sourced numbers to anchor this against</h2>
 <p>Rather than fabricate a worked numeric example without a verified formula, here's what Peel Region's own actual design values look like, from Lesson 28's real worked reconciliation (primary source, Appendix 5.9):</p>
@@ -120,7 +152,7 @@
 </div>
 
 <footer class="source-note">
-Sources: web-search-derived summaries of published secondary engineering literature on ASTM F1216 Appendix X1 (input parameters and typical design values only — not the literal equation text, which could not be independently verified this session). Real thickness/modulus figures drawn from Lesson 28, and real creep-retention figures from Lessons 22, 27, and 42, all sourced directly from primary documents (OPSS.MUNI 443; Regional Municipality of Peel, Appendix 5.9/5.10; and the Sino Polymer technical deck behind Lessons 42–45). Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+Sources: ASTM F1216-07a and F1216-22, Appendix X1 (user-uploaded official ASTM PDFs, primary source, read in full — see Lesson 49), for the literal equations and the verified Table X1.1 worked check. Real thickness/modulus figures drawn from Lesson 28, and real creep-retention figures from Lessons 22, 27, and 42, all sourced directly from primary documents (OPSS.MUNI 443; Regional Municipality of Peel, Appendix 5.9/5.10; and the Sino Polymer technical deck behind Lessons 42–45). Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
 </footer>
 
 <p><em>Next: what that final thickness number actually means for a resin order — how a contractor or supplier turns a thickness and a pipe length into an actual quantity of resin to buy.</em></p>
