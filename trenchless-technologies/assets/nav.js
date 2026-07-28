@@ -226,6 +226,11 @@
       "n": 45,
       "file": "0045-real-projects-and-company-track-record.html",
       "title": "Real Projects and Company Track Record"
+    },
+    {
+      "n": 46,
+      "file": "0046-competitor-matching-and-the-flash-point-math.html",
+      "title": "Competitor Matching, UV Working Time, and the Flash-Point Math"
     }
   ],
   "reference": [

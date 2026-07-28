@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 46 — Competitor Matching, UV Working Time, and the Flash-Point Math</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 46: Competitor Matching, UV Working Time, and the Flash-Point Math</h1>
+<p class="kicker">Three real questions: how Sino Polymer's catalog lines up against AOC, Ashland, and INEOS by product; whether the fast-UV-cure pitch holds up against a competitor's actual numbers; and exactly which regulation MFE 701-01T's flash point claim clears.</p>
+
+<p class="lede">All three questions share the same constraint: WebFetch access to manufacturer datasheet PDFs was blocked for this entire research pass (consistent with every prior session in this workspace), so everything below is built from public marketing pages, one public municipal submittal document, and government regulatory text — reached via search, not by reading full source PDFs directly. Where that matters, it's flagged inline, not glossed over.</p>
+
+<h2>First, a correction worth making before building any matrix: "Ashland" and "INEOS" aren't two separate competitors</h2>
+<div class="callout">
+<strong>Ashland sold its Composites business to INEOS in 2017.</strong> The resin brands historically sold under the Ashland name for FRP/composite applications — Aropol (polyester) and Derakane (vinyl ester) — are now sold under INEOS Composites. If a Peel-area bid or a competitor's proposal references "Ashland" resins, it's almost certainly describing product that's now manufactured and marketed by INEOS under the same legacy brand names. Treat "Ashland" and "INEOS" as one lineage, not two separate companies to match against separately.
+</div>
+<p>With that correction made: public search results confirm Aropol and Derakane are real, actively marketed product lines — but every public reference found describes them for general FRP applications (corrosion-resistant tanks, process piping, flue-gas desulfurization, mineral processing). None of the public marketing material found in this pass specifically brands Aropol or Derakane as a CIPP tube-resin product, the way AOC and Interplastic both do (below). That's a real, worth-flagging difference — not proof INEOS doesn't sell into CIPP, but a gap between "confirmed CIPP-specific product line" and "resin family that could plausibly be used for CIPP." The matrix below reflects that difference in its confidence column.</p>
+
+<h2>The competitor matrix — confirmed products, functional-match basis, and an honest confidence rating</h2>
+<table>
+<tr><th>Sino Polymer product</th><th>Segment</th><th>Competitor product (PN)</th><th>Match basis</th><th>Confidence</th></tr>
+<tr><td>MFE 701-01T / MERICAN 9900-01T</td><td>Styrene-free, hot water/steam cure, VE</td><td>AOC Vipel&reg; L040-TNVG (incl. -33, -LV variants)</td><td>Both are styrene-free vinyl ester, hot-water/steam-cure, CIPP-branded products aimed at the same segment (odor-sensitive/drinking-water-adjacent municipal work)</td><td>Reasonably confident on chemistry/cure/segment match. Not confirmed modulus-for-modulus — see the working-time section below for what numbers actually exist on each side.</td></tr>
+<tr><td>MERICAN 7516, 7517</td><td>Styrene-free VE, UV cure, small-diameter laterals (DN75&ndash;300mm)</td><td>AOC L050-LCA-03 (FC)</td><td>Both are styrene-free, highly thixotropic (or small-diameter-suited), UV-cure vinyl ester products explicitly marketed for laterals/house connections</td><td>Reasonably confident on segment match — this is the closest PN-level pairing found in this pass.</td></tr>
+<tr><td>MFE 775UV, MFE 752UV</td><td>VE, UV cure, municipal + industrial</td><td>Interplastic CoREZYN&reg; (VE CIPP line, exact PN not confirmed publicly)</td><td>Interplastic's CoREZYN line is confirmed and real for CIPP, described as filled/unfilled isophthalic polyester and vinyl ester resins for gravity pipe — but no specific product code surfaced in public search results to pair against a specific Sino Polymer PN</td><td>Low — company and product family confirmed, exact PN match not found.</td></tr>
+<tr><td>General municipal sewer VE/UPR line</td><td>Municipal gravity sewer, various cure methods</td><td>INEOS Composites Aropol / Derakane</td><td>Same resin chemistry families exist in both catalogs, but no public evidence found that INEOS markets these specific brand lines as CIPP tube resin, as opposed to general FRP tank/pipe resin</td><td>Unconfirmed for CIPP application specifically &mdash; flagged, not matched.</td></tr>
+</table>
+<div class="callout">
+<strong>What this matrix is, and isn't.</strong> It's a starting point for "which competitor is a spec probably describing" when a bid names a resin type by chemistry and cure method rather than brand. It is <em>not</em> a verified technical equivalence built from a side-by-side read of both companies' full datasheets — that would require the actual proprietary TDS PDFs, which weren't retrievable this session. Before citing any specific pairing above to a client as "equivalent to," confirm the competitor's current PN and specs directly (they change without much public notice) and check the actual numbers against Sino Polymer's own datasheet, not just the segment description.
+</div>
+
+<h2>The fast-UV-cure working-time comparison &mdash; and the real gap it exposes</h2>
+<p>Lesson 15 already established something important: Sino Polymer's own brochure describes MFE 701-01T as "fast curing for increased productivity" and the UV resins (9515, 9515N-01, 9516N-01) as having "fast UV curing speed" &mdash; but discloses <strong>no gel time, no minute-level cure time, and no pot-life figure</strong> for any of them. That's a real, still-open gap, not something this pass closed.</p>
+<p>What this pass found on the competitor side sharpens that gap rather than closing it. A public municipal submittal document (Ann Arbor, MI's procurement records) for AOC's Vipel L040-TNVG-LV includes real disclosed numbers:</p>
+<table>
+<tr><th>Property</th><th>AOC Vipel L040-TNVG-33</th><th>Sino Polymer equivalent segment</th></tr>
+<tr><td>Viscosity</td><td>6,500 cps</td><td>Not disclosed publicly in the reviewed brochure for the matched product</td></tr>
+<tr><td>Gel time @ 140&deg;F (60&deg;C)</td><td>33 minutes</td><td>Not disclosed</td></tr>
+<tr><td>Pot life @ 77&deg;F/25&deg;C</td><td>48 minutes</td><td>Not disclosed</td></tr>
+<tr><td>Flexural modulus</td><td>550,000 psi / 3.8 GPa</td><td>2.9&ndash;4.1 GPa (neat-resin range across the product line, Lesson 11/44) &mdash; AOC's 3.8 GPa sits inside this range</td></tr>
+</table>
+<div class="callout">
+<strong>Two honest caveats on the AOC numbers above.</strong> First, these figures came through as a WebSearch-synthesized summary of the source PDF, not from directly reading the document page-by-page (it returned a 403 to WebFetch, same as almost every manufacturer/distributor PDF tried this session) &mdash; treat them as well-sourced but not independently verified against the primary document. Second, and more important for the actual question asked: <strong>the flexural modulus figures are genuinely comparable (both are neat-resin, both in the same GPa range), but the gel-time/pot-life figures have nothing on the Sino Polymer side to compare against.</strong> That means a quantified "our resin saves X% working time" claim cannot honestly be made right now &mdash; not because the claim is false, but because half the comparison is missing.
+</div>
+<p>The concrete, useful outcome here: this is now a specific, well-defined ask to put to Sino Polymer directly &mdash; gel time and pot life figures, at stated temperature and humidity conditions, for MFE 701-01T and the UV-cure family, in the same format AOC already discloses publicly. Until that number exists, "fast curing" stays a qualitative claim a competitor with published numbers can outflank in a technical conversation, regardless of which resin actually cures faster in practice.</p>
+
+<h2>MFE 701-01T's flash point &mdash; now grounded in the actual regulation, not just "roughly 70&deg;C higher"</h2>
+<p>Lesson 17 flagged that MFE 701-01T's &gt;100&deg;C flash point "plausibly" moves it out of the standard flammable-liquid bracket. This pass ran that down against the actual primary-source regulatory text, in both the US and Canadian systems a cross-border Ontario supplier has to work under.</p>
+<table>
+<tr><th>Jurisdiction</th><th>Rule</th><th>Threshold</th><th>Where MFE 701-01T (&gt;100&deg;C) lands</th></tr>
+<tr><td>US &mdash; 49 CFR &sect;173.120</td><td>Class 3 flammable liquid</td><td>Flash point &le;60&deg;C (140&deg;F)</td><td>Clears this threshold &mdash; not a flammable liquid</td></tr>
+<tr><td>US &mdash; 49 CFR &sect;173.120</td><td>Combustible liquid</td><td>Flash point &gt;60&deg;C and &lt;93&deg;C (140&ndash;200&deg;F)</td><td>Clears this threshold too &mdash; &gt;100&deg;C is above even the combustible-liquid ceiling</td></tr>
+<tr><td>Canada &mdash; TDG Regulations</td><td>Class 3 flammable liquid</td><td>Flash point &le;60&deg;C closed-cup (or &le;65.6&deg;C open-cup)</td><td>Clears this threshold &mdash; and Canada's TDGR doesn't define a separate regulated "combustible liquid" class above it, so a &gt;100&deg;C flash point liquid falls outside Class 3 dangerous goods regulation entirely for flammability purposes</td></tr>
+</table>
+<div class="callout">
+<strong>This is a stronger, more specific claim than the one in Lesson 17.</strong> MFE 701-01T's flash point doesn't just move it into a lighter hazmat category &mdash; on the US side it clears <em>both</em> the flammable-liquid and the combustible-liquid brackets entirely, and on the Canadian side it falls fully outside TDG's Class 3 dangerous-goods regulation. The real, concrete cost mechanisms this unlocks: no Class 3 placarding on the shipment, no restricted-carrier requirement, no flammable-liquid-rated warehouse storage mandate, and a materially lower cargo/freight insurance classification &mdash; each one a genuine, itemizable line in a total-installed-cost comparison, not a single vague "safer to ship" gesture.
+</div>
+<div class="callout">
+<strong>One thing to confirm before citing this to a regulator, customs broker, or client procurement team:</strong> the exact flash point test method used to generate the &gt;100&deg;C figure. Flash point results depend on the test method (closed-cup vs. open-cup, e.g. ASTM D93 Pensky-Martens closed-cup is the method usually required for DOT/TDG classification purposes) and a materially different result can come from a different method on the same liquid. Confirm which method Sino Polymer's own datasheet used before treating &gt;100&deg;C as the number a shipper or regulator will accept at face value.
+</div>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Competitor matching and the flash-point math</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A competitor's proposal references an "Ashland" resin. What should you actually check?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — Ashland sold its Composites business to INEOS in 2017. The same legacy brand names (Aropol, Derakane) are now INEOS products.">INEOS's current specs for that product line — Ashland sold its Composites business to INEOS in 2017, so it's the same lineage under a different corporate name now</button>
+    <button data-correct="false" data-feedback="Ashland and INEOS aren't two separate active competitors to compare independently for this resin family — Ashland's Composites business became INEOS Composites in 2017.">Both Ashland's and INEOS's current catalogs separately, since they're distinct competitors</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. AOC publicly discloses a 33-minute gel time for its styrene-free hot-water-cure resin. Sino Polymer's brochure doesn't disclose a gel time for MFE 701-01T. What's the honest conclusion?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — without a comparable disclosed number, a quantified speed claim can't be made honestly. This is a concrete, well-defined item to request from Sino Polymer directly.">A quantified "faster cure" claim can't be made yet — this is a specific, useful gap to ask Sino Polymer to close with real gel-time/pot-life data</button>
+    <button data-correct="false" data-feedback="Sino Polymer's brochure only makes a qualitative \"fast curing\" claim — there's no disclosed number to compare, so this conclusion isn't supported by what's actually in the source material.">Sino Polymer's resin must be slower, since AOC discloses a number and Sino Polymer doesn't</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. Under US DOT rules, where does a resin with a &gt;100&deg;C flash point land?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="A &gt;100°C flash point is above the combustible-liquid ceiling of 93°C (200°F) too, not just the 60°C flammable-liquid threshold — it clears both brackets.">It's a combustible liquid, one step down from flammable, but still hazmat-regulated on flash point grounds</button>
+    <button data-correct="true" data-feedback="Right — 49 CFR 173.120 sets the combustible-liquid ceiling at 93°C (200°F). A >100°C flash point clears both the flammable-liquid (≤60°C) and combustible-liquid (60–93°C) brackets entirely.">Outside both the flammable-liquid (&le;60&deg;C) and combustible-liquid (60&ndash;93&deg;C) brackets entirely</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">4. Before citing MFE 701-01T's &gt;100&deg;C flash point to a customs broker or regulator, what should be confirmed first?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — closed-cup vs. open-cup methods can give materially different results on the same liquid, and DOT/TDG classification typically expects a specific method (e.g. ASTM D93 closed-cup).">Which flash point test method (closed-cup vs. open-cup) produced that number, since the two methods can give different results and regulators typically expect a specific one</button>
+    <button data-correct="false" data-feedback="The flash point figure itself, and the test method behind it, are the actual open items here — non-volatile content is a separate property with no bearing on hazmat classification.">Nothing further — the >100°C figure alone is sufficient for any regulatory submission</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Sources for this lesson: 49 CFR &sect;173.120 (eCFR, US government primary source) for flammable/combustible liquid definitions; Canada's Transportation of Dangerous Goods Regulations Class 3 threshold (via DSV and ChemSafetyPro secondary summaries &mdash; the primary SOR/2001-286 text wasn't directly fetchable this session); AOC Formulations' public CIPP/Relining and Vipel&reg; L040-TNVG / L050-LCA-03 product pages; a public Ann Arbor, MI municipal procurement submittal document containing AOC's Vipel L040-TNVG-LV datasheet figures (WebSearch-synthesized, not independently page-read); Interplastic Corporation's CoREZYN&reg; CIPP product page; INEOS Composites' Aropol/Derakane product pages. Cross-referenced against Lessons 11, 15, and 17 (Sino Polymer's own catalog data, primary source, read in full earlier in this workspace). WebFetch access to essentially every manufacturer/distributor PDF and product page was blocked (HTTP 403) this session, consistent with the pattern noted throughout this workspace &mdash; findings here rely on WebSearch's synthesis of those pages, not direct reads, and are flagged accordingly. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Next open items this lesson surfaces: a direct ask to Sino Polymer for gel-time/pot-life data on MFE 701-01T and the UV family, and confirmation of the flash point test method used.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 45: Real Projects and Company Track Record</span>
+  <span>Cheat sheet: <a href="../reference/sinopolymer-value-proposition.html">Sino Polymer Value Proposition</a></span>
+</nav>
+
+</body>
+</html>
