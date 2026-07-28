@@ -23,7 +23,7 @@
 <li><strong>Soil parameters.</strong> A typical soil density figure cited across sources is around 120 pounds per cubic foot, with a soil modulus (a measure of how much lateral support the surrounding soil provides) around 1,000 psi as a common design value — though real values should come from an actual geotechnical assessment of the specific site, not a generic assumption.</li>
 <li><strong>Live load.</strong> Traffic loading over the pipe, typically expressed as HS-20 or H-20 highway loading — the standard design truck-load assumption used across North American pipe design generally, not something specific to CIPP.</li>
 <li><strong>Ovality.</strong> The host pipe's actual measured out-of-roundness, expressed as a percentage — this comes from the CCTV/inspection data (Lesson 32), not an assumption. A commonly cited example design value is around 2%, but this should reflect what was actually measured on the specific segment.</li>
-<li><strong>The liner's long-term material properties.</strong> Not the resin's initial (short-term) flexural modulus from a datasheet — the <em>time-corrected</em> value, found by applying a <strong>Creep Retention Factor</strong> to the initial modulus. A commonly cited example uses a 50% creep retention factor, meaning the design assumes the liner retains only half its initial stiffness over the design life. This is exactly the ASTM D2990 long-term creep testing flagged as an open item for Sino Polymer in the certification checklist (Lesson 22, reference doc) — without that test, there's no defensible number to put in this specific input. <em>Update — Lesson 42: a real, third-party 50-year creep test now exists for MERICAN 9405T, at a measured retention factor of ~43% — close to, but not identical to, the illustrative 50% figure used here. Use the real number where it applies, and note it was measured via ISO 10468, not literally ASTM D2990.</em></li>
+<li><strong>The liner's long-term material properties.</strong> Not the resin's initial (short-term) flexural modulus from a datasheet — the <em>time-corrected</em> value, found by applying a <strong>Creep Retention Factor</strong> to the initial modulus. A commonly cited example uses a 50% creep retention factor, meaning the design assumes the liner retains only half its initial stiffness over the design life. This is exactly the ASTM D2990 long-term creep testing flagged as an open item for Sino Polymer in the certification checklist (Lesson 22, reference doc) — without that test, there's no defensible number to put in this specific input. <em>Update — Lesson 42: a real, third-party 50-year creep test now exists for MERICAN 9405T, at a measured retention factor of ~43% — close to, but not identical to, the illustrative 50% figure used here. Use the real number where it applies, and note it was measured via ISO 10468, not literally ASTM D2990. See the new section below for exactly what "a common creep retention factor" means across different sources — they don't all mean the same thing.</em></li>
 <li><strong>Poisson's ratio.</strong> A material property describing how a material deforms under load; commonly assumed at 0.3 for CIPP resin systems generically, absent product-specific test data.</li>
 <li><strong>Enhancement factor K and safety factor N.</strong> Already covered in Lesson 19 and Lesson 38 — K in the empirical 3.6–21.4 range (7.0 as Peel's own conservative choice), N typically 2.0.</li>
 </ol>
@@ -43,6 +43,35 @@
 <tr><td>Plate sample, Example 2</td><td>2,758 MPa</td><td>31 MPa</td><td>9.6 mm</td></tr>
 </table>
 <p>These two examples used different design flexural modulus inputs (2,413 vs. 2,758 MPa) and produced different required thicknesses (7.6mm vs. 9.6mm) for what the source material describes as comparable segments — a concrete, real illustration that the design flexural modulus assumption (itself downstream of the creep retention factor and the specific resin/liner system being designed around) is a real lever on the final thickness number, not just a paperwork input.</p>
+
+<h2>"A common Creep Retention Factor" doesn't mean one number — here's what each source actually says</h2>
+<div class="callout">
+<strong>The most important clarification: ASTM D2990 and ISO 10468 are test methods, not value-setting standards.</strong> Neither document itself specifies a required retention percentage — they define <em>how</em> you measure long-term creep behavior. The actual required (or commonly assumed) percentage always comes from whichever design or procurement spec references the test. Asking "what retention factor does D2990 require" is a bit like asking what score a bathroom scale requires — it measures the number; a different document decides what number is acceptable.
+</div>
+<table>
+<tr><th>Source</th><th>Retention figure</th><th>What it actually is</th></tr>
+<tr><td>Generic illustrative design example (used above)</td><td>~50%</td><td>A commonly-cited round-number assumption from secondary design literature — a placeholder for early estimating, not a specific code minimum</td></tr>
+<tr><td><strong>Peel Region</strong> (Appendix 5.9/5.10, Lesson 27)</td><td><strong>≥50%</strong> (hot water/steam), <strong>≥65%</strong> (UV-cured)</td><td>Real, primary-sourced <em>required</em> minimums — the actual regulatory floor a liner must clear</td></tr>
+<tr><td>OPSS.MUNI 443 (Lesson 22)</td><td>Not numerically stated in the sections captured</td><td>Mandates third-party ASTM D2990 testing procedurally (443.04.02) but doesn't itself state a numeric retention floor in the primary-source content this workspace has reviewed — worth confirming directly rather than assuming it matches Peel's figures</td></tr>
+<tr><td>WIS 4-34-04-1995 (UK, Lesson 42)</td><td>&gt;40%</td><td>Real, primary-sourced required minimum from a different regulatory tradition entirely</td></tr>
+<tr><td>MERICAN 9405T's actual test result (Lesson 42)</td><td>~43% (creep factor 0.43)</td><td>A real <em>measured outcome</em>, not a target or an assumption — and it clears Peel's ≥50%... no, it doesn't: 43% falls short of Peel's 50% non-reinforced floor and well short of the 65% UV floor, though it clears WIS's 40% floor</td></tr>
+</table>
+<div class="callout">
+<strong>Worth sitting with that last row.</strong> MERICAN 9405T's real, independently-measured 43% retention is a genuinely strong data point — real third-party creep testing is rare enough in this whole workspace that finding any is notable. But it doesn't automatically clear Peel Region's own 50%/65% floors. This is a good, concrete example of the general rule from Lesson 42: real evidence and "the spec is satisfied" are not the same claim, and precision about which is which matters more here than anywhere else in this lesson arc.
+</div>
+
+<h2>Why tensile strength and hardness don't show up anywhere in this list</h2>
+<p>Two properties that dominate a typical resin datasheet — tensile strength and hardness — are conspicuously absent from every input above. That's not an oversight; it follows directly from what this calculation actually checks.</p>
+<div class="callout">
+<strong>Tensile strength: wrong loading mode for a gravity pipe.</strong> Lesson 19 already established the mechanism — a buried pipe isn't pulled lengthwise, it's <em>bent</em> by external soil and groundwater pressure pushing in from all sides. The Fully Deteriorated buckling equation is built on flexural properties (ASTM D790: a three-point bend test) because that's the loading mode a buckling liner actually experiences. Tensile properties (ASTM D638: an axial pull test) measure a different failure mode entirely — one this calculation doesn't need to check. Tensile strength isn't irrelevant to CIPP generally; it just belongs to two other, different checks:
+<ul>
+<li><strong>Installation loads (F1743, pull-in-place):</strong> a liner tube being winched through a host pipe is genuinely being pulled axially, so it has to survive that tensile load without tearing — an installation-phase check, not a 50-year structural design input.</li>
+<li><strong>Pressure-pipe hoop stress (forcemain/watermain, Lessons 24–25):</strong> internal pressure in a forcemain or watermain creates real tensile hoop stress in the liner wall, which is exactly why the certification checklist's pressure-pipe section lists a minimum tensile strength (21 MPa, ASTM D638/D2290). Gravity sewers don't carry internal pressure, so this check doesn't apply to the Fully Deteriorated calculation in this lesson — it applies to a different design condition covered elsewhere.</li>
+</ul>
+</div>
+<div class="callout">
+<strong>Hardness: a cure-quality indicator, not a load-bearing property.</strong> Barcol or similar hardness values correlate with how fully a resin has cross-linked/cured (Lesson 17) — genuinely useful as a field QC check that a liner cured properly, and relevant to how easily robotic cutters trim laterals and how well the liner resists abrasion from sediment or jetting over its service life. But it isn't a stiffness or strength number that plugs into a buckling or bending equation the way flexural modulus or flexural strength does. A liner can be "hard enough" by every QC check and still be the wrong thickness if the flexural numbers don't clear the design load — hardness and structural adequacy are checking two genuinely different things.
+</div>
 
 <h2>What actually gets ordered isn't the raw calculated number</h2>
 <p>Lesson 28 already established the practical endpoint: Peel bills extra thickness in fixed 1.5mm increments (Item D-7). A calculated minimum requirement of, say, 7.6mm doesn't get manufactured to exactly 7.6mm — the Base-Bid Design sets a baseline, and any Field-Verified Design increase gets rounded up to the next full 1.5mm unit. The structural calculation in this lesson produces the <em>minimum defensible number</em>; the actual liner thickness ordered and installed is that number rounded up to whatever increment the specific contract's pay-item structure uses.</p>
@@ -79,10 +108,19 @@
   <p class="quiz-feedback"></p>
 </div>
 
+<div class="quiz-item">
+  <p class="quiz-prompt">4. A liner tests at 90 on a hardness scale and clears every non-volatile-content and cure-quality check. Does this confirm it meets the structural design thickness requirement?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="Hardness is a cure-quality and abrasion-resistance indicator, not a stiffness/strength number — it doesn't appear in the buckling or bending calculation at all.">Yes — high hardness confirms the liner is structurally strong enough</button>
+    <button data-correct="true" data-feedback="Right — hardness and structural adequacy check genuinely different things. A liner can pass every cure-quality check and still be under-designed if its flexural modulus/strength don't clear the required thickness.">No — hardness doesn't appear in the buckling/bending calculation at all; only flexural modulus and strength do</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
 </div>
 
 <footer class="source-note">
-Sources: web-search-derived summaries of published secondary engineering literature on ASTM F1216 Appendix X1 (input parameters and typical design values only — not the literal equation text, which could not be independently verified this session). Real thickness/modulus figures drawn from Lesson 28, sourced directly from Regional Municipality of Peel, Appendix 5.9 (primary document). Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+Sources: web-search-derived summaries of published secondary engineering literature on ASTM F1216 Appendix X1 (input parameters and typical design values only — not the literal equation text, which could not be independently verified this session). Real thickness/modulus figures drawn from Lesson 28, and real creep-retention figures from Lessons 22, 27, and 42, all sourced directly from primary documents (OPSS.MUNI 443; Regional Municipality of Peel, Appendix 5.9/5.10; and the Sino Polymer technical deck behind Lessons 42–45). Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
 </footer>
 
 <p><em>Next: what that final thickness number actually means for a resin order — how a contractor or supplier turns a thickness and a pipe length into an actual quantity of resin to buy.</em></p>
