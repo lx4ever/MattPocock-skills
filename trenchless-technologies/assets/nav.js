@@ -236,6 +236,11 @@
       "n": 47,
       "file": "0047-epoxy-vs-vinyl-ester-for-cipp.html",
       "title": "Epoxy vs. Vinyl Ester for CIPP"
+    },
+    {
+      "n": 48,
+      "file": "0048-real-innovations-in-cipp-technology.html",
+      "title": "Real Innovations in CIPP Technology"
     }
   ],
   "reference": [
