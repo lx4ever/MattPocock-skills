@@ -241,6 +241,11 @@
       "n": 48,
       "file": "0048-real-innovations-in-cipp-technology.html",
       "title": "Real Innovations in CIPP Technology"
+    },
+    {
+      "n": 49,
+      "file": "0049-astm-f1216-07a-vs-22-the-real-standard.html",
+      "title": "ASTM F1216: 07a vs. 22, From the Actual Standard"
     }
   ],
   "reference": [

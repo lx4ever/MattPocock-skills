@@ -13,7 +13,7 @@
 <p class="kicker">Lesson 19 introduced the buckling equation and the K-factor. This is the standard those pieces live inside — its actual structure, and the design-condition fork every real CIPP design starts from.</p>
 
 <div class="callout">
-<strong>An honesty flag before anything else.</strong> This lesson (and the two after it) is built from public secondary engineering sources — published trenchless-design conference papers, state DOT design manuals, and municipal spec documents that summarize or reproduce parts of F1216 — not a purchased copy of the standard itself. That's the same limitation already logged in <a href="../RESOURCES.md">RESOURCES.md</a> for Lesson 19. The methodology and structure below is well-corroborated across multiple independent sources; treat any specific numeric formula as something to verify against the actual purchased standard before using it on a real design, not as a substitute for one.
+<strong>Update — Lesson 49: this lesson's original sourcing gap is closed.</strong> When first written, this lesson (and the two after it) was built from public secondary engineering sources, not a purchased copy of F1216 itself. That's changed — the actual F1216-07a and F1216-22 standard text has since been reviewed directly. The good news: everything below about the design equations, K-factor, ovality factor, and safety factor is confirmed accurate against the real standard, word for word, across both editions. The one correction: the "2024/2024a DR-to-mean-diameter" claim two paragraphs below did not hold up against the actual current-edition text — see Lesson 49 for the full comparison and the correction.
 </div>
 
 <h2>F1216 is a "Standard Practice," not just a materials spec</h2>
@@ -38,7 +38,7 @@
 <li>The Fully Deteriorated condition isn't a single check — multiple equations get evaluated (different load combinations/limit states), and <strong>the governing required thickness is the largest value produced by any of them</strong>, not an average or a single formula's output.</li>
 </ul>
 <div class="callout">
-<strong>A recent, dateable change worth knowing:</strong> the 2024 and 2024a revisions to F1216 modified equations X1.5–X1.7, shifting from a Dimension Ratio (DR)-based approach to a <strong>mean-diameter-based</strong> approach specifically because DR doesn't handle anisotropic composites (like fiberglass-reinforced UV liners) well. This is the same underlying issue Lesson 27 flagged from a different angle — ISO 11296's curved-coupon test method being preferred over ASTM D790's flat-coupon method specifically because it better captures a reinforced liner's real geometry. Both point at the same underlying fact: reinforced/composite liners don't behave like the simple thin-isotropic-tube model the original equations were built around, and the standards are still being actively revised to catch up with that.
+<strong>Correction (Lesson 49): the claim below did not survive a direct read of the actual standard.</strong> This callout originally stated that 2024/2024a revisions shifted X1.5–X1.7 from a DR-based to a mean-diameter-based approach. Having now read F1216-22's actual text directly, X1.5–X1.7 are textually identical to the 07a edition and still explicitly DR-based. That doesn't prove no later edition ever made this change — a 2023/2024-dated edition wasn't available to check — but it does mean this specific claim was never verified against the real standard and shouldn't be repeated as confirmed fact. The underlying point about ISO 11296's curved-coupon method being better suited to anisotropic composites (Lesson 27) still stands on its own; it just isn't confirmed to be the reason for an X1.5–X1.7 equation change in F1216 itself.
 </div>
 
 <h2>Why the design condition choice matters more than any single number in the equation</h2>
@@ -79,7 +79,7 @@
 </div>
 
 <footer class="source-note">
-Sources: web-search-derived summaries of published trenchless-design conference papers, state DOT design manuals, and municipal CIPP specifications discussing ASTM F1216 Appendix X1 (secondary sources — WebFetch access to the underlying PDFs was blocked at the network level during this session, consistent with the pattern already logged in RESOURCES.md). Cross-referenced against Lessons 19 and 26–28, which draw on Peel Region's own primary bid documents. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+Originally sourced from web-search-derived summaries of published trenchless-design conference papers, state DOT design manuals, and municipal CIPP specifications discussing ASTM F1216 Appendix X1 — since confirmed directly against the real ASTM F1216-07a and F1216-22 standard text (Lesson 49, primary source, read in full). Cross-referenced against Lessons 19, 26–28, and 49. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
 </footer>
 
 <p><em>Next: walking through the Fully Deteriorated calculation step by step — what inputs an engineer actually gathers, and how they turn into a thickness.</em></p>

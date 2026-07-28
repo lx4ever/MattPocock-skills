@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 49 — ASTM F1216: 07a vs. 22, From the Actual Standard</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 49: ASTM F1216 — 07a vs. 22, From the Actual Standard</h1>
+<p class="kicker">For the first time in this workspace, the real purchased text of ASTM F1216 — not a secondary reconstruction of it. Two editions, fifteen years apart, read side by side.</p>
+
+<p class="lede">Lessons 38–41 were built from public secondary sources and said so plainly, because a purchased copy of F1216 was never available. That's changed: this lesson works from the actual standard text, both the F1216-07a edition Peel Region's own bid specification names (Lesson 26) and the current F1216-22 edition. This is a genuine upgrade to this workspace's sourcing, not just another update — and it both confirms most of what Lessons 38–40 already said, and corrects one specific claim that doesn't hold up.</p>
+
+<h2>First, the reassuring part: the core design equations haven't changed</h2>
+<p>Appendix X1's equations X1.1 through X1.7 — the buckling/bending checks Lessons 38–40 are built around — are <strong>textually identical</strong> between the 2007a and 2022 editions. Same K enhancement factor (minimum 7.0 recommended), same ovality reduction factor C formula, same Table X1.1 worked example assumptions (K=7.0, E=125,000 psi/862 MPa 50-year strength, ν=0.30, C=0.64 at 5% ovality, N=2.0), same dimension-ratio (DR) basis for every equation including X1.5–X1.7. Fifteen years and multiple intermediate editions, and the structural design methodology itself is unchanged.</p>
+
+<h2>A correction to Lesson 38: the "2024/2024a DR-to-mean-diameter" claim doesn't check out</h2>
+<div class="callout">
+<strong>Lesson 38 stated that "the 2024 and 2024a revisions to F1216 modified equations X1.5–X1.7, shifting from a Dimension Ratio (DR)-based approach to a mean-diameter-based approach."</strong> Having now read the actual F1216-22 text directly, X1.5–X1.7 are still explicitly DR-based — identical in form to the 2007a edition. This doesn't prove a later 2023/2024 edition made no such change (this session doesn't have that specific edition to check), but it does mean the claim was not independently verified against the actual standard when it was written, and the two editions in hand show no sign of the shift described. Treat that specific claim as unconfirmed and likely incorrect until a 2024-dated edition is actually reviewed directly — this is exactly the kind of secondary-source risk the original Lesson 38 disclaimer was written to flag, and it's worth being honest that it materialized here.
+</div>
+
+<h2>What's genuinely new in F1216-22 — six real changes</h2>
+<table>
+<tr><th>Change</th><th>F1216-07a</th><th>F1216-22</th><th>Why it matters</th></tr>
+<tr><td>Diameter scope</td><td>4 in. to 108 in.</td><td>2 in. to 108 in.</td><td>The lower bound dropped — small-diameter laterals as small as 2 in. are now explicitly in scope.</td></tr>
+<tr><td>Cure methods</td><td>Hot water or steam only</td><td>Hot water, steam, <strong>or photoinitiated (UV) reaction</strong> — a new §3.2.4 definition and an entire new §7.6.3 procedure</td><td>UV cure is now a first-class, officially recognized method in the standard itself, not just industry practice ahead of the standard. This directly underwrites everything this workspace has said about UV CIPP (Lessons 6, 15, 44, 46, 48).</td></tr>
+<tr><td>Language type</td><td>"Should" throughout (non-mandatory recommendations)</td><td>"Shall" throughout (mandatory requirements) — the standard's own Summary of Changes for the 2021→2022 revision states this explicitly: "Changed non-mandatory wording to mandatory wording throughout the standard"</td><td>The same clauses that were advisory language in the 07a edition are enforceable requirements in the current one — a real shift in how strictly a contractor can be held to the practice's procedural language, independent of any project spec.</td></tr>
+<tr><td>CIPP materials spec</td><td>None yet — 07a's own Note 1 says one is "under preparation and will be referenced in this practice when published"</td><td><strong>D5813</strong>, "Specification for Cured-In-Place Thermosetting Resin Sewer Piping Systems," now published and referenced directly</td><td>A real, named, citable ASTM standard specifically for CIPP materials now exists — worth knowing as its own reference point, separate from F1216 itself.</td></tr>
+<tr><td>Wall thickness QC</td><td>No dedicated section</td><td><strong>New §8.6, "CIPP Wall Thickness"</strong> — minimum 8 evenly spaced measurements around the circumference (16 for pipe ≥15 in.), per D3567, deducting non-structural coating thickness, plus a new §8.6.1 ultrasonic alternative (per E797/E797M) with daily transducer calibration against a purpose-made calibration block</td><td>A brand-new, specific, numeric tolerance: <strong>minimum wall thickness at any single point shall not be less than 87.5% of the specified design thickness.</strong> This is a real, quotable QC standard that didn't exist in the 07a edition at all.</td></tr>
+<tr><td>Sample count</td><td>Two CIPP samples required per inversion length (one cut from the cured pipe, one mold-cured)</td><td>One sample required, method chosen by pipe size/access — the cut-sample method is now specifically limited to pipe sizes 18 in. or less, with the mold-cured method used for medium/large diameters or restricted-access areas</td><td>A real reduction in sampling burden, but also a real methodology fork based on diameter that wasn't in the older edition.</td></tr>
+</table>
+
+<h2>Smaller but real: five more procedural changes</h2>
+<ul>
+<li><strong>Excess resin allowance re-scoped.</strong> 07a stated the 5–10% excess-resin allowance as a blanket rule in the main text (§7.2). 22 moves it to a Note and explicitly limits it: "In pipelines 8 in. diameter and less, 5% to 10% excess resin should be added" — larger-diameter jobs no longer have that specific figure prescribed in the standard's main text.</li>
+<li><strong>Steam cure gets a new condensation-control requirement.</strong> 22 adds: "The volume of air being sent through the pipe shall be sufficient to minimize condensation of the steam occurring during the curing" — not present in 07a.</li>
+<li><strong>Curing must now account for vertical alignment (sags), not just pipe material, resin system, and ground conditions</strong> — a new factor added to §7.6.2.2 in the 22 edition.</li>
+<li><strong>Pressure-hold responsibility during cure shifted.</strong> 07a: "the seller" provides the estimated max/min pressure, "as required by the purchase agreement." 22: "the tube manufacturer" provides it, unconditionally — both a narrower and firmer assignment of responsibility.</li>
+<li><strong>Termination sealing broadened.</strong> 07a required sealing the CIPP-to-pipe gap specifically "by filling with a resin mixture compatible with the CIPP." 22 allows "an approved method using compatible materials," but only "if required by the owner in contract documents" — broader materials, narrower default applicability.</li>
+</ul>
+
+<h2>The UV/photoinitiated curing procedure, in detail — new and directly relevant to this workspace</h2>
+<p>Because UV cure has come up repeatedly (Lessons 6, 15, 44, 46, 48) without ever being grounded in F1216's own text before, the actual new §7.6.3 language is worth reading closely:</p>
+<ul>
+<li>Before curing starts, the installer must use CCTV to verify the tube is properly positioned and fitted to the host pipe, and correct any anomalies first — a documented pre-cure inspection step specific to UV/photoinitiated cure.</li>
+<li>The curing lights must be tuned to the photoinitiated resin system, "or conversely the photo initiators shall be optimized to the output of the curing lights" — an explicit acknowledgment that light source and resin formulation have to be matched to each other, not treated as interchangeable components.</li>
+<li>For dynamic curing (a light train moving through the pipe), the CIPP system manufacturer must provide the rate of travel for each installation length or tube dimension — directly relevant to the working-time/cure-speed disclosure gap flagged in Lessons 15 and 46.</li>
+<li>A full curing-control protocol must be defined by the manufacturer and documented — time, rate of travel, pressures, tube temperature, and light assembly power output.</li>
+</ul>
+<div class="callout">
+<strong>This is now the actual standard's own answer to a question this workspace has asked repeatedly.</strong> Lessons 15 and 46 flagged that Sino Polymer's brochure discloses no gel-time or rate-of-travel figure for its UV resins. F1216-22 §7.6.3.2 makes that rate-of-travel figure a standard-mandated deliverable from the manufacturer for any dynamic UV cure installation — not just a nice-to-have disclosure, but a documented requirement of the practice itself. That sharpens the ask: if a UV resin is being proposed for a real job under the current edition of F1216, the rate-of-travel figure isn't optional information to request — it's something the standard already requires the manufacturer to provide.
+</div>
+
+<h2>One more honest flag: even F1216-22 shows a "superseded" notice</h2>
+<p>Both PDFs reviewed this session carry ASTM's own red banner: "This standard has either been superseded and replaced by a new version or withdrawn." That's expected for the 07a edition (many editions have followed it), but the 22 edition carries the identical notice — meaning at least one further edition exists beyond 2022 that wasn't available to review this session. Everything above should be read as "confirmed current as of the 2022 edition," not as "confirmed current as of today" — a real, still-open item if a live bid depends on knowing the very latest edition's exact text.</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>F1216, 07a vs. 22</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. Lesson 38 claimed a 2024/2024a revision shifted X1.5–X1.7 from DR-based to mean-diameter-based equations. What does direct comparison of the 07a and 22 editions show?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — X1.5–X1.7 are textually identical and still DR-based in both editions reviewed, so that specific claim wasn't independently verified and doesn't hold up against the actual text in hand.">The equations are identical and still DR-based in both editions — the claim isn't confirmed by the actual standard text available this session</button>
+    <button data-correct="false" data-feedback="Direct comparison shows the opposite — X1.5–X1.7 are unchanged and still DR-based across both editions reviewed.">The 22 edition confirms the shift to mean-diameter-based equations</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. What's the single most consequential new requirement in F1216-22's §8.6 that didn't exist in 07a at all?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — this is a brand-new, specific, numeric QC tolerance with no equivalent in the 07a edition.">Minimum wall thickness at any single point shall not be less than 87.5% of the specified design thickness</button>
+    <button data-correct="false" data-feedback="The flexural strength/modulus minimums in Table 1 (4,500 psi / 250,000 psi) are unchanged between the two editions — that's not what's new in §8.6.">A new minimum flexural modulus requirement of 250,000 psi</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. Under F1216-22 §7.6.3.2, is a UV resin's rate-of-travel figure for dynamic curing optional information a manufacturer might choose to disclose?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="§7.6.3.2 makes this a standard-mandated deliverable, not an optional disclosure — the manufacturer shall provide it for each installation length or tube dimension.">Yes — it's helpful but not required by the standard itself</button>
+    <button data-correct="true" data-feedback="Right — F1216-22 requires the CIPP system manufacturer to provide the rate of travel for the light assembly for each installation length or tube dimension. It's a standard requirement, not just a best practice.">No — the current edition of F1216 requires the manufacturer to provide it for dynamic curing processes</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Sources for this lesson: ASTM F1216-07a and ASTM F1216-22, "Standard Practice for Rehabilitation of Existing Pipelines and Conduits by the Inversion and Curing of a Resin-Impregnated Tube" (user-uploaded official ASTM PDFs, primary source, read in full — the first time this workspace has had direct access to the actual purchased standard rather than a secondary reconstruction of it). This directly upgrades the sourcing caveat originally logged for Lessons 19 and 38–40. Both editions carry ASTM's own notice that they have since been superseded by a later edition not available this session. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Worth a follow-up if useful: whether Peel Region's bid specification (which names F1216-07a specifically, per Lesson 26) would accept design work done to the current F1216-22 wall-thickness and sampling requirements, or whether it's genuinely pinned to the older edition's procedures.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 48: Real Innovations in CIPP Technology</span>
+  <span>Cheat sheet: <a href="../reference/sinopolymer-value-proposition.html">Sino Polymer Value Proposition</a></span>
+</nav>
+
+</body>
+</html>
