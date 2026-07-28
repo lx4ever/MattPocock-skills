@@ -231,6 +231,11 @@
       "n": 46,
       "file": "0046-competitor-matching-and-the-flash-point-math.html",
       "title": "Competitor Matching, UV Working Time, and the Flash-Point Math"
+    },
+    {
+      "n": 47,
+      "file": "0047-epoxy-vs-vinyl-ester-for-cipp.html",
+      "title": "Epoxy vs. Vinyl Ester for CIPP"
     }
   ],
   "reference": [
