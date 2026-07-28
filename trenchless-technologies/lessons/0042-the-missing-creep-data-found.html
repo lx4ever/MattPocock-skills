@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 42 — The Missing Creep Data, Found</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 42: The Missing Creep Data, Found</h1>
+<p class="kicker">Since Lesson 22, the certification checklist has flagged one item as "open — not present in the brochure": long-term creep testing. A newly reviewed Sino Polymer technical deck answers it directly, with real third-party numbers.</p>
+
+<div class="callout">
+<strong>The headline finding:</strong> in May 2013, a Sino Polymer customer sent a MERICAN 9405T resin spline to <strong>AL Technologies (S) Pte Ltd in Singapore</strong> — an independent third-party test lab — for a 50-year long-term creep test. The results: a short-term flexural modulus of <strong>4,068 MPa</strong>, a 50-year projected flexural creep modulus of <strong>1,723 MPa</strong>, and a creep factor of <strong>0.43</strong>. That's a real, independently-measured, empirical creep retention rate of roughly <strong>43%</strong> — the exact number Lesson 39 flagged as missing and had to illustrate with a generic assumed value instead.
+</div>
+
+<h2>What the test actually measured, and how it maps to what this workspace already knew</h2>
+<p>Working backward from the raw numbers: creep factor (F50) = E50 ÷ E0 = 1,723 ÷ 4,068 ≈ 0.42, which the source rounds to 0.43. Test conditions: a specimen 7.264mm thick, 15.30mm wide, spanning 116mm, loaded with 4.741kg, held for 100 days in 35°C water at pH 6, with modulus back-calculated from deflection at each time interval out to 144,000 minutes (100 days) and then projected to the 50-year mark.</p>
+<div class="callout">
+<strong>A striking number to notice: 1,723 MPa is almost exactly the 1,724 MPa generic ASTM F1216/OPSS.MUNI flexural modulus floor</strong> cited throughout Lessons 22–27 and the certification checklist. That's very unlikely to be a coincidence — the generic code minimum was almost certainly benchmarked against exactly this kind of 50-year creep-projected value in the first place. Seeing a real product's actual 50-year number land right at that historic floor is a genuinely illuminating data point, not just a passing curiosity.
+</div>
+
+<h2>An honest caveat: this is ISO 10468, not literally ASTM D2990</h2>
+<p>The test methodology referenced alongside these results is <strong>ISO 10468</strong>, "Glass-reinforced thermosetting plastics (GRP) pipes — Determination of the long-term specific ring creep stiffness under wet conditions and calculation of the wet creep factor" (2003 edition; a 2018 revision retitled it to cover both wet and dry conditions). This is the international/European standard for exactly the same underlying property — long-term creep-retained stiffness — but it is not literally the same document as ASTM D2990, the specific standard OPSS.MUNI and Peel Region's specs name (Lessons 22–23, 39, 41).</p>
+<div class="callout">
+<strong>What this means practically:</strong> this is real, credible, independently-verified long-term performance data — not a fabricated or assumed number. But if a specific bid document requires "ASTM D2990 testing" by name (as OPSS.MUNI 443 and Peel's Appendix 5.9 do), an ISO 10468 report may need to be submitted alongside a note on methodological equivalence, or a fresh ASTM D2990 test may still be requested by a specific reviewing engineer. Don't treat this as an automatic substitute for a named-standard requirement — treat it as strong evidence the underlying long-term performance is real and good, worth leading with while confirming the exact document a given spec wants.
+</div>
+
+<h2>A second, independent regulatory driver for the same 50-year requirement</h2>
+<p>The test wasn't run for ASTM F1216's sake — it was run to satisfy <strong>WIS 4-34-04-1995</strong>, a UK Water Industry Specification: "Guiding Standard for the Lining Repair Construction of Drainage Pipes by Hardening Pipes in Place (CIPP)," which requires the flexural modulus retention rate of CIPP-process FRP pipes to reach <strong>more than 40% within 50 years</strong>. MERICAN 9405T's measured 43% clears that bar directly. This is a genuinely new standard for this workspace — Lesson 14's Europe regulatory survey covered ISO 11296-4 and the EU drinking-water positive lists, but not this specific UK water-industry CIPP spec. Worth logging as a fourth regional standard alongside ASTM F1216 (US), OPSS.MUNI (Ontario), and ISO 11296-4 (EU-wide) — WIS specs are the UK water utility sector's own additional layer on top of the ISO/EN baseline.</p>
+
+<h2>Why this matters beyond one resin</h2>
+<p>This test result answers three separate open questions that have been tracked since early in this workspace:</p>
+<ul>
+<li><strong>Does Sino Polymer have any long-term creep data at all?</strong> Yes — for at least MERICAN 9405T, real and third-party verified, not just a qualitative claim.</li>
+<li><strong>What's a realistic creep retention factor for this resin family, rather than a generic textbook assumption?</strong> ~43%, empirically measured — a meaningfully more defensible number than the illustrative 50% figure Lesson 39 had to use for lack of anything better.</li>
+<li><strong>Does the company have in-house capability to generate more of this data on demand?</strong> The same source document lists Sino Polymer's own R&D center equipment — FTIR, GPC, DMA, DSC, Karl Fischer titration, TGA, HDT testing, a universal testing machine — real lab capability to run exactly this kind of characterization, not just outsource it opportunistically.</li>
+</ul>
+
+<h2>What's still not resolved</h2>
+<p>This is one test, on one product (MERICAN 9405T), via one methodology (ISO 10468, not ASTM D2990), at one lab. It doesn't automatically extend to every other product in the line, and it's neat-resin/cast-spline data — not the composite (resin + felt/fiberglass) data Lesson 41 flagged as the deeper structural gap. Lesson 43 picks up that second half of the story directly.</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>The creep data</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. MERICAN 9405T's measured 50-year creep factor is 0.43 (43% retention). Does this automatically satisfy a bid spec that names "ASTM D2990" testing specifically?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="The test was run to ISO 10468, a real and credible international standard for the same underlying property — but it isn't literally ASTM D2990, the specific document some specs name.">Yes — it's long-term creep data, so any spec asking for creep testing is satisfied</button>
+    <button data-correct="true" data-feedback="Right — ISO 10468 measures the same underlying property but isn't literally the named ASTM D2990 standard. It's strong evidence, not an automatic substitute for a named-document requirement.">Not automatically — the test used ISO 10468, a different (though related) standard from the ASTM D2990 some specs name specifically</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. Why is it notable that the measured 50-year modulus (1,723 MPa) lands almost exactly on the generic ASTM F1216/OPSS.MUNI floor (1,724 MPa)?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — it's strong evidence the generic code floor was itself derived from real long-term creep-projected data of this kind, not an arbitrary round number.">It suggests the generic code minimum was likely benchmarked against exactly this kind of 50-year creep-projected value, not chosen arbitrarily</button>
+    <button data-correct="false" data-feedback="It's a real, notable convergence worth understanding, not a coincidence to disregard.">It's a coincidence with no particular significance</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. Does this creep test result close Lesson 41's neat-resin-vs-composite gap for the F1216 design process?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="This specific test was run on a cast resin spline, not a felt/fiberglass composite — the composite gap is separate, and Lesson 43 addresses it directly.">Yes — creep data on the resin is exactly what the composite gap required</button>
+    <button data-correct="true" data-feedback="Right — this is neat-resin (cast spline) data. It resolves the long-term-testing gap specifically, but the separate neat-resin-vs-composite gap needs its own evidence, covered in Lesson 43.">No — this test was run on a cast resin spline, not a felt/fiberglass composite; the composite gap is a separate, still-distinct question</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Source: Sino Polymer / Huachang Polymers, "CIPP Resin Material Solutions and Standardization Recommendations for Pipeline Rehabilitation" (Hua Liu, Ph.D., user-uploaded PDF, primary source, read in full — 57 pages). Cross-referenced against the certification checklist reference doc and Lessons 22, 39, and 41, where this gap was originally flagged as open. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Next: the composite (not neat-resin) side of the same story — real cured UV-CIPP hose test data, checked directly against Peel Region's 8,000 MPa reinforced-liner bar.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 41: From a Resin TDS to a Liner Design</span>
+  <span>Next: Real Composite Data Closes the Reinforced-Liner Gap</span>
+</nav>
+
+</body>
+</html>

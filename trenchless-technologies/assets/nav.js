@@ -206,6 +206,26 @@
       "n": 41,
       "file": "0041-from-a-resin-tds-to-a-liner-design.html",
       "title": "From a Resin TDS to a Liner Design"
+    },
+    {
+      "n": 42,
+      "file": "0042-the-missing-creep-data-found.html",
+      "title": "The Missing Creep Data, Found"
+    },
+    {
+      "n": 43,
+      "file": "0043-real-composite-data-closes-the-reinforced-liner-gap.html",
+      "title": "Real Composite Data Closes the Reinforced-Liner Gap"
+    },
+    {
+      "n": 44,
+      "file": "0044-the-expanded-product-line-and-new-certifications.html",
+      "title": "The Expanded Product Line and New Certifications"
+    },
+    {
+      "n": 45,
+      "file": "0045-real-projects-and-company-track-record.html",
+      "title": "Real Projects and Company Track Record"
     }
   ],
   "reference": [
