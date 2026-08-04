@@ -276,6 +276,11 @@
       "n": 55,
       "file": "0055-innovations-meet-a-real-tender.html",
       "title": "What a Live Tender Confirms About Where the Industry Is Headed"
+    },
+    {
+      "n": 56,
+      "file": "0056-how-cure-method-actually-gets-decided.html",
+      "title": "How Cure Method Actually Gets Decided"
     }
   ],
   "reference": [

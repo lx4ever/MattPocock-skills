@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 56 — How Cure Method Actually Gets Decided</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 56: How Cure Method Actually Gets Decided</h1>
+<p class="kicker">Neither Peel Region's nor Toronto's repair list tells a bidder which segments get UV and which get hot water/steam — because that's not how the decision actually gets made in either contract.</p>
+
+<p class="lede">This is a direct, worth-stating-explicitly answer to a question the last several lessons only cover in pieces: how does a segment end up cured by UV light versus hot water or steam? The honest finding, checked directly against both real repair lists: it isn't assigned per segment by either municipality at all.</p>
+
+<h2>First, the direct check: neither repair list has a cure-method column</h2>
+<table>
+<tr><th></th><th>Peel Region (Appendix 5.21a)</th><th>Toronto (Appendix 1-1)</th></tr>
+<tr><td>Cure-method field per segment?</td><td>No — every row is coded generically "Full-Length CIPP Lining (Fully Deteriorated)"</td><td>No — the closest field is "Styrene Free Resin (Y/N)," which is a resin-chemistry flag, not a cure-method flag</td></tr>
+<tr><td>What each list <em>does</em> flag per segment</td><td>Material, diameter, defect narrative, access constraints, permit requirements (Lesson 35)</td><td>Diameter, material, ward, site-access flags, styrene-free requirement (Lesson 51)</td></tr>
+</table>
+<p>If cure method were something the municipality assigned segment by segment, it would show up as its own column the way styrene-free resin does in Toronto's list. It doesn't. That absence is itself the finding.</p>
+
+<h2>So what actually determines it? The bidder's proposed system, not the segment</h2>
+<div class="callout">
+<strong>Peel Region runs two parallel full-length specs.</strong> Appendix 5.9 (hot water or steam cure) and Appendix 5.10 (UV light cure) are separate documents with separate design minimums (Lesson 27's table: 2,400 MPa initial flexural modulus and 50% long-term retention for hot water/steam, versus 8,000 MPa and 65% retention for UV). A bidder designs their proposal around one of these specs — the repair list doesn't pre-assign which.
+</div>
+<div class="callout">
+<strong>Toronto structures the same choice as a form field, not a segment assignment.</strong> Form E's Table 4E-1 has three parallel columns — Lining System 1 (Styrene), System 2 (Styrene Free), System 3 (UV — Optional) — for a supplier's <em>proposed systems</em>, not per-segment requirements. UV is explicitly marked optional. A bidder fills in whichever systems they're offering; the City doesn't pre-select one for a given pipe.
+</div>
+
+<h2>The real technical driver: reinforcement, not the heat source itself</h2>
+<p>Lesson 26 already named this directly: Peel's UV spec "always pairs with a fiberglass-reinforced liner." That's the actual mechanism. UV cure's much higher design minimums (8,000 MPa vs. 2,400 MPa) aren't achievable with a standard felt/polyester system cured by hot water — they require a fiberglass-reinforced composite, and fiberglass-reinforced composites are the systems that get UV-cured in practice (Lesson 19's stiffness point: a stiffer reinforced liner can hit the same buckling-resistance target at less thickness). So the underlying engineering question isn't really "UV or hot water" — it's <strong>"does this segment's structural design call for a reinforced (GRP) liner or a standard felt liner,"</strong> and the cure method follows from that answer, not the other way around.</p>
+
+<h2>Toronto's own pay-item structure confirms cure method is invisible to the pricing</h2>
+<p>Lesson 52 already documented Toronto's real pay-item matrix: mainline CIPP items split by diameter, by styrene-free resin, and by arterial-vs-local road — four sub-categories, none of them cure-method-based. There is no separate "UV-cured" or "hot-water-cured" pay item anywhere in the Section 4 pricing structure. The City prices the outcome (a lined pipe, at a given diameter, with or without styrene-free resin, on a given road class) — not the cure method used to get there. That's consistent with cure method being entirely inside the contractor's proposed system, not a City-specified variable.</p>
+
+<h2>The remaining drivers are practical and economic, not written as formal rules</h2>
+<ul>
+<li><strong>Downtime economics.</strong> Lesson 26 frames UV as "the fast-turnaround option... chosen when downtime matters more" — a contractor's own production-schedule tradeoff, not a pipe-condition requirement.</li>
+<li><strong>Diameter and equipment practicality.</strong> Lesson 48's real UV systems have real diameter ranges (e.g., 2–18 in. for one commercial LED system); very large-diameter segments (Toronto's repair list runs up to 1800mm) push toward hot water/steam or a specialized large-diameter UV setup — ProKASRO's 84-inch demonstration (also Lesson 48) shows it's possible, but it's still a novel-scale project, not routine.</li>
+<li><strong>Site sensitivity, indirectly.</strong> Toronto's Styrene Discharge Management Plan names "performing UV CIPP lining whereas feasible" as one of exactly two mitigation techniques for managing odor near sensitive sites (Lesson 54). That doesn't assign UV to specific segments either — it gives the contractor a real, spec-cited reason to favor UV where the 100m-proximity styrene-free trigger is likely to fire, on top of whatever resin chemistry gets chosen.</li>
+</ul>
+<div class="callout">
+<strong>Put together, the honest answer to "how do we determine what gets UV cured and what gets hot water cured":</strong> a City doesn't determine it segment by segment in either of these two real, primary-sourced contracts. A <em>contractor or design engineer</em> determines it, driven mainly by whether the segment's structural design calls for a reinforced liner (which pulls it toward UV) or a standard felt system (which pulls it toward hot water/steam), then adjusted by production economics, diameter/equipment limits, and — in Toronto's case specifically — proximity to sites where the styrene-management plan makes UV the preferred mitigation.
+</div>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Cure method, in a real contract</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A bidder is looking for a "cure method" column in Toronto's Appendix 1-1 repair list, expecting the City to have pre-assigned UV vs. hot water per segment. What will they actually find?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — the closest field is Styrene Free Resin (Y/N), a resin-chemistry flag, not a cure-method flag. There's no per-segment UV/hot-water assignment in either Peel's or Toronto's repair list.">No such column — the repair list flags styrene-free resin requirements, not cure method, and doesn't assign UV vs. hot water per segment at all</button>
+    <button data-correct="false" data-feedback="Neither Peel's nor Toronto's real repair list contains a cure-method field — this was checked directly against both documents.">A "UV" or "Hot Water/Steam" column, matching each of the 305 segments to a required method</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. Why does Peel's UV cure spec (Appendix 5.10) require a much higher flexural modulus (8,000 MPa) than the hot water/steam spec (2,400 MPa)?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — UV cure in practice always pairs with a fiberglass-reinforced composite (Lesson 26), and reinforced composites are inherently stiffer than standard felt/polyester systems — the higher design minimum reflects the liner construction, not the light source itself.">UV cure always pairs with a fiberglass-reinforced liner, which is inherently stiffer than a standard felt/polyester system cured by hot water — the design minimum reflects the liner construction, not the light source</button>
+    <button data-correct="false" data-feedback="UV light itself doesn't increase a liner's stiffness — the higher design minimum tracks the fiberglass reinforcement that UV-cured systems are built with, not the cure energy source.">UV light itself makes the cured resin inherently stronger than heat curing does, independent of the liner's construction</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. Toronto's Section 4 pricing structure splits mainline CIPP items by diameter, styrene-free resin, and road class. What's the significance of cure method not appearing as a pricing variable?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — the City prices the outcome, not the method used to achieve it, consistent with cure method being a contractor-level system choice (Form E) rather than a City-specified per-segment requirement.">It confirms cure method is entirely a contractor-level choice inside their proposed system, invisible to the City's own pricing structure</button>
+    <button data-correct="false" data-feedback="If cure method were a City-mandated, per-segment requirement, it would be exactly the kind of variable that shows up as its own pay item, the way styrene-free resin does — its absence is the actual evidence against that reading.">It means cure method doesn't affect cost at all and can be ignored in estimating</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Synthesized directly from primary sources already in this workspace: Regional Municipality of Peel, Appendix 5.9, 5.10, and 5.21a (List of Repairs), and City of Toronto RFT Doc4897137822 / Contract No. 25TW-CPI-02CWD, Part 3 Section 4 (pay items) and Part 4 Form E — all user-uploaded PDFs, primary sources, read in full. Cross-referenced against Lessons 9, 19, 26, 27, 35, 46, 48, 51, 52, and 54. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>This closes a real gap the Toronto and Peel lesson arcs each covered from a different angle without ever stating the combined answer directly — worth having as its own reference point going forward.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 55: What a Live Tender Confirms About Where the Industry Is Headed</span>
+  <span>Cheat sheet: <a href="../reference/sinopolymer-value-proposition.html">Sino Polymer Value Proposition</a></span>
+</nav>
+
+</body>
+</html>
