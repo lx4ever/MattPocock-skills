@@ -281,6 +281,11 @@
       "n": 56,
       "file": "0056-how-cure-method-actually-gets-decided.html",
       "title": "How Cure Method Actually Gets Decided"
+    },
+    {
+      "n": 57,
+      "file": "0057-jiangsu-cost-norm-real-unit-prices.html",
+      "title": "The Jiangsu Cost Norm: Real Unit Prices, and What They Don't Tell You"
     }
   ],
   "reference": [

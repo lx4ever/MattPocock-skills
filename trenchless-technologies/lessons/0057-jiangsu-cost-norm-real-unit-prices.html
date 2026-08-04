@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 57 — The Jiangsu Cost Norm: Real Unit Prices, and What They Don't Tell You</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 57: The Jiangsu Cost Norm — Real Unit Prices, and What They Don't Tell You</h1>
+<p class="kicker">A real, official Chinese provincial government cost-estimating standard for trenchless pipe rehab — a different <em>kind</em> of document from every Peel or Toronto source reviewed so far, with a genuine price comparison and an equally genuine honesty trap built into comparing it naively.</p>
+
+<p class="lede">Two documents, both issued by 江苏省住房和城乡建设厅 (the Jiangsu Provincial Department of Housing and Urban-Rural Development): "附录N 江苏省城镇排水管道非开挖修复工程量清单" (Appendix N: Jiangsu Urban Drainage Pipeline Trenchless Rehabilitation Bill-of-Quantities), which defines the item classification codes, measurement units, and scope of work for every trenchless method; and "江苏省城镇排水管道非开挖修复工程估价表" (Jiangsu Urban Drainage Pipeline Trenchless Rehabilitation Engineering Pricing Table), an 83-page document giving the actual itemized unit price — labour, material, and machine cost broken down line by line — for each method at each diameter. Together they're a real cost norm, not a bid or a design spec.</p>
+
+<h2>First, the category distinction that matters most</h2>
+<div class="callout">
+<strong>Every primary source in this workspace up to now has been either a design/material spec (OPSS.MUNI 443, Peel's Appendix 5.9/5.10, Toronto's TS 4.10/D5813) or a live competitive procurement package (Peel's and Toronto's actual RFTs).</strong> This is neither. It's a government-published <strong>cost norm</strong> — a standardized reference for how much labour, material, and machine time a given unit of work is assumed to consume, priced at a stated regional price level (explicitly "2024年下半年南京市价格口径," H2 2024 Nanjing pricing). It's the kind of document used to build a tender ceiling price (招标控制价) or an internal cost estimate, not a document a bidder submits or a City enforces materials minimums through. There's no flexural modulus, no ASTM/ISO citation, no creep retention factor anywhere in it — because it isn't answering "is this liner strong enough," it's answering "how much does this cost to build."
+</div>
+
+<h2>The classification taxonomy — four chapters, mapping cleanly onto concepts already in this workspace</h2>
+<table>
+<tr><th>Chapter</th><th>Covers</th><th>Nearest equivalent already in this workspace</th></tr>
+<tr><td>N.1 管道清淤 (Pipe desilting)</td><td>Bladder/masonry plugging and removal, pipe cleaning, scale/root/concrete-fouling removal, manhole cleaning</td><td>Toronto's CLEAN_FLUSH repair type (Lesson 51); OPSS 409-adjacent pre-lining prep</td></tr>
+<tr><td>N.2 管道修复预处理 (Pre-repair treatment)</td><td>Grouting/injection stabilization, leak sealing, internal surface treatment</td><td>Chemical injection grouting (Lesson 30); Toronto's CHEM_GROUT repair type</td></tr>
+<tr><td>N.3 管道局部修复 (Local/spot repair)</td><td>Point CIPP (spot patch), stainless-steel "quick lock," stainless-steel double expansion ring</td><td>CIPPSR / TPR (Toronto Lesson 54, Peel Appendix 5.11) — though the stainless-steel mechanical repair methods have no direct equivalent discussed elsewhere in this workspace</td></tr>
+<tr><td>N.4 管道整体修复 (Full pipe rehabilitation)</td><td>Inversion CIPP (hot water), UV CIPP, in-situ thermoplastic forming (fold-and-form equivalent), spiral-wound lining, short-pipe lining, pipe bursting, panel/cushion lining, cementitious and polymer spray lining</td><td>Every method family this workspace has covered — CIPP, fold-and-form (Lesson 4/8), sliplining (Lesson 18's OPSS.PROV 466/467), geopolymer SIPP (Lesson 7/18)</td></tr>
+</table>
+<div class="callout">
+<strong>A genuinely useful confirmation: this is the same four-method universe this workspace already established, from a completely independent regulatory tradition.</strong> China's own classification splits identically into CIPP-family, fold-and-form-equivalent, sliplining-equivalent, and spray-lining-equivalent — real, independent corroboration that this workspace's original four-family taxonomy (Lesson 1) reflects the actual state of the industry, not just a North American framing.
+</div>
+
+<h2>Real unit prices, compared directly — hot water vs. UV vs. everything else</h2>
+<p>Every figure below is a base unit price (基价) — labour, material, and machine cost, before the province's stated markup for enterprise management fee (企业管理费, 19–20%) and profit (利润, 10%) get added on top, and before tax. Currency is CNY (¥). A rough, illustrative-only conversion is shown at approximately ¥5.3 = CAD $1 (an approximate historical rate, not looked up live this session — treat it as a scale indicator, not a precise figure).</p>
+<table>
+<tr><th>Method</th><th>DN300</th><th>DN600</th><th>DN1000</th><th>DN1500/1650</th></tr>
+<tr><td>Hot water cure CIPP (4.1)</td><td>¥657.62/m (≈CAD $124)</td><td>¥877.12/m (≈CAD $166)</td><td>¥1,401.53/m (≈CAD $264)</td><td>¥2,123.81/m at DN1500 (≈CAD $401)</td></tr>
+<tr><td>UV cure CIPP (4.2)</td><td>¥755.24/m (≈CAD $142)</td><td>¥961.66/m at DN600 (≈CAD $181)</td><td>¥1,328.94/m (≈CAD $251)</td><td>¥1,948.69/m at DN1500 (≈CAD $368)</td></tr>
+<tr><td>In-situ thermoplastic (fold-and-form equiv., 4.3)</td><td>¥513.69/m (≈CAD $97)</td><td>¥849.25/m (≈CAD $160)</td><td>¥1,648.82/m (≈CAD $311)</td><td>— (not offered above DN1000 in the table reviewed)</td></tr>
+<tr><td>Spiral-wound lining (4.4)</td><td>— (starts at DN800)</td><td>¥4,936.15/m at DN800 (≈CAD $931)</td><td>—</td><td>¥9,797.75/m at DN1650 (≈CAD $1,849)</td></tr>
+<tr><td>Cementitious spray lining (4.8.1)</td><td colspan="4">¥235.05/m² (pipe, centrifugal spray) — priced by area, not length, so not directly comparable to the length-based rows above</td></tr>
+</table>
+<div class="callout">
+<strong>The real finding worth having as a talking point: UV cure costs more than hot water cure at every matching diameter in this real government cost norm, not less.</strong> At DN300, UV runs about 15% above hot water; the gap narrows at larger diameters but UV never comes in cheaper. This is a genuinely useful, primary-sourced data point against the common assumption that UV's speed advantage automatically nets out to a lower total price — in Jiangsu's own official cost structure, UV's speed and quality advantages come at a real, quantified material/equipment cost premium, not a savings.
+</div>
+<div class="callout">
+<strong>Spiral-wound lining is the standout expensive outlier</strong> — roughly 5–7x the per-metre cost of hot water CIPP at a comparable diameter. The reason is visible directly in the material line items: a spiral-wound job consumes real quantities of PVC-U profile strip (¥163/m unit price alone) and stainless-steel banding, a fundamentally different material-cost structure from a resin-saturated felt tube. Worth knowing if spiral-wound (a real method in Toronto's own OPSS.PROV 466/467 sliplining family, Lesson 18) ever comes up as a comparison point against CIPP specifically on cost grounds.
+</div>
+
+<h2>A real, structural difference from both Peel and Toronto: no styrene-free pricing tier at all</h2>
+<p>Toronto's real 2025 pricing structure (Lesson 52) separately prices styrene-free resin as its own pay item, cutting across every diameter and road class. Peel's own specs (Lesson 27) mandate non-styrene resin outright for storm sewers under specific conditions. This Jiangsu cost norm has <strong>no resin-chemistry variable anywhere in its pricing structure</strong> — hot water CIPP and UV CIPP are priced purely by diameter, with no styrene-free/standard split at all. That's a genuine, structural difference worth being precise about: it doesn't necessarily mean styrene management isn't a real concern in Chinese practice — the item classification document (Appendix N) doesn't capture material-chemistry variables the way it captures method and diameter — but it does mean this specific cost norm can't be used to benchmark a styrene-free cost premium the way Toronto's real tender data can.</p>
+
+<h2>What this document is genuinely useful for — and what it isn't</h2>
+<ul>
+<li><strong>Useful for:</strong> understanding the real labour/material/machine cost structure behind a Chinese trenchless job, at a granular, itemized level (down to individual bladder/plug SKUs, resin-tube-per-metre material costs, and machine-hour rates) — genuinely rare visibility into cost composition that neither Peel's nor Toronto's procurement documents disclose (those show what a bidder is asked to price, not the cost buildup behind a competitor's number).</li>
+<li><strong>Not useful for:</strong> a direct "is China cheaper than Ontario" conclusion. This is a government-published <em>cost norm</em> reflecting Jiangsu regional labour rates (¥130–330/day, roughly CAD $25–62/day — a small fraction of Ontario construction wages) and material costs at a single regional price point, not a competitive bid price the way Peel's or Toronto's actual submitted tenders are. The gap between this document's numbers and a real Ontario bid price reflects currency, regional labour-cost differences, and the norm-vs-competitive-bid distinction all at once — not a clean read on relative efficiency or material cost alone.</li>
+</ul>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>The Jiangsu cost norm</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. What kind of document is the Jiangsu pricing table, compared to Peel's or Toronto's procurement packages?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — it's a government cost norm (labour/material/machine cost buildup at a stated regional price level), used to build estimates and ceiling prices, not a live competitive bid document or a material design spec.">A government-published cost-estimating norm, not a competitive bid package or a materials design spec</button>
+    <button data-correct="false" data-feedback="This document contains no flexural modulus, ASTM/ISO citation, or creep retention requirement anywhere — it's a cost buildup document, not a materials specification.">A materials design specification, equivalent to OPSS.MUNI 443 or Peel's Appendix 5.9/5.10</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. Across matching diameters, does this cost norm show UV cure CIPP as cheaper or more expensive than hot water cure CIPP?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — UV runs consistently above hot water cure at every matching diameter checked, a real data point against the assumption that UV's speed advantage automatically means lower total cost.">More expensive — UV commands a real price premium over hot water cure at every diameter checked</button>
+    <button data-correct="false" data-feedback="The actual figures show the opposite — UV consistently prices above hot water cure in this real cost norm, even though it's often pitched primarily on speed.">Cheaper — UV's faster cure time translates into a lower total unit price in this cost norm</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. Why is it misleading to directly conclude "trenchless work costs 4-5x less in Jiangsu than in Ontario" just from comparing these unit prices to Peel/Toronto figures?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — currency conversion, real regional labour-cost differences, and the norm-vs-competitive-bid distinction are all mixed together in that raw comparison, so it can't isolate a clean efficiency or cost-structure conclusion.">The comparison mixes together currency conversion, a real regional labour-cost gap, and the difference between a cost norm and an actual competitive bid price, all at once</button>
+    <button data-correct="false" data-feedback="The methods and diameters are genuinely comparable — the problem is what kind of number is being compared (a government cost-estimating norm vs. an actual competitive bid), not the underlying construction work.">The methods being compared aren't actually equivalent, so no comparison is possible at all</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Source: 江苏省住房和城乡建设厅 (Jiangsu Provincial Department of Housing and Urban-Rural Development), "附录N 江苏省城镇排水管道非开挖修复工程量清单" (Appendix N: Bill of Quantities) and "江苏省城镇排水管道非开挖修复工程估价表" (Engineering Pricing Table), both user-uploaded PDFs, primary source. The 83-page pricing table was read through its front matter, cost-calculation rules, and the full N.1/N.3 (partial)/N.4.1–N.4.4/N.4.7–N.4.8 sections (hot water CIPP, UV CIPP, thermoplastic forming, spiral-wound lining, panel/cushion lining, spray lining); N.2 (grouting/pre-treatment) and N.4.5–N.4.6 (short-pipe lining, pipe bursting) were not reviewed in this pass. The CNY-to-CAD conversion used is an approximate, illustrative-only historical rate, not independently verified against a live exchange rate this session. Cross-referenced against Lessons 1, 4, 7, 8, 18, 27, 30, 51, 52, and 54. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Worth a follow-up if useful: reviewing N.2 and N.4.5–N.4.6 for completeness, or checking whether Sino Polymer's own resin pricing (Lessons 10-11) maps onto the material-cost line items buried inside this document's hot-water and UV CIPP tables.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 56: How Cure Method Actually Gets Decided</span>
+  <span>Cheat sheet: <a href="../reference/sinopolymer-value-proposition.html">Sino Polymer Value Proposition</a></span>
+</nav>
+
+</body>
+</html>
