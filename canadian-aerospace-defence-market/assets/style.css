@@ -1,0 +1,142 @@
+/* Shared stylesheet for the Canadian Aerospace, Space and Defence Market workspace. */
+
+:root {
+  --ink: #1a1a1a;
+  --paper: #fdfcf9;
+  --rule: #d8d3c8;
+  --accent: #8a2e2e;
+  --muted: #6b6558;
+  --tag-bg: #eee8da;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  max-width: 42rem;
+  padding: 3rem 1.5rem 6rem;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 19px;
+  line-height: 1.55;
+}
+
+h1, h2, h3 {
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 1.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.kicker {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.6rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-top: 2.4rem;
+  border-top: 1px solid var(--rule);
+  padding-top: 1.2rem;
+}
+
+h3 {
+  font-size: 1.05rem;
+  margin-top: 1.6rem;
+}
+
+p, li { color: var(--ink); }
+
+a { color: var(--accent); }
+a:visited { color: var(--accent); }
+
+.lede {
+  font-size: 1.05rem;
+  color: var(--muted);
+  margin-bottom: 1.8rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.88rem;
+  margin: 1.2rem 0;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+
+th {
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.tag {
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 3px;
+  background: var(--tag-bg);
+  color: var(--muted);
+}
+
+.callout {
+  border-left: 3px solid var(--accent);
+  padding: 0.2rem 1rem;
+  margin: 1.4rem 0;
+  background: rgba(138, 46, 46, 0.05);
+}
+
+.source-rec {
+  font-size: 0.92rem;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 0.9rem 1.1rem;
+  margin: 1.6rem 0;
+}
+.source-rec .label {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.nav {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+}
+
+.ask-agent {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin-top: 2.5rem;
+  font-style: italic;
+}
