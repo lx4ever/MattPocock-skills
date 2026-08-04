@@ -24,10 +24,20 @@
   Names "Team Poseidon" — Boeing's Canadian industry team (CAE, GE Aviation Canada, IMP Aerospace & Defence, KF Aerospace, Honeywell Aerospace Canada, Raytheon Canada, StandardAero) — and Boeing's 100% ITB commitment. Cross-checked against Kanata's own workbook (see below); the team list matches exactly.
 - [`Kanata_Canadian_Programs_Obligations_*.xlsx` — `lx4ever/kanata-news-feed`](https://github.com/lx4ever/kanata-news-feed) *(private repo — access via this session only, not a public link)*
   Kanata's own live BD tracker: curated program list, scored opportunity pipeline, and the full ISED ITB obligations register, cross-referenced against Notion. For CMMA specifically it already carries the exact ITB dollar breakdown (completed/in-progress/to-be-identified), the ISED-registered obligation-manager contact, and a scored, Reach-Out-status pipeline entry. Treat this as the primary source for "what does Kanata already know/have in motion" — check it before starting outreach research from scratch.
+- [Irving Shipbuilding awards W.R. Davis Engineering $30-million contract — Canadian Defence Review](https://canadiandefencereview.com/irving-shipbuilding-awards-w-r-davis-engineering-30-million-contract-to-support-construction-of-canadian-surface-comabatants/)
+  A real, dated Tier 2/3 subcontract award on River-class Destroyer's construction contract — proof-of-concept that an Ottawa-sized SME can and does win real production scope on this program.
+- [Canada celebrates keel laying for the first River-class destroyer — Naval News, June 2026](https://www.navalnews.com/naval-news/2026/06/canada-celebrates-keel-laying-for-the-first-river-class-destroyer/)
+  Confirms HMCS Fraser's construction milestones; use for River-class status checks going forward.
+- [Prime Minister Carney announces the preferred supplier for the Canadian Patrol Submarine Project — PM of Canada, July 6 2026](https://www.pm.gc.ca/en/news/news-releases/2026/07/06/prime-minister-carney-announces-preferred-supplier-canadian-patrol)
+  The official announcement: TKMS (Type 212CD) selected over Hanwha Ocean (KSS-III), up to 12 boats, contract to conclude by end of 2027.
+- [Canada Selects the Type 212CD: What the $86 Billion Industrial Package Actually Involves — Quwa](https://quwa.org/north-america/canada/canada-selects-the-type-212cd-what-the-86-billion-industrial-package-actually-involves/)
+  Distinguishes CPSP's full-lifecycle program cost (~$100B CAD) from the narrower industrial-package figure (~$86B) that Kanata's own tracker cites — the number that actually matters for subcontract sizing.
+- [Team 212CD](https://team212cd.ca/)
+  TKMS's own Canadian-partnership site; the Canadian Defence and Dual-Use Innovation Ecosystem (CDDE) is the pre-contract mechanism pulling Canadian firms into the CPSP supply chain before the Value Proposition is finalized.
 
 ## Gaps
 
-- No curated primary source yet for AOPS (Arctic and Offshore Patrol Ships), JSS (Joint Support Ships), Patrol Submarine Project, F-35, RPAS (Remotely Piloted Aircraft System), CC-330 Husky, FAcT (Future Aircrew Training), MSMM (Medium Support and Multi-Mission), or MDA's CHORUS constellation — each needs its own PSPC/DND project page pulled before a lesson leans on it.
+- No curated primary source yet for AOPS (Arctic and Offshore Patrol Ships), JSS (Joint Support Ships), F-35, RPAS (Remotely Piloted Aircraft System), CC-330 Husky, FAcT (Future Aircrew Training), MSMM (Medium Support and Multi-Mission), or MDA's CHORUS constellation — each needs its own PSPC/DND project page pulled before a lesson leans on it.
 - No curated source yet for how a Tier 2/3 electronics SME (Kanata's actual position) gets discovered by a Tier 1 for ITB subcontracting — likely needs Canadian Commercial Corporation (CCC) or a prime's own supplier-registration portal (e.g. L3Harris, GDMS Canada, MDA), not just the ISED policy text.
 - Kanata's own workbook shows RPAS (MQ-9B SkyGuardian) has a real $496M USD untied ITB obligation (General Atomics) but isn't in Kanata's curated 21-program list yet — worth a lesson once a primary source for the program itself is pulled.
 
