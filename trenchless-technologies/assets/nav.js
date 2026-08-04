@@ -251,6 +251,31 @@
       "n": 50,
       "file": "0050-astm-d5813-the-cipp-materials-spec.html",
       "title": "ASTM D5813: The CIPP Materials Spec"
+    },
+    {
+      "n": 51,
+      "file": "0051-toronto-tender-bid-package-structure.html",
+      "title": "The Toronto Tender: How a Real Bid Package Comes Together"
+    },
+    {
+      "n": 52,
+      "file": "0052-contractor-pricing-payment-risk.html",
+      "title": "Building a Contractor's Bid: Pricing, Payment, and Risk"
+    },
+    {
+      "n": 53,
+      "file": "0053-resin-supplier-form-e-submission.html",
+      "title": "Building a Resin Supplier's Submission: Form E and the Design Data Trail"
+    },
+    {
+      "n": 54,
+      "file": "0054-styrene-free-trigger-real-contract.html",
+      "title": "The Styrene-Free Trigger, in a Real Contract"
+    },
+    {
+      "n": 55,
+      "file": "0055-innovations-meet-a-real-tender.html",
+      "title": "What a Live Tender Confirms About Where the Industry Is Headed"
     }
   ],
   "reference": [

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 52 — Building a Contractor's Bid: Pricing, Payment, and Real Risk</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 52: Building a Contractor's Bid — Pricing, Payment, and Real Risk</h1>
+<p class="kicker">The actual pay-item structure, how and when a contractor gets paid, and three real financial risks baked into this specific contract that a generic CIPP price-per-metre estimate would miss.</p>
+
+<p class="lede">Lesson 51 covered how the bid package is structured and evaluated. This is what a contractor actually builds a number around — the pay items, the cash-flow timing, and the risk allocation the City has written into this specific contract, not a generic industry assumption.</p>
+
+<h2>The pay-item structure — four parts, and a real 2x2 pricing matrix</h2>
+<p>Part 3's Section 4 (Special Provisions) lays out the contract items in four groups:</p>
+<ul>
+<li><strong>Part A — Mobilization and Special Site-Specific Liner Design (SSLD).</strong> Mobilization is capped at 2% of total tender value, paid lump sum pro-rated across the contract duration. SSLD is a separate paid item for engineered, site-specific designs required when actual field conditions (invert depth, ovality, live load) exceed the parameters the standard design already accounts for — a real, billable escalation path when a segment turns out to need more than the default design.</li>
+<li><strong>Part B — Mainline CIPP lining, in a genuine 2x2 matrix.</strong> Items are split by diameter, then cross-cut by <strong>standard vs. styrene-free resin</strong> and by <strong>local vs. major arterial road</strong>. A given diameter can appear in up to four separate priced line items depending on those two variables — arterial-road work and styrene-free resin each carry their own distinct price, not a blanket surcharge.</li>
+<li><strong>Part C — Standalone repairs</strong> not tied to a full lining run: TPR/CIPPSR spot repairs, chemical grouting, flushing/debris removal, manhole rehabilitation, and one standalone full-length open-cut replacement.</li>
+<li><strong>Part D — Provisional items:</strong> increased liner thickness (in defined increments), paid-duty police, traffic control personnel, after-hours/weekend crew premiums, temporary bypass supply and operation, building service bypass, flow monitoring, and manhole frame/cover work.</li>
+</ul>
+<div class="callout">
+<strong>Why the 2x2 matrix matters for estimating, not just billing.</strong> Because styrene-free resin and arterial-road work are each separately priced, a contractor's estimate has to track which specific combination applies to each of the 305 segments in the repair list — not apply one blended unit price across the whole job. Lesson 54 covers exactly how a segment ends up needing styrene-free resin, including segments that aren't flagged for it up front.
+</div>
+
+<h2>Getting paid — a real, four-stage milestone schedule</h2>
+<p>Mainline CIPP lining items don't pay out as a single lump sum on completion. Part 3 sets a specific milestone split:</p>
+<table>
+<tr><th>Milestone</th><th>% of item value paid</th></tr>
+<tr><td>V1 CCTV acceptance (pre-lining inspection)</td><td>5%</td></tr>
+<tr><td>Pipe preparation complete + V2 CCTV acceptance</td><td>25%</td></tr>
+<tr><td>Liner installed + V3 CCTV acceptance</td><td>50%</td></tr>
+<tr><td>Full QA/QC acceptance (test report, wet-out sheet, curing log)</td><td>20%</td></tr>
+</table>
+<p>Standalone lump-sum repair items (Part C) use a simpler three-stage split instead: 10% on submittal, 70% on installation, 20% on restoration. Either way, the last chunk of payment on any lining item is explicitly gated on the QA/QC paperwork — the liner test report, the wet-out sheet, the curing log — being submitted and accepted, not just on the physical work being done.</p>
+
+<h2>Three real financial risks this contract writes in, by name</h2>
+<div class="callout">
+<strong>1. Liquidated damages — two separate clauses, easy to conflate.</strong> A <strong>$3,500 per calendar day</strong> Delay Liquidated Damages clause (GC 7.6.1, in the general Construction Agreement) applies to general schedule slippage past the Scheduled Date for Substantial/Total Performance. A separate <strong>$3,500 per working day</strong> clause (Section 4.2, in the special provisions) applies specifically to missing a named Priority Repair's completion date or the 100-working-day Interim Completion Date. These are not the same clause with two names — a contractor needs to know which schedule failure triggers which one, since "calendar day" and "working day" produce genuinely different dollar exposure over the same delay.
+</div>
+<div class="callout">
+<strong>2. A real quantity discrepancy the City has already declined to fix.</strong> Addendum 4 records a bidder directly flagging that two Pricing Form line items (2,700m and 6,170m) don't match the sum of the corresponding segments in the repair list (2,669.5m and 6,151.2m — 31m and 19m short). The City's answer: the Pricing Form quantities stay as published, because of "potential variance in the pipe's GIS length compared to the actual installation length." That's a real, acknowledged measurement-basis risk the City is deliberately leaving with the bidder, not correcting — worth pricing a contingency for, not assuming away.
+</div>
+<div class="callout">
+<strong>3. A layered holdback and bond stack that affects cash flow, not just final payout.</strong> On top of the 10% statutory Lien Holdback (Construction Act, released after Substantial Performance), the Construction Agreement adds a <strong>2% Contractual Holdback</strong> retained from every proper invoice, plus a separate <strong>2% Warranty Holdback</strong> held until the 2-year Warranty Period expires. A performance bond and a labour-and-material payment bond are each required at <strong>50% of the total contract value</strong>. None of these percentages are unusual individually for a municipal contract, but stacked together they represent real capital tied up for the duration of a multi-year relationship with this one client — a genuine cash-flow planning input, not just a compliance checkbox.
+</div>
+
+<h2>Insurance — the floor, not a negotiable extra</h2>
+<p>The Construction Agreement requires coverage per GC 8.1 (excluding only Professional, Aviation, Watercraft, and Marine — not applicable to this scope), with specific named minimums where they apply elsewhere in the GC suite: $5M automobile liability, $2M professional liability where applicable, $5M aviation and watercraft liability where used. These aren't negotiable line items in a bid — Schedule A's Information Sheet locks the required coverage in before a bid is even submitted.</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Pricing, payment, and risk</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A contractor's schedule slips and misses a named Priority Repair's completion date specifically. Which liquidated damages clause applies, and in what unit?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — the Section 4.2 special-provisions clause specifically covers missed Priority Repair dates and the Interim Completion Date, measured in working days, distinct from the general GC 7.6.1 calendar-day clause.">The Section 4.2 clause, $3,500 per working day</button>
+    <button data-correct="false" data-feedback="GC 7.6.1's $3,500-per-calendar-day clause is the general schedule-delay provision. Missing a named Priority Repair date specifically triggers the separate working-day clause instead.">The general GC 7.6.1 clause, $3,500 per calendar day</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. A contractor notices the Pricing Form's quantity for a segment is a few metres longer than what the repair list's own itemized lengths sum to. What does this contract's own Q&A record say about that discrepancy?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — Addendum 4 confirms the City will not adjust the published quantities, attributing the gap to GIS-vs-actual-length variance. This is a real, acknowledged risk left with the bidder.">The City has already been asked and declined to adjust the quantities, citing GIS-vs-actual-length variance</button>
+    <button data-correct="false" data-feedback="The City's actual answer (Addendum 4) was to leave the published quantities unchanged, not to automatically true them up during construction.">The Pricing Form quantities automatically get trued up to actual measured length during construction at no risk to the contractor</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. On a completed CIPP lining item, what does the final 20% of payment specifically depend on?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — the milestone schedule ties the final 20% to full QA/QC acceptance specifically: the liner test report, wet-out sheet, and curing log, not just visual completion of the physical work.">Full QA/QC acceptance — the liner test report, wet-out sheet, and curing log being submitted and accepted</button>
+    <button data-correct="false" data-feedback="V3 CCTV acceptance (post-lining inspection) is tied to the 50% milestone, not the final 20% — the last payment stage is specifically gated on the QA/QC paperwork.">V3 CCTV acceptance alone, with no further paperwork requirement</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Source: City of Toronto, RFT Doc4897137822 / Contract No. 25TW-CPI-02CWD — Part 2 (Construction Agreement), Part 3 (Drawings and Specifications, Section 4 Special Provisions), and Addendum 4, all user-uploaded official documents, primary source, read in full. Cross-referenced against Lesson 51. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Next: the resin supplier's side of this same bid — what Form E actually requires, and how it maps onto the long-term/short-term flexural data question this workspace has been building toward since Lesson 39.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 51: The Toronto Tender: How a Real Bid Package Comes Together</span>
+  <span>Next: Building a Resin Supplier's Submission</span>
+</nav>
+
+</body>
+</html>
