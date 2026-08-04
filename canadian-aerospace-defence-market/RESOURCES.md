@@ -18,11 +18,18 @@
   Official status page for Canada's largest current defence program (~$77B, 15 hulls, Irving Shipbuilding, Type 26 design). Use for: CSC/River-class status checks — construction began mid-2026 on HMCS Fraser.
 - [Canadian Multi-Mission Aircraft (CMMA / P-8A Poseidon) project — DND](https://www.canada.ca/en/services/defence/defence-equipment-purchases-upgrades/air-equipment-procurement/canadian-multi-mission-aircraft-project.html)
   Official page for the CP-140 Aurora replacement: up to 16 Boeing P-8A aircraft, ~$10.4B CAD, first delivery slipping toward 2027.
+- [Boeing Investments Strengthen British Columbia's Aerospace Industry — Boeing Canada](https://www.boeing.ca/news/2025/boeing-investments-strengthen-british-columbias-aerospace-industry)
+  Boeing's own account of a real, dated ITB delivery under CMMA: $61M into BC aerospace ($48M into Boeing's Vancouver R&D facility, $13M into Indigenous-owned COTA Aviation). Use for: a concrete, named example of the ITB Value Proposition mechanism from Lesson 1 actually executing, not just policy text.
+- [Canada Selects Boeing's P-8A Poseidon as its Multi-Mission Aircraft — Boeing Media Room, Nov 30 2023](https://boeing.mediaroom.com/2023-11-30-Canada-Selects-Boeings-P-8A-Poseidon-as-its-Multi-Mission-Aircraft)
+  Names "Team Poseidon" — Boeing's Canadian industry team (CAE, GE Aviation Canada, IMP Aerospace & Defence, KF Aerospace, Honeywell Aerospace Canada, Raytheon Canada, StandardAero) — and Boeing's 100% ITB commitment. Cross-checked against Kanata's own workbook (see below); the team list matches exactly.
+- [`Kanata_Canadian_Programs_Obligations_*.xlsx` — `lx4ever/kanata-news-feed`](https://github.com/lx4ever/kanata-news-feed) *(private repo — access via this session only, not a public link)*
+  Kanata's own live BD tracker: curated program list, scored opportunity pipeline, and the full ISED ITB obligations register, cross-referenced against Notion. For CMMA specifically it already carries the exact ITB dollar breakdown (completed/in-progress/to-be-identified), the ISED-registered obligation-manager contact, and a scored, Reach-Out-status pipeline entry. Treat this as the primary source for "what does Kanata already know/have in motion" — check it before starting outreach research from scratch.
 
 ## Gaps
 
 - No curated primary source yet for AOPS (Arctic and Offshore Patrol Ships), JSS (Joint Support Ships), Patrol Submarine Project, F-35, RPAS (Remotely Piloted Aircraft System), CC-330 Husky, FAcT (Future Aircrew Training), MSMM (Medium Support and Multi-Mission), or MDA's CHORUS constellation — each needs its own PSPC/DND project page pulled before a lesson leans on it.
 - No curated source yet for how a Tier 2/3 electronics SME (Kanata's actual position) gets discovered by a Tier 1 for ITB subcontracting — likely needs Canadian Commercial Corporation (CCC) or a prime's own supplier-registration portal (e.g. L3Harris, GDMS Canada, MDA), not just the ISED policy text.
+- Kanata's own workbook shows RPAS (MQ-9B SkyGuardian) has a real $496M USD untied ITB obligation (General Atomics) but isn't in Kanata's curated 21-program list yet — worth a lesson once a primary source for the program itself is pulled.
 
 ## Wisdom (Communities)
 
