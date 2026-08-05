@@ -40,6 +40,10 @@
   The literal next action for Kanata's Canadarm3 pipeline entry — the vendor questionnaire that's a door into most of the curated space-domain programs at once, not just this one.
 - [Performance Review Institute, "What is a Nadcap Supplier?"](https://www.p-r-i.org/nadcap/supplier)
   Explains the AS9100-vs-NADCAP distinction (org-wide QMS vs. process-specific accreditation) and the public Qualified Manufacturers List — relevant to clearing MDA's stated quality-credential bar.
+- [Canadian Space Agency, "About Canadarm3"](https://www.asc-csa.gc.ca/eng/canadarm3/about.asp)
+  Official description of the four-part system (large arm, dexterous arm, tools, ground segment) and Canada's 2019 Gateway partnership commitment.
+- [MDA Awarded $269M Contract for Next Phase of the Canadarm3 Program — Newswire, March 2022](https://www.newswire.ca/news-releases/mda-awarded-269m-contract-for-next-phase-of-the-canadarm3-program-808499318.html)
+  The Phase B (preliminary design) award — needed to reconstruct the contract-phase history behind Kanata's single registered ITB total.
 
 ## Gaps
 
