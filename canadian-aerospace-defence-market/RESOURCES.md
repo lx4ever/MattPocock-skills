@@ -44,11 +44,18 @@
   Official description of the four-part system (large arm, dexterous arm, tools, ground segment) and Canada's 2019 Gateway partnership commitment.
 - [MDA Awarded $269M Contract for Next Phase of the Canadarm3 Program — Newswire, March 2022](https://www.newswire.ca/news-releases/mda-awarded-269m-contract-for-next-phase-of-the-canadarm3-program-808499318.html)
   The Phase B (preliminary design) award — needed to reconstruct the contract-phase history behind Kanata's single registered ITB total.
+- [Thales Delivers Innovative In-Service Support for New AOPS Vessel — Thales Group](https://www.thalesgroup.com/en/canada/press-release/thales-delivers-innovative-service-support-new-aops-vessel-partnership-royal)
+  The real, current AJISS (AOPS + JSS In-Service Support) contract: up to $800M CAD over an initial 8 years, 170+ Canadian suppliers already engaged — materially larger and more current than the $305M/2012-2030 figure in Kanata's own tracker.
+- [Harry DeWolf-class offshore patrol vessel — overview](https://en.wikipedia.org/wiki/Harry_DeWolf-class_offshore_patrol_vessel)
+  Fleet composition (6 RCN + 2 CCG), cost breakdown, and delivery dates.
+- [Team SkyGuardian Canada — GA-ASI](https://www.ga-asi.com/teamskyguardiancanada/)
+  Names Canada's RPAS industry team (CAE, MDA, L3Harris) — the clearest primary source for a program that's absent from Kanata's curated list despite real ITB money and an active MDA contract.
 
 ## Gaps
 
-- No curated primary source yet for AOPS (Arctic and Offshore Patrol Ships), JSS (Joint Support Ships), F-35, RPAS (Remotely Piloted Aircraft System), CC-330 Husky, FAcT (Future Aircrew Training), MSMM (Medium Support and Multi-Mission), or MDA's CHORUS constellation — each needs its own PSPC/DND project page pulled before a lesson leans on it.
+- No curated primary source yet for JSS (Joint Support Ships, beyond the AJISS in-service-support contract above), F-35, CC-330 Husky, FAcT (Future Aircrew Training), MSMM (Medium Support and Multi-Mission), or MDA's CHORUS constellation — each needs its own PSPC/DND project page pulled before a lesson leans on it.
 - Space domain covered at the landscape level (Lesson 5); no dedicated primary sources yet for RADARSAT/CHORUS, Telesat Lightspeed, Kepler Optical Relay Network, or the pre-award programs (ESSP, ESCP-P, Atlantic Constellation, RADARSAT NG) individually.
+- RPAS (Lesson 8) is documented here but still isn't in Kanata's own curated 21-program list — this is a live action item for whoever maintains that tracker, not just a research gap.
 - No curated source yet for how a Tier 2/3 electronics SME (Kanata's actual position) gets discovered by a Tier 1 for ITB subcontracting — likely needs Canadian Commercial Corporation (CCC) or a prime's own supplier-registration portal (e.g. L3Harris, GDMS Canada, MDA), not just the ISED policy text.
 - Kanata's own workbook shows RPAS (MQ-9B SkyGuardian) has a real $496M USD untied ITB obligation (General Atomics) but isn't in Kanata's curated 21-program list yet — worth a lesson once a primary source for the program itself is pulled.
 
