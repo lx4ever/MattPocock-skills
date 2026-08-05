@@ -34,10 +34,17 @@
   Distinguishes CPSP's full-lifecycle program cost (~$100B CAD) from the narrower industrial-package figure (~$86B) that Kanata's own tracker cites — the number that actually matters for subcontract sizing.
 - [Team 212CD](https://team212cd.ca/)
   TKMS's own Canadian-partnership site; the Canadian Defence and Dual-Use Innovation Ecosystem (CDDE) is the pre-contract mechanism pulling Canadian firms into the CPSP supply chain before the Value Proposition is finalized.
+- [MDA Space Awarded $1B Contract to Design and Deliver Canadarm3 Flight System — MDA Space, June 27 2024](https://mda.space/article/mda-space-awarded-1b-contract-to-design-and-deliver-canadarm3-flight-system)
+  Confirms the $1B Phase C/D contract, the March 2030 end date, and the "over 200 Canadian companies" supply-chain figure that anchors the space domain's "MDA as hub" pattern.
+- [MDA Space — Supply Chain](https://mda.space/supply-chain)
+  The literal next action for Kanata's Canadarm3 pipeline entry — the vendor questionnaire that's a door into most of the curated space-domain programs at once, not just this one.
+- [Performance Review Institute, "What is a Nadcap Supplier?"](https://www.p-r-i.org/nadcap/supplier)
+  Explains the AS9100-vs-NADCAP distinction (org-wide QMS vs. process-specific accreditation) and the public Qualified Manufacturers List — relevant to clearing MDA's stated quality-credential bar.
 
 ## Gaps
 
 - No curated primary source yet for AOPS (Arctic and Offshore Patrol Ships), JSS (Joint Support Ships), F-35, RPAS (Remotely Piloted Aircraft System), CC-330 Husky, FAcT (Future Aircrew Training), MSMM (Medium Support and Multi-Mission), or MDA's CHORUS constellation — each needs its own PSPC/DND project page pulled before a lesson leans on it.
+- Space domain covered at the landscape level (Lesson 5); no dedicated primary sources yet for RADARSAT/CHORUS, Telesat Lightspeed, Kepler Optical Relay Network, or the pre-award programs (ESSP, ESCP-P, Atlantic Constellation, RADARSAT NG) individually.
 - No curated source yet for how a Tier 2/3 electronics SME (Kanata's actual position) gets discovered by a Tier 1 for ITB subcontracting — likely needs Canadian Commercial Corporation (CCC) or a prime's own supplier-registration portal (e.g. L3Harris, GDMS Canada, MDA), not just the ISED policy text.
 - Kanata's own workbook shows RPAS (MQ-9B SkyGuardian) has a real $496M USD untied ITB obligation (General Atomics) but isn't in Kanata's curated 21-program list yet — worth a lesson once a primary source for the program itself is pulled.
 
