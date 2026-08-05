@@ -26,7 +26,7 @@ where D<sub>mean</sub> is the pipe's approximate diameter, t is the design thick
 </div>
 <p>Two things push the real order size higher than that first approximation:</p>
 <ul>
-<li><strong>Polymerization shrinkage.</strong> Resin shrinks slightly as it cures (Lesson 20's non-volatile content discussion is directly relevant here — a lower non-volatile content generally means more shrinkage). The wet-out quantity has to account for this, or the cured liner ends up under-resined relative to what the saturated (pre-cure) tube actually needed.</li>
+<li><strong>Polymerization shrinkage.</strong> Resin shrinks slightly as it cures (Lesson 20's non-volatile content discussion is directly relevant here — a lower non-volatile content generally means more shrinkage). The wet-out quantity has to account for this, or the cured liner ends up under-resined relative to what the saturated (pre-cure) tube actually needed. Real published ranges: polyester/vinyl ester systems typically run 5–13% volumetric shrinkage (most commonly cited around 7–11%), while epoxy runs meaningfully lower, roughly 2–7% — the same chemistry-driven gap Lesson 47 covers for interface-stress risk, now with actual numbers behind the "low shrinkage" claim made there.</li>
 <li><strong>Installation losses.</strong> Some resin is lost during installation — squeezed out through cracks and irregularities in the host pipe wall as the liner is inverted or pulled into place and pressed against the old pipe surface. A rougher, more deteriorated host pipe loses more resin this way than a smooth one.</li>
 </ul>
 
@@ -40,6 +40,8 @@ where D<sub>mean</sub> is the pipe's approximate diameter, t is the design thick
 </div>
 <div class="callout">
 <strong>Flag on the numbers used here:</strong> the ~90% void-space figure is corroborated from public secondary sources on felt tube construction. The 10–15% loss/shrinkage margin and the ~1.1 kg/L resin density are typical illustrative figures, not pulled from a specific verified Sino Polymer datasheet or a specific contractor's actual practice — confirm both against the real product and the real contractor's standard allowance before using this for an actual purchase order.
+<br><br>
+<strong>One nuance worth being precise about:</strong> the 10–15% purchasing margin above isn't the same number as the resin's actual cure shrinkage percentage (5–13% for polyester/VE, 2–7% for epoxy). Cure shrinkage happens <em>after</em> the tube is already saturated and installed — it affects final wall thickness and interface stress (Lesson 19, 47), not how much resin gets bought. The purchasing margin is really covering installation losses (squeeze-out through host-pipe cracks) plus a safety buffer, and it's a genuinely separate question from the material's own shrinkage chemistry — conflating the two would overstate how directly one number drives the other.
 </div>
 
 <h2>Why this matters for a resin supplier's side of the conversation</h2>
@@ -83,7 +85,7 @@ where D<sub>mean</sub> is the pipe's approximate diameter, t is the design thick
 </div>
 
 <footer class="source-note">
-Sources: web-search-derived summaries of public secondary sources on CIPP wet-out and resin quantity practice (felt tube void-space figure). Segment geometry (diameter, length) drawn from Lesson 35, sourced from Regional Municipality of Peel, Appendix 5.21a (primary document). Shrinkage/loss margin and resin density figures are illustrative, not verified against a specific product datasheet — confirm before real use. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+Sources: web-search-derived summaries of public secondary sources on CIPP wet-out and resin quantity practice (felt tube void-space figure). Segment geometry (diameter, length) drawn from Lesson 35, sourced from Regional Municipality of Peel, Appendix 5.21a (primary document). The 5–13% (polyester/VE) and 2–7% (epoxy) volumetric cure-shrinkage ranges are WebSearch-synthesized from published composites-industry and materials-research sources (NuFlow's own "CIPP Lining Resin Shrinkage Calculation" article, ResearchGate, and ScienceDirect coverage of polyester/epoxy cure shrinkage) — NuFlow's page itself returned HTTP 403 to direct WebFetch, so its own specific formulas weren't independently confirmed. The purchasing-margin figure and resin density remain illustrative, not verified against a specific product datasheet — confirm before real use. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
 </footer>
 
 <p><em>Next: connecting this whole design arc back to a real resin TDS — which numbers on a datasheet like Sino Polymer's actually feed into this process, and which parts of it a TDS can never answer alone.</em></p>
