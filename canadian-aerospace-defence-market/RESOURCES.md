@@ -63,9 +63,15 @@
 - [Midyear Update: 2026 Aerospace and Defense Industry Outlook — Deloitte Insights](https://www.deloitte.com/us/en/insights/industry/aerospace-defense/midyear-update-aerospace-and-defense-industry-outlook.html)
   The more current version as of this workspace's last update; source of the Fitch sub-tier fragility quote and the specific named bottlenecks (test cells, tooling, inspection capacity, certified labor).
 
+- [MDA Space Launches 49North — PR Newswire, February 2026](https://www.prnewswire.com/news-releases/mda-space-launches-49north-a-canadian-defence-business-delivering-multi-domain-and-mission-critical-capabilities-302692576.html)
+  49North's launch announcement: Ottawa HQ, Joe Armstrong as President, mandate covering land/air/maritime C4ISR outside the space domain — updates the MDA hub picture from Lesson 5 and the RPAS attribution from Lesson 8.
+- [49North Awarded $3.7M Contract from General Atomics — PR Newswire, July 2026](https://www.prnewswire.com/news-releases/49north-awarded-3-7m-contract-from-general-atomics-to-deliver-coalition-shared-database-for-canadas-guardian-remotely-piloted-aircraft-system-program-302799415.html)
+  Confirms 49North (not MDA generically) now holds the RPAS Ground Control Station work, names Team SkyGuardian Canada's members precisely (GA-ASI, CAE, L3Harris WESCAM, 49North), and the CQ-9B Guardian designation.
+
 ## Gaps
 
 - No curated primary source yet for FAcT (Future Aircrew Training), MSMM (Medium Support and Multi-Mission), or MDA's CHORUS constellation — each needs its own PSPC/DND project page pulled before a lesson leans on it.
+- 49North's own site (49northdefence.com) returned a fetch error this session — worth trying again directly for current program engagements and any stated supplier/partner process, rather than relying on secondary coverage alone.
 - Space domain covered at the landscape level (Lesson 5); no dedicated primary sources yet for RADARSAT/CHORUS, Telesat Lightspeed, Kepler Optical Relay Network, or the pre-award programs (ESSP, ESCP-P, Atlantic Constellation, RADARSAT NG) individually.
 - RPAS (Lesson 8) is documented here but still isn't in Kanata's own curated 21-program list — this is a live action item for whoever maintains that tracker, not just a research gap.
 - The entire Land domain (Lesson 9) is absent from Kanata's curated list — ~$2.71B in real untied ITB obligation across General Dynamics Land Systems Canada, General Dynamics Mission Systems–Canada, Rheinmetall Canada, Saab Canada, KNDS Deutschland, and GM Defense Canada has no curated home at all. No primary sources pulled yet for any individual Land program (Logistics Vehicle Modernization, LC4ISR, Enhanced Recovery Capability, etc.) — worth doing only once it's confirmed Land is meant to be in scope for Kanata's pursuit strategy at all.
