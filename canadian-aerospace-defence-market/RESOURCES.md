@@ -58,6 +58,11 @@
 - [Defence Investment Agency, "Long-term in-service support contracts for CC-330 Husky fleet," March 2026](https://www.canada.ca/en/defence-investment-agency/news/2026/03/defence-investment-agency-awards-long-term-in-service-support-contracts-for-cc-330-husky-fleet.html)
   The real, current CC-330 sustainment structure — direct replacement for the stale "Interim" $70.4M/2022-2025 note in Kanata's own tracker.
 
+- [2026 Aerospace and Defense Industry Outlook — Deloitte Insights](https://www.deloitte.com/us/en/insights/industry/aerospace-defense/aerospace-and-defense-industry-outlook.html)
+  Global industry backdrop, not Canada-specific: record defense-tech VC investment, workforce attrition/retirement stats, and the sub-tier supplier fragility finding that gives Kanata's ITB-chasing strategy a second, independent rationale. Use for: grounding outreach in the primes' current operational pain, not just ITB compliance.
+- [Midyear Update: 2026 Aerospace and Defense Industry Outlook — Deloitte Insights](https://www.deloitte.com/us/en/insights/industry/aerospace-defense/midyear-update-aerospace-and-defense-industry-outlook.html)
+  The more current version as of this workspace's last update; source of the Fitch sub-tier fragility quote and the specific named bottlenecks (test cells, tooling, inspection capacity, certified labor).
+
 ## Gaps
 
 - No curated primary source yet for FAcT (Future Aircrew Training), MSMM (Medium Support and Multi-Mission), or MDA's CHORUS constellation — each needs its own PSPC/DND project page pulled before a lesson leans on it.
