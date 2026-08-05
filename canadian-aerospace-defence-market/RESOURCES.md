@@ -51,9 +51,16 @@
 - [Team SkyGuardian Canada — GA-ASI](https://www.ga-asi.com/teamskyguardiancanada/)
   Names Canada's RPAS industry team (CAE, MDA, L3Harris) — the clearest primary source for a program that's absent from Kanata's curated list despite real ITB money and an active MDA contract.
 
+- [ReadyAyeReady.com, "Progress of the Joint Support Ship Project"](https://readyayeready.com/progress-of-the-joint-support-ship-project-building-hmcs-protecteur-and-hmcs-preserver/)
+  The most current, detailed public account of both JSS hulls' construction status.
+- [NATO Association of Canada, "Canada's Defence Industrialization: Offsets and the F-35"](https://natoassociation.ca/canadas-defence-industrialization-offsets-and-the-f-35/)
+  Explains the JSF partnership's "best value" model and why F-35 structurally never produces a registered ITB obligation, unlike every other program in this workspace.
+- [Defence Investment Agency, "Long-term in-service support contracts for CC-330 Husky fleet," March 2026](https://www.canada.ca/en/defence-investment-agency/news/2026/03/defence-investment-agency-awards-long-term-in-service-support-contracts-for-cc-330-husky-fleet.html)
+  The real, current CC-330 sustainment structure — direct replacement for the stale "Interim" $70.4M/2022-2025 note in Kanata's own tracker.
+
 ## Gaps
 
-- No curated primary source yet for JSS (Joint Support Ships, beyond the AJISS in-service-support contract above), F-35, CC-330 Husky, FAcT (Future Aircrew Training), MSMM (Medium Support and Multi-Mission), or MDA's CHORUS constellation — each needs its own PSPC/DND project page pulled before a lesson leans on it.
+- No curated primary source yet for FAcT (Future Aircrew Training), MSMM (Medium Support and Multi-Mission), or MDA's CHORUS constellation — each needs its own PSPC/DND project page pulled before a lesson leans on it.
 - Space domain covered at the landscape level (Lesson 5); no dedicated primary sources yet for RADARSAT/CHORUS, Telesat Lightspeed, Kepler Optical Relay Network, or the pre-award programs (ESSP, ESCP-P, Atlantic Constellation, RADARSAT NG) individually.
 - RPAS (Lesson 8) is documented here but still isn't in Kanata's own curated 21-program list — this is a live action item for whoever maintains that tracker, not just a research gap.
 - The entire Land domain (Lesson 9) is absent from Kanata's curated list — ~$2.71B in real untied ITB obligation across General Dynamics Land Systems Canada, General Dynamics Mission Systems–Canada, Rheinmetall Canada, Saab Canada, KNDS Deutschland, and GM Defense Canada has no curated home at all. No primary sources pulled yet for any individual Land program (Logistics Vehicle Modernization, LC4ISR, Enhanced Recovery Capability, etc.) — worth doing only once it's confirmed Land is meant to be in scope for Kanata's pursuit strategy at all.
