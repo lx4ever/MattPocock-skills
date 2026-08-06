@@ -82,11 +82,19 @@
 - [Cambli Group: Strategic Move into Defence Innovation — Canadian Defence Review](https://canadiandefencereview.com/military-vehicles-cambli-group/)
   The Canadian-accessible layer of the CACI counter-UAS hub — Blackwolf vehicle integration by Cambli and DEW Engineering.
 
+- [Government announces Defence Investment Agency — DND, October 2025](https://www.canada.ca/en/department-national-defence/maple-leaf/defence/2025/10/government-announces-defence-investment-agency.html)
+  DIA's founding announcement — the fourth body updating Lesson 1's original three.
+- [Strix — About the pan-Canadian organization](https://strix.aero/about-the-pan-canadian-organization/)
+  Strix/INSAT's R&D co-funding model and dual-use technology support.
+- [FedDev Ontario — Regional Defence Investment Initiative, eligibility for businesses](https://feddev-ontario.canada.ca/en/funding-southern-ontario/regional-defence-investment-initiative-businesses-who-can-apply)
+  Direct SME grant funding; Kanata's Ottawa location confirmed within FedDev's mandate area.
+
 ## Gaps
 
 - No curated primary source yet for FAcT (Future Aircrew Training), MSMM (Medium Support and Multi-Mission), or MDA's CHORUS constellation — each needs its own PSPC/DND project page pulled before a lesson leans on it.
 - 49North's own site (49northdefence.com) returned a fetch error this session — worth trying again directly for current program engagements and any stated supplier/partner process, rather than relying on secondary coverage alone.
 - No confirmation yet of any open supplier process at Cambli or DEW Engineering specifically — worth checking directly before treating them as a confirmed entry point into the CACI counter-UAS hub.
+- FedDev Ontario's current RDII allocation and application deadline weren't confirmed precisely (sources gave $90M and "nearly $200M") — check directly before citing a figure in an actual application.
 - Space domain covered at the landscape level (Lesson 5); no dedicated primary sources yet for RADARSAT/CHORUS, Telesat Lightspeed, Kepler Optical Relay Network, or the pre-award programs (ESSP, ESCP-P, Atlantic Constellation, RADARSAT NG) individually.
 - RPAS (Lesson 8) is documented here but still isn't in Kanata's own curated 21-program list — this is a live action item for whoever maintains that tracker, not just a research gap.
 - The entire Land domain (Lesson 9) is absent from Kanata's curated list — ~$2.71B in real untied ITB obligation across General Dynamics Land Systems Canada, General Dynamics Mission Systems–Canada, Rheinmetall Canada, Saab Canada, KNDS Deutschland, and GM Defense Canada has no curated home at all. No primary sources pulled yet for any individual Land program (Logistics Vehicle Modernization, LC4ISR, Enhanced Recovery Capability, etc.) — worth doing only once it's confirmed Land is meant to be in scope for Kanata's pursuit strategy at all.
