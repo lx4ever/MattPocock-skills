@@ -88,6 +88,16 @@
   Strix/INSAT's R&D co-funding model and dual-use technology support.
 - [FedDev Ontario — Regional Defence Investment Initiative, eligibility for businesses](https://feddev-ontario.canada.ca/en/funding-southern-ontario/regional-defence-investment-initiative-businesses-who-can-apply)
   Direct SME grant funding; Kanata's Ottawa location confirmed within FedDev's mandate area.
+- [Uncrewed Systems Defence Innovation Secure Hub — DND, July 2026](https://www.canada.ca/en/department-national-defence/news/2026/07/uncrewed-systems-defence-innovation-secure-hub.html)
+  NEXUS/UxS DISH's official announcement — a closed consortium (CFP ended April 2026), not an open application. Covered in Lesson 20.
+- [Octasic Selected to Help Build Canada's Future Autonomous Defence Ecosystem](https://www.octasic.com/newsroom/octasic-selected-to-help-build-canadas-future-autonomous-defence-ecosystem)
+  The one NEXUS consortium member whose stated focus (RF/SDR, spectrum sensing, counter-drone payloads) plausibly overlaps Kanata's harness/electrical-assembly capability — no confirmed supplier process found yet.
+- [GDMS-Canada Awarded Four Land C4ISR Contracts — PR Newswire, December 2023](https://www.prnewswire.com/news-releases/general-dynamics-mission-systemscanada-awarded-four-land-c4isr-contracts-for-the-canadian-army-valued-at-up-to-ca1-7-billion-302020229.html)
+  The origin story for the four LCSS contracts reviewed in Lessons 9–10: $1.68B combined, tracing to SSE 42 (2017 defence policy).
+- [Land C4ISR: The Bridge to a Better Way to Buy High Tech? — Canadian Army Today](https://canadianarmytoday.com/land-c4isr-the-bridge-to-a-better-way-to-buy-high-tech/)
+  Names the wider Land C4ISR project family beyond the four GDMS-Canada contracts — including Tactical Communications Modernization and Land Electronic Warfare Modernization, flagged in Lesson 21 as likely better fits than the LCSS software contracts.
+- [C4ISR & Beyond 2026 Highlights — Vanguard Canada](https://vanguardcanada.com/c4isr-beyond-2026-highlights/)
+  A real, recurring, Ottawa-based industry conference (12th annual as of Jan 2026) — a concrete in-person networking lead distinct from any ITB-obligation-manager outreach.
 
 ## Gaps
 
@@ -95,10 +105,7 @@
 - 49North's own site (49northdefence.com) returned a fetch error this session — worth trying again directly for current program engagements and any stated supplier/partner process, rather than relying on secondary coverage alone.
 - No confirmation yet of any open supplier process at Cambli or DEW Engineering specifically — worth checking directly before treating them as a confirmed entry point into the CACI counter-UAS hub.
 - FedDev Ontario's current RDII allocation and application deadline weren't confirmed precisely (sources gave $90M and "nearly $200M") — check directly before citing a figure in an actual application.
-- [Uncrewed Systems Defence Innovation Secure Hub — DND, July 2026](https://www.canada.ca/en/department-national-defence/news/2026/07/uncrewed-systems-defence-innovation-secure-hub.html)
-  NEXUS/UxS DISH's official announcement — a closed consortium (CFP ended April 2026), not an open application. Covered in Lesson 20.
-- [Octasic Selected to Help Build Canada's Future Autonomous Defence Ecosystem](https://www.octasic.com/newsroom/octasic-selected-to-help-build-canadas-future-autonomous-defence-ecosystem)
-  The one NEXUS consortium member whose stated focus (RF/SDR, spectrum sensing, counter-drone payloads) plausibly overlaps Kanata's harness/electrical-assembly capability — no confirmed supplier process found yet.
+- No named prime confirmed yet for Tactical Communications Modernization or Land Electronic Warfare Modernization — worth checking whether 49North has a role in either before assuming an unfamiliar company is the only entry point.
 - Space domain covered at the landscape level (Lesson 5); no dedicated primary sources yet for RADARSAT/CHORUS, Telesat Lightspeed, Kepler Optical Relay Network, or the pre-award programs (ESSP, ESCP-P, Atlantic Constellation, RADARSAT NG) individually.
 - RPAS (Lesson 8) is documented here but still isn't in Kanata's own curated 21-program list — this is a live action item for whoever maintains that tracker, not just a research gap.
 - The entire Land domain (Lesson 9) is absent from Kanata's curated list — ~$2.71B in real untied ITB obligation across General Dynamics Land Systems Canada, General Dynamics Mission Systems–Canada, Rheinmetall Canada, Saab Canada, KNDS Deutschland, and GM Defense Canada has no curated home at all. No primary sources pulled yet for any individual Land program (Logistics Vehicle Modernization, LC4ISR, Enhanced Recovery Capability, etc.) — worth doing only once it's confirmed Land is meant to be in scope for Kanata's pursuit strategy at all.
