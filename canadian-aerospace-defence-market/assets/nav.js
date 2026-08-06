@@ -20,7 +20,8 @@
     { "n": 15, "file": "0015-mda-49north.html", "title": "49North: MDA's Second Hub" },
     { "n": 16, "file": "0016-ddi-marketplace-mosa.html", "title": "DDI Marketplace, MOSA & Interoperability" },
     { "n": 17, "file": "0017-caf-uas-landscape.html", "title": "CAF UAS Initiatives and Capabilities" },
-    { "n": 18, "file": "0018-dia-strix-feddev.html", "title": "DIA, Strix/INSAT & FedDev" }
+    { "n": 18, "file": "0018-dia-strix-feddev.html", "title": "DIA, Strix/INSAT & FedDev" },
+    { "n": 19, "file": "0019-caf-uxs-enterprise-model.html", "title": "The CAF UxS Enterprise Model" }
   ],
   "reference": [
     { "file": "buyers-and-programs-cheatsheet.html", "title": "Buyers & Programs Cheat Sheet" }
