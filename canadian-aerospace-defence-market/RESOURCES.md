@@ -75,10 +75,18 @@
 - [Canada's New Marketplace for Drone Innovation — Canadian Global Affairs Institute](https://www.cgai.ca/pp_canada_s_new_marketplace_for_drone_innovation)
   Independent analysis of DDI's strategic rationale, including the "peacetime Brave1" framing.
 
+- [Drone army: New initiative to accelerate small uncrewed systems — Canadian Army Today](https://canadianarmytoday.com/drone-army-new-initiative-to-accelerate-small-uncrewed-systems/)
+  The Army's General Purpose UAS program: ~1,000 quadcopters, Teal 2 procurement history, multi-supplier RFP.
+- [CUAS – Counter Uncrewed Air Systems — Canadian Defence Review](https://canadiandefencereview.com/cuas-counter-uncrewed-air-systems/)
+  Phase 1/Phase 2 contract details, named systems (ORION-H9, BEAM 3.0, Falcon Shield) and dollar figures.
+- [Cambli Group: Strategic Move into Defence Innovation — Canadian Defence Review](https://canadiandefencereview.com/military-vehicles-cambli-group/)
+  The Canadian-accessible layer of the CACI counter-UAS hub — Blackwolf vehicle integration by Cambli and DEW Engineering.
+
 ## Gaps
 
 - No curated primary source yet for FAcT (Future Aircrew Training), MSMM (Medium Support and Multi-Mission), or MDA's CHORUS constellation — each needs its own PSPC/DND project page pulled before a lesson leans on it.
 - 49North's own site (49northdefence.com) returned a fetch error this session — worth trying again directly for current program engagements and any stated supplier/partner process, rather than relying on secondary coverage alone.
+- No confirmation yet of any open supplier process at Cambli or DEW Engineering specifically — worth checking directly before treating them as a confirmed entry point into the CACI counter-UAS hub.
 - Space domain covered at the landscape level (Lesson 5); no dedicated primary sources yet for RADARSAT/CHORUS, Telesat Lightspeed, Kepler Optical Relay Network, or the pre-award programs (ESSP, ESCP-P, Atlantic Constellation, RADARSAT NG) individually.
 - RPAS (Lesson 8) is documented here but still isn't in Kanata's own curated 21-program list — this is a live action item for whoever maintains that tracker, not just a research gap.
 - The entire Land domain (Lesson 9) is absent from Kanata's curated list — ~$2.71B in real untied ITB obligation across General Dynamics Land Systems Canada, General Dynamics Mission Systems–Canada, Rheinmetall Canada, Saab Canada, KNDS Deutschland, and GM Defense Canada has no curated home at all. No primary sources pulled yet for any individual Land program (Logistics Vehicle Modernization, LC4ISR, Enhanced Recovery Capability, etc.) — worth doing only once it's confirmed Land is meant to be in scope for Kanata's pursuit strategy at all.
