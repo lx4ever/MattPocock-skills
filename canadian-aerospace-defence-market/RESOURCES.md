@@ -105,6 +105,17 @@
 - [Ultra I&C: Tactical communications, command and control solutions — Canadian Commercial Corporation](https://www.ccc.ca/en/resources/ultra-intelligence-and-communications/)
   Ultra Maritime's communications arm, already named in River-class Destroyer's team (Lesson 3) — a possible incumbent-adjacent candidate for TCM, not yet confirmed.
 
+- [Canadian Defence Industry Resilience Program — DND](https://www.canada.ca/en/department-national-defence/programs/canadian-defence-industry-resilience.html)
+  $25M–$642M+ forgivable loans/contribution agreements for domestic production capacity. CFP-based, not rolling — initial focus is ammunition/explosives, not yet Kanata's sector. Consultation contact: CDIR-RIDC@forces.gc.ca.
+- [TKMS launches the Canadian Defence & Dual-Use Innovation Ecosystem (CDDE) — TKMS Group](https://www.tkmsgroup.com/news/article/tkms-launches-the-canadian-defence-dual-use-innovation-ecosystem-cdde)
+  Confirms CDDE's 15-year, university-partnership structure (UBC, Western, Dalhousie) — closer to Strix/INSAT's research-ecosystem character than a direct supplier pipeline.
+- [Glenair, NADCAP Scope of Accreditation — Electronics: Cable and Harness Assemblies](https://www.glenair.com/compliance/pdf/nadcap-scope-of-accreditation.pdf)
+  Confirms NADCAP's Electronics commodity covers cable/harness assembly and soldering directly.
+- [AQM Auditing, "Cost & Timeframe for Gaining Nadcap Certification"](https://aqmauditing.com/cost-timeframe-for-gaining-nadcap-certification/)
+  Real pricing and timeline: $15K–$60K upfront, $3K–$5K/year maintenance, 6–18 months via PRI's eANS platform.
+- [PRI, "Getting Started with a Nadcap Accreditation"](https://www.p-r-i.org/nadcap/getting-started)
+  The actual first step if Kanata pursues NADCAP accreditation.
+
 ## Gaps
 
 - No curated primary source yet for FAcT (Future Aircrew Training), MSMM (Medium Support and Multi-Mission), or MDA's CHORUS constellation — each needs its own PSPC/DND project page pulled before a lesson leans on it.
@@ -112,7 +123,6 @@
 - No confirmation yet of any open supplier process at Cambli or DEW Engineering specifically — worth checking directly before treating them as a confirmed entry point into the CACI counter-UAS hub.
 - FedDev Ontario's current RDII allocation and application deadline weren't confirmed precisely (sources gave $90M and "nearly $200M") — check directly before citing a figure in an actual application.
 - Followed up directly: neither Tactical Communications Modernization nor Land Electronic Warfare Modernization has a confirmed prime yet (both pre-contract), and no public source ties 49North to either. L3Harris and Thales are plausible incumbent-adjacent candidates worth watching (see Lesson 21), not confirmed primes — re-check once either project reaches contract award.
-- Canadian Defence Industry Resilience (CDIR) — a DND-administered, TRL9+/market-stage funding program surfaced in Lesson 22 — hasn't been researched yet; no public URL found this session (source was photographed conference slides).
 - The Maritime DISH Pilot (Halifax, autonomous underwater systems and maritime sensing) hasn't been checked for a public partner-engagement process, the same open question left for NEXUS/Octasic in Lesson 20.
 - Accelerated Growth Services, CanExport SMEs, ElevateIP, and Lab-to-Market (L2M) all appeared on the same TRL9+ funding chart as RDII and CDIR (Lesson 22) but haven't been individually researched — unclear yet which, if any, are relevant to Kanata's actual stage and sector.
 - Space domain covered at the landscape level (Lesson 5); no dedicated primary sources yet for RADARSAT/CHORUS, Telesat Lightspeed, Kepler Optical Relay Network, or the pre-award programs (ESSP, ESCP-P, Atlantic Constellation, RADARSAT NG) individually.

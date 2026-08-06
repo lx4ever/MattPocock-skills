@@ -24,7 +24,8 @@
     { "n": 19, "file": "0019-caf-uxs-enterprise-model.html", "title": "The CAF UxS Enterprise Model" },
     { "n": 20, "file": "0020-uxs-dish-nexus.html", "title": "UxS DISH / NEXUS" },
     { "n": 21, "file": "0021-c4isr.html", "title": "C4ISR" },
-    { "n": 22, "file": "0022-borealis.html", "title": "BOREALIS" }
+    { "n": 22, "file": "0022-borealis.html", "title": "BOREALIS" },
+    { "n": 23, "file": "0023-cdir-cdde-nadcap.html", "title": "CDIR, CDDE & NADCAP" }
   ],
   "reference": [
     { "file": "buyers-and-programs-cheatsheet.html", "title": "Buyers & Programs Cheat Sheet" }
