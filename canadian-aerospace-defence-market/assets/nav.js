@@ -29,7 +29,9 @@
     { "n": 24, "file": "0024-team-skyguardian.html", "title": "Team SkyGuardian Canada" }
   ],
   "reference": [
-    { "file": "buyers-and-programs-cheatsheet.html", "title": "Buyers & Programs Cheat Sheet" }
+    { "file": "buyers-and-programs-cheatsheet.html", "title": "Buyers & Programs Cheat Sheet" },
+    { "file": "hubs-and-contacts-cheatsheet.html", "title": "Hubs & Contacts" },
+    { "file": "open-doors-ranked-cheatsheet.html", "title": "Open Doors, Ranked" }
   ]
 };
 
