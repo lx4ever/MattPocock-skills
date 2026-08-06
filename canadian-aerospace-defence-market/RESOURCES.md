@@ -115,6 +115,10 @@
   Real pricing and timeline: $15K–$60K upfront, $3K–$5K/year maintenance, 6–18 months via PRI's eANS platform.
 - [PRI, "Getting Started with a Nadcap Accreditation"](https://www.p-r-i.org/nadcap/getting-started)
   The actual first step if Kanata pursues NADCAP accreditation.
+- [General Atomics, "Team SkyGuardian Canada Looking to Grow"](https://www.ga.com/team-skyguardian-canada-looking-to-grow)
+  Confirms the 2,000+ Canadian supplier network, the explicit SME recruitment push, and the named application path (ga-asi.com/TeamSkyGuardianCanada) — one of the most directly actionable, open doors found in this workspace.
+- [Air Force Technology, "GA-ASI opens new office near Ottawa in Canada"](https://www.airforce-technology.com/news/ga-asi-opens-new-office-near-ottawa-in-canada/)
+  Confirms the Ottawa office location (near Confederation Park) for this program.
 
 ## Gaps
 

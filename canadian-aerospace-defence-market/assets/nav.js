@@ -25,7 +25,8 @@
     { "n": 20, "file": "0020-uxs-dish-nexus.html", "title": "UxS DISH / NEXUS" },
     { "n": 21, "file": "0021-c4isr.html", "title": "C4ISR" },
     { "n": 22, "file": "0022-borealis.html", "title": "BOREALIS" },
-    { "n": 23, "file": "0023-cdir-cdde-nadcap.html", "title": "CDIR, CDDE & NADCAP" }
+    { "n": 23, "file": "0023-cdir-cdde-nadcap.html", "title": "CDIR, CDDE & NADCAP" },
+    { "n": 24, "file": "0024-team-skyguardian.html", "title": "Team SkyGuardian Canada" }
   ],
   "reference": [
     { "file": "buyers-and-programs-cheatsheet.html", "title": "Buyers & Programs Cheat Sheet" }
