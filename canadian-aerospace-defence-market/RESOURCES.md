@@ -98,6 +98,12 @@
   Names the wider Land C4ISR project family beyond the four GDMS-Canada contracts — including Tactical Communications Modernization and Land Electronic Warfare Modernization, flagged in Lesson 21 as likely better fits than the LCSS software contracts.
 - [C4ISR & Beyond 2026 Highlights — Vanguard Canada](https://vanguardcanada.com/c4isr-beyond-2026-highlights/)
   A real, recurring, Ottawa-based industry conference (12th annual as of Jan 2026) — a concrete in-person networking lead distinct from any ITB-obligation-manager outreach.
+- [Modernizing the Army's communications backbone — Canadian Army Today](https://canadianarmytoday.com/modernizing-the-armys-communications-backbone/)
+  Tactical Communications Modernization (TacComms Mod) context — ~$690M budgeted under the wider Land Command Support System Modernization effort, still pre-contract.
+- [CF Land Electronic Warfare Modernization — Defence Capabilities Blueprint](https://apps.forces.gc.ca/en/defence-capabilities-blueprint/project-details.asp?id=2518)
+  The official project entry (returned a fetch error this session; accessed via search summary instead) — no named prime found. The only nearby contract action is a facilities design award for 21 Electronic Warfare Regiment's new CFB Kingston building, not the equipment project itself.
+- [Ultra I&C: Tactical communications, command and control solutions — Canadian Commercial Corporation](https://www.ccc.ca/en/resources/ultra-intelligence-and-communications/)
+  Ultra Maritime's communications arm, already named in River-class Destroyer's team (Lesson 3) — a possible incumbent-adjacent candidate for TCM, not yet confirmed.
 
 ## Gaps
 
@@ -105,7 +111,7 @@
 - 49North's own site (49northdefence.com) returned a fetch error this session — worth trying again directly for current program engagements and any stated supplier/partner process, rather than relying on secondary coverage alone.
 - No confirmation yet of any open supplier process at Cambli or DEW Engineering specifically — worth checking directly before treating them as a confirmed entry point into the CACI counter-UAS hub.
 - FedDev Ontario's current RDII allocation and application deadline weren't confirmed precisely (sources gave $90M and "nearly $200M") — check directly before citing a figure in an actual application.
-- No named prime confirmed yet for Tactical Communications Modernization or Land Electronic Warfare Modernization — worth checking whether 49North has a role in either before assuming an unfamiliar company is the only entry point.
+- Followed up directly: neither Tactical Communications Modernization nor Land Electronic Warfare Modernization has a confirmed prime yet (both pre-contract), and no public source ties 49North to either. L3Harris and Thales are plausible incumbent-adjacent candidates worth watching (see Lesson 21), not confirmed primes — re-check once either project reaches contract award.
 - Space domain covered at the landscape level (Lesson 5); no dedicated primary sources yet for RADARSAT/CHORUS, Telesat Lightspeed, Kepler Optical Relay Network, or the pre-award programs (ESSP, ESCP-P, Atlantic Constellation, RADARSAT NG) individually.
 - RPAS (Lesson 8) is documented here but still isn't in Kanata's own curated 21-program list — this is a live action item for whoever maintains that tracker, not just a research gap.
 - The entire Land domain (Lesson 9) is absent from Kanata's curated list — ~$2.71B in real untied ITB obligation across General Dynamics Land Systems Canada, General Dynamics Mission Systems–Canada, Rheinmetall Canada, Saab Canada, KNDS Deutschland, and GM Defense Canada has no curated home at all. No primary sources pulled yet for any individual Land program (Logistics Vehicle Modernization, LC4ISR, Enhanced Recovery Capability, etc.) — worth doing only once it's confirmed Land is meant to be in scope for Kanata's pursuit strategy at all.
