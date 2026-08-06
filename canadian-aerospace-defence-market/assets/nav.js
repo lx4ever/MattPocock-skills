@@ -18,7 +18,7 @@
     { "n": 13, "file": "0013-cc-330-husky.html", "title": "CC-330 Husky" },
     { "n": 14, "file": "0014-global-backdrop-deloitte-outlook.html", "title": "The Global Backdrop: Why Primes Need Kanata Right Now" },
     { "n": 15, "file": "0015-mda-49north.html", "title": "49North: MDA's Second Hub" },
-    { "n": 16, "file": "0016-ddi-marketplace-mosa.html", "title": "DDI Marketplace, MOSA & Interoperability" },
+    { "n": 16, "file": "0016-ddi-marketplace-mosa.html", "title": "DDI / DDIM, MOSA & Interoperability" },
     { "n": 17, "file": "0017-caf-uas-landscape.html", "title": "CAF UAS Initiatives and Capabilities" },
     { "n": 18, "file": "0018-dia-strix-feddev.html", "title": "DIA, Strix/INSAT & FedDev" },
     { "n": 19, "file": "0019-caf-uxs-enterprise-model.html", "title": "The CAF UxS Enterprise Model" },
