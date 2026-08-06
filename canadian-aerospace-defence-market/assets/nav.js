@@ -23,7 +23,8 @@
     { "n": 18, "file": "0018-dia-strix-feddev.html", "title": "DIA, Strix/INSAT & FedDev" },
     { "n": 19, "file": "0019-caf-uxs-enterprise-model.html", "title": "The CAF UxS Enterprise Model" },
     { "n": 20, "file": "0020-uxs-dish-nexus.html", "title": "UxS DISH / NEXUS" },
-    { "n": 21, "file": "0021-c4isr.html", "title": "C4ISR" }
+    { "n": 21, "file": "0021-c4isr.html", "title": "C4ISR" },
+    { "n": 22, "file": "0022-borealis.html", "title": "BOREALIS" }
   ],
   "reference": [
     { "file": "buyers-and-programs-cheatsheet.html", "title": "Buyers & Programs Cheat Sheet" }
