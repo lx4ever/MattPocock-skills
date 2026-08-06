@@ -68,6 +68,13 @@
 - [49North Awarded $3.7M Contract from General Atomics — PR Newswire, July 2026](https://www.prnewswire.com/news-releases/49north-awarded-3-7m-contract-from-general-atomics-to-deliver-coalition-shared-database-for-canadas-guardian-remotely-piloted-aircraft-system-program-302799415.html)
   Confirms 49North (not MDA generically) now holds the RPAS Ground Control Station work, names Team SkyGuardian Canada's members precisely (GA-ASI, CAE, L3Harris WESCAM, 49North), and the CQ-9B Guardian designation.
 
+- [Government of Canada launches Defence Drone Initiative — DND, July 2026](https://www.canada.ca/en/department-national-defence/news/2026/07/government-of-canada-launches-defence-drone-initiative-to-strengthen-canadas-sovereign-defence-capabilities.html)
+  Official launch announcement for the DDI standing supplier marketplace.
+- [Defence Drone Initiative (DDI) Marketplace — RFSA tender notice, CanadaBuys](https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ws5802684496-doc5802800603)
+  The actual application: five qualification streams, the Technology Questionnaire, and the August 14, 2026 deadline. Time-sensitive — check this directly, not a secondary summary, before applying.
+- [Canada's New Marketplace for Drone Innovation — Canadian Global Affairs Institute](https://www.cgai.ca/pp_canada_s_new_marketplace_for_drone_innovation)
+  Independent analysis of DDI's strategic rationale, including the "peacetime Brave1" framing.
+
 ## Gaps
 
 - No curated primary source yet for FAcT (Future Aircrew Training), MSMM (Medium Support and Multi-Mission), or MDA's CHORUS constellation — each needs its own PSPC/DND project page pulled before a lesson leans on it.
