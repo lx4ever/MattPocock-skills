@@ -54,7 +54,7 @@ The lesson should be short, and completable very quickly. Learners' working memo
 
 If possible, open the lesson file for the user by running a CLI command.
 
-Each lesson should link via HTML anchors to other lessons and reference documents.
+Each lesson should link via HTML anchors to other lessons and reference documents, and should include the workspace's page navigator (see [Assets](#assets)) so the user is never more than one click from any other lesson or reference document, not just the previous/next one.
 
 Each lesson should recommend a primary source for the user to read or watch. This should be the most high-quality, high-trust resource you found on the topic.
 
@@ -67,6 +67,16 @@ Lessons are built from reusable **components**, stored in `./assets/`: styleshee
 Reuse is the default, not the exception. Before authoring a lesson, read `./assets/` and build from the components already there. When a lesson needs something new and reusable, write it as a component in `./assets/` and link to it — never inline code a future lesson would duplicate.
 
 A shared stylesheet is the first component every workspace earns: every lesson links it, so the lessons look like one consistent course rather than a pile of one-offs. As the workspace grows, so should the component library.
+
+A **page navigator** is the second default component, required from the first lesson onward — never optional, never something to add "later once there are more lessons." As soon as a workspace has more than one lesson, browsing it by clicking "next" through a linear chain stops scaling: the user should be able to jump to any lesson or reference document from any page, not just the two adjacent to it. Build it as a small, self-contained script (e.g. `assets/nav.js`) plus matching rules in the shared stylesheet, wired into every lesson and reference page:
+
+- A persistent, low-profile way to open it (a fixed toggle button works well) that doesn't compete with the lesson content.
+- A full list of every lesson (numbered, in order) and every reference document, generated from a manifest inside the script — update that manifest each time a lesson or reference doc is added.
+- The current page visibly highlighted in the list.
+- A link back to `MISSION.md` / `RESOURCES.md`.
+- Works from both `./lessons/` and `./reference/` regardless of folder depth, and degrades harmlessly in print (hide it in a `@media print` rule).
+
+Before building one from scratch, check whether another workspace in this repo already has one — adapt an existing implementation rather than reinventing it; this is exactly the kind of component reuse this section exists to enforce.
 
 ## The Mission
 
