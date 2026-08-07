@@ -127,6 +127,12 @@
   Confirms Palitronica's profile: Kitchener ON, founded 2019, defence electronics hardware assurance including fighter-jet auditing.
 - [Skies Mag, "Aces for hire"](https://skiesmag.com/news/aces-for-hire/)
   Top Aces' Contracted Airborne Training Services (adversary air/JTAC), extended through 2029 — the "flight service" half of CF-18 sustainment, distinct from Arcfield's avionics ISS.
+- [De Havilland Canada, "De Havilland Defence"](https://dehavilland.com/defence/)
+  Official page for Twin Otter Guardian, Special Mission Dash 8, and DHC-515 — a genuinely new prime for this workspace, and a direct-OEM-manufacturing opportunity rather than an ITB pursuit.
+- [FlightGlobal, "Alberta orders five DHC-515 water bombers from De Havilland"](https://www.flightglobal.com/airframers/2026/02/alberta-orders-five-dhc-515-water-bombers-from-de-havilland/)
+  Confirms Alberta's ~C$400M order — one of several provincial/foreign buyers, not DND.
+- [Air Data News, on De Havilland Field](https://www.airdatanews.com/de-havilland-canada-reveals-the-design-of-its-new-production-plant-near-calgary/)
+  The new Calgary-area manufacturing facility, ramping toward full DHC-515/Twin Otter production by 2030.
 
 ## Gaps
 
@@ -134,6 +140,7 @@
 - 49North's own site (49northdefence.com) returned a fetch error this session — worth trying again directly for current program engagements and any stated supplier/partner process, rather than relying on secondary coverage alone.
 - No confirmation yet of any open supplier process at Cambli or DEW Engineering specifically — worth checking directly before treating them as a confirmed entry point into the CACI counter-UAS hub.
 - FedDev Ontario's current RDII allocation and application deadline weren't confirmed precisely (sources gave $90M and "nearly $200M") — check directly before citing a figure in an actual application.
+- No public supplier-registration portal or procurement contact found for De Havilland Defence — worth a direct inquiry to confirm whether one exists before assuming it doesn't.
 - Followed up directly: neither Tactical Communications Modernization nor Land Electronic Warfare Modernization has a confirmed prime yet (both pre-contract), and no public source ties 49North to either. L3Harris and Thales are plausible incumbent-adjacent candidates worth watching (see Lesson 21), not confirmed primes — re-check once either project reaches contract award.
 - The Maritime DISH Pilot (Halifax, autonomous underwater systems and maritime sensing) hasn't been checked for a public partner-engagement process, the same open question left for NEXUS/Octasic in Lesson 20.
 - Accelerated Growth Services, CanExport SMEs, ElevateIP, and Lab-to-Market (L2M) all appeared on the same TRL9+ funding chart as RDII and CDIR (Lesson 22) but haven't been individually researched — unclear yet which, if any, are relevant to Kanata's actual stage and sector.
