@@ -28,7 +28,8 @@
     { "n": 23, "file": "0023-cdir-cdde-nadcap.html", "title": "CDIR, CDDE & NADCAP" },
     { "n": 24, "file": "0024-team-skyguardian.html", "title": "Team SkyGuardian Canada" },
     { "n": 25, "file": "0025-cf18-avionics-flight-service.html", "title": "CF-18 Avionics & Flight Service" },
-    { "n": 26, "file": "0026-dhc-defence.html", "title": "DHC Defence (De Havilland Canada)" }
+    { "n": 26, "file": "0026-dhc-defence.html", "title": "DHC Defence (De Havilland Canada)" },
+    { "n": 27, "file": "0027-gdms-canada.html", "title": "General Dynamics Mission Systems–Canada" }
   ],
   "reference": [
     { "file": "buyers-and-programs-cheatsheet.html", "title": "Buyers & Programs Cheat Sheet" },

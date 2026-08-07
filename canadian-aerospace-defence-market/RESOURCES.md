@@ -133,6 +133,12 @@
   Confirms Alberta's ~C$400M order — one of several provincial/foreign buyers, not DND.
 - [Air Data News, on De Havilland Field](https://www.airdatanews.com/de-havilland-canada-reveals-the-design-of-its-new-production-plant-near-calgary/)
   The new Calgary-area manufacturing facility, ramping toward full DHC-515/Twin Otter production by 2030.
+- [GDMS-Canada, Undersea Warfare](https://gdmissionsystems.ca/undersea-warfare)
+  The hardware product line (sonobuoy processing, acoustic countermeasures, HMS-610 sonar) that's the real fit — distinct from the LC4ISR contracts Lesson 10 assessed.
+- [GDMS-Canada, HMS-610 Hull-Mounted Sonar launch, May 2026](https://gdmissionsystems.ca/articles/2026/05/26/general-dynamics-launches-hms-610-hull-mounted-sonar)
+  Confirms the newest hardware product in this line.
+- [Canadian Defence Review, "GDMS-Canada: ASW technologies"](https://canadiandefencereview.com/gdms-defend-it-or-lose-it/)
+  Confirms the sonobuoy processing line's delivery across River-class Destroyer, the Maritime Helicopter Project, and Aurora Incremental Modernization.
 
 ## Gaps
 
@@ -141,6 +147,7 @@
 - No confirmation yet of any open supplier process at Cambli or DEW Engineering specifically — worth checking directly before treating them as a confirmed entry point into the CACI counter-UAS hub.
 - FedDev Ontario's current RDII allocation and application deadline weren't confirmed precisely (sources gave $90M and "nearly $200M") — check directly before citing a figure in an actual application.
 - No public supplier-registration portal or procurement contact found for De Havilland Defence — worth a direct inquiry to confirm whether one exists before assuming it doesn't.
+- No confirmation yet of a public supplier-registration process for GDMS-Canada's undersea warfare division specifically — worth checking before drafting outreach.
 - Followed up directly: neither Tactical Communications Modernization nor Land Electronic Warfare Modernization has a confirmed prime yet (both pre-contract), and no public source ties 49North to either. L3Harris and Thales are plausible incumbent-adjacent candidates worth watching (see Lesson 21), not confirmed primes — re-check once either project reaches contract award.
 - The Maritime DISH Pilot (Halifax, autonomous underwater systems and maritime sensing) hasn't been checked for a public partner-engagement process, the same open question left for NEXUS/Octasic in Lesson 20.
 - Accelerated Growth Services, CanExport SMEs, ElevateIP, and Lab-to-Market (L2M) all appeared on the same TRL9+ funding chart as RDII and CDIR (Lesson 22) but haven't been individually researched — unclear yet which, if any, are relevant to Kanata's actual stage and sector.
