@@ -119,6 +119,14 @@
   Confirms the 2,000+ Canadian supplier network, the explicit SME recruitment push, and the named application path (ga-asi.com/TeamSkyGuardianCanada) — one of the most directly actionable, open doors found in this workspace.
 - [Air Force Technology, "GA-ASI opens new office near Ottawa in Canada"](https://www.airforce-technology.com/news/ga-asi-opens-new-office-near-ottawa-in-canada/)
   Confirms the Ottawa office location (near Confederation Park) for this program.
+- [Arcfield, "Arcfield Canada Awarded $211.6M Contract for CF-18 Avionics In-Service Support"](https://www.arcfield.com/news/arcfield-canada-awarded-$211.6m-contract-for-cf-18-avionics-in-service-support-)
+  The March 2024 CF-18 Avionics ISS 2 award, confirming Kanata's own ITB tracker's older OWSS figure ($480.2M, completed) as the predecessor contract.
+- [Arcfield, Team Northern Sentry announcement](https://www.arcfield.com/news/arcfield-canada-announces-team-northern-sentry-for-canada%E2%80%99s-cf-18-avionics-in-service-support-program)
+  Names the team (Raytheon Canada, L3Harris, Palitronica, Terra Nova) — Palitronica is a real, Kanata-scale SME proof-of-concept.
+- [The Logic, on Palitronica](https://thelogic.co/news/waterloos-palitronica-aims-to-suss-out-counterfeit-electronics-using-the-tiniest-of-pings/)
+  Confirms Palitronica's profile: Kitchener ON, founded 2019, defence electronics hardware assurance including fighter-jet auditing.
+- [Skies Mag, "Aces for hire"](https://skiesmag.com/news/aces-for-hire/)
+  Top Aces' Contracted Airborne Training Services (adversary air/JTAC), extended through 2029 — the "flight service" half of CF-18 sustainment, distinct from Arcfield's avionics ISS.
 
 ## Gaps
 
