@@ -146,6 +146,18 @@
 - [Aviation Week, "Canada Joins GCAP As An Observer"](https://aviationweek.com/defense/aircraft-propulsion/canada-joins-gcap-observer)
   Secondary confirmation of the announcement and industry framing.
 - Canada.ca's official Quadrilateral Joint Statement page (canada.ca/en/department-national-defence/news/2026/07/quadrilateral-joint-statement-on-canada-becoming-an-observer-to-gcap.html) returned a fetch error this session (egress-blocked) — worth retrying directly for the exact primary-source text rather than relying on secondary coverage alone.
+- [Thales Group, About Us — Canada](https://www.thalesgroup.com/en/worldwide/canada/about-us)
+  Confirms Thales Canada's HQ is specifically in Kanata, Ontario, plus the full footprint (13 locations, 5 provinces, ~1,500 employees, ~$500M/year revenue, three business domains).
+- [Canadian Defence Review, Thales Canada company profile](https://canadiandefencereview.com/company-profile/thales-canada/)
+  Secondary confirmation of the footprint and domain breakdown.
+- [Navy Lookout, "Thales to supply towed array sonar for Royal Canadian Navy's River-class destroyers"](https://www.navylookout.com/thales-to-supply-towed-array-sonar-for-royal-canadian-navys-river-class-destroyers/)
+  Confirms the 2026 S2087 CAPTAS sonar award via Lockheed Martin Canada — a hardware contract distinct from AJISS.
+- [Thales Group, "Thales to supply handheld thermal imagers to the Canadian Army"](https://www.thalesgroup.com/en/news-centre/press-releases/thales-supply-handheld-thermal-imagers-canadian-army)
+  Confirms the Sophie Ultima / NVSM award, the Electro-Optics Center of Excellence, and the Montreal in-service-support facility.
+- [Canadian Defence Review, "NVSM – Night Vision System Modernization"](https://canadiandefencereview.com/nvsm-night-vision-system-modernization/)
+  Confirms NVSM as a new, multi-award Canadian Army/RCN program — this is only the first contract under it.
+- [Ottawa Business Journal, "Thales Canada adding 60 Ottawa jobs with $800M Arctic ship support contract"](https://obj.ca/update-thales-canada-adding-60-ottawa-jobs-with-800m-arctic-ship-support-contract/)
+  Dated hiring signal directly tied to the AJISS contract from Lesson 7.
 
 ## Gaps
 
@@ -164,6 +176,8 @@
 - No curated source yet for how a Tier 2/3 electronics SME (Kanata's actual position) gets discovered by a Tier 1 for ITB subcontracting — likely needs Canadian Commercial Corporation (CCC) or a prime's own supplier-registration portal (e.g. L3Harris, GDMS Canada, MDA), not just the ISED policy text.
 - Kanata's own workbook shows RPAS (MQ-9B SkyGuardian) has a real $496M USD untied ITB obligation (General Atomics) but isn't in Kanata's curated 21-program list yet — worth a lesson once a primary source for the program itself is pulled.
 - No confirmation yet of any Canadian prime or supplier publicly commenting on GCAP observer status — worth checking Bombardier, CAE, and Magellan directly. No industrial framework exists for Canada to enter yet, so this is a watch-list item, not an actionable door, until Canada's status moves beyond "observer."
+- No confirmation yet of a public supplier-registration process at Thales Canada's Electro-Optics Center of Excellence or its Montreal optronics facility specifically — worth checking directly before drafting NVSM-angled outreach.
+- The S2087 sonar contract's dollar value wasn't confirmed in this session's sources — worth a direct DND/Lockheed Martin Canada press release check before citing a figure.
 
 ## Wisdom (Communities)
 

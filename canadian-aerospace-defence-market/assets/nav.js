@@ -30,7 +30,8 @@
     { "n": 25, "file": "0025-cf18-avionics-flight-service.html", "title": "CF-18 Avionics & Flight Service" },
     { "n": 26, "file": "0026-dhc-defence.html", "title": "DHC Defence (De Havilland Canada)" },
     { "n": 27, "file": "0027-gdms-canada.html", "title": "General Dynamics Mission Systems–Canada" },
-    { "n": 28, "file": "0028-gcap.html", "title": "GCAP" }
+    { "n": 28, "file": "0028-gcap.html", "title": "GCAP" },
+    { "n": 29, "file": "0029-thales-canada.html", "title": "Thales Canada" }
   ],
   "reference": [
     { "file": "buyers-and-programs-cheatsheet.html", "title": "Buyers & Programs Cheat Sheet" },
