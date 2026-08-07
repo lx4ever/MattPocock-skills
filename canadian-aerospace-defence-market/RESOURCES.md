@@ -139,6 +139,13 @@
   Confirms the newest hardware product in this line.
 - [Canadian Defence Review, "GDMS-Canada: ASW technologies"](https://canadiandefencereview.com/gdms-defend-it-or-lose-it/)
   Confirms the sonobuoy processing line's delivery across River-class Destroyer, the Maritime Helicopter Project, and Aurora Incremental Modernization.
+- [The Aviationist, "Canada Officially Joins GCAP as Observer"](https://theaviationist.com/2026/07/21/canada-officially-joins-gcap-as-observer/)
+  Clearest plain-language account of the July 21, 2026 announcement — what observer status includes (governance/industrial/delivery-plan insight) and excludes (financial or industrial commitment).
+- [Zona Militar, "Canada joins GCAP as observer, expanding international cooperation on sixth-generation fighter program"](https://www.zona-militar.com/en/2026/07/22/canada-joins-gcap-as-observer-expanding-international-cooperation-on-sixth-generation-fighter-program/)
+  Confirms Canada as GCAP's first-ever observer nation, and the Quadrilateral Joint Statement's four signing ministers.
+- [Aviation Week, "Canada Joins GCAP As An Observer"](https://aviationweek.com/defense/aircraft-propulsion/canada-joins-gcap-observer)
+  Secondary confirmation of the announcement and industry framing.
+- Canada.ca's official Quadrilateral Joint Statement page (canada.ca/en/department-national-defence/news/2026/07/quadrilateral-joint-statement-on-canada-becoming-an-observer-to-gcap.html) returned a fetch error this session (egress-blocked) — worth retrying directly for the exact primary-source text rather than relying on secondary coverage alone.
 
 ## Gaps
 
@@ -156,6 +163,7 @@
 - The entire Land domain (Lesson 9) is absent from Kanata's curated list — ~$2.71B in real untied ITB obligation across General Dynamics Land Systems Canada, General Dynamics Mission Systems–Canada, Rheinmetall Canada, Saab Canada, KNDS Deutschland, and GM Defense Canada has no curated home at all. No primary sources pulled yet for any individual Land program (Logistics Vehicle Modernization, LC4ISR, Enhanced Recovery Capability, etc.) — worth doing only once it's confirmed Land is meant to be in scope for Kanata's pursuit strategy at all.
 - No curated source yet for how a Tier 2/3 electronics SME (Kanata's actual position) gets discovered by a Tier 1 for ITB subcontracting — likely needs Canadian Commercial Corporation (CCC) or a prime's own supplier-registration portal (e.g. L3Harris, GDMS Canada, MDA), not just the ISED policy text.
 - Kanata's own workbook shows RPAS (MQ-9B SkyGuardian) has a real $496M USD untied ITB obligation (General Atomics) but isn't in Kanata's curated 21-program list yet — worth a lesson once a primary source for the program itself is pulled.
+- No confirmation yet of any Canadian prime or supplier publicly commenting on GCAP observer status — worth checking Bombardier, CAE, and Magellan directly. No industrial framework exists for Canada to enter yet, so this is a watch-list item, not an actionable door, until Canada's status moves beyond "observer."
 
 ## Wisdom (Communities)
 
