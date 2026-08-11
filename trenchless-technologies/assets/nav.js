@@ -296,6 +296,11 @@
       "n": 59,
       "file": "0059-resin-catalyst-hardener-who-mixes-what-when.html",
       "title": "Resin, Catalyst, and Hardener: Who Mixes What, and When"
+    },
+    {
+      "n": 60,
+      "file": "0060-packaging-and-logistics-manufacturer-to-jobsite.html",
+      "title": "Packaging and Logistics: Manufacturer to Job Site"
     }
   ],
   "reference": [

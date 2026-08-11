@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 60 — Packaging and Logistics: Manufacturer to Job Site</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 60: Packaging and Logistics — Manufacturer to Job Site</h1>
+<p class="kicker">Real packaging specs from Sino Polymer's own catalogue page — three container formats, real net/gross weights, and a genuine container-capacity gap between them that nothing in this workspace had surfaced before.</p>
+
+<p class="lede">Every prior lesson on Sino Polymer's product line has been about what's in the resin. This one is about the box it ships in — a real, primary-source packaging table that turns out to have a genuinely useful freight-efficiency finding buried in it, plus an open question this workspace can't answer yet: what happens to shelf life during the weeks a drum or IBC actually spends in transit.</p>
+
+<h2>Three real packaging formats</h2>
+<table>
+<tr><th>Format</th><th>Typical product</th><th>Net weight</th><th>Gross weight</th><th>Packaging overhead</th><th>Loading</th></tr>
+<tr><td>1000L IBC (Intermediate Bulk Container)</td><td>Resins</td><td>1000 kg</td><td>1056 kg</td><td>5.6%</td><td>20 IBCs per 20ft container (20FCL)</td></tr>
+<tr><td>200L steel drum</td><td>Resins</td><td>200 kg</td><td>220 kg</td><td>10%</td><td>4 drums/pallet, 20 pallets per 20FCL (80 drums)</td></tr>
+<tr><td>20L pail</td><td>Gel coat</td><td>20 kg</td><td>21 kg</td><td>5%</td><td>24 pails/pallet, 20 pallets per 20FCL (480 pails)</td></tr>
+</table>
+<div class="callout">
+<strong>Worth being precise about what "resins" means here:</strong> the IBC and drum formats are described as being for resins generally — the tube-impregnation resin this workspace has been tracking since Lesson 10. The 20L pail format is specifically called out for gel coat, a related but different product (a surface-finish/barrier coat, not the structural CIPP tube resin itself) — worth not conflating the two when a packaging question comes up for an actual resin order.
+</div>
+
+<h2>The real finding: bulk IBC packaging fits meaningfully more resin per container than steel drums</h2>
+<div class="callout">
+<strong>A full 20FCL of 1000L IBCs carries 20,000 kg of net resin. The same container loaded with 200L steel drums carries 16,000 kg net &mdash; 25% less, in the same box.</strong> The gap comes from steel drums' proportionally heavier packaging overhead (10% vs. the IBC's 5.6%) plus the pallet framework needed to stack and secure them, both eating into the container's usable payload. For a resin order large enough to matter, that's a real, quantifiable freight-cost difference &mdash; more usable resin moving per container, and per dollar of ocean freight, in IBC format than in drums.
+</div>
+<p>Steel drums still have a real, practical advantage the tonnage math doesn't capture: they split a large order into 200 kg increments instead of one 1000 kg bulk unit, which matters for a contractor who wants to draw down inventory in smaller batches, store partial pallets at a yard rather than a single large tank, or match a purchase quantity more closely to a specific job's takeoff (Lesson 40) without opening a partially-used IBC.</p>
+
+<h2>Sizing this against a real resin order</h2>
+<p>Lesson 40 worked a real illustrative takeoff: roughly 265 kg of resin for one 33-metre, 250mm-diameter segment at 9mm design thickness. Against these packaging formats, that's a little over one steel drum (200 kg net), or roughly a quarter of a single 1000L IBC &mdash; a concrete way to picture how a job-level resin quantity actually maps onto what shows up on a truck.</p>
+
+<h2>An open question this packaging data raises, that nothing in this workspace has answered yet</h2>
+<div class="callout">
+<strong>Lesson 59 established that heat is the real enemy of resin shelf life &mdash; it accelerates the same reaction the inhibitor is suppressing.</strong> Neither this packaging page nor any of the five SDSs reviewed in Lesson 58 states whether Sino Polymer's ocean freight from Shanghai runs in a temperature-controlled (reefer) container or a standard dry container. Standard ocean transit from China to a North American port typically runs several weeks, and a standard dry shipping container sitting on a ship or a port yard can reach meaningfully higher internal temperatures than the "cool, dry, well-ventilated" storage every SDS specifies. If shipping isn't temperature-controlled, a real, unanswered question follows directly from this workspace's own chemistry: how much of a drum or IBC's nominal shelf life gets consumed in transit, before it even reaches a contractor's yard? This is a genuinely concrete, specific question worth putting to Sino Polymer directly &mdash; not a hypothetical one, since the packaging and shelf-life data needed to ask it precisely now both exist in this workspace.
+</div>
+
+<h2>A practical road-transport constraint worth flagging, not asserting as fact</h2>
+<p>A full 20-IBC load's cargo weight (21,120 kg gross) sits right around a commonly cited road-transport payload limit for a 20-foot container (roughly 21,600 kg, though ISO/maritime limits run meaningfully higher, up to roughly 28,000 kg, and the real number depends on the specific carrier and the road-weight regulations of the receiving jurisdiction). The steel-drum load (17,600 kg gross) sits well clear of that same figure. This doesn't mean a full IBC container can't legally move by road in Ontario &mdash; that depends on rules this workspace hasn't checked directly &mdash; but it's a real, worth-confirming practical question before assuming "20 IBCs, no problem" translates cleanly from ocean freight to a truck able to deliver the full container inland.</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Packaging and logistics</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. A full 20FCL container of 1000L IBCs carries 20,000 kg of net resin. The same container loaded with 200L steel drums carries 16,000 kg net. What explains the gap?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — steel drums carry roughly 10% packaging overhead (vs. the IBC's 5.6%) and need pallet framework to stack and secure, both of which eat into the container's usable payload compared to bulk IBC loading.">Steel drums have proportionally heavier packaging overhead and need pallet structure, both reducing how much net resin fits in the same container</button>
+    <button data-correct="false" data-feedback="Both formats are described as being for the same resin products — the capacity gap is a packaging-efficiency difference, not a product difference.">Steel drums are used for a lower-density resin than IBCs</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. A job's takeoff (Lesson 40) calls for roughly 265 kg of resin. What does that translate to in real packaging terms?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — a bit over one 200 kg steel drum, or about a quarter of a single 1000L/1000kg IBC.">A little over one steel drum, or roughly a quarter of a single IBC</button>
+    <button data-correct="false" data-feedback="A full 1000L IBC holds 1000 kg net — 265 kg is well under a third of that, not close to a full unit.">Almost exactly one full IBC</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. Why does Lesson 59's shelf-life chemistry make ocean-freight temperature control a genuinely open question worth asking Sino Polymer directly?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — if shipping isn't temperature-controlled, a real (currently unknown) amount of nominal shelf life could already be consumed by the time a drum or IBC reaches a contractor's yard, several weeks after leaving Shanghai.">Heat accelerates the same reaction the resin's inhibitor is suppressing — if a multi-week ocean transit isn't temperature-controlled, it could be consuming shelf life before the resin ever reaches a job site</button>
+    <button data-correct="false" data-feedback="Neither the packaging data nor the five SDSs address transit temperature control at all — this is a real, unanswered question, not something already confirmed as fine.">This isn't a real concern — resin shelf life only starts counting once it arrives at a contractor's yard</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Source: Sino Polymer's Catalogue/TDS/MSDS page (user's Notion workspace), "Packaging" section — a real, primary-source packaging specification (IBC/drum/pail formats, net/gross weights, container loading counts), reviewed directly. Standard 20-foot container road-transport and ISO/maritime payload capacity figures (~21,600 kg commonly cited road limit vs. up to ~28,000 kg ISO maritime limit) via iContainers, Aztec Container, and Ship4wd container-specification pages (WebSearch-synthesized, not independently page-read in full, and not specific to any Ontario/Canadian road-weight regulation). Cross-referenced against Lesson 40 (real resin quantity takeoff) and Lesson 59 (shelf-life/inhibitor chemistry and the heat-sensitivity finding this lesson's open transit question is built on). Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Open item this surfaces: whether Sino Polymer's actual ocean freight to Ontario runs temperature-controlled, and if so, what shelf life the resin actually has left on arrival versus its nominal drum-date figure — a concrete, specific question for a real supplier conversation.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 59: Resin, Catalyst, and Hardener</span>
+  <span>Cheat sheet: <a href="../reference/sinopolymer-value-proposition.html">Sino Polymer Value Proposition</a></span>
+</nav>
+
+</body>
+</html>

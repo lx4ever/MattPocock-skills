@@ -193,6 +193,11 @@
 - [Trenchless Technology: What to Keep in Mind when Handling CIPP Resins](https://trenchlesstechnology.com/what-to-keep-in-mind-when-handling-cipp-resins/); Sweet Composites' resin handling/caution page
   Use for: Lesson 59's shelf-life vs. pot-life distinction — nominal ~3-month raw resin shelf life extendable to ~3–6 months under cool/sealed storage, and why catalyzed/impregnated liners need refrigerated same-day handling regardless of how cold they're kept. WebSearch-synthesized, not independently page-read in full.
 
+- Sino Polymer's Catalogue/TDS/MSDS page (user's Notion workspace), "Packaging" section — primary source, reviewed directly
+  Use for: Lesson 60's real packaging specs — 1000L IBC (net 1000kg/gross 1056kg, 20 per 20FCL, for resins), 200L steel drum (net 200kg/gross 220kg, 4/pallet, 20 pallets per 20FCL, for resins), and 20L pail (net 20kg/gross 21kg, 24/pallet, 20 pallets per 20FCL, for gel coat specifically) — and the resulting finding that bulk IBC loading carries 25% more net resin per container than steel drums (20,000kg vs. 16,000kg net per 20FCL).
+- [iContainers: 20 Foot Shipping Container Weight Guide](https://www.icontainers.com/help/20-foot-container/); [Aztec Container: 20-Foot Shipping Container Weight](https://azteccontainer.com/2024/05/10/20-foot-shipping-container-weight/); [Ship4wd: 20ft & 40ft Container Specs](https://ship4wd.com/logistics-shipping/20ft-40ft-shipping-containers-specs)
+  Use for: Lesson 60's standard 20-foot container payload capacity figures (~21,600kg commonly cited road-transport limit vs. up to ~28,000kg ISO/maritime limit) — WebSearch-synthesized from container-industry pages, not specific to any Ontario/Canadian road-weight regulation, flagged as a worth-confirming practical question rather than an asserted rule.
+
 ## Wisdom (Communities)
 
 ### Gaps
