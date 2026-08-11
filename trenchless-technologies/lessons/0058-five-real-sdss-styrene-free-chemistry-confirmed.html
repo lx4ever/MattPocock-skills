@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 58 — Five Real SDSs: The Styrene-Free Chemistry, Confirmed</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 58: Five Real SDSs — The Styrene-Free Chemistry, Confirmed</h1>
+<p class="kicker">Five real, primary-source EU Safety Data Sheets from Sino Polymer, spanning epoxy, polyester, and both a styrene and a styrene-free vinyl ester — enough to finally answer, with real numbers, what "styrene-free" actually swaps in, and what that swap actually buys.</p>
+
+<p class="lede">This workspace has cited flash point and styrene content as hazmat/odor proxies since Lesson 17, and built out the styrene-free trigger as a real contractual mechanism in Lesson 54. What's been missing is a set of real per-product SDS numbers spanning both sides of that trigger from the same supplier, on the same 16-section EU format. These five documents supply exactly that.</p>
+
+<h2>The five documents, at a glance</h2>
+<table>
+<tr><th>Product</th><th>Family</th><th>Signal word</th><th>Flash point</th><th>Styrene</th><th>Transport class</th></tr>
+<tr><td>MERICAN 3222 A</td><td>Epoxy resin (DGEBA + epoxy acrylate)</td><td>Warning (H315, H319, H317, H411)</td><td>&ge;90&deg;C</td><td>None</td><td>UN3082, Class 9, PG III (environmentally hazardous)</td></tr>
+<tr><td>MERICAN 3222 B</td><td>Epoxy hardener (anhydride)</td><td>Danger (H318, H334, H317)</td><td>&ge;90&deg;C</td><td>None</td><td>Not dangerous goods</td></tr>
+<tr><td>MERICAN 9406</td><td>Unsaturated polyester</td><td>Danger (H226, H315, H317, H319, H361d, H372)</td><td>39&deg;C</td><td>37&ndash;43%</td><td>UN1866, Class 3, PG III</td></tr>
+<tr><td>MFE 711</td><td>Vinyl ester (styrene)</td><td>Danger (H226, H315, H317, H319, H361d, H372)</td><td>39&deg;C</td><td>42&ndash;48%</td><td>UN1866, Class 3, PG III</td></tr>
+<tr><td>MFE 7516</td><td>Vinyl ester (styrene-free)</td><td>Warning (H319, H317)</td><td>&ge;110&deg;C</td><td>0% (HPMA instead)</td><td>Not dangerous goods</td></tr>
+</table>
+<div class="callout">
+<strong>A pattern worth stating plainly: flash point and transport classification track styrene content almost exactly, not resin chemistry family.</strong> The two styrene-containing products &mdash; a polyester and a vinyl ester, otherwise different chemistries &mdash; land on the <em>identical</em> 39&deg;C flash point and the identical UN1866 Class 3 PG III shipping classification, down to the identical hazard-statement set (H226/H315/H317/H319/H361d/H372). The styrene-free vinyl ester, built on largely the same base resin (below), clears both the flash point and the dangerous-goods classification entirely. Whether a product ships as regulated Class 3 dangerous goods appears to be a styrene question, not a "which resin family" question.
+</div>
+
+<h2>This is the first time both sides of Lesson 46's flash-point math have real product data</h2>
+<p>Lesson 46 worked out the exact regulatory thresholds a &gt;100&deg;C flash point clears &mdash; both the US 49 CFR &sect;173.120 flammable-liquid (&le;60&deg;C) and combustible-liquid (60&ndash;93&deg;C) brackets, and Canada's TDG Class 3 threshold &mdash; using a single data point, MFE 701-01T's &gt;100&deg;C claim from a marketing brochure. MFE 7516's SDS-stated &ge;110&deg;C flash point is a second, independently sourced confirmation of that same result, from a primary regulatory document rather than a brochure line. And now there's a real number on the other side of the comparison too: 39&deg;C for both styrene-containing products, squarely inside Class 3 with room to spare (nowhere close to even the 60&deg;C boundary). The gap between the two sides of the styrene-free trigger isn't marginal &mdash; it's the difference between a regulated dangerous-goods shipment and a completely unregulated one, for transport purposes.</p>
+
+<h2>What actually replaces styrene: a real answer, not a category</h2>
+<div class="callout">
+<strong>HPMA &mdash; methacrylic acid, monoester with propane-1,2-diol (CAS 27813-02-1) &mdash; is MFE 7516's reactive diluent, at 30&ndash;60% weight, standing in for styrene's usual 42&ndash;48% weight role in MFE 711.</strong> Every prior lesson treating "styrene-free" as a formulation category (11, 17, 46, 47, 54) has never had a named substance to point to for what's actually doing styrene's job &mdash; keeping the resin at a workable viscosity and providing the free-radical cure crosslinks. This SDS supplies that answer directly, with its own real toxicology and ecotoxicology data (Daphnia magna EC50 &gt;143 mg/L, algae EC50 &gt;97.2 mg/L) rather than a placeholder.
+</div>
+
+<h2>The same base resin, three different products</h2>
+<p>CAS 36425-16-8 &mdash; "4,4'-isopropylidenediphenol, oligomeric reaction products with 1-chloro-2,3-epoxypropane, reaction products with maleic anhydride and methacrylic acid," labelled "Epoxy acrylate" in two SDSs and "METHYL ACRYLIC ACID EPOXY ESTER" in the third &mdash; appears as a major component in all three resin products in this batch:</p>
+<table>
+<tr><th>Product</th><th>CAS 36425-16-8 content</th><th>Reactive diluent / co-component</th></tr>
+<tr><td>MERICAN 3222 A (epoxy)</td><td>10&ndash;50%</td><td>DGEBA-type epoxy resin, 50&ndash;90% (no styrene, cures via 3222 B's anhydride hardener)</td></tr>
+<tr><td>MFE 711 (vinyl ester, styrene)</td><td>52&ndash;58%</td><td>Styrene, 42&ndash;48%</td></tr>
+<tr><td>MFE 7516 (vinyl ester, styrene-free)</td><td>40&ndash;70%</td><td>HPMA, 30&ndash;60%</td></tr>
+</table>
+<div class="callout">
+<strong>This is a genuinely new finding, not something Lessons 11 or 44's brochure-level catalog review could have shown.</strong> The same underlying epoxy-vinyl-ester base chemistry gets sold three ways depending on what it's paired with: alone in an epoxy resin system cured by a separate anhydride hardener, blended with styrene for a conventional vinyl ester, or blended with HPMA for a styrene-free vinyl ester. "Epoxy vs. vinyl ester" (Lesson 47) and "styrene vs. styrene-free" (Lesson 54) aren't actually two independent axes for this product family &mdash; they share a common base resin, differentiated by what's mixed in and what cures it.
+</div>
+
+<h2>MERICAN 3222 B: the epoxy cure chemistry gap Lesson 47 left open, filled with a real example</h2>
+<p>Lesson 47 described epoxy as curing "via an amine or anhydride hardener" without a concrete example of either. MERICAN 3222 B is 100% tetrahydromethylphthalic anhydride (CAS 11070-44-3) &mdash; a real, named anhydride-cure hardener, distinct from the amine-cure chemistry more commonly discussed in composites literature. Worth flagging: the hardener carries a meaningfully worse hazard profile than the resin side it pairs with &mdash; H318 (serious eye damage, more severe than 3222 A's H319 serious eye <em>irritation</em>) and H334 (respiratory sensitizer &mdash; may cause allergy or asthma symptoms if inhaled), on top of the same H317 skin-sensitization both sides share. That's a real PPE and handling-training distinction between the two drums of a two-component epoxy system, not something a single-line "epoxy resin" pitch would surface.</p>
+<div class="callout">
+<strong>A genuinely counterintuitive transport-classification detail:</strong> despite carrying the more severe Danger signal word and H318/H334, MERICAN 3222 B ships as <strong>not dangerous goods</strong> under ADR/RID, IMDG, and IATA &mdash; while MERICAN 3222 A, with the milder Warning signal word, ships as UN3082 Class 9 (environmentally hazardous, on account of its H411 aquatic toxicity). GHS workplace hazard classification and UN transport classification are answering different questions &mdash; a resin's shipping class can't be inferred from its SDS signal word alone.
+</div>
+
+<h2>MERICAN 9406: a second, chemically distinct UV-curable CIPP product</h2>
+<p>MERICAN 9406's SDS lists "UV curing pipeline for CIPP (Cured In Place Pipe) applications" directly as a relevant identified use &mdash; the first primary-source confirmation in this workspace of a UV-curable <em>polyester</em>, as distinct from the vinyl-ester and epoxy UV products already catalogued in Lesson 44 (MERICAN 9515/9515N-01/9516N-01, MFE 775UV/752UV). Polyester is usually pitched as the economical default for standard sanitary/storm work (Lesson 6); this SDS shows the UV-cure option isn't confined to the vinyl ester/epoxy families this workspace had previously associated it with exclusively.</p>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Five real SDSs, cross-referenced</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. MERICAN 9406 (polyester) and MFE 711 (vinyl ester) are chemically different resin families, but their SDSs show the identical 39&deg;C flash point and identical UN1866 Class 3 PG III transport classification. What does that suggest?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — both products carry near-identical styrene content (37&ndash;43% and 42&ndash;48%), and the hazmat classification tracks that shared component, not the underlying polyester-vs-vinyl-ester chemistry.">Flash point and transport classification here are being driven by shared styrene content, not by which resin family the product belongs to</button>
+    <button data-correct="false" data-feedback="The two products are genuinely different chemistries (unsaturated polyester vs. epoxy-vinyl-ester base) — the shared flash point and transport class track their shared styrene content instead.">Polyester and vinyl ester must be the same underlying chemistry</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. What specifically replaces styrene in MFE 7516, Sino Polymer's styrene-free vinyl ester?</p>
+  <div class="quiz-options">
+    <button data-correct="false" data-feedback="No solvent is added — 7516 doesn't need one; its flash point (&ge;110°C) and lack of flammability data reflect a formulation with no volatile reactive diluent like styrene, not a solvent swap.">A flammable solvent is substituted at a similar weight percentage</button>
+    <button data-correct="true" data-feedback="Right — HPMA (CAS 27813-02-1), listed at 30–60% weight, is the real named reactive diluent, replacing styrene's role while pairing with the same CAS 36425-16-8 epoxy-acrylate base resin used in MFE 711.">HPMA (methacrylic acid, monoester with propane-1,2-diol) — a named, real reactive diluent with its own disclosed toxicology and ecotoxicology data</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. MERICAN 3222 B (the epoxy hardener) carries the more severe Danger signal word and H318 (serious eye damage) + H334 (respiratory sensitizer) — worse than MERICAN 3222 A, the resin it pairs with. Yet 3222 B ships as "not dangerous goods" while 3222 A is classified UN3082 Class 9. What does this show?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — GHS classification (Section 2, workplace/handling hazards) and UN transport classification (Section 14, shipping) are governed by different criteria and can point in different directions for the same two products.">A product's GHS workplace hazard severity doesn't determine its transport/shipping classification — they're answering different regulatory questions</button>
+    <button data-correct="false" data-feedback="The SDSs directly show the opposite — 3222 B is the more severely classified product under GHS (Danger, H318/H334) yet the one exempt from dangerous-goods shipping rules, while the milder-labelled 3222 A is the one classified as dangerous goods (Class 9, for its aquatic toxicity).">The more hazardous product under GHS is always the one subject to stricter transport rules</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">4. MERICAN 9406's SDS lists "UV curing pipeline for CIPP" as a relevant identified use. Why is this a genuinely new finding rather than something already covered by Lesson 44's UV product list?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — Lesson 44's UV-curable list (9515/9515N-01/9516N-01, MFE 775UV/752UV) was entirely vinyl ester and epoxy family products. 9406 is a chemically distinct unsaturated polyester with the same UV-CIPP use listed directly on its SDS.">Lesson 44's UV-cure product list was entirely vinyl ester/epoxy family — 9406 is the first confirmed UV-curable polyester in this workspace</button>
+    <button data-correct="false" data-feedback="9406 is a real, distinct unsaturated polyester (CAS 26123-45-5), not a duplicate entry — its UV-CIPP use is a genuinely new finding, not a restatement of an existing product.">9406 is just another name for a product already on Lesson 44's list</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Source: five user-uploaded Sino Polymer EU-format Safety Data Sheets, primary source, read in full — MERICAN 3222 A Epoxy resin, MERICAN 3222 B Epoxy resin hardener, MERICAN 9406 Unsaturated Polyester Resin, MFE 711 Vinyl Ester Resin, and MFE 7516 Vinyl Ester (Styrene-Free), all per (EU) No. 1907/2006 (REACH) and (EU) No. 1272/2008 (CLP) as amended by (EU) No. 2020/878. Cross-referenced against Lessons 6, 11, 17, 44, 46, 47, and 54 (Sino Polymer's own brochure/catalog and prior flash-point/styrene-free research, primary and secondary sources reviewed earlier in this workspace). Standard SDS disclaimer language applies to all five documents (information "believed to be correct" but not a guarantee of properties) — flagged here rather than treated as independently lab-verified. Two of the five SDSs (MFE 711, MFE 7516) leave the direct-supplier contact fields in Section 1.3 blank, filling in only Sino Polymer's own manufacturer details — a minor documentation gap, not a substantive one, since the manufacturer contact information needed to act on any of this is present. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Open item this surfaces: confirm which flash point test method (closed-cup vs. open-cup, per Lesson 46's caveat) generated each of these five figures before citing them to a customs broker or regulator — none of the five SDSs states the test method used.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 57: The Jiangsu Cost Norm</span>
+  <span>Cheat sheet: <a href="../reference/sinopolymer-value-proposition.html">Sino Polymer Value Proposition</a></span>
+</nav>
+
+</body>
+</html>
