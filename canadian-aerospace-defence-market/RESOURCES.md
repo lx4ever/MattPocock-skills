@@ -158,6 +158,15 @@
   Confirms NVSM as a new, multi-award Canadian Army/RCN program — this is only the first contract under it.
 - [Ottawa Business Journal, "Thales Canada adding 60 Ottawa jobs with $800M Arctic ship support contract"](https://obj.ca/update-thales-canada-adding-60-ottawa-jobs-with-800m-arctic-ship-support-contract/)
   Dated hiring signal directly tied to the AJISS contract from Lesson 7.
+- [Dun & Bradstreet, General Dynamics Mission Systems, Inc. company profile](https://www.dnb.com/business-directory/company-profiles.general_dynamics_mission_systems_inc.583c6bc2e0ac6da69fd9e77f6b40beee.html)
+  Confirms the US parent's HQ (Chantilly, VA), scale (~$3.5B revenue, ~9,500–13,000+ employees), and full global product-line list.
+  Use for: distinguishing the global parent from GDMS-Canada and from the structurally separate General Dynamics Land Systems–Canada.
+- GDMS-Canada's suppliers page (gdmissionsystems.ca/about-us/suppliers) and supply-chain contact (scm@gd-ms.ca) — found via search snippet, not directly fetched (gdmissionsystems.ca is egress-blocked this session)
+  Confirms a real supplier-registration path exists: the GD Supplier Registration Portal (GD ESRP), the same system the US parent uses globally. Resolves Lesson 27's open question.
+- [Prime Minister of Canada, "Prime Minister Carney announces landmark partnership with General Dynamics Land Systems-Canada"](https://www.pm.gc.ca/en/news/news-releases/2026/07/16/prime-minister-carney-announces-landmark-partnership-general-dynamics)
+  Confirms GDLS-Canada (London, ON — a separate GD business unit from GDMS-Canada) named Canada's first strategic defence partner, July 2026, with a ~$2B/4yr commitment for 190 additional ACSVs.
+- [Breaking Defense, "Canada to invest $1.4B in armored vehicles in partnership with GDLS-Canada"](https://breakingdefense.com/2026/07/canada-to-invest-1-4b-in-armored-vehicles-in-partnership-with-gdls-canada/)
+  Secondary coverage of the same announcement, with a differing headline figure worth reconciling against the PM's official release before citing a number.
 
 ## Gaps
 
@@ -166,7 +175,7 @@
 - No confirmation yet of any open supplier process at Cambli or DEW Engineering specifically — worth checking directly before treating them as a confirmed entry point into the CACI counter-UAS hub.
 - FedDev Ontario's current RDII allocation and application deadline weren't confirmed precisely (sources gave $90M and "nearly $200M") — check directly before citing a figure in an actual application.
 - No public supplier-registration portal or procurement contact found for De Havilland Defence — worth a direct inquiry to confirm whether one exists before assuming it doesn't.
-- No confirmation yet of a public supplier-registration process for GDMS-Canada's undersea warfare division specifically — worth checking before drafting outreach.
+- Resolved directly: GDMS-Canada does have a public supplier-registration process (suppliers page + scm@gd-ms.ca + GD Supplier Registration Portal) — see Lesson 27's update and Lesson 30.
 - Followed up directly: neither Tactical Communications Modernization nor Land Electronic Warfare Modernization has a confirmed prime yet (both pre-contract), and no public source ties 49North to either. L3Harris and Thales are plausible incumbent-adjacent candidates worth watching (see Lesson 21), not confirmed primes — re-check once either project reaches contract award.
 - The Maritime DISH Pilot (Halifax, autonomous underwater systems and maritime sensing) hasn't been checked for a public partner-engagement process, the same open question left for NEXUS/Octasic in Lesson 20.
 - Accelerated Growth Services, CanExport SMEs, ElevateIP, and Lab-to-Market (L2M) all appeared on the same TRL9+ funding chart as RDII and CDIR (Lesson 22) but haven't been individually researched — unclear yet which, if any, are relevant to Kanata's actual stage and sector.
@@ -178,6 +187,8 @@
 - No confirmation yet of any Canadian prime or supplier publicly commenting on GCAP observer status — worth checking Bombardier, CAE, and Magellan directly. No industrial framework exists for Canada to enter yet, so this is a watch-list item, not an actionable door, until Canada's status moves beyond "observer."
 - No confirmation yet of a public supplier-registration process at Thales Canada's Electro-Optics Center of Excellence or its Montreal optronics facility specifically — worth checking directly before drafting NVSM-angled outreach.
 - The S2087 sonar contract's dollar value wasn't confirmed in this session's sources — worth a direct DND/Lockheed Martin Canada press release check before citing a figure.
+- GDLS-Canada's new "first strategic defence partner" status and $2B ACSV expansion (July 2026) is a major, dated development with no dedicated lesson yet — the PM's release and Breaking Defense's coverage give slightly different headline dollar figures ($2B vs $1.4B) worth reconciling before a lesson leans on either number.
+- gdmissionsystems.ca is egress-blocked this session — the suppliers page and GD ESRP portal details were found via search snippet only; worth a direct fetch retry to confirm the registration process's exact steps before drafting an actual submission.
 
 ## Wisdom (Communities)
 
