@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 59 — Resin, Catalyst, and Hardener: Who Mixes What, and When</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 59: Resin, Catalyst, and Hardener — Who Mixes What, and When</h1>
+<p class="kicker">Lesson 15 named promoter, inhibitor, and initiator as the chemistry that drives cure speed. This lesson is the supply-chain and equipment question sitting right behind it: what actually ships from the manufacturer, what gets added on site, by whom, with what equipment — and why resin has a shelf life measured in months while a mixed batch has a pot life measured in minutes.</p>
+
+<h2>Three words that aren't interchangeable</h2>
+<div class="callout">
+<strong>Promoter (accelerator).</strong> A small dose — typically a cobalt salt such as cobalt naphthenate or cobalt octoate, usually supplied and referenced as a "6%" solution — added at roughly 0.1&ndash;1% of resin weight. Its job is to make the peroxide catalyst decompose fast enough, at ambient or moderate temperature, to actually trigger a cure. Promoter is <strong>pre-blended into the resin at the factory</strong>, alongside the inhibitor from Lesson 15 &mdash; it does not react with anything until catalyst is added.
+</div>
+<div class="callout">
+<strong>Catalyst (initiator).</strong> A peroxide &mdash; MEKP (methyl ethyl ketone peroxide) is the industry-standard choice for polyester and vinyl ester &mdash; added at roughly 0.5&ndash;3% of resin weight, adjusted for the pot life and cure speed the job needs. This is the one component <strong>never added by the manufacturer</strong>. It's a small trigger dose, not a structural ingredient of the cured liner.
+</div>
+<div class="callout">
+<strong>Hardener.</strong> A completely different role, specific to epoxy. MERICAN 3222 B (Lesson 58) &mdash; 100% tetrahydromethylphthalic anhydride &mdash; isn't a trace trigger dose at all; it's a full stoichiometric co-reactant that combines directly with the resin's epoxide groups, roughly molecule-for-molecule. That's why it ships as its own complete product (its own SDS, its own CAS number, its own hazard profile) rather than a small percentage additive folded into the resin drum the way catalyst is.
+</div>
+<div class="callout">
+<strong>The one rule that explains why the resin drum arrives pre-promoted:</strong> promoter and catalyst must never be mixed directly with each other &mdash; contact between concentrated cobalt promoter and concentrated peroxide catalyst causes a violent, potentially explosive reaction. The only safe sequence is promoter blended into the resin first (at the factory, in bulk, under controlled conditions), with catalyst added last, directly into the already-promoted resin, in a small dose, immediately before use. That safety constraint is the actual reason the mixing step splits the way it does between manufacturer and contractor &mdash; it isn't an arbitrary supply-chain habit.
+</div>
+
+<h2>Three resin systems, three different answers to "who mixes what, and when"</h2>
+<table>
+<tr><th></th><th>Polyester / vinyl ester (hot water, steam, ambient)</th><th>Epoxy (two-component)</th><th>UV-cure vinyl ester / acrylate</th></tr>
+<tr><td>Ships from manufacturer as</td><td>One drum: promoted, inhibited resin (Lesson 15's promoter/inhibitor already blended in)</td><td>Two separate products (MERICAN 3222 A resin, MERICAN 3222 B hardener) &mdash; each its own drum, own SDS</td><td>One drum, fully formulated with a photoinitiator already blended in &mdash; nothing further to add</td></tr>
+<tr><td>Who adds the trigger, and when</td><td>The installing contractor's wet-out crew, adding MEKP catalyst on site, immediately before impregnation</td><td>The installing contractor (or a dedicated wet-out facility), metering resin and hardener together at wet-out</td><td>No one &mdash; there is no separate trigger dose to add. The tube only reacts when UV light hits it.</td></tr>
+<tr><td>Equipment</td><td>Single catalyst metering pump feeding the wet-out/impregnation station from Lesson 6</td><td>Two-stream metering pump feeding a static mixer, then the same impregnation station</td><td>Standard impregnation equipment only &mdash; no catalyst dosing pump needed at all</td></tr>
+<tr><td>Working window after mixing</td><td>Pot life &mdash; typically minutes to a few hours, tunable by promoter/catalyst ratio (Lesson 15)</td><td>Pot life &mdash; generally the shortest of the three once both sides combine (Lesson 47)</td><td>None needed &mdash; the wetted-out tube stays shelf-stable roughly 6 months (Lesson 6), because nothing has been triggered yet</td></tr>
+</table>
+<div class="callout">
+<strong>This directly explains Lesson 6's UV wet-out finding, from the other direction.</strong> Lesson 6 established that UV-cured tube gets wet out upstream at a factory and shipped shelf-stable for months, while hot-water/steam tube gets wet out by the installer immediately before insertion. This lesson is the mechanism behind that split: hot-water/steam resin only becomes perishable <em>once catalyst is added</em>, so catalyzation has to happen right before use. UV resin was never catalyzed with a heat- or chemical-triggered reaction to begin with &mdash; there's no trigger dose to add late, so wet-out can safely happen far upstream of the job site.
+</div>
+<div class="callout">
+<strong>One inference worth flagging as an inference, not a confirmed fact:</strong> none of the five SDSs reviewed in Lesson 58, and nothing in Sino Polymer's own brochure, states where MERICAN 3222 A/B's two components actually get combined. The short-pot-life logic above (Lesson 47's "epoxy generally shorter pot life once mixed" point) suggests two-part epoxy likely follows the same on-site-mixing pattern as hot water/steam resin, for the same reason &mdash; but that's a reasonable inference from the chemistry, not something confirmed in a primary Sino Polymer document for this specific product.
+</div>
+
+<h2>Real dosing numbers, to make the ratios concrete</h2>
+<p>Sino Polymer's own SDSs and brochure don't disclose exact catalyst/promoter dosing rates or the 3222 A:B mix ratio &mdash; that level of detail lives in a TDS or an installer's mixing instructions, not a hazard-communication document. Published industry-standard figures for polyester/vinyl ester give a real sense of scale: MEKP catalyst at roughly 0.5&ndash;3% of resin weight, cobalt promoter at roughly 0.1&ndash;1% of resin weight, both adjustable for ambient temperature and the pot life a specific job needs. For two-component epoxy specifically, a published CIPP-application patent describes a 10:1 (weight/weight) resin-to-hardener ratio as one real, if illustrative, example of how differently the epoxy split can be proportioned compared to polyester/VE's small-percentage catalyst dose &mdash; underscoring that hardener is a bulk co-reactant, not a trace additive, in a way MEKP catalyst never is.</p>
+
+<h2>What actually determines shelf life &mdash; and why it's a different number from pot life</h2>
+<div class="callout">
+<strong>Shelf life is inhibitor concentration racing against storage temperature.</strong> Lesson 15 already established that inhibitors exist specifically to prevent premature radical formation. Heat accelerates exactly the same reaction the inhibitor is suppressing &mdash; which is why every one of the five real SDSs reviewed in Lesson 58 gives some version of the same storage instruction: keep the container tightly closed, in a dry, cool, well-ventilated place, away from heat, sparks, and open flame. Shelf life isn't a fixed clock ticking down &mdash; it's inhibitor capacity being consumed faster in a hot warehouse than a cool one.
+</div>
+<p>MFE 7516's SDS lists its incompatible materials directly: <strong>peroxides, amines, sulfur compounds, heavy metal ions, alkalis, reducing agents, and oxidizing agents.</strong> That list isn't an arbitrary chemical-safety catalog &mdash; it's essentially the promoter/catalyst chemistry itself. Peroxide is the catalyst. Cobalt is a heavy metal ion. Amines are a common epoxy hardener class. Storing uncatalyzed resin anywhere near any of these isn't a generic hazard &mdash; it's the same premature-cure risk the inhibitor is fighting off, arriving from an uncontrolled outside source instead of a deliberate dose.</p>
+<table>
+<tr><th>Stage</th><th>Typical duration</th><th>What limits it</th></tr>
+<tr><td>Raw, uncatalyzed resin in the drum (nominal)</td><td>Roughly 3 months as a baseline figure, industry-wide</td><td>Inhibitor slowly being consumed at whatever storage temperature the drum sits at</td></tr>
+<tr><td>Raw, uncatalyzed resin, stored cool/sealed/dark</td><td>Extendable to roughly 3&ndash;6 months</td><td>Same inhibitor-consumption mechanism, just slowed by better storage conditions</td></tr>
+<tr><td>UV-impregnated tube (never catalyzed)</td><td>Roughly 6 months, some products longer, up to around 10 (Lesson 6)</td><td>No heat- or chemical-triggered reaction was ever started &mdash; only light exposure and the outer UV-blocking foil matter</td></tr>
+<tr><td>Catalyzed hot-water/steam tube, refrigerated</td><td>Hours, not months &mdash; the same-day refrigerated-truck window from Lesson 6</td><td>Catalyst has already been added; cure has already begun, just slowed by cold, not stopped</td></tr>
+</table>
+<div class="callout">
+<strong>The practical version of this table: shelf life and pot life are not the same number, and confusing them is a real field risk.</strong> A drum of promoted, uncatalyzed resin can sit in a cool warehouse for months. The moment MEKP goes in, that same material's clock changes from months to minutes-or-hours, refrigeration or not. A wet-out crew treating "the resin is fine, it's only been a few days" as equally true before and after catalyzation would be reasoning from the wrong number.
+</div>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Resin, catalyst, hardener</h3>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">1. Why does a drum of polyester or vinyl ester resin ship from the manufacturer already containing promoter, but never catalyst?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — concentrated promoter and concentrated catalyst react violently if mixed directly. The only safe sequence is promoter blended in at the factory, with catalyst added last, in a small dose, directly into the already-promoted resin.">Promoter and catalyst can react violently if combined directly — the safe order is promoter in first (at the factory), catalyst added last (on site)</button>
+    <button data-correct="false" data-feedback="Catalyst dosing is deliberately left to the installer because pot life starts counting down the moment it's added — not because it's cheaper. The real reason it ships separately is the promoter/catalyst reaction hazard.">It's purely a cost-saving shipping decision with no chemical reason behind it</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. MERICAN 3222 B (an anhydride epoxy hardener) ships as its own complete product with its own SDS, at a much higher proportion than MEKP catalyst is ever used at. Why?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — hardener reacts stoichiometrically, roughly molecule-for-molecule with the resin's epoxide groups, unlike catalyst, which only needs a small trace dose to trigger a self-sustaining chain reaction.">Hardener is a full stoichiometric co-reactant that combines directly with the resin, not a small trigger dose the way catalyst is</button>
+    <button data-correct="false" data-feedback="Hardener and catalyst play genuinely different chemical roles — hardener isn't just a slower-acting version of catalyst, it's reacting in bulk with the resin rather than triggering a chain reaction in trace amounts.">Hardener is just a slower-acting catalyst, used at a higher dose for the same reason</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. A UV-cure resin tube can sit shelf-stable for roughly 6 months, while a hot-water/steam catalyzed tube only has a same-day refrigerated-truck window. What's the real difference?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — UV resin's photoinitiator only reacts to UV light, so nothing has actually started reacting yet. Hot-water/steam resin's peroxide catalyst starts a chain reaction the moment it's added, refrigeration or not.">The UV tube was never catalyzed with a heat- or chemical-triggered reaction — nothing has started reacting yet, unlike the hot-water/steam tube where catalyst has already been added</button>
+    <button data-correct="false" data-feedback="Both are real resin systems that eventually cure to comparable structural liners — the shelf-life gap isn't about resin quality, it's about whether a triggering reaction has actually been started yet.">UV resin is simply a higher-quality, longer-lasting resin than hot-water/steam resin</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">4. MFE 7516's SDS lists peroxides, amines, and heavy metal ions among its incompatible storage materials. Why those specific substances?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right — peroxide is the catalyst family, heavy metal ions include the cobalt promoter family, and amines are a common epoxy hardener class. Storing resin near any of these risks the same premature-cure reaction a deliberate catalyst dose would trigger, just uncontrolled.">They're essentially the same chemistry as the catalyst/promoter/hardener system itself — accidental contact risks the same premature-cure reaction a deliberate dose would trigger</button>
+    <button data-correct="false" data-feedback="These are specifically the classes of substance that can trigger the same cure reaction a deliberate catalyst/hardener dose would — not an arbitrary generic hazard list.">It's a generic list that applies to almost any industrial chemical, unrelated to the resin's own cure chemistry</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<footer class="source-note">
+Sources for this lesson: MEKP catalyst dosing (~0.5&ndash;3% of resin weight) and cobalt promoter dosing (~0.1&ndash;1% of resin weight), plus the promoter/catalyst direct-mixing hazard, via Coast Fiber Tek's "MEKP Catalyst Ratios," Composites Australia's "Cobalt 6%" health-and-safety page, and general fiberglass/composites supplier guidance (WebSearch-synthesized from multiple industry supplier pages, not a single primary document, and not confirmed against Sino Polymer's own dosing instructions specifically). The illustrative 10:1 (w/w) two-component epoxy mix ratio is drawn from a published US patent describing a "Latent epoxy-amine composition for CIPP application" (USPTO) &mdash; a real, CIPP-specific example, but not confirmed as MERICAN 3222 A/B's actual specified ratio. Nominal resin shelf-life figures (~3 months baseline, extendable to ~3&ndash;6 months under cool/sealed storage) and catalyzed-liner cold-chain handling notes via Trenchless Technology's "What to Keep in Mind when Handling CIPP Resins" and Sweet Composites' resin handling/caution page (WebSearch-synthesized). Cross-referenced against Lessons 6 (wet-out equipment and the UV shelf-stability finding), 15 (promoter/inhibitor/initiator cure-time chemistry), 47 (epoxy vs. vinyl ester pot life), and 58 (MERICAN 3222 A/B's real anhydride hardener chemistry and the five real SDSs' storage/incompatibility data), all primary sources read in full earlier in this workspace. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<p><em>Open item this surfaces: the exact MERICAN 3222 A:B mix ratio and Sino Polymer's own specified catalyst dosing rates would need a real TDS or mixing-instructions document — worth requesting directly if a two-component epoxy quote becomes real.</em></p>
+
+<nav class="lesson-nav">
+  <span>&larr; Lesson 58: Five Real SDSs — The Styrene-Free Chemistry, Confirmed</span>
+  <span>Cheat sheet: <a href="../reference/sinopolymer-value-proposition.html">Sino Polymer Value Proposition</a></span>
+</nav>
+
+</body>
+</html>

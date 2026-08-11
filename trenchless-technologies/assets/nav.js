@@ -291,6 +291,11 @@
       "n": 58,
       "file": "0058-five-real-sdss-styrene-free-chemistry-confirmed.html",
       "title": "Five Real SDSs: The Styrene-Free Chemistry, Confirmed"
+    },
+    {
+      "n": 59,
+      "file": "0059-resin-catalyst-hardener-who-mixes-what-when.html",
+      "title": "Resin, Catalyst, and Hardener: Who Mixes What, and When"
     }
   ],
   "reference": [
