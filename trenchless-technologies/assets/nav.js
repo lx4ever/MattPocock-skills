@@ -310,6 +310,10 @@
   ],
   "reference": [
     {
+      "file": "company-setup-sino-polymer-partnership.html",
+      "title": "Setting Up a Company for a Sino Polymer Partnership"
+    },
+    {
       "file": "opss-muni-cipp-family.html",
       "title": "OPSS.MUNI 443 / 444 / 445 Comparison"
     },
