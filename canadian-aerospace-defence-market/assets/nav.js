@@ -32,7 +32,8 @@
     { "n": 27, "file": "0027-gdms-canada.html", "title": "General Dynamics Mission Systems–Canada" },
     { "n": 28, "file": "0028-gcap.html", "title": "GCAP" },
     { "n": 29, "file": "0029-thales-canada.html", "title": "Thales Canada" },
-    { "n": 30, "file": "0030-gdms-global-parent.html", "title": "General Dynamics Mission Systems, the Global Parent" }
+    { "n": 30, "file": "0030-gdms-global-parent.html", "title": "General Dynamics Mission Systems, the Global Parent" },
+    { "n": 31, "file": "0031-gdls-canada-strategic-partner.html", "title": "GDLS-Canada, Canada's First Strategic Partner" }
   ],
   "reference": [
     { "file": "buyers-and-programs-cheatsheet.html", "title": "Buyers & Programs Cheat Sheet" },

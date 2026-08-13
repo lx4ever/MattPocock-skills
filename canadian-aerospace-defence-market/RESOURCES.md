@@ -166,7 +166,13 @@
 - [Prime Minister of Canada, "Prime Minister Carney announces landmark partnership with General Dynamics Land Systems-Canada"](https://www.pm.gc.ca/en/news/news-releases/2026/07/16/prime-minister-carney-announces-landmark-partnership-general-dynamics)
   Confirms GDLS-Canada (London, ON — a separate GD business unit from GDMS-Canada) named Canada's first strategic defence partner, July 2026, with a ~$2B/4yr commitment for 190 additional ACSVs.
 - [Breaking Defense, "Canada to invest $1.4B in armored vehicles in partnership with GDLS-Canada"](https://breakingdefense.com/2026/07/canada-to-invest-1-4b-in-armored-vehicles-in-partnership-with-gdls-canada/)
-  Secondary coverage of the same announcement, with a differing headline figure worth reconciling against the PM's official release before citing a number.
+  Secondary coverage of the same announcement; the $1.4B figure is the USD equivalent of the PM release's ~$2B CAD, not a disagreeing source — confirmed and reconciled in Lesson 31.
+- [GDLS press release, "General Dynamics Land Systems Signs Strategic Partnership with Government of Canada"](https://www.gdls.com/general-dynamics-land-systems-signs-strategic-partnership-with-government-of-canada-to-advance-defence-industrial-strategy/)
+  Company-side confirmation: 190 additional ACSVs + 35 for Ukraine, fleet growing from 360 to 550, 6,000+ jobs/year over 8 years, all Canadian-designed/built/assembled.
+- [ISED, Strategic Partnership Framework](https://ised-isde.canada.ca/site/ised/en/strategic-partnership-framework)
+  The policy mechanism itself: a tool under Canada's first Defence Industrial Strategy for designating trusted companies where Canadian-controlled IP, advanced manufacturing, or allied interoperability need a sustained government signal — distinct from the ITB mechanism (Lesson 1). DIA/ISED/DND jointly identify candidates; Secretary of State (Defence Procurement) decides; designation reviewed every 5 years.
+- [Shephard Media, "Canada's C$2 billion ACSV deal reinforces new defence industrial strategy as allies align"](https://www.shephardmedia.com/news/defence-notes/canada-2-billion-acsv-deal-defence-industrial-strategy-allies/)
+  Confirms the policy context and framing of GDLS-Canada as the framework's first use.
 
 ## Gaps
 
@@ -187,8 +193,9 @@
 - No confirmation yet of any Canadian prime or supplier publicly commenting on GCAP observer status — worth checking Bombardier, CAE, and Magellan directly. No industrial framework exists for Canada to enter yet, so this is a watch-list item, not an actionable door, until Canada's status moves beyond "observer."
 - No confirmation yet of a public supplier-registration process at Thales Canada's Electro-Optics Center of Excellence or its Montreal optronics facility specifically — worth checking directly before drafting NVSM-angled outreach.
 - The S2087 sonar contract's dollar value wasn't confirmed in this session's sources — worth a direct DND/Lockheed Martin Canada press release check before citing a figure.
-- GDLS-Canada's new "first strategic defence partner" status and $2B ACSV expansion (July 2026) is a major, dated development with no dedicated lesson yet — the PM's release and Breaking Defense's coverage give slightly different headline dollar figures ($2B vs $1.4B) worth reconciling before a lesson leans on either number.
+- Resolved directly: GDLS-Canada's "first strategic defence partner" status and $2B/$1.4B ACSV deal is one deal in two currencies, not disagreeing figures — see Lesson 31.
 - gdmissionsystems.ca is egress-blocked this session — the suppliers page and GD ESRP portal details were found via search snippet only; worth a direct fetch retry to confirm the registration process's exact steps before drafting an actual submission.
+- No confirmation yet of a public supplier-registration process at GDLS-Canada's London, ON facility specifically — worth checking directly before drafting ACSV-ramp-angled outreach.
 
 ## Wisdom (Communities)
 
