@@ -1,0 +1,13 @@
+{
+  "name": "mattpocock-skills",
+  "owner": {
+    "name": "lx4ever"
+  },
+  "plugins": [
+    {
+      "name": "mattpocock-skills",
+      "source": "./",
+      "description": "Matt Pocock's engineering and productivity skills for coding agents."
+    }
+  ]
+}
