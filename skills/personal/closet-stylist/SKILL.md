@@ -9,53 +9,24 @@ Personal wardrobe assistant backed by four Notion databases. Tags photos on the 
 
 ## Notion databases
 
-Four databases live under one parent page. If any ID below is empty, run **First-time setup** before anything else.
+All four live under the existing "closet" page (`9c17a51c-1360-82aa-8a00-01cbb46fd66c`, under Mimi's Space → life planner → self care). "Closet Items" is the pre-existing "fashion" database, extended with the properties this skill needs — it keeps its original `Tags` property alongside the new ones. The other three were created fresh. That page also still holds an unrelated "for sale" database (resale listings) — leave that alone.
 
-- Closet Items: `<CLOSET_DB_ID>`
-- Outfit Inspirations: `<INSPIRATION_DB_ID>`
-- Wear Log: `<WEAR_LOG_DB_ID>`
-- Profile (keep sharing on this one separate from the rest — it holds a photo of the user): `<PROFILE_DB_ID>`
+- Closet Items (data source): `3217a51c-1360-8380-976a-07b2906f1212`
+- Outfit Inspirations (data source): `1db68eaf-1bd9-4fd9-b9d7-110f0c0a7ecf`
+- Wear Log (data source): `207f3c4e-a57b-4ae7-aca5-0596ccbd634d`
+- Profile (data source): `49a89005-d2fa-43fb-8b75-7f86714035d6`
 
-### First-time setup
+### Schemas (already created — reference only)
 
-1. Create a parent page "Closet Stylist" in Notion.
-2. Create the four databases below it with these properties (use the Notion MCP `notion-create-database` tool):
+**Closet Items** — `Name` (title), `Photo` (files), `Category` (select: Top/Bottom/Dress/Outerwear/Shoes/Bag/Accessory), `Color` (multi-select), `Pattern` (select: Solid/Striped/Floral/Plaid/Print/Other), `Formality` (select: Casual/Smart Casual/Business/Formal/Athletic), `Season` (multi-select: Spring/Summer/Fall/Winter/All-season), `Fit` (select: Fitted/Regular/Relaxed/Oversized), `Times Worn` (number), `Last Worn` (date), `Notes` (text), plus the original `Tags` (multi-select, unused by this skill).
 
-**Closet Items**
-- `Name` (title)
-- `Photo` (files)
-- `Category` (select): Top, Bottom, Dress, Outerwear, Shoes, Bag, Accessory
-- `Color` (multi-select)
-- `Pattern` (select): Solid, Striped, Floral, Plaid, Print, Other
-- `Formality` (select): Casual, Smart Casual, Business, Formal, Athletic
-- `Season` (multi-select): Spring, Summer, Fall, Winter, All-season
-- `Fit` (select): Fitted, Regular, Relaxed, Oversized
-- `Times Worn` (number, default 0)
-- `Last Worn` (date)
-- `Notes` (text)
+**Outfit Inspirations** — `Name` (title), `Photo` (files), `Style` (multi-select: Minimalist/Streetwear/Boho/Preppy/Classic/Edgy), `Color` (multi-select, same options as Closet Items), `Formality` (select, same options as Closet Items), `Season` (multi-select, same options as Closet Items), `Source` (url), `Notes` (text).
 
-**Outfit Inspirations**
-- `Name` (title)
-- `Photo` (files)
-- `Style` (multi-select): e.g. Minimalist, Streetwear, Boho, Preppy, Classic, Edgy
-- `Color` (multi-select)
-- `Formality` (select): same options as Closet Items
-- `Season` (multi-select)
-- `Source` (url or text)
-- `Notes` (text)
+**Wear Log** — `Name` (title), `Date` (date), `Items` (relation → Closet Items, multi), `Inspiration` (relation → Outfit Inspirations), `Notes` (text).
 
-**Wear Log**
-- `Name`/title (e.g. "Outfit — <date>")
-- `Date` (date)
-- `Items` (relation → Closet Items, multi)
-- `Inspiration` (relation → Outfit Inspirations, optional)
-- `Notes` (text)
+**Profile** — `Name` (title), `Reference Photo` (files) — one or more full-body photos of the user, `Body Notes` (text) — free-text shape/fit notes, e.g. "large bust, narrow waist, slightly full calves".
 
-**Profile**
-- `Reference Photo` (files) — one or more full-body photos of the user
-- `Body Notes` (text) — free-text shape/fit notes, e.g. "large bust, narrow waist, slightly full calves"
-
-3. Fill in the four database IDs above and save this file.
+If any of these IDs stop resolving (e.g. a database was recreated), search Notion for the page/database by name and update the ID here.
 
 ## Adding closet items
 
