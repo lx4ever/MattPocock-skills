@@ -46,8 +46,8 @@ Same batching and confirmation flow as closet items, but tag `Style`, `Color`, `
 
 Trigger: user references a saved inspiration (or uploads a new one) and asks for a match, e.g. "what in my closet matches this?"
 
-1. Read the inspiration's tags (`Style`, `Color`, `Formality`, `Season`). Query Closet Items for candidates whose tags plausibly fit — matching formality and season, overlapping color/style. This shortlist is a filter, not the final answer.
-2. Look at the shortlisted photos against the inspiration photo and rank the best 3-5 combinations (e.g. top + bottom + shoe options), reasoning about silhouette, color harmony, and formality — not just tag overlap.
+1. Read the inspiration's tags (`Style`, `Color`, `Formality`, `Season`). Query Closet Items for candidates whose tags plausibly fit, using only the properties both schemas share — matching formality and season, overlapping color. Closet Items has no `Style` property, so don't filter on it here; factor style into the visual ranking in step 2 instead. This shortlist is a filter, not the final answer.
+2. Look at the shortlisted photos against the inspiration photo and rank the best 3-5 combinations (e.g. top + bottom + shoe options), reasoning about silhouette, color harmony, style, and formality — not just tag overlap.
 3. Read the Profile's `Body Notes`. For each ranked combination, add a short fit note only where the body notes are actually relevant to that specific garment (e.g. flag a fitted top against a "large bust" note) — don't manufacture a note where there's nothing useful to say, and never use body notes to silently exclude an option.
 4. Present the ranked match board as an HTML Artifact: the inspiration photo alongside each candidate combination's item photos, with fit notes. **Do not generate a try-on image at this step** — that only happens on explicit request (see below).
 

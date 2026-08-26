@@ -27,11 +27,26 @@ PROMPT = (
     "photo exactly. Render the garments with realistic fit and drape."
 )
 
+SUPPORTED_MIME_TYPES = {
+    ".jpg": "image/jpeg",
+    ".jpeg": "image/jpeg",
+    ".png": "image/png",
+    ".webp": "image/webp",
+    ".heic": "image/heic",
+    ".heif": "image/heif",
+}
+
 
 def load_image_part(path: str) -> types.Part:
+    ext = os.path.splitext(path)[1].lower()
+    mime_type = SUPPORTED_MIME_TYPES.get(ext)
+    if mime_type is None:
+        sys.exit(
+            f"Unsupported image format for {path}: '{ext or '(no extension)'}'. "
+            f"Supported formats: {', '.join(sorted(SUPPORTED_MIME_TYPES))}"
+        )
     with open(path, "rb") as f:
         data = f.read()
-    mime_type = "image/png" if path.lower().endswith(".png") else "image/jpeg"
     return types.Part.from_bytes(data=data, mime_type=mime_type)
 
 
