@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson 4 — Canadian Boat Building Standards for Resin</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="page">
+
+  <p class="kicker">Marine Composites &amp; Resins &middot; Lesson 0004 &middot; Boats segment</p>
+  <h1>Canadian Boat Building Standards for Resin</h1>
+  <p class="lede">Lesson 0003 covered what drives a <em>US</em> boat builder's resin choice. If you're selling into the Canadian market — or to a builder who exports there — the compliance picture is different in one important way, and the same in another that's easy to get wrong.</p>
+
+  <h2>The construction standard: TP 1332</h2>
+  <p>Boats built or sold in Canada fall under the <strong>Small Vessel Regulations</strong> (SOR/2010-91), made under the Canada Shipping Act, 2001. These regulations point to <strong>TP 1332 — Construction Standards for Small Vessels</strong> (Transport Canada, 2010 edition) as the baseline construction requirement for pleasure craft and small vessels up to 15 gross tonnage.<sup class="cite">1</sup></p>
+  <p>Here's the part that's easy to get wrong: <strong>most Canadian-market builders don't actually build to a Canada-only spec.</strong> Transport Canada has a standing policy accepting <strong>ABYC (American Boat and Yacht Council) standards</strong> as an alternative to TP 1332, for pleasure craft under 24m and non-pleasure craft up to 6m.<sup class="cite">2</sup> In practice, that means many Canadian builders are building to the same ABYC laminate/construction standards as their US counterparts — "Canadian spec" is often just ABYC with a Transport Canada compliance notice and Hull Identification Number (HIN) attached, not a different resin requirement.</p>
+
+  <h2>The one genuinely Canada-specific resin requirement</h2>
+  <p>TP 1332 does carry at least one construction requirement that speaks directly to resin selection: for FRP (fiberglass reinforced plastic) hulls, <strong>flame-retardant additives are required in the exposed resin layer within the engine space</strong> — or, as an alternative, the final layer of the hull lay-up in that area must be woven roving rather than chopped strand mat.<sup class="cite">1</sup> If you're pitching a builder on a resin system, this is a concrete, checkable spec question worth asking early: "what are you currently using for the flame-retardant layer in the engine bay?"</p>
+
+  <div class="callout">
+    <p><strong>What's different from the US picture (Lesson 0003) — and what to verify before you use it.</strong> Lesson 0003's regulatory angle was styrene/VOC emissions: the US EPA regulates boat manufacturing plants directly under a federal NESHAP/MACT standard. As of this research, there is <strong>no equivalent Canada-wide, boat-manufacturing-specific VOC emissions regulation confirmed</strong> — Canada's existing VOC Concentration Limits regulations cover other product categories (architectural coatings, automotive refinishing), and it's unclear from public sources whether or how they extend to fiberglass boat resin.<sup class="cite">3</sup> <strong>Do not repeat the US emissions-compliance pitch verbatim to a Canadian builder</strong> — the Canadian compliance conversation centers on TP 1332/ABYC construction and safety compliance (and provincial air-quality rules, which vary and aren't covered here), not a federal emissions mandate. Treat this as a gap to verify directly with a builder or a regulatory consultant before you rely on it in front of a customer — get this wrong in a sales conversation and it costs you credibility fast.</p>
+  </div>
+
+  <h2>Read this before relying on any of this in a pitch</h2>
+  <p>Primary sources: <a href="https://tc.canada.ca/en/marine-transportation/publications/tp-1332-construction-standards-small-vessels-2010" target="_blank" rel="noopener"><strong>Transport Canada — TP 1332, Construction Standards for Small Vessels (2010)</strong></a> and the <a href="https://tc.canada.ca/en/marine-transportation/publications/marine-safety-management-system/tier-i-policies/tier-i-policy-acceptance-alternative-construction-requirements-small-vessels" target="_blank" rel="noopener">Transport Canada policy on accepting ABYC as an alternative</a>. These are the actual regulator's documents — read them (or have a naval architect/regulatory consultant confirm current requirements) before quoting specifics to a customer. Regulations get amended; this lesson reflects what was findable at time of writing, not a guarantee of current text.</p>
+
+  <div class="quiz">
+    <h3>Quick recall check</h3>
+    <p>One word/number/acronym each.</p>
+
+    <div class="quiz-item">
+      <p class="prompt">1. The Small Vessel Regulations are made under the Canada Shipping Act, ______ (a year).</p>
+      <input type="text" data-answer="2001" aria-label="Answer 1">
+      <div class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <p class="prompt">2. Transport Canada's construction standard for small vessels is known by its publication number: TP ______.</p>
+      <input type="text" data-answer="1332" aria-label="Answer 2">
+      <div class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <p class="prompt">3. Many Canadian builders satisfy TP 1332 by instead building to the accepted alternative standard from the ______ (a US industry body's acronym).</p>
+      <input type="text" data-answer="abyc" aria-label="Answer 3">
+      <div class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <p class="prompt">4. TP 1332 requires flame-retardant resin in the exposed laminate layer within the ______ space.</p>
+      <input type="text" data-answer="engine" aria-label="Answer 4">
+      <div class="feedback"></div>
+    </div>
+
+    <button type="button" id="check-quiz">Check answers</button>
+  </div>
+
+  <p>Reference card for this lesson: <a href="../reference/canada-boat-standards-cheatsheet.html">Canadian Boat Building Standards Cheat Sheet</a>.</p>
+
+  <p class="ask-agent">Questions worth bringing back to your teaching agent: "how do I find out if a specific Canadian builder uses TP 1332 directly or the ABYC alternative?" or "should I be researching provincial VOC/air-quality rules for the province I'm targeting?" — that last one is a real gap in this workspace's research, worth flagging back to your agent before it matters in a live deal.</p>
+
+  <div class="nav">
+    <span>&larr; <a href="0003-boat-resin-buying-drivers.html">Lesson 0003 — What Actually Drives a Boat Builder's Resin Choice</a></span>
+    <span>Tell your agent what's next: verify the provincial VOC gap, another segment, or a mock sales conversation</span>
+  </div>
+
+</div>
+
+<script>
+document.getElementById('check-quiz').addEventListener('click', function () {
+  document.querySelectorAll('.quiz-item').forEach(function (item) {
+    var input = item.querySelector('input');
+    var feedback = item.querySelector('.feedback');
+    var given = input.value.trim().toLowerCase();
+    var answer = input.getAttribute('data-answer').toLowerCase();
+    if (given === answer) {
+      feedback.textContent = 'Correct.';
+      feedback.className = 'feedback correct';
+    } else if (given.length === 0) {
+      feedback.textContent = 'Give it a guess before checking.';
+      feedback.className = 'feedback incorrect';
+    } else {
+      feedback.textContent = 'Not quite — reread the section above and try again.';
+      feedback.className = 'feedback incorrect';
+    }
+  });
+});
+</script>
+
+</body>
+</html>

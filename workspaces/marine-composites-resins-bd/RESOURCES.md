@@ -34,6 +34,12 @@
   EPA's detailed technical guidance, including the specific low-VOC-resin and non-atomized-application emissions-reduction figures. Use for: boats segment — the numbers behind the "switch to lower-styrene resin" pitch.
 - [Soundings Online — "Blister warranties becoming more common"](https://www.soundingsonline.com/news/blister-warranties-becoming-more-common)
   Boat-buyer-facing trade press piece on how blister warranty coverage and vinyl-ester/epoxy barrier coats have evolved. Use for: boats segment — the warranty-economics half of the buying-drivers story, written the way a builder's marketing team would frame it.
+- [Transport Canada — TP 1332, Construction Standards for Small Vessels (2010)](https://tc.canada.ca/en/marine-transportation/publications/tp-1332-construction-standards-small-vessels-2010)
+  The Canadian federal construction standard for small vessels/pleasure craft, made under the Small Vessel Regulations (SOR/2010-91). Use for: boats segment, Canadian market — the baseline construction spec, including the flame-retardant-resin-in-engine-space requirement.
+- [Transport Canada — Policy on acceptance of ABYC standards as an alternative to TP 1332](https://tc.canada.ca/en/marine-transportation/publications/marine-safety-management-system/tier-i-policies/tier-i-policy-acceptance-alternative-construction-requirements-small-vessels)
+  Confirms Transport Canada accepts American Boat & Yacht Council standards in lieu of TP 1332 for pleasure craft <24m and non-pleasure craft ≤6m. Use for: boats segment, Canadian market — explains why many "Canadian-spec" builds are really ABYC builds.
+- [Canada Gazette / Justice Canada — Volatile Organic Compound Concentration Limits for Certain Products Regulations](https://gazette.gc.ca/rp-pr/p1/2019/2019-07-06/html/reg1-eng.html)
+  Canada's federal VOC-limit regulatory framework for consumer/commercial products. Use for: boats segment, Canadian market — background only; not confirmed to cover boat-manufacturing resin specifically (see Gaps below).
 
 ## Wisdom (Communities)
 
@@ -45,3 +51,5 @@
 - No manufacturer-specific data yet — the specific resin/brand to represent hasn't been chosen (see MISSION.md constraints). Once chosen, add its technical data sheets (TDS) and safety data sheets (SDS) here.
 - No PWC-segment-specific technical forum identified yet beyond general enthusiast sites (PWCToday, GreenHulk) — these are consumer/enthusiast communities, not manufacturing/procurement ones. If BD narrows into PWC OEMs specifically, look for a trade contact instead (e.g. via ACMA) rather than relying on these.
 - No pool-industry-specific trade association identified yet (separate from ACMA) — worth finding one if the pool segment becomes a priority.
+- **Canadian boat-manufacturing VOC/styrene emissions regulation is unconfirmed.** Unlike the US EPA's boat-manufacturing NESHAP, no Canada-wide, boat-specific emissions rule was found. Provincial air-quality regulations may fill this gap and haven't been researched at all. Verify with Transport Canada / a provincial regulator / a naval architect before using any emissions-compliance argument with a Canadian builder.
+- `tc.canada.ca` and `laws-lois.justice.gc.ca` could not be fetched directly during this research (network restriction in the session that wrote this) — the TP 1332 and Small Vessel Regulations claims above are sourced from search-result summaries, not a direct read of the primary text. Read the primary documents directly before quoting specifics to a customer.
