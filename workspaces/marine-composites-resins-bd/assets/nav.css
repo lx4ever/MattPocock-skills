@@ -1,0 +1,73 @@
+/* Universal jump-to-page menu. Reuses the color tokens defined in style.css's :root. */
+
+.wsnav-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  font-family: inherit;
+  font-size: 0.85rem;
+  padding: 0.5rem 0.9rem;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.wsnav-toggle:hover { border-color: var(--accent); }
+
+.wsnav-panel {
+  position: fixed;
+  top: 3.6rem;
+  right: 1rem;
+  z-index: 1000;
+  width: min(300px, calc(100vw - 2rem));
+  max-height: calc(100vh - 5rem);
+  overflow-y: auto;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  padding: 1rem 1.1rem;
+  font-size: 0.9rem;
+}
+
+.wsnav-panel[hidden] { display: none; }
+
+.wsnav-panel h4 {
+  margin: 0 0 0.4rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.wsnav-panel h4:not(:first-child) { margin-top: 1rem; }
+
+.wsnav-panel ol, .wsnav-panel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wsnav-panel li { margin: 0.3rem 0; }
+
+.wsnav-panel a {
+  text-decoration: none;
+  display: block;
+  padding: 0.15rem 0;
+}
+
+.wsnav-panel a:hover { text-decoration: underline; }
+
+.wsnav-panel .wsnav-current {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+@media (max-width: 480px) {
+  .wsnav-toggle { top: 0.75rem; right: 0.75rem; }
+  .wsnav-panel { top: 3.1rem; right: 0.75rem; }
+}
