@@ -1,3 +1,7 @@
+---
+Status: superseded by LR-0002
+---
+
 # tc.canada.ca and mirrors are unreachable from this workspace's network
 
 When asked to verify Lesson 0004's TP 1332 claims against the source PDF, every Transport Canada domain (`tc.canada.ca`, `www.tc.gc.ca`) was rejected at the network policy level, and every mirror tried (`laws-lois.justice.gc.ca`, `web.archive.org`, `scribd.com`) was also blocked or unsupported. This is a durable environment limitation, not a one-off fetch failure — future sessions in this workspace should not re-attempt fetching these domains and expect a different result; instead, ask the user to fetch/paste the primary text, or verify it outside this session.
