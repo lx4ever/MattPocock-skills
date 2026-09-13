@@ -22,6 +22,18 @@
   Explains Sea-Doo's Polytec (glass-fiber/polypropylene blend) hull material. Use for: PWC segment — Sea-Doo has moved away from traditional polyester/fiberglass on many models.
 - [ACMA — American Composites Manufacturers Association](https://acmanet.org/)
   Largest FRP composites industry trade association in North America; covers recreational boating among its member markets. Use for: industry standards, market data, and identifying trade events/technical committees relevant to BD outreach.
+- [CompositesWorld — "Fabrication Methods"](https://www.compositesworld.com/articles/fabrication-methods)
+  Trade-industry technical reference covering hand layup, vacuum infusion, RTM, and other composites processes side by side. Use for: boats segment — process fundamentals and how boat manufacturing compares to the wider composites industry.
+- [Power & Motor Yacht — "Vacuum Resin Infusion Explained"](https://powerandmotoryacht.com/uncategorized/vacuum-resin-infusion-explained/)
+  Industry-press explainer of vacuum infusion written for boat-industry readers rather than engineers. Use for: boats segment — the accessible primary source for the open-mold-vs-infusion contrast.
+- [Wikipedia — "Resin transfer moulding"](https://en.wikipedia.org/wiki/Resin_transfer_moulding)
+  Baseline technical definition of RTM. Use for: boats segment — quick reference on the RTM process, cross-checked against CompositesWorld.
+- [EPA — Boat Manufacturing: National Emission Standards for Hazardous Air Pollutants (NESHAP)](https://www.epa.gov/stationary-sources-air-pollution/boat-manufacturing-national-emission-standards-hazardous-air)
+  Primary regulatory source — the actual federal standard governing styrene emissions from boat manufacturing. Use for: boats segment — citing the real compliance requirement in a sales conversation, not a secondhand summary of it.
+- [EPA — Control Techniques Guidelines for Fiberglass Boat Manufacturing Materials (PDF)](https://www3.epa.gov/airquality/ctg_act/200809_voc_epa453_r-08-004_fiberglass_boat_manufacturing_materials.pdf)
+  EPA's detailed technical guidance, including the specific low-VOC-resin and non-atomized-application emissions-reduction figures. Use for: boats segment — the numbers behind the "switch to lower-styrene resin" pitch.
+- [Soundings Online — "Blister warranties becoming more common"](https://www.soundingsonline.com/news/blister-warranties-becoming-more-common)
+  Boat-buyer-facing trade press piece on how blister warranty coverage and vinyl-ester/epoxy barrier coats have evolved. Use for: boats segment — the warranty-economics half of the buying-drivers story, written the way a builder's marketing team would frame it.
 
 ## Wisdom (Communities)
 

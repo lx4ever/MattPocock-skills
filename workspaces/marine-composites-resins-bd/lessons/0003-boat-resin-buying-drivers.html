@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson 3 — What Actually Drives a Boat Builder's Resin Choice</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="page">
+
+  <p class="kicker">Marine Composites &amp; Resins &middot; Lesson 0003 &middot; Boats segment</p>
+  <h1>What Actually Drives a Boat Builder's Resin Choice</h1>
+  <p class="lede">Two forces push most resin decisions in production boatbuilding: <strong>regulatory pressure on styrene emissions</strong>, and <strong>blister warranty economics</strong>. This is your actual sales ammunition — the reasons a builder switches resin aren't usually "it's better," they're "it gets me out of a compliance or liability problem."</p>
+
+  <h2>Force 1: Styrene is a regulated hazardous air pollutant</h2>
+  <p>Styrene — the monomer from Lesson 0001 that gives polyester and vinyl ester their smell — is one of the two primary VOCs emitted by boat manufacturing, mainly from resin and gelcoat application and equipment cleanup.<sup class="cite">1</sup> The EPA classifies boat manufacturing as a major source of hazardous air pollutants (HAPs) and requires major plants to use <strong>MACT</strong> (Maximum Achievable Control Technology) to control styrene release, under a federal standard (NESHAP) specific to boat manufacturing.<sup class="cite">2</sup></p>
+  <p>Two concrete levers plants pull to comply:</p>
+  <ul>
+    <li><strong>Lower-styrene-content resin.</strong> The EPA's own guidance cites switching from a 40%-styrene resin to a 35%-styrene resin, combined with non-atomized (non-spray) application, as achieving roughly a 58% emissions reduction.<sup class="cite">3</sup></li>
+    <li><strong>Closed molding.</strong> Infusion and RTM (Lesson 0002) don't eliminate styrene from gelcoat application, but they substantially limit worker exposure during resin transfer and cure, since those steps happen in a sealed environment rather than open air.<sup class="cite">2</sup></li>
+  </ul>
+
+  <div class="callout">
+    <p><strong>The BD angle.</strong> A plant that's still on open-mold hand layup with a high-styrene resin is a live compliance-risk conversation. If you're representing a lower-VOC formulation, or if the plant is a candidate for a closed-molding pitch, the regulatory requirement itself is your opening — not "try our resin," but "here's what MACT actually requires of a plant your size, and here's what compliant plants have already switched to."</p>
+  </div>
+
+  <h2>Force 2: Blister warranties are a live liability cost</h2>
+  <p>Recall from Lesson 0001: polyester's weak point is osmotic blistering. Historically most boatbuilders didn't warranty against it at all — a 2001 BoatU.S. survey of 45 boatbuilders found only 16 covered blisters in their warranty at all, and even those often required prorated coverage or owner-paid barrier coating.<sup class="cite">4</sup> That's changed: more builders now offer 5- or 10-year blister warranties, made affordable by a specific fix — applying a thin <strong>vinyl ester skin coat</strong> (or an epoxy barrier coat) over an otherwise-polyester hull, rather than building the whole laminate in the more expensive resin.<sup class="cite">4</sup></p>
+  <p>This is the same "vinyl ester as the pragmatic middle ground" pattern from Lesson 0001, now expressed as a purchasing decision: builders aren't switching their whole laminate to vinyl ester or epoxy — they're adding one thin, targeted layer of it, because that's the cheapest way to earn a warranty claim they can put in a sales brochure.</p>
+
+  <h2>Read this before the next lesson</h2>
+  <p>Primary source recommendation: <a href="https://www.soundingsonline.com/news/blister-warranties-becoming-more-common" target="_blank" rel="noopener"><strong>Soundings Online — "Blister warranties becoming more common"</strong></a>. It's written for boat buyers, not chemists, and shows exactly how the warranty economics you just read about translate into what gets printed in a sales brochure. For the regulatory side, the EPA's own <a href="https://www.epa.gov/stationary-sources-air-pollution/boat-manufacturing-national-emission-standards-hazardous-air" target="_blank" rel="noopener">Boat Manufacturing NESHAP page</a> is the primary source, if you want to be able to cite the actual standard in front of a plant manager.</p>
+
+  <div class="quiz">
+    <h3>Quick recall check</h3>
+    <p>One word/acronym each.</p>
+
+    <div class="quiz-item">
+      <p class="prompt">1. Styrene is legally classified as a hazardous air pollutant, abbreviated ______.</p>
+      <input type="text" data-answer="hap" aria-label="Answer 1">
+      <div class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <p class="prompt">2. The EPA's required pollution-control standard for major boat manufacturing plants is called ______ (an acronym).</p>
+      <input type="text" data-answer="mact" aria-label="Answer 2">
+      <div class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <p class="prompt">3. Spraying resin as a fine mist — worse for emissions than a solid stream — is called ______ application.</p>
+      <input type="text" data-answer="atomized" aria-label="Answer 3">
+      <div class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <p class="prompt">4. A thin vinyl ester (or epoxy) layer added over a polyester hull specifically to prevent blisters is a skin, or barrier, ______.</p>
+      <input type="text" data-answer="coat" aria-label="Answer 4">
+      <div class="feedback"></div>
+    </div>
+
+    <button type="button" id="check-quiz">Check answers</button>
+  </div>
+
+  <p class="ask-agent">Questions worth bringing back to your teaching agent: "how do I find out if a specific plant is a 'major source' under EPA's definition?" or "what does a barrier coat actually cost a builder, per hull, versus what it lets them warranty?"</p>
+
+  <div class="nav">
+    <span>&larr; <a href="0002-boat-manufacturing-processes.html">Lesson 0002 — How a Fiberglass Boat Hull Actually Gets Built</a></span>
+    <span>Boats segment core lessons done — tell your agent what's next: a mock sales conversation, another segment, or a specific resin once you've picked one</span>
+  </div>
+
+</div>
+
+<script>
+document.getElementById('check-quiz').addEventListener('click', function () {
+  document.querySelectorAll('.quiz-item').forEach(function (item) {
+    var input = item.querySelector('input');
+    var feedback = item.querySelector('.feedback');
+    var given = input.value.trim().toLowerCase();
+    var answer = input.getAttribute('data-answer').toLowerCase();
+    if (given === answer) {
+      feedback.textContent = 'Correct.';
+      feedback.className = 'feedback correct';
+    } else if (given.length === 0) {
+      feedback.textContent = 'Give it a guess before checking.';
+      feedback.className = 'feedback incorrect';
+    } else {
+      feedback.textContent = 'Not quite — reread the section above and try again.';
+      feedback.className = 'feedback incorrect';
+    }
+  });
+});
+</script>
+
+</body>
+</html>
