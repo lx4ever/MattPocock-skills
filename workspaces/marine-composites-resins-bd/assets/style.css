@@ -1,0 +1,184 @@
+/* Shared stylesheet for the Marine Composites & Resins teaching workspace.
+   Tufte-influenced: generous margins, serif reading type, sidenotes for citations. */
+
+:root {
+  --ink: #1a1a1a;
+  --paper: #fdfcf9;
+  --rule: #d8d3c8;
+  --accent: #8a5a2b;
+  --accent-soft: #f3e9dc;
+  --muted: #6b6459;
+  --max-width: 720px;
+}
+
+* { box-sizing: border-box; }
+
+html { color-scheme: light; }
+
+body {
+  margin: 0;
+  padding: 3rem 1.5rem 6rem;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Palatino Linotype", Palatino, Georgia, "Iowan Old Style", serif;
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Iowan Old Style", serif;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin: 0 0 0.5rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 2.5rem;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.35rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 1.75rem;
+}
+
+p, li { max-width: 68ch; }
+
+a { color: var(--accent); }
+a:visited { color: var(--accent); }
+
+.lede {
+  font-size: 1.2rem;
+  color: var(--muted);
+  max-width: 62ch;
+}
+
+.callout {
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  padding: 0.9rem 1.1rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.callout p:last-child { margin-bottom: 0; }
+
+.sidenote {
+  font-size: 0.85rem;
+  color: var(--muted);
+  border-left: 2px solid var(--rule);
+  padding-left: 0.75rem;
+  margin: 1rem 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.25rem 0;
+  font-size: 0.95rem;
+}
+
+th, td {
+  border: 1px solid var(--rule);
+  padding: 0.5rem 0.65rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: var(--accent-soft);
+  font-weight: 600;
+}
+
+.quiz {
+  background: #fff;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.75rem 0;
+}
+
+.quiz h3 { margin-top: 0; }
+
+.quiz-item { margin: 1.25rem 0; }
+
+.quiz-item .prompt { font-weight: 600; margin-bottom: 0.5rem; }
+
+.quiz-item input[type="text"] {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  width: 100%;
+  max-width: 320px;
+}
+
+.quiz-item .feedback {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  min-height: 1.2em;
+}
+
+.quiz-item .feedback.correct { color: #2e6b3e; }
+.quiz-item .feedback.incorrect { color: #a5401f; }
+
+.quiz button {
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.quiz button:hover { opacity: 0.9; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.95rem;
+}
+
+.ask-agent {
+  margin-top: 2.5rem;
+  font-style: italic;
+  color: var(--muted);
+}
+
+sup.cite { font-size: 0.75em; }
+
+@media print {
+  body { padding: 0; font-size: 11pt; }
+  .quiz button { display: none; }
+  a { color: inherit; text-decoration: underline; }
+}
+
+@media (max-width: 480px) {
+  body { padding: 2rem 1rem 4rem; font-size: 1.05rem; }
+}
