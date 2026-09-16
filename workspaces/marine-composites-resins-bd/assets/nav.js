@@ -7,13 +7,17 @@
       { file: "0002-boat-manufacturing-processes.html", title: "0002 — How a Hull Gets Built" },
       { file: "0003-boat-resin-buying-drivers.html", title: "0003 — What Drives a Boat Builder's Resin Choice" },
       { file: "0004-canadian-boat-building-standards.html", title: "0004 — Canadian Boat Building Standards" },
-      { file: "0005-osmotic-blistering-deep-dive.html", title: "0005 — Osmotic Blistering Deep Dive" }
+      { file: "0005-osmotic-blistering-deep-dive.html", title: "0005 — Osmotic Blistering Deep Dive" },
+      { file: "0006-critical-resin-properties-cost.html", title: "0006 — Resin Properties & Cost Impact" },
+      { file: "0007-resin-testing-certification.html", title: "0007 — Resin Testing & Certification" }
     ],
     reference: [
       { file: "resin-comparison-cheatsheet.html", title: "Resin Comparison Cheat Sheet" },
       { file: "boat-manufacturing-cheatsheet.html", title: "Boat Manufacturing Cheat Sheet" },
       { file: "canada-boat-standards-cheatsheet.html", title: "Canadian Standards Cheat Sheet" },
-      { file: "blistering-cheatsheet.html", title: "Blistering Cheat Sheet" }
+      { file: "blistering-cheatsheet.html", title: "Blistering Cheat Sheet" },
+      { file: "resin-properties-cost-cheatsheet.html", title: "Resin Properties & Cost Cheat Sheet" },
+      { file: "resin-testing-cheatsheet.html", title: "Resin Testing & Certification Cheat Sheet" }
     ]
   };
 

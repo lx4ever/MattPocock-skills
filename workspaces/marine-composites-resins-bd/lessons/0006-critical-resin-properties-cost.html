@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson 6 — Critical Resin Properties for Boat Manufacturing, and Their Cost Impact</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/nav.css">
+</head>
+<body>
+<div class="page">
+
+  <p class="kicker">Marine Composites &amp; Resins &middot; Lesson 0006 &middot; Boats segment</p>
+  <h1>Critical Resin Properties for Boat Manufacturing, and Their Cost Impact</h1>
+  <p class="lede">Every earlier lesson touched a resin property in passing — viscosity for infusion, water resistance for blistering, styrene content for emissions. This lesson puts them side by side with one question attached to each: <strong>what does improving this property cost?</strong> That's the question a builder is actually asking when they compare your resin to what they use now.</p>
+
+  <h2>The six properties that matter, and why</h2>
+  <table>
+    <thead>
+      <tr><th>Property</th><th>Why a builder cares</th><th>Cost direction</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Viscosity</strong></td>
+        <td>Controls flow, gap-filling, and wet-out. Low viscosity is essential for infusion (resin must travel through the whole laminate before gelling) or void-prone hand layup; higher viscosity resists sagging on vertical surfaces.<sup class="cite">1</sup></td>
+        <td>Roughly neutral on its own — but resins engineered for both low viscosity <em>and</em> the mechanical/water-resistance properties below cost more, since those two goals often pull against each other.</td>
+      </tr>
+      <tr>
+        <td><strong>Pot life / gel time</strong></td>
+        <td>The working-time window before resin gels. Hand layup on a large hull needs long pot life (Lesson 0002's hand-layup process); infusion typically wants 45–120 minutes to fill the mold before gelling.<sup class="cite">1</sup> Too short a pot life for the job wastes material and labor; too long slows the production cycle.</td>
+        <td>Fast-gel/fast-demold formulations (higher throughput) generally cost more per gallon than standard-cure resin — you're paying for cycle-time savings on the builder's floor.</td>
+      </tr>
+      <tr>
+        <td><strong>Exotherm (peak cure temperature)</strong></td>
+        <td>Curing is exothermic; in thick laminates or mass pours, excess heat buildup can crack, blister, or shrink the part before it's even in the water.<sup class="cite">1</sup> Controlling exotherm matters more as hulls get thicker (larger boats, cored construction).</td>
+        <td>Formulations engineered for controlled/low exotherm (needed for thick sections) cost more than commodity resin optimized only for thin laminate.</td>
+      </tr>
+      <tr>
+        <td><strong>Tensile/flexural strength &amp; elongation</strong></td>
+        <td>Structural load-bearing and impact/crack resistance. Elongation (toughness) matters as much as raw strength — a stiff-but-brittle laminate cracks under impact where a tougher one flexes.<sup class="cite">1</sup></td>
+        <td>Epoxy costs more than polyester and delivers meaningfully better strength-to-weight — this is the core of the epoxy price premium beyond just water resistance.</td>
+      </tr>
+      <tr>
+        <td><strong>Water absorption / hydrolytic stability</strong></td>
+        <td>The Lesson 0001/0005 story: polyester absorbs water and hydrolyzes over years (blistering); vinyl ester and epoxy resist it via tighter backbone chemistry or ether linkages.</td>
+        <td>Direct cost ladder: current supplier pricing puts premium marine-grade polyester around <strong>$45.50/gallon</strong> versus vinyl ester around <strong>$76.50/gallon</strong> — roughly a 68% premium for the water-resistance jump alone.<sup class="cite">2</sup> Prices move with feedstock and region; treat this as an illustrative snapshot, not a quote.</td>
+      </tr>
+      <tr>
+        <td><strong>Flame retardancy</strong></td>
+        <td>Required (per Lesson 0004, corroborated but not yet primary-source-confirmed) in specific locations like engine spaces under TP 1332, and broadly relevant anywhere fire-safety standards apply.</td>
+        <td>Flame-retardant additive packages add cost per gallon and can affect other properties (some FR additives increase viscosity or reduce mechanical strength slightly) — a real formulation trade-off, not just a line-item cost.</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="sidenote">Sources: <sup class="cite">1</sup> boats.com, "Resin Materials in Fiberglass Boat Construction" · <sup class="cite">2</sup> current supplier retail pricing (Fiberglass Supply / US Composites, search-snapshot pricing, 2025–2026). Full links in <code>RESOURCES.md</code>.</p>
+
+  <div class="callout">
+    <p><strong>The one number that surprised me, and why it's a trap.</strong> One cost comparison found a fiberglass layup costing <strong>$7.50/sq ft with polyester + chopped strand mat</strong> versus <strong>$3.91/sq ft with epoxy + woven cloth</strong> — epoxy coming out <em>cheaper</em>, which contradicts the "epoxy costs more" pattern above.<sup class="cite">3</sup> The likely explanation: that comparison changed two variables at once (resin <em>and</em> reinforcement type/architecture, plus possibly layer count or labor assumptions), not resin alone. This is exactly the kind of number that sounds authoritative and is wrong to repeat as "epoxy is cheaper" — a real cost comparison has to hold the reinforcement, layup process, and labor constant and vary only the resin. Don't build a pitch on a single search-snippet's cost-per-square-foot figure without knowing what else changed in the comparison.</p>
+  </div>
+
+  <h2>Read this before the next lesson</h2>
+  <p>Primary source recommendation: <a href="https://www.boats.com/how-to/resin-materials-in-fiberglass-boat-construction/" target="_blank" rel="noopener"><strong>boats.com — "Resin Materials in Fiberglass Boat Construction"</strong></a>, written for an informed-buyer audience and covering most of the properties above in plain language.</p>
+
+  <div class="quiz">
+    <h3>Quick recall check</h3>
+    <p>One word each (question 4 excepted).</p>
+
+    <div class="quiz-item">
+      <p class="prompt">1. The property that determines how easily resin flows into and wets fiberglass is ______.</p>
+      <input type="text" data-answer="viscosity" aria-label="Answer 1">
+      <div class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <p class="prompt">2. The working-time window before mixed resin gels is called ______ life.</p>
+      <input type="text" data-answer="pot" aria-label="Answer 2">
+      <div class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <p class="prompt">3. Heat released by the curing reaction itself, which can crack thick laminates if excessive, is called ______.</p>
+      <input type="text" data-answer="exotherm" aria-label="Answer 3">
+      <div class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <p class="prompt">4. Additives that reduce a cured laminate's flammability are called flame ______.</p>
+      <input type="text" data-answer="retardants" aria-label="Answer 4">
+      <div class="feedback"></div>
+    </div>
+
+    <button type="button" id="check-quiz">Check answers</button>
+  </div>
+
+  <p>Reference card for this lesson: <a href="../reference/resin-properties-cost-cheatsheet.html">Resin Properties &amp; Cost Cheat Sheet</a>.</p>
+
+  <p class="ask-agent">Questions worth bringing back to your teaching agent: "how do I ask a builder what pot life they actually need without sounding like I'm reading from a script?" or "if I don't know a builder's exotherm tolerance, what's a safe opening question?"</p>
+
+  <div class="nav">
+    <span>&larr; <a href="0005-osmotic-blistering-deep-dive.html">Lesson 0005 — Osmotic Blistering Deep Dive</a></span>
+    <span>Next: <a href="0007-resin-testing-certification.html">Lesson 0007 — Resin Testing &amp; Certification Requirements</a></span>
+  </div>
+
+</div>
+
+<script>
+document.getElementById('check-quiz').addEventListener('click', function () {
+  document.querySelectorAll('.quiz-item').forEach(function (item) {
+    var input = item.querySelector('input');
+    var feedback = item.querySelector('.feedback');
+    var given = input.value.trim().toLowerCase();
+    var answer = input.getAttribute('data-answer').toLowerCase();
+    if (given === answer) {
+      feedback.textContent = 'Correct.';
+      feedback.className = 'feedback correct';
+    } else if (given.length === 0) {
+      feedback.textContent = 'Give it a guess before checking.';
+      feedback.className = 'feedback incorrect';
+    } else {
+      feedback.textContent = 'Not quite — reread the section above and try again.';
+      feedback.className = 'feedback incorrect';
+    }
+  });
+});
+</script>
+
+<script src="../assets/nav.js" defer></script>
+</body>
+</html>

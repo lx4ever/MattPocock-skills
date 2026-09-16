@@ -52,6 +52,14 @@
   A second independent trade-press writeup of the same announcement. Use for: boats segment, Canadian market — third-source corroboration of the policy's date and intent.
 - [Canada Gazette / Justice Canada — Volatile Organic Compound Concentration Limits for Certain Products Regulations](https://gazette.gc.ca/rp-pr/p1/2019/2019-07-06/html/reg1-eng.html)
   Canada's federal VOC-limit regulatory framework for consumer/commercial products. Use for: boats segment, Canadian market — background only; not confirmed to cover boat-manufacturing resin specifically (see Gaps below).
+- [boats.com — "Resin Materials in Fiberglass Boat Construction"](https://www.boats.com/how-to/resin-materials-in-fiberglass-boat-construction/)
+  Informed-buyer-level overview of viscosity, pot life, exotherm, mechanical properties, and water absorption in one place. Use for: boats segment — the property/cost lesson's main source.
+- Current supplier retail pricing (Fiberglass Supply, US Composites; search-snapshot, 2025–2026)
+  Illustrative pricing: premium marine polyester ~$45.50/gal, vinyl ester ~$76.50/gal. Use for: boats segment — a cost-ladder example only; prices move with feedstock, region, and volume, so verify before quoting to anyone.
+- [BoatCraft — "Comparing Epoxy, Polyester and Vinylester with Cost Analysis"](https://boatcraft.com/blogs/news/comparing-epoxy-polyester-and-vinylester-and-cost-analysis)
+  Source of the $7.50/sq ft (polyester + chopped strand mat) vs. $3.91/sq ft (epoxy + woven cloth) figures flagged in Lesson 0006 as likely comparing more than one variable at once. Use for: boats segment — a cautionary example of a cost comparison that isn't apples-to-apples, not a number to repeat as "epoxy is cheaper."
+- ASTM standard pages/summaries: D2393 (viscosity), D1474 (specific gravity), D3532 (gel time), D2583 (Barcol hardness), D2584 (ignition loss/glass content), D2734 (void content), D638 (tensile), D790 (flexural), D570 (water absorption)
+  Standard test methods referenced across Lessons 0006–0007, sourced via Infinita Lab, NYB, Qualitest, and ASTM's own standard listing pages. Use for: boats segment — citing the actual test method by number to a technical buyer.
 
 ## Wisdom (Communities)
 

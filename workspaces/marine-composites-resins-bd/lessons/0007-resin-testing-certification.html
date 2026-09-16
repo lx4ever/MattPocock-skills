@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson 7 — Resin Testing &amp; Certification Requirements</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/nav.css">
+</head>
+<body>
+<div class="page">
+
+  <p class="kicker">Marine Composites &amp; Resins &middot; Lesson 0007 &middot; Boats segment</p>
+  <h1>Resin Testing &amp; Certification Requirements</h1>
+  <p class="lede">There's no single "boat resin certification" the way there's a pressure-vessel stamp. Instead, testing happens at two different points, run by two different people, for two different reasons — and a builder's questions about your resin will usually be about one of them specifically. Knowing which one they mean matters.</p>
+
+  <h2>Tier 1: what the resin manufacturer tests, before it ships</h2>
+  <p>This is testing on the liquid resin itself, batch by batch, to prove consistency — not testing of a finished hull. Typical parameters:</p>
+  <table>
+    <thead>
+      <tr><th>Test</th><th>What it checks</th><th>Standard</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Viscosity</td><td>Batch-to-batch consistency of flow behavior</td><td>ASTM D2393 (or Brookfield viscometer method)</td></tr>
+      <tr><td>Specific gravity / density</td><td>Detects voids, filler content, batch uniformity</td><td>ASTM D1474 / ISO 1183-1</td></tr>
+      <tr><td>Gel time &amp; peak exotherm</td><td>Confirms cure behavior matches the data sheet the builder is designing around</td><td>ASTM D3532 (or manufacturer's own method)</td></tr>
+    </tbody>
+  </table>
+  <p>Results ship with the resin as a <strong>Certificate of Analysis (COA)</strong> — a per-lot document naming the batch number, date, and each test result against the resin's specification.<sup class="cite">1</sup> If you're representing a resin, expect a sophisticated buyer to ask whether every drum ships with a COA, and to compare its numbers against their own incoming-inspection testing (some builders re-test viscosity and gel time on receipt rather than trusting the COA blind).</p>
+
+  <h2>Tier 2: what the builder tests, after the hull cures</h2>
+  <p>This is testing on the cured laminate — proving the resin did its job in that specific hull, not just that the raw material was in spec.</p>
+  <table>
+    <thead>
+      <tr><th>Test</th><th>What it checks</th><th>Standard</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Barcol hardness</strong></td>
+        <td>A portable, nondestructive indentation test that indirectly measures degree of cure. This is the workhorse QC test in boatbuilding — fast enough to run on <strong>100% of hulls</strong> coming out of a mold, not just occasional samples.<sup class="cite">2</sup> Typical acceptance is in the 40–60 range for polyester/vinyl ester laminates, though the real bar is always the resin manufacturer's own spec, not a generic number — a reading that's fine for one resin system can indicate undercure on another.<sup class="cite">3</sup></td>
+        <td>ASTM D2583</td>
+      </tr>
+      <tr>
+        <td><strong>Glass/resin content (ignition loss)</strong></td>
+        <td>Burns off the organic resin at ~565°C and weighs what's left, giving fiber content by weight — the primary structural QC check on whether a laminate has the glass-to-resin ratio it was designed around.<sup class="cite">4</sup></td>
+        <td>ASTM D2584</td>
+      </tr>
+      <tr>
+        <td><strong>Void content</strong></td>
+        <td>Computed indirectly from resin, fiber, and laminate densities — catches entrapped air/voids from a bad infusion or layup that raw glass-content testing alone wouldn't reveal.</td>
+        <td>ASTM D2734</td>
+      </tr>
+      <tr>
+        <td><strong>Tensile / flexural / water absorption</strong></td>
+        <td>Mechanical validation on coupon samples — typically run for design qualification and regulatory/insurance purposes, not on every production hull.</td>
+        <td>ASTM D638 / D790 / D570</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="sidenote">Sources: <sup class="cite">1</sup> Graco/Resin Formulators lab-testing pages; Stobec Certificate of Analysis example · <sup class="cite">2</sup> NYB, Infinita Lab, Qualitest — Barcol hardness testing guides · <sup class="cite">3</sup> multiple Barcol-hardness guides giving a 40–60 range as typical, explicitly flagging it as resin-system-dependent · <sup class="cite">4</sup> Infinita Lab / ASTM D2584 documentation. Full links in <code>RESOURCES.md</code>.</p>
+
+  <div class="callout">
+    <p><strong>The BD angle: there's no resin-specific certification body to name-drop.</strong> Unlike, say, UL-listing an electrical component, a resin doesn't get "boat-certified" by anyone. What actually governs a hull's resin/laminate spec is the builder's own engineering, checked against a design standard (TP 1332 directly, or a classification-society/ISO 12215 laminate schedule if they use one), then verified in production via Barcol and glass-content testing — not resin-brand certification. If a builder asks "is this resin certified for boats," the honest, credible answer is to walk through this two-tier testing picture, not to claim a certification that doesn't exist. Overclaiming here is a fast way to lose credibility with someone who already knows the industry doesn't work that way.</p>
+  </div>
+
+  <h2>Read this before the next lesson</h2>
+  <p>Primary source recommendation: <a href="https://infinitalab.com/blog/barcol-hardness-testing/" target="_blank" rel="noopener"><strong>Infinita Lab — "Barcol Hardness Testing"</strong></a> for the Tier 2 workhorse test, and ASTM's own standard pages (D2583, D2584) if you want to cite the actual test methods by number in front of a technical buyer.</p>
+
+  <div class="quiz">
+    <h3>Quick recall check</h3>
+    <p>One word/number each.</p>
+
+    <div class="quiz-item">
+      <p class="prompt">1. The portable, nondestructive test measuring a cured laminate's surface hardness — and indirectly, degree of cure — is called ______ hardness.</p>
+      <input type="text" data-answer="barcol" aria-label="Answer 1">
+      <div class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <p class="prompt">2. The test that burns off resin to measure glass fiber content by weight is called an ______ loss test.</p>
+      <input type="text" data-answer="ignition" aria-label="Answer 2">
+      <div class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <p class="prompt">3. Each resin batch shipped should come with a document certifying its test results — a Certificate of ______.</p>
+      <input type="text" data-answer="analysis" aria-label="Answer 3">
+      <div class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <p class="prompt">4. Because it's fast, Barcol testing can be run on up to ______ percent of hulls leaving a mold, not just spot samples.</p>
+      <input type="text" data-answer="100" aria-label="Answer 4">
+      <div class="feedback"></div>
+    </div>
+
+    <button type="button" id="check-quiz">Check answers</button>
+  </div>
+
+  <p>Reference card for this lesson: <a href="../reference/resin-testing-cheatsheet.html">Resin Testing &amp; Certification Cheat Sheet</a>.</p>
+
+  <p class="ask-agent">Questions worth bringing back to your teaching agent: "what Barcol reading should I expect a specific competitor's resin to hit?" or "how would I set up a side-by-side Barcol comparison during a sales trial?"</p>
+
+  <div class="nav">
+    <span>&larr; <a href="0006-critical-resin-properties-cost.html">Lesson 0006 — Critical Resin Properties &amp; Cost Impact</a></span>
+    <span>Tell your agent what's next: another segment, a mock sales conversation, or a specific resin once you've picked one</span>
+  </div>
+
+</div>
+
+<script>
+document.getElementById('check-quiz').addEventListener('click', function () {
+  document.querySelectorAll('.quiz-item').forEach(function (item) {
+    var input = item.querySelector('input');
+    var feedback = item.querySelector('.feedback');
+    var given = input.value.trim().toLowerCase();
+    var answer = input.getAttribute('data-answer').toLowerCase();
+    if (given === answer) {
+      feedback.textContent = 'Correct.';
+      feedback.className = 'feedback correct';
+    } else if (given.length === 0) {
+      feedback.textContent = 'Give it a guess before checking.';
+      feedback.className = 'feedback incorrect';
+    } else {
+      feedback.textContent = 'Not quite — reread the section above and try again.';
+      feedback.className = 'feedback incorrect';
+    }
+  });
+});
+</script>
+
+<script src="../assets/nav.js" defer></script>
+</body>
+</html>
