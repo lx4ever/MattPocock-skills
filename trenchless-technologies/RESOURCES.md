@@ -215,6 +215,9 @@
 - Sino Polymer presentations dated September 30, 2026 (user-supplied): "CAMX speech.pptx" (11 slides) and "Sino Polymer Presentation 0930 - Speaker Notes.pptx" (17 slides with speaker notes and "Presenter checks"), read from the slide XML &mdash; the company's own marketing, with the 0930 deck's notes citing the Company Profile page by page
   Use for: Lessons 77&ndash;78 and in-place updates to Lessons 74&ndash;76 &mdash; the 200,000 t (CAMX) versus 180,000 t (0930, profile) capacity discrepancy, the Mexico partner (listed as a base in CAMX; "to be commissioned at the end of this year" in the 0930 note), the certification-scope table and its presenter checks (food-contact is not drinking-water approval; no NSF/ANSI/CAN 61 claimed), and the CIPP product map with 1,000+ t (9405T) and 3,000+ t (UV) supply figures. Caveats: contact details in both decks were deliberately not copied into the lessons; no certificates or listings were reviewed.
 
+- SGS-CSTC Standards Technical Services (Shanghai), Test Report SHARS26008661401 / SGS Job SHRT26000374R01, April 13, 2026 &mdash; MFE711 (MFE-11) vinyl ester resin, US FDA 21 CFR 177.2420 chloroform-soluble and total nonvolatile extractives (both Pass, ND), user-supplied PDF, read in full; independent lab report commissioned by the client
+  Use for: Lesson 79, and the correction note in Lesson 44 &mdash; what a single-grade, single-specimen extractables test does and doesn't show, and why it is not drinking-water or CIPP evidence. Caveats: the text of 21 CFR 177.2420 was not read; the report doesn't state how the tablet specimen was cured.
+
 ## Wisdom (Communities)
 
 ### Gaps

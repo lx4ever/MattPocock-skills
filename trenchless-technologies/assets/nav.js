@@ -391,6 +391,11 @@
       "n": 78,
       "file": "0078-claims-discipline-what-a-certificate-covers.html",
       "title": "Claims Discipline: What Each Certificate Actually Covers"
+    },
+    {
+      "n": 79,
+      "file": "0079-reading-a-real-lab-report-sgs-fda-extractables.html",
+      "title": "Reading a Real Lab Report: The SGS Extractables Test on MFE 711"
     }
   ],
   "reference": [
