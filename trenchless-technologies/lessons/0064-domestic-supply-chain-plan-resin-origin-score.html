@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 64 — The Domestic Supply Chain Plan: How Resin Origin Enters the Score</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 64: The Domestic Supply Chain Plan: How Resin Origin Enters the Score</h1>
+<p class="kicker">For the first time in this workspace, a Toronto tender puts &ldquo;CIPP Resin&rdquo; on its own scored line &mdash; by where it was made.</p>
+
+<p class="lede">Lesson 63 said the resin maker doesn&rsquo;t have to be Canadian. This lesson shows the catch: the contractor must report where its resin came from, and that report earns or loses points.</p>
+
+
+<h2>What the form asks</h2>
+<p>Form F, the <strong>Domestic Supply Chain Plan (DSCP)</strong>, is mandatory (Part 1 &sect;1.9.6): leave it incomplete or unsigned and the bid is non-compliant. Its goods table lists four &ldquo;Major Goods&rdquo; lines &mdash; <strong>CIPP Resin</strong>, <strong>CIPP Felt</strong>, manhole rehabilitation materials (frames and covers, precast units, FRP ladders) and backfill materials. For each, the bidder splits the dollar value across three columns:</p>
+<table>
+<tr><th>Column</th><th>Meaning</th></tr>
+<tr><td>A</td><td>Ontario-made goods</td></tr>
+<tr><td>B</td><td>Canadian-made goods (excluding anything already in A)</td></tr>
+<tr><td>C</td><td>Other countries</td></tr>
+</table>
+<p>The instructions also require services to be reported (Ontario services versus Canadian services). The Form F file I was given contains only the goods table; the instructions refer to Tables 1, 2 and 3, so the services and summary tables presumably sit in the City&rsquo;s online system &mdash; I could not read them.</p>
+
+<h2>The definitions that decide the column</h2>
+<ul>
+<li><strong>Ontario-made:</strong> wholly manufactured or originating in Ontario, <em>or</em> at least 51% of the total direct costs of producing the good were incurred in Ontario.</li>
+<li><strong>Canadian-made:</strong> wholly made in Canada, <em>or</em> at least 51% of direct costs incurred in Canada, <em>or</em> labelled &ldquo;Made in Canada&rdquo; / &ldquo;Product of Canada&rdquo;.</li>
+<li><strong>Services:</strong> counted only when provided by individuals located in Ontario (or elsewhere in Canada).</li>
+</ul>
+<p>Each dollar goes in one column only; Ontario takes precedence. Double-reporting can cost the bidder its advantage (the bid itself stays compliant).</p>
+
+<h2>The formula</h2>
+<div class="callout">
+<strong>Domestic Content % = ( (A + A + B) &divide; Bid Price ) &times; 100</strong>, where A = Ontario-made goods plus Ontario services and B = Canadian-made goods plus Canadian services. Ontario value counts <strong>twice</strong>, Canadian value once, capped at 200%. The one bid with the highest percentage gets a <strong>notional 10% price reduction</strong> for ranking only &mdash; its submitted price and contract price do not change (Part 1 &sect;2.1.1).
+</div>
+<p>Ranking is otherwise by lowest price (Stage 2). So the DSCP is not a pass/fail gate; it only decides who gets the 10% advantage. Note also that the percentage divides by the <em>whole</em> bid price, so labour and site services &mdash; which a Toronto-area contractor delivers locally &mdash; carry most of the weight.</p>
+
+<h2>A hypothetical, to see the size of the effect</h2>
+<p><em>These dollar figures are invented for illustration; they are not from the tender.</em> Take a $10.0M bid with $4.0M of Ontario services, $1.0M of Ontario manhole and backfill materials, $0.9M of Ontario-made felt, and $0.6M of resin. Only the resin&rsquo;s origin changes:</p>
+<table>
+<tr><th>Resin is&hellip;</th><th>A</th><th>B</th><th>Domestic Content %</th></tr>
+<tr><td>Imported (Column C)</td><td>$5.9M</td><td>$0</td><td>(5.9 + 5.9 + 0) &divide; 10 = 118%</td></tr>
+<tr><td>Canadian-made, outside Ontario</td><td>$5.9M</td><td>$0.6M</td><td>(5.9 + 5.9 + 0.6) &divide; 10 = 124%</td></tr>
+<tr><td>Ontario-made</td><td>$6.5M</td><td>$0</td><td>(6.5 + 6.5 + 0) &divide; 10 = 130%</td></tr>
+</table>
+<p>So resin origin moves the score by 6 to 12 points here &mdash; real, but small beside services. It matters only when two bids are close on domestic content <em>and</em> within about 10% on price, because only one bid gets the advantage.</p>
+
+<h2>Where the resin&rsquo;s origin also shows up: the Pricing Form</h2>
+<p>Part 5, instruction 1.4, requires every supplier to state the <strong>country of origin</strong> of goods offered, to help the City &ldquo;understand how Tariffs from the United States of America are being applied during the bidding process.&rdquo; Part 1 defines country of origin as &ldquo;the last country in which the goods were produced.&rdquo; Pricing must be inclusive of all duties (except HST, itemized separately).</p>
+
+<div class="callout">
+<strong>What this means for a Shanghai-made resin (my inference, not stated by the City).</strong> Resin shipped finished from China would land in Column C with no domestic credit, and its origin would be declared on the Pricing Form. That does not make a bid non-compliant. Whether any Canadian blending or packaging could reach the &ldquo;51% of total direct costs&rdquo; test is an open question &mdash; direct costs include raw materials, so it looks hard &mdash; and it is a good one to put to the City or to a prospective contractor before relying on it. The reference on setting up a Canadian company (see the company-setup cheat sheet) is relevant here, but nothing in the tender says a Canadian entity alone changes the resin&rsquo;s classification.
+</div>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>The Domestic Supply Chain Plan</h3>
+<div class="quiz-item">
+  <p class="quiz-prompt">1. How does the formula treat $1 of Ontario-made value versus $1 of Canadian-made value elsewhere?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right &mdash; (A + A + B) &divide; Bid Price, so Ontario value is doubled.">Ontario counts twice and Canadian counts once</button>
+    <button data-correct="false" data-feedback="Reversed &mdash; A (Ontario) is added twice; B (Canadian) once.">Ontario counts once and Canadian counts twice</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. What does the highest-scoring bid actually receive?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right &mdash; its submitted and contract price are unchanged.">A notional 10% price cut used only for ranking bids</button>
+    <button data-correct="false" data-feedback="No &mdash; it only gets a 10% advantage in the price ranking, which still decides the winner.">A guaranteed award regardless of the other bids&rsquo; prices</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. In the hypothetical, why does imported resin lower the score by only 12 points against Ontario-made?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right &mdash; $0.6M of $10M, counted twice, is 12 points; services and other materials carry far more weight.">Resin is a small share of the whole bid price here</button>
+    <button data-correct="false" data-feedback="Imported goods are counted &mdash; as zero credit in the numerator, but still inside the bid price you divide by.">The City ignores imported goods when it scores the plan</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<h2>Read the primary source</h2>
+<p>Part 1 &sect;2.1 (<a href="file:///C:/Users/lx4ev/OneDrive/Documents/Sinopolymer/CIPP/Toronto%20Tender/Toronto%20Tender%20Oct06/Part%201%20-%20Request%20for%20Tenders%20Process.pdf">local PDF</a>) for the formula, and the Form F file in the same folder for the table and its completion instructions.</p>
+<p><em>Anything unclear? Ask your teacher (the agent) &mdash; for example &ldquo;walk me through that formula with different numbers&rdquo; or &ldquo;where exactly in the PDF does it say that?&rdquo;</em></p>
+
+<footer class="source-note">
+Sources: Part 1 &sect;1.9.6, &sect;2.1.1 (formula checked against the rendered PDF page), &sect;3.14.1 and &sect;3.14.2 (definitions); Part 4 Form F Domestic Supply Chain Plan (.docx, Table 1 and instructions); Part 5 Instructions to Pricing, 1.4. The worked example is invented for illustration. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<nav class="lesson-nav">
+  <a href="0063-who-may-bid-canadian-suppliers-only.html">&larr; Lesson 63: Who May Bid</a>
+  <span>Cheat sheet: <a href="../reference/toronto-27tw-cpi-05cwd-cheatsheet.html">Toronto 27TW-CPI-05CWD</a></span>
+  <a href="0065-egg-shaped-brick-sewers-design-problem.html">Lesson 65: Egg-Shaped Brick Sewers &rarr;</a>
+</nav>
+
+</body>
+</html>

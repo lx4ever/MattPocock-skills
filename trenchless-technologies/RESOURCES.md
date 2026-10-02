@@ -203,6 +203,9 @@
 
 - Reference doc: [Setting Up a Company for a Sino Polymer Partnership](reference/company-setup-sino-polymer-partnership.html) &mdash; general Canadian federal (CBCA) incorporation, multi-shareholder structure, salary-vs-dividend, and import/distribution financial-structure guidance, synthesized from general knowledge (not a specific primary document). Explicitly not legal, tax, or accounting advice — flags that a corporate lawyer and CPA should be engaged before finalizing incorporation or a salary/dividend split. Cross-references Lessons 59–60 for the import/inventory-risk section.
 
+- City of Toronto, Request for Tender Doc5839050015 / Contract No. 27TW-CPI-05CWD, full tender package as supplied (user's local folder "Toronto Tender Oct06": Parts 1&ndash;5, repair-list workbook, Appendices 3.2-1 and 3.2-2, Forms B&ndash;F, three supplier attestations) &mdash; primary source, read directly; no addenda were in the folder
+  Use for: Lessons 62&ndash;67 and the Toronto 27TW-CPI-05CWD reference sheet &mdash; Canadian-supplier-only eligibility (Part 1 &sect;1.1.2), the Domestic Supply Chain Plan and its (A + A + B) &divide; Bid Price formula with a 10% evaluation advantage (Part 1 &sect;2.1, Form F), country-of-origin pricing instruction (Part 5), egg-shaped design rules (MOP145, 3% deflection cap, Appendix 3.2-1 LiDAR table), Form E and the manufacturer-certified resin submittal, the empty styrene-free column, blind shots/transition/rail-crossing items, and contract terms (150 Working Days, $3,500/day LDs, 3% holdback, 2-year warranty). Caveats: the repair-list workbook has a hidden first sheet (the visible sheet matches the spec's item numbers); the Form F file contains only its goods table.
+
 ## Wisdom (Communities)
 
 ### Gaps

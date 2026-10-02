@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 65 — Egg-Shaped Brick Sewers: A Different Design Problem</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/quiz.js" defer></script>
+<script src="../assets/nav.js" defer></script>
+</head>
+<body>
+
+<h1>Lesson 65: Egg-Shaped Brick Sewers: A Different Design Problem</h1>
+<p class="kicker">25 of 37 segments are egg-shaped brick, and the design rules, the experience bar and the extra-thickness pay items all change because of it.</p>
+
+<p class="lede">A circular pipe has one dimension. An egg-shaped brick sewer has several, and no two are identical &mdash; so the City&rsquo;s documents treat the bid-stage design as an estimate and pay for the difference later.</p>
+
+
+<h2>Why the egg shape changes the work</h2>
+<p>Lessons 38&ndash;40 walked through ASTM F1216&rsquo;s design for circular pipe. 25 of this tender&rsquo;s 37 lined segments are not circular: <strong>900&times;600 mm</strong> (22 segments) and <strong>1050&times;675 mm</strong> (3), all in brick. The tender&rsquo;s own design instructions (TS 4.10.25 amendments, Part 3 &sect;3.2) switch the method:</p>
+<table>
+<tr><th>Requirement</th><th>What the spec says</th></tr>
+<tr><td>Design method</td><td>Preliminary liner design at bid stage &ldquo;in accordance with MOP145&rdquo; (Lesson 26 explained the MOP 145 family for non-circular pipe)</td></tr>
+<tr><td>Starting geometry</td><td>Appendix 3.2-1, a LiDAR-scan table for the 25 egg sewers &mdash; &ldquo;for preliminary design only&rdquo;</td></tr>
+<tr><td>Final design</td><td>Based on geometry verified by laser profile or other means after the post-cleaning CCTV (V2); prepared, sealed and signed by the Contractor&rsquo;s Ontario-licensed P.Eng.</td></tr>
+<tr><td>Serviceability limit</td><td>Maximum allowable deflection of the non-circular liner: <strong>3%</strong></td></tr>
+<tr><td>Hydraulics</td><td>A flow analysis per design using Manning&rsquo;s formula with n = 0.012 for the CIPP and 0.016 for the existing sewer; lined capacity must be at least the existing</td></tr>
+</table>
+
+<h2>How irregular is &ldquo;900&times;600&rdquo;?</h2>
+<p>Appendix 3.2-1 reports four measurements per pipe: height H, width W, and two radii Rs and Rb (the appendix doesn&rsquo;t define them; they are presumably the side and bottom radii of the egg profile). The 22 pipes sold as 900&times;600 actually scan like this:</p>
+<table>
+<tr><th>Measure</th><th>Range across the 22 &ldquo;900&times;600&rdquo; pipes</th></tr>
+<tr><td>Height H</td><td>881&ndash;908 mm</td></tr>
+<tr><td>Width W</td><td>603&ndash;633 mm</td></tr>
+<tr><td>Rs</td><td>870&ndash;1124 mm</td></tr>
+<tr><td>Rb</td><td>165&ndash;226 mm</td></tr>
+</table>
+<p>H and W stay within about 35 mm of nominal, but Rs varies by over 250 mm between pipes that share a nominal size. That is why the table carries a note that the survey data &ldquo;shall not be relied upon for final design.&rdquo; Brick is hand-built, and the liner thickness the design calls for depends on the actual shape.</p>
+
+<h2>How the contract prices that uncertainty</h2>
+<ul>
+<li><strong>Items F.01.01&ndash;F.01.05, Increased CIPP Liner Thickness:</strong> if field conditions call for a thicker liner than the initial design, the extra is paid per metre for every <strong>1.5 mm</strong> of added thickness. The Contractor must tell the Contract Administrator within 48 hours and wait for instructions; no liner may be installed that fails the actual field conditions.</li>
+<li><strong>Design approval gate:</strong> no lining starts until <em>all</em> standard designs are approved, and the Contract Administrator takes at least 3 working days per design review.</li>
+<li><strong>Form C:</strong> at least one of the bidder&rsquo;s three reference projects must include egg-shaped or other non-circular CIPP.</li>
+</ul>
+
+<div class="callout">
+<strong>Resin implication.</strong> For egg-shaped brick, the Form E long-term flexural numbers (Lesson 66) feed a non-circular design with a 3% deflection cap, not the circular F1216 equation. The Peel ovality tiers in Lesson 26 (under 10%, 10&ndash;20%, over 20%) come from Peel&rsquo;s spec; this Toronto document doesn&rsquo;t restate them, so don&rsquo;t carry them over. And Lesson 56&rsquo;s finding still applies: whether a segment needs a reinforced liner or standard felt comes from the structural design, which here depends on field geometry the bidder can&rsquo;t fully know at bid time.
+</div>
+
+<h2>Quick check</h2>
+
+<div class="quiz">
+<h3>Egg-Shaped Design</h3>
+<div class="quiz-item">
+  <p class="quiz-prompt">1. What governs the final liner design for an egg-shaped segment?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right &mdash; the LiDAR table is for bidding only.">Geometry verified after cleaning, sealed by an Ontario P.Eng</button>
+    <button data-correct="false" data-feedback="The appendix says outright that it must not be relied on for final design.">The LiDAR dimensions printed in Appendix 3.2-1 at tender time</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">2. What is the maximum allowable deflection for the non-circular liner design?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right &mdash; stated in the TS 4.10.25 amendment.">Three percent, set to meet the serviceability limit state</button>
+    <button data-correct="false" data-feedback="Ten percent is a Peel ovality tier from Lesson 26, not this tender&rsquo;s deflection cap.">Ten percent, matching the first Peel ovality design tier</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+<div class="quiz-item">
+  <p class="quiz-prompt">3. A segment needs a thicker liner than the initial design. How does the contract pay for it?</p>
+  <div class="quiz-options">
+    <button data-correct="true" data-feedback="Right &mdash; Items F.01.01 to F.01.05.">Per metre for each 1.5 mm of added liner thickness</button>
+    <button data-correct="false" data-feedback="These F-items exist precisely to pay thickness increases above the initial design.">Nothing extra, since thickness is always included in unit rates</button>
+  </div>
+  <p class="quiz-feedback"></p>
+</div>
+
+</div>
+
+<h2>Read the primary source</h2>
+<p>Part 3 &mdash; Appendix 3.2-1 (<a href="file:///C:/Users/lx4ev/OneDrive/Documents/Sinopolymer/CIPP/Toronto%20Tender/Toronto%20Tender%20Oct06/Part%203%20-%20Appendix%203.2-1%20-%20Egg%20Shape%20Pipe%20Design%20Value.pdf">local PDF</a>) and the Sewer CIPP sub-section 3.2 of the main specification.</p>
+<p><em>Anything unclear? Ask your teacher (the agent) &mdash; for example &ldquo;walk me through that formula with different numbers&rdquo; or &ldquo;where exactly in the PDF does it say that?&rdquo;</em></p>
+
+<footer class="source-note">
+Sources: Part 3 &sect;3.2 (TS 4.10.25 amendment, items 13 and 14), Appendix 3.2-1 Egg Shape Pipe Design Value (ranges computed from its 25-row table), Special Provision Items 4.1.1-4 and 4.1.1-10, Section 1 design-submission clauses; Part 4 Form C. Cross-references: Lessons 26, 38&ndash;40, 56. Full list: <a href="../RESOURCES.md">RESOURCES.md</a>.
+</footer>
+
+<nav class="lesson-nav">
+  <a href="0064-domestic-supply-chain-plan-resin-origin-score.html">&larr; Lesson 64: Domestic Supply Chain Plan</a>
+  <span>Cheat sheet: <a href="../reference/toronto-27tw-cpi-05cwd-cheatsheet.html">Toronto 27TW-CPI-05CWD</a></span>
+  <a href="0066-what-the-resin-maker-must-hand-over.html">Lesson 66: What the Resin Maker Hands Over &rarr;</a>
+</nav>
+
+</body>
+</html>

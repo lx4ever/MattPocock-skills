@@ -306,9 +306,43 @@
       "n": 61,
       "file": "0061-capital-sewer-services-real-contractor-and-rollup.html",
       "title": "Capital Sewer Services: A Second Real Contractor, and the Roll-Up Behind It"
+    },
+    {
+      "n": 62,
+      "file": "0062-second-toronto-tender-at-a-glance.html",
+      "title": "The Second Toronto Tender at a Glance: 27TW-CPI-05CWD"
+    },
+    {
+      "n": 63,
+      "file": "0063-who-may-bid-canadian-suppliers-only.html",
+      "title": "Who May Bid: Canadian Suppliers Only, and Where a Resin Maker Sits"
+    },
+    {
+      "n": 64,
+      "file": "0064-domestic-supply-chain-plan-resin-origin-score.html",
+      "title": "The Domestic Supply Chain Plan: How Resin Origin Enters the Score"
+    },
+    {
+      "n": 65,
+      "file": "0065-egg-shaped-brick-sewers-design-problem.html",
+      "title": "Egg-Shaped Brick Sewers: A Different Design Problem"
+    },
+    {
+      "n": 66,
+      "file": "0066-what-the-resin-maker-must-hand-over.html",
+      "title": "What the Resin Maker Must Hand Over: Form E, the Resin Submittal, and the Styrene Rule"
+    },
+    {
+      "n": 67,
+      "file": "0067-reading-this-repair-list-and-contract-terms.html",
+      "title": "Reading This Repair List and Contract: Blind Shots, a Rail Crossing, and the Payment Terms"
     }
   ],
   "reference": [
+    {
+      "file": "toronto-27tw-cpi-05cwd-cheatsheet.html",
+      "title": "Toronto Tender 27TW-CPI-05CWD"
+    },
     {
       "file": "company-setup-sino-polymer-partnership.html",
       "title": "Setting Up a Company for a Sino Polymer Partnership"
