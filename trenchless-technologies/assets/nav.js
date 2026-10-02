@@ -366,9 +366,28 @@
       "n": 73,
       "file": "0073-peel-time-liquidated-damages-and-warranty-holdback.html",
       "title": "Time, Liquidated Damages, and the Warranty Holdback"
+    },
+    {
+      "n": 74,
+      "file": "0074-sino-polymer-scale-and-capacity-versus-a-tender.html",
+      "title": "Sino Polymer’s Scale and Capacity, Set Against a Real Tender"
+    },
+    {
+      "n": 75,
+      "file": "0075-where-its-made-plants-origin-and-tender-forms.html",
+      "title": "Where It’s Made: Plants, Country of Origin, and the Tender Forms"
+    },
+    {
+      "n": 76,
+      "file": "0076-what-the-profile-and-catalogue-cannot-prove.html",
+      "title": "What the Profile and Catalogue Can’t Prove, and What Only the Manufacturer Can Hand Over"
     }
   ],
   "reference": [
+    {
+      "file": "sino-polymer-profile-catalogue-cheatsheet.html",
+      "title": "Sino Polymer Profile and Catalogue vs the Tenders"
+    },
     {
       "file": "peel-2026-323t-cheatsheet.html",
       "title": "Peel Tender 2026-323T"
