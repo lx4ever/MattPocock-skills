@@ -2,7 +2,7 @@
 """Build one printable, bookmarked PDF from a workspace of lesson + reference HTML pages.
 
 Usage:
-    python build_pdf.py [WORKSPACE_DIR] [OUTPUT.pdf] [--title "Title"] [--gh-base URL]
+    python build_pdf.py [WORKSPACE_DIR] [OUTPUT.pdf]      (a lone OUTPUT.pdf argument also works) [--title "Title"] [--gh-base URL]
 
 WORKSPACE_DIR  folder containing lessons/*.html and (optionally) reference/*.html.
                Defaults to the folder this script lives in.
@@ -298,6 +298,8 @@ def main():
     ap.add_argument("--title")
     ap.add_argument("--gh-base")
     a = ap.parse_args()
+    if a.workspace.lower().endswith(".pdf") and not a.output:  # `build_pdf.py out.pdf` => default workspace
+        a.workspace, a.output = str(Path(__file__).resolve().parent), a.workspace
 
     root = Path(a.workspace).resolve()
     title = a.title
