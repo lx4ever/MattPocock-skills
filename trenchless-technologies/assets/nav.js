@@ -381,6 +381,16 @@
       "n": 76,
       "file": "0076-what-the-profile-and-catalogue-cannot-prove.html",
       "title": "What the Profile and Catalogue Can’t Prove, and What Only the Manufacturer Can Hand Over"
+    },
+    {
+      "n": 77,
+      "file": "0077-two-sept-30-decks-what-changed-between-them.html",
+      "title": "Two September 30 Decks: What Changed Between Them"
+    },
+    {
+      "n": 78,
+      "file": "0078-claims-discipline-what-a-certificate-covers.html",
+      "title": "Claims Discipline: What Each Certificate Actually Covers"
     }
   ],
   "reference": [

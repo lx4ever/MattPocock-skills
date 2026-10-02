@@ -212,6 +212,9 @@
 - Sino Polymer Co., Ltd., "Company Profile 2025" (49-page slide deck, text extracted) and "Sino Polymer Catalogue 2024" (two image-only pages, tables read by eye from rendered pages) &mdash; user-supplied manufacturer marketing documents, primary for what the company claims, not independent evidence
   Use for: Lessons 74&ndash;76 and the profile/catalogue reference sheet &mdash; capacity and plant claims (Shanghai table, four named partner plants, none for North America), ISO 9001/14001/45001, R&amp;D equipment (FT-IR, DSC, DMA), the CIPP product lines (9405T, 9602, 9515/9515T/9516, 116A/B, 701-01), the MFE 711 10-month shelf-life figure, and the gel times that appear only for non-CIPP products. Caveats: partner-plant ownership is not stated; the 180,000 t headline appears to include partner plants (my arithmetic); no CIPP test data or Ontario history appears in either document.
 
+- Sino Polymer presentations dated September 30, 2026 (user-supplied): "CAMX speech.pptx" (11 slides) and "Sino Polymer Presentation 0930 - Speaker Notes.pptx" (17 slides with speaker notes and "Presenter checks"), read from the slide XML &mdash; the company's own marketing, with the 0930 deck's notes citing the Company Profile page by page
+  Use for: Lessons 77&ndash;78 and in-place updates to Lessons 74&ndash;76 &mdash; the 200,000 t (CAMX) versus 180,000 t (0930, profile) capacity discrepancy, the Mexico partner (listed as a base in CAMX; "to be commissioned at the end of this year" in the 0930 note), the certification-scope table and its presenter checks (food-contact is not drinking-water approval; no NSF/ANSI/CAN 61 claimed), and the CIPP product map with 1,000+ t (9405T) and 3,000+ t (UV) supply figures. Caveats: contact details in both decks were deliberately not copied into the lessons; no certificates or listings were reviewed.
+
 ## Wisdom (Communities)
 
 ### Gaps
