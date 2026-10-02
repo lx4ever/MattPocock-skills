@@ -336,9 +336,43 @@
       "n": 67,
       "file": "0067-reading-this-repair-list-and-contract-terms.html",
       "title": "Reading This Repair List and Contract: Blind Shots, a Rail Crossing, and the Payment Terms"
+    },
+    {
+      "n": 68,
+      "file": "0068-lower-cooksville-peel-tender-at-a-glance.html",
+      "title": "Peel Region’s Lower Cooksville Tender at a Glance: 2026-323T"
+    },
+    {
+      "n": 69,
+      "file": "0069-peel-buy-ontario-pass-fail-and-tariff-clauses.html",
+      "title": "Peel’s Buy Ontario Rule Is Pass/Fail — and Its Tariff Clauses"
+    },
+    {
+      "n": 70,
+      "file": "0070-peel-drawings-allow-hot-water-or-uv.html",
+      "title": "The Drawings Say “Hot Water or UV”: Cure Method and Material Minimums"
+    },
+    {
+      "n": 71,
+      "file": "0071-peel-styrene-rules-near-schools-and-creeks.html",
+      "title": "Styrene Rules Near Schools and a Creek"
+    },
+    {
+      "n": 72,
+      "file": "0072-peel-repair-summary-flows-and-pay-items.html",
+      "title": "Reading the Repair Summary: Access, Flow Data, and What Gets Paid"
+    },
+    {
+      "n": 73,
+      "file": "0073-peel-time-liquidated-damages-and-warranty-holdback.html",
+      "title": "Time, Liquidated Damages, and the Warranty Holdback"
     }
   ],
   "reference": [
+    {
+      "file": "peel-2026-323t-cheatsheet.html",
+      "title": "Peel Tender 2026-323T"
+    },
     {
       "file": "toronto-27tw-cpi-05cwd-cheatsheet.html",
       "title": "Toronto Tender 27TW-CPI-05CWD"
