@@ -218,6 +218,9 @@
 - SGS-CSTC Standards Technical Services (Shanghai), Test Report SHARS26008661401 / SGS Job SHRT26000374R01, April 13, 2026 &mdash; MFE711 (MFE-11) vinyl ester resin, US FDA 21 CFR 177.2420 chloroform-soluble and total nonvolatile extractives (both Pass, ND), user-supplied PDF, read in full; independent lab report commissioned by the client
   Use for: Lesson 79, and the correction note in Lesson 44 &mdash; what a single-grade, single-specimen extractables test does and doesn't show, and why it is not drinking-water or CIPP evidence. Caveats: the text of 21 CFR 177.2420 was not read; the report doesn't state how the tablet specimen was cured.
 
+- Standards-body and test-lab listing pages for UL 1316, UL 1746, UL 1856, UL 94, ASTM E84, EN 45545-2 and Lloyd's Register Type Approval: ANSI Webstore (UL 1316), GlobalSpec (UL 1746), UL Standards store (UL 1856), Mobility Plaza (UL 58/1746/1316 comparison), Wikipedia, Passive Components and SpecialChem (UL 94 ratings and thickness dependence), Intertek (ASTM E84), Giordano (EN 45545-2), lr.org (Type Approval, coating certification, test specifications)
+  Use for: Lesson 80 and the fire/tank/marine standards cheat sheet &mdash; what each standard covers and how it is scored. Scopes and criteria come from listing pages and trade summaries, not the paid standards themselves; exact limits (UL 94 thickness rules, EN 45545-2 limit values) must be checked against the standard before quoting. No public Lloyd's Register page describing a resin- or gelcoat-specific approval scheme was found. No "UL 1748" was found in any source (read as UL 1746); "ASTM E86" was read as ASTM E84.
+
 ## Wisdom (Communities)
 
 ### Gaps

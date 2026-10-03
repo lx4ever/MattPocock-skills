@@ -396,12 +396,21 @@
       "n": 79,
       "file": "0079-reading-a-real-lab-report-sgs-fda-extractables.html",
       "title": "Reading a Real Lab Report: The SGS Extractables Test on MFE 711"
+    },
+    {
+      "n": 80,
+      "file": "0080-what-each-fire-tank-and-marine-standard-tests.html",
+      "title": "What Each Fire, Tank and Marine Standard Actually Tests"
     }
   ],
   "reference": [
     {
       "file": "sino-polymer-profile-catalogue-cheatsheet.html",
       "title": "Sino Polymer Profile and Catalogue vs the Tenders"
+    },
+    {
+      "file": "resin-standards-cheatsheet.html",
+      "title": "Fire, Tank and Marine Standards"
     },
     {
       "file": "peel-2026-323t-cheatsheet.html",
