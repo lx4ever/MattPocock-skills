@@ -1,0 +1,23 @@
+name: Notify lessons repo
+
+# When this lesson workspace changes, tell lx4ever/lessons to rebuild its PDF and send it to the Kindle.
+on:
+  push:
+    branches: ["trenchless-technologies-learning"]
+    paths:
+      - "trenchless-technologies/**"
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping lx4ever/lessons
+        env:
+          TOKEN: ${{ secrets.LESSONS_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::error::Secret LESSONS_DISPATCH_TOKEN is not set in this repository"
+            exit 1
+          fi
+          curl -fsS -X POST             -H "Authorization: Bearer $TOKEN"             -H "Accept: application/vnd.github+json"             https://api.github.com/repos/lx4ever/lessons/dispatches             -d '{"event_type":"lessons-source-changed","client_payload":{"source":"trenchless-technologies"}}'
