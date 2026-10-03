@@ -1,11 +1,15 @@
 name: Notify lessons repo
 
-# When this lesson workspace changes, tell lx4ever/lessons to rebuild its PDF and send it to the Kindle.
+# When the lesson content of this workspace changes (lesson and reference pages, stylesheets),
+# tell lx4ever/lessons to rebuild its PDF and send it to the Kindle. Markdown notes, learning
+# records and scripts do not trigger it.
 on:
   push:
     branches: ["claude/canadian-aerospace-defence-market-kqyrba"]
     paths:
-      - "canadian-aerospace-defence-market/**"
+      - "canadian-aerospace-defence-market/lessons/*.html"
+      - "canadian-aerospace-defence-market/reference/*.html"
+      - "canadian-aerospace-defence-market/assets/*.css"
   workflow_dispatch:
 
 jobs:
@@ -20,4 +24,4 @@ jobs:
             echo "::error::Secret LESSONS_DISPATCH_TOKEN is not set in this repository"
             exit 1
           fi
-          curl -fsS -X POST             -H "Authorization: Bearer $TOKEN"             -H "Accept: application/vnd.github+json"             https://api.github.com/repos/lx4ever/lessons/dispatches             -d '{"event_type":"lessons-source-changed","client_payload":{"source":"canadian-aerospace-defence-market"}}'
+          curl -fsS -X POST -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json" https://api.github.com/repos/lx4ever/lessons/dispatches -d '{"event_type":"lessons-source-changed","client_payload":{"source":"canadian-aerospace-defence-market"}}'
