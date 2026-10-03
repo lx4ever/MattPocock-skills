@@ -20,7 +20,8 @@ What it does:
      pages to in-PDF anchors. Script-built navigation (nav.js / course-nav.js) is not available in print,
      so the Menu page and menu bars replace it.
   4. Prints quiz answers (quizzes are click-to-reveal on the web). Supports the three quiz markups used in
-     these workspaces: button[data-correct], input[data-answer], and .quiz[data-quiz] with .q[data-answer].
+     these workspaces: button[data-correct] (prints the correct option + explanation),
+     .quiz[data-answer] type-in (prints the stored answer), input[data-answer], and .quiz[data-quiz] with .q[data-answer].
   5. Prints with headless Chrome/Edge, then adds PDF bookmarks (Lessons / Reference).
 
 Requires: Python 3.9+, `pip install pypdf`, and Google Chrome, Chromium or Microsoft Edge
@@ -150,18 +151,28 @@ def collect_css(root, items):
 def reveal_answers(body, css_labels_answers):
     label = "" if css_labels_answers else "Answer: "
 
-    # A) <button data-correct="true" data-feedback="..."> + empty <p class="quiz-feedback">
+    # A) <button data-correct="true" data-feedback="...">Option</button> + empty <p class="quiz-feedback">
+    #    Print the correct option itself, then the explanation shown after clicking it.
     def a(mm):
         it = mm.group(0)
-        b = re.search(r'<button[^>]*data-correct="true"[^>]*data-feedback="([^"]*)"', it) or re.search(
-            r'<button[^>]*data-feedback="([^"]*)"[^>]*data-correct="true"', it
+        b = re.search(r'<button[^>]*data-correct="true"[^>]*data-feedback="([^"]*)"[^>]*>(.*?)</button>', it, re.S) or re.search(
+            r'<button[^>]*data-feedback="([^"]*)"[^>]*data-correct="true"[^>]*>(.*?)</button>', it, re.S
         )
         if b:
-            fb = label + b.group(1)
+            fb = f"{label}<strong>{b.group(2).strip()}</strong> &mdash; {b.group(1)}"
             it = re.sub(r'(<p class="quiz-feedback"[^>]*>)\s*(</p>)', lambda q: q.group(1) + fb + q.group(2), it, count=1)
         return it
 
     body = re.sub(r'<div class="quiz-item".*?<p class="quiz-feedback"[^>]*>\s*</p>\s*</div>', a, body, flags=re.S)
+
+    # D) <div class="quiz" data-answer="x"> type-in question + empty <p class="quiz-feedback"> (answer only
+    #    appears after a wrong attempt on the web, so print it from data-answer)
+    body = re.sub(
+        r'(<div class="quiz"[^>]*data-answer="([^"]*)"[^>]*>.*?<p class="quiz-feedback"[^>]*>)\s*(</p>)',
+        lambda m: m.group(1) + label + "<strong>" + m.group(2) + "</strong>" + m.group(3),
+        body,
+        flags=re.S,
+    )
 
     # B) <input data-answer="x"> + empty <div class="feedback">
     body = re.sub(
